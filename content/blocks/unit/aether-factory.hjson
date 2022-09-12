@@ -7,7 +7,14 @@ consumes: {
   power: 1.2
 }
 plans: [
-   {
+	{
+  unit: T1
+  time: 600
+  requirements: [
+  silicon/20
+  titanium/10
+  lead/15
+  ]
   }
 ]
 requirements: [

@@ -19,7 +19,7 @@ consumes: {
   }
 }
 upgrades: [
-  
+[T4,T5]
 ]
 requirements: [
   silicon/2500

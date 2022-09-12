@@ -14,6 +14,7 @@ consumes: {
     }
 }
 upgrades: [
+[T2,T3]
 ]
 requirements: [
   silicon/120

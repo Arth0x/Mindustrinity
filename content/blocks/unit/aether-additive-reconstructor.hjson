@@ -12,6 +12,7 @@ consumes: {
     }
 }
 upgrades: [
+	[T1,T2]
 ]
 requirements: [
   lead/200
