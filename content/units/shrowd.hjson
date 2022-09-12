@@ -1,5 +1,5 @@
 {
-	"type": "Flyer",
+	"type": "flying",
 	"name": "Drone Shrowd Miner",
 	"description": "A powerful miner drone",
 	"flying": true,
