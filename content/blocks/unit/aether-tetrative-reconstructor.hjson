@@ -1,0 +1,31 @@
+type: Reconstructor
+size: 9
+constructTime: 3600
+liquidCapacity: 150
+consumes: {
+  power: 4
+    items: {
+      items: [
+        silicon/1000
+        titanium/1500
+        plastanium/900
+        aether/300
+        surge-alloy/180
+      ]
+    }
+  liquid: {
+    liquid: cryofluid
+    amount: 3
+  }
+}
+upgrades: [
+  
+]
+requirements: [
+  silicon/2500
+  graphite/700
+  titanium/2200
+  aether/600
+  surge-alloy/300
+]
+category: units
