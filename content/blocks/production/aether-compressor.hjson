@@ -1,5 +1,4 @@
-type: GenericSmelter
-name: Aether Compressor
+type: Separator
 description: Aether Compressor
 liquidCapacity: 50
 size: 3
