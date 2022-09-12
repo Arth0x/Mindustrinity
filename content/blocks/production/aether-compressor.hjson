@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: siliconSmelter
 name: Aether Compressor
 description: Aether Compressor
 liquidCapacity: 50
