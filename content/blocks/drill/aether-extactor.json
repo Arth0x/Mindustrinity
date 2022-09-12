@@ -10,7 +10,7 @@ consumes: {
 	"power": 1.2,
 	liquid: {
 	    "liquid":"water",
-	    "amount":"0.6"
+	    "amount":"0.2"
 	}
 }
 requirements: [
