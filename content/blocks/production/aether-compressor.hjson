@@ -1,0 +1,28 @@
+type: Separator
+name: Aether Compressor
+description: Aether Compressor
+liquidCapacity: 50
+size: 3
+hasPower: true
+hasLiquids: true
+craftTime: 10
+consumes: {
+  power: 1.4
+  liquid: {
+    liquid: liquid-aether
+    amount: 0.1
+  }
+}
+requirements: [
+  lead/50
+  titanium/80
+  silicon/60
+  thorium/100
+]
+category: crafting
+research: oil-extractor
+idleSound: respawning
+idleSoundVolume: 0.5
+results: [
+  aether/1
+]
