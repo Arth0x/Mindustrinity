@@ -19,7 +19,7 @@ consumes: {
   }
 }
 upgrades: [
-[T4,Dominator]
+[T4,dominator]
 ]
 requirements: [
   silicon/2500
