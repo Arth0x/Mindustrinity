@@ -7,11 +7,11 @@ consumes: {
   power: 4
     items: {
       items: [
-        silicon/1000
-        titanium/1500
-        plastanium/900
-        aether/300
-        surge-alloy/180
+        silicon/10000
+        titanium/5000
+        plastanium/1000
+        aether/4000
+        surge-alloy/1500
       ]
     }
   liquid: {
@@ -30,3 +30,5 @@ requirements: [
   surge-alloy/300
 ]
 category: units
+
+
