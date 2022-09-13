@@ -1,10 +1,5 @@
 {
 "name": "Core",
-"research": {
-"lead/940",
-"silicon/1000",
-]
-},
 "type": "mech",
 "outlineColor": "313131FF",
 "armor": 19,
