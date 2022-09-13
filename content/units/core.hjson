@@ -50,7 +50,7 @@
     "sideLength": 1,
     "sideWidth": 1,
     "colors": ["FF5845FF", "FFC1BBFF", "FFFFFF"],
-    "status": "exogenesis-molten1",
+    "status": "aetherunbound-molten",
     "statusDuration": 50,
     "hitEffect": {
     "type": "ParticleEffect",
