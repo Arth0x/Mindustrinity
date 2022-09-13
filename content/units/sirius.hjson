@@ -252,7 +252,7 @@
           {
     "type": "ShieldArcAbility",
     "radius": 60,
-    "region": "sirius-shield",
+    "region": "aetherunbound-sirius-shield",
     "regen": 11,
     "drawArc": flase,
     "width": 11,
