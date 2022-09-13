@@ -252,7 +252,7 @@
           {
     "type": "ShieldArcAbility",
     "radius": 60,
-    "region": "b05-sirius-shield",
+    "region": "sirius-shield",
     "regen": 11,
     "drawArc": flase,
     "width": 11,
