@@ -1,5 +1,6 @@
+name: Aether Reconstructor
 type: Reconstructor
-size: 9
+size: 11
 constructTime: 3600
 liquidCapacity: 150
 consumes: {
@@ -19,7 +20,7 @@ consumes: {
   }
 }
 upgrades: [
-[T4,dominator]
+[toxopid,sirius]
 ]
 requirements: [
   silicon/2500
