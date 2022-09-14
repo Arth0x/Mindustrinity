@@ -53,7 +53,7 @@
     "keepVelocity": false,
 	   "frontColor": "FFFFFFF",
     "backColor": "4587FFFF",
-    "trailColor": "ECD36FFF",
+    "trailColor": "6FB2EDFF",
     "lifetime": 70,
   	"homingPower": 1,
 	"homingRange": 100,
@@ -163,7 +163,7 @@
     "name": "division",
     "effect": "absorb",
     "permanent": true,
-    "color": "4587FFFF",
+    "color": "4587FF",
     "healthMultiplier": 0.5
     },
       "hittable": false,
@@ -181,7 +181,7 @@
                 "sideWidth": 1.5,
                 "sideLength": 80,
                 "width": 10,
-                "colors":["ECD36FAA", "4587FFFF", "FFFFFF"],
+                "colors":["6FB2EDAA", "4587FFFF", "FFFFFF"],
                 "length": 180
                      }
 			      }
