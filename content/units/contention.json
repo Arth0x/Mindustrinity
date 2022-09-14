@@ -52,7 +52,7 @@
      "speed": 5,
     "keepVelocity": false,
 	   "frontColor": "FFFFFFF",
-    "backColor": "F3E979FF",
+    "backColor": "4587FFFF",
     "trailColor": "ECD36FFF",
     "lifetime": 70,
   	"homingPower": 1,
@@ -101,7 +101,7 @@
     "shrinkX": 0,
     "homingPower": 0.00786,
 	   "homingRange": 60,
-    "trailColor": "F3E979FF",
+    "trailColor": "4587FFFF",
     "trailParam": 5,
     "trailEffect": "none",
     "trailLength": 16,
@@ -114,7 +114,7 @@
     "speed": 5,
     "lifetime": 68,
     "frontColor": "FFFFFFF",
-    "backColor": "F3E979FF",
+    "backColor": "4587FFFF",
     "despawnEffect": "absorb",
     "shootEffect": "instBomb"
     }
@@ -158,12 +158,12 @@
       "splashDamageRadius": 200,
       "hitSound": "shockBoom",
       "frontColor": "FFFFFFF",
-    "backColor": "F3E979FF",
+    "backColor": "4587FFFF",
     "status": {
     "name": "division",
     "effect": "absorb",
     "permanent": true,
-    "color": "F3E979FF",
+    "color": "4587FFFF",
     "healthMultiplier": 0.5
     },
       "hittable": false,
@@ -181,7 +181,7 @@
                 "sideWidth": 1.5,
                 "sideLength": 80,
                 "width": 10,
-                "colors":["ECD36FAA", "F3E979FF", "FFFFFF"],
+                "colors":["ECD36FAA", "4587FFFF", "FFFFFF"],
                 "length": 180
                      }
 			      }
