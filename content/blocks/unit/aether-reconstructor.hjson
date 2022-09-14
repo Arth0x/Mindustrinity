@@ -4,7 +4,7 @@ size: 11
 constructTime: 3600
 liquidCapacity: 150
 consumes: {
-  power: 4
+  power: 75
     items: {
       items: [
         silicon/10000
