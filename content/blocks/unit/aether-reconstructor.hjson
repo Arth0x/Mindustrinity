@@ -25,11 +25,11 @@ upgrades: [
 [reaper,contention]
 ]
 requirements: [
-  silicon/2500
-  graphite/700
-  titanium/2200
-  aether/600
-  surge-alloy/300
+  silicon/5000
+  plastanium/1500
+  titanium/2500
+  aether/5000
+  surge-alloy/1000
 ]
 category: units
 
