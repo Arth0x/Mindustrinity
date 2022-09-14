@@ -22,7 +22,7 @@ consumes: {
 upgrades: [
 [toxopid,sirius]
 [scepter,core]
-[reaper,contention]
+[eclipse,contention]
 ]
 requirements: [
   silicon/5000
