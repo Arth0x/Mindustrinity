@@ -1,5 +1,5 @@
 {
-  "name" : sirius,
+  "name" : "sirius",
   "research": {
   "requirements": [
     "lead/3940",
@@ -9,7 +9,7 @@
     "groundLayer": 75,
     "drawShields": false,
     "maxRange": 220,
-    "outlineColor": "36363c",
+    "outlineColor": "666666FF",
     "type": "legs",
 	"speed": 0.35,
 	"hitSize": 50,
@@ -36,7 +36,7 @@
 	"hovering": true,
 	"immunities": [
 	"burning",
-   "high-energy-blast", 
+  "high-energy-blast", 
 	"melting",
 	"freezing"
 	],
@@ -254,7 +254,7 @@
     "radius": 60,
     "region": "aetherunbound-sirius-shield",
     "regen": 11,
-    "drawArc": flase,
+    "drawArc": false,
     "width": 11,
     "y": -25,
     "max": 6000,

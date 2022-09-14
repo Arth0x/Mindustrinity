@@ -1,9 +1,9 @@
 {
 "name": "Core",
 "type": "mech",
-"outlineColor": "313131FF",
+"outlineColor": "666666FF",
 "armor": 19,
-"mechLegColor": "313131FF",
+"mechLegColor": "666666FF",
 "rotateSpeed": 2.0,
 "canDrown": false,
 "hitSize": 42,
