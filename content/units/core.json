@@ -7,7 +7,6 @@
 "rotateSpeed": 2.0,
 "canDrown": false,
 "hitSize": 42,
-"outlineColor": "36363c",
 "mechFrontSway": 1.6,
 "mechSideSway": 0.6,
 "mechStepParticles": true,
@@ -46,11 +45,11 @@
     "width": 32,
     "damage": 125,
     "lifetime": 25,
-    "lightColor": "FF5845FF",
+    "lightColor": "4587FFFF",
     "sideAngle": 25,
     "sideLength": 1,
     "sideWidth": 1,
-    "colors": ["FF5845FF", "FFC1BBFF", "FFFFFF"],
+    "colors": ["4586FFFF", "BBE3FFFF", "FFFFFF"],
     "status": "aetherunbound-molten",
     "statusDuration": 50,
     "hitEffect": {
@@ -64,7 +63,7 @@
     "lenFrom": 5,
     "lenTo": 0,
     "colorFrom": "FFC1BBFF",
-    "colorTo": "FF5845FF"
+    "colorTo": "4587FFFF"
       },
     "shootEffect": {
     "type": "multiEffect",
@@ -78,8 +77,8 @@
     "lifetime": 25,
     "layer": 109,
     "region": "exogenesis-tall",
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
+    "colorFrom": "4587FFFF",
+    "colorTo": "4587FFFF"
     },
     {
     "type": "ParticleEffect",
@@ -99,8 +98,8 @@
     "length": 0,
     "layer": 109,
     "lifetime": 25,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
+    "colorFrom": "4587FFFF",
+    "colorTo": "4587FFFF"
     }
     ]
     },
@@ -144,7 +143,7 @@
         "lifetime": 15,
         "interp": "circleOut",
         "colorFrom": "FFC1BBFF",
-        "colorTo": "FF5845FF",
+        "colorTo": "4587FFFF",
         "cone": 360   
 		},
 		"despawnEffect": {
@@ -156,7 +155,7 @@
         "lifetime": 15,
         "interp": "circleOut",
         "colorFrom": "FFC1BBFF",
-        "colorTo": "FF5845FF",
+        "colorTo": "4587FFFF",
         "cone": 360   
 		},
 		"shootEffect": "hitMeltdown",
@@ -165,8 +164,8 @@
 		"trailLength": 19,
         "trailWidth": 3,
 		"trailEffect": "none",
-		"trailColor": "FF5845FF",
-        "backColor": "FF5845FF",
+		"trailColor": "4587FFFF",
+        "backColor": "4587FFFF",
         "frontColor": "FFC1BBFF"
         }
         }
