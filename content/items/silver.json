@@ -1,0 +1,10 @@
+{
+"name": "Silver"
+"description": "Just silver"
+"explosiveness": 0,
+"flammability": 0,
+"radioactivity": 0,
+"charge": 0,
+"cost": 5,
+"color": "313131"
+}

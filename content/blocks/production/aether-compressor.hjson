@@ -1,27 +1,93 @@
-type: Separator
-description: Aether Compressor
-liquidCapacity: 50
-size: 3
-hasPower: true
-hasLiquids: true
-craftTime: 10
-consumes: {
-  power: 1.4
-  liquid: {
+{
+  "type": "GenericCrafter",
+  "name": "Aether Compressor"
+  "health": 700,
+  "size": 3,
+  "hasItems": true,
+  "craftTime": 40,
+  "craftEffect": {
+   "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "particles": 4,
+    "length": 15,
+    "lifetime": 15,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "lightColor": "66B1FFFF",
+    "colorFrom": "787878",
+    "colorTo": "66B1FFFF",
+    "sizeFrom": 4.5,
+    "sizeTo": 0
+	},
+	{
+    "type": "ParticleEffect",
+    "particles": 3,
+    "length": 20,
+    "lifetime": 20,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "lightColor": "66B1FFFF",
+    "colorFrom": "787878",
+    "colorTo": "66B1FFFF",
+    "sizeFrom": 3.5,
+    "sizeTo": 0
+	},
+	{
+    "type": "ParticleEffect",
+    "particles": 2,
+    "length": 25,
+    "lifetime": 30,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "lightColor": "66B1FFFF",
+    "colorFrom": "787878",
+    "colorTo": "66B1FFFF",
+    "sizeFrom": 2,
+    "sizeTo": 0
+    }
+  ]
+  },
+ "drawer": {
+   "type": "DrawMulti",
+        "drawers": [
+         {
+        "type": "DrawDefault"
+        },
+        {
+  "type": "DrawFlame",
+  "flameColor": "A9D8FFFF"  
+}
+  ]
+  },
+  "hasPower": true,
+  "hasLiquids": false,
+  "updateEffect": "none",
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.07,
+  "consumes": {
+  "power": 3,
+  "items": {
+    "items": [
+      "silver/2"
+    ]
+   }
+   liquid: {
     liquid: liquid-aether
     amount: 0.1
   }
+  },
+  "requirements": [
+    "graphite/140",
+    "lead/40",
+    "plastanium/140",
+    "silicon/80"
+  ],
+  "envRequired": 0,
+  "category": "crafting",
+  "outputItems": [
+  "aether/1", 
+  "scrap/2"
+  ]
 }
-requirements: [
-  lead/50
-  titanium/80
-  silicon/60
-  thorium/100
-]
-category: crafting
-research: oil-extractor
-idleSound: respawning
-idleSoundVolume: 0.5
-results: [
-  aether/1
-]
