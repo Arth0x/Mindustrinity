@@ -20,7 +20,7 @@
 	"flying": false,
 	"targetAir": true,
 	"rotateSpeed": 1,
-	"legCount": 4,
+	"legCount": 6,
     "legMoveSpace": 0.85,
 	"legMaxLength": 1.6,
 	"legExtension": -15,
