@@ -21,9 +21,9 @@
   }
 },
 "upgrades": [
-"[toxopid,sirius]",
-"[scepter,core]",
-"[eclipse,contention]"
+["toxopid","sirius"],
+["scepter","core"],
+["eclipse","contention"]
 ],
 "requirements": [
   "silicon/5000",
