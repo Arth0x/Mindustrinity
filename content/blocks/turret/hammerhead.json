@@ -36,7 +36,7 @@
           "pierce": false,
           "hitSize": 8
       },
-      "alpha-yellow": {
+      "aether": {
           "type":"BasicBulletType",
       "trailColor": "F3E979FF",
       "trailParam": 5,
@@ -44,7 +44,7 @@
       "trailWidth": 5,
           "sprite": "aetherunbound-gauss-bullet",
           "speed": 22,
-          "damage": 3870,
+          "damage": 4000,
           "width": 25,
           "height": 38,
           "drag": 0.016,
