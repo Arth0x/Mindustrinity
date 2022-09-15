@@ -1,0 +1,11 @@
+{
+"name": "Cell",
+"description": "A cell, can be infused",
+"localizedName": "Cell",
+"explosiveness": 0,
+"flammability": 0,
+"radioactivity": 0,
+"charge": 0,
+"cost": 5,
+"color": "B0BAC0"
+}

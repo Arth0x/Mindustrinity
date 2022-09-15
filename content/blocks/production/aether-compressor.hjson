@@ -70,12 +70,12 @@
   "power": 3,
   "items": {
     "items": [
-      "silver/2"
+      "cell/1"
     ]
    }
    liquid: {
     liquid: liquid-aether
-    amount: 0.1
+    amount: 0.4
   }
   },
   "requirements": [
@@ -87,7 +87,6 @@
   "envRequired": 0,
   "category": "crafting",
   "outputItems": [
-  "aether/1", 
-  "scrap/2"
+  "aether/1"
   ]
 }
