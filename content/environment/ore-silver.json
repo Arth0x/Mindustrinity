@@ -1,4 +1,6 @@
 {
 "type": "OreBlock",
-"itemDrop": "silver"
+"itemDrop": "silver",
+"oreDefault": true,	
+"oreScale": 22.45
 }
