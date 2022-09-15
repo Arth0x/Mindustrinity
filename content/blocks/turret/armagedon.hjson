@@ -16,6 +16,7 @@
 	"hasPower": true,
 	"hasLiquids": true,
 	"shootSound": "laserbig",
+	"shootcolor": "00B2FF",
 	"heatColor": "FF2700",
 	"rotatespeed": 1.5,
 	"activeSoundVolume": 5,
@@ -30,7 +31,7 @@
 	"requirements": [
 		{ "item": "copper", "amount": 650},
 		{ "item": "graphite", "amount": 500},
-		{ "item": "aetherium", "amount": 400},
+		{ "item": "silver", "amount": 1400},
 		{ "item": "surge-alloy", "amount": 450},
 		{ "item": "plastanium", "amount": 550}
 	],
