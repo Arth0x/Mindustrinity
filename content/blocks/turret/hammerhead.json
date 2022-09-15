@@ -5,13 +5,12 @@
   "reload": 50,
   "range": 600,
   "recoil": 7,
-  "base": "block-8",
+  "base": "aetherunbound-block-8",
   "shake": 5,
   "rotateSpeed": 0.89,
   "shootSound": "jupiterShoot",
   "drawer": {
-  "type": "drawTurret",
-  "basePrefix": "elecian-"
+  "type": "drawTurret"
   },
   "ammoTypes": {
       "aether": {
@@ -57,3 +56,5 @@
   "category": "turret"
 
 }
+
+
