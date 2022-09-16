@@ -22,7 +22,7 @@
 },
 "upgrades": [
 ["toxopid","sirius"],
-["scepter","core"],
+["destructor","core"],
 ["eclipse","contention"]
 ],
 "requirements": [
