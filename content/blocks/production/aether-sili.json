@@ -89,9 +89,8 @@
     ]
    },
    "liquid": {
-    "liquid": [
-      "liquid-aether/4"
-    ]
+    "liquid": "liquid-aether",
+    "amount": 4
   }
   },
   "requirements": [

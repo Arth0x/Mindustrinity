@@ -1,6 +1,6 @@
 {
   "type": "GenericCrafter",
-  "name": "Aether Compressor"
+  "name": "Aether Compressor",
   "health": 700,
   "size": 3,
   "hasItems": true,
@@ -72,10 +72,10 @@
     "items": [
       "cell/1"
     ]
-   }
-   liquid: {
-    liquid: liquid-aether
-    amount: 0.4
+   },
+   "liquid": {
+    "liquid": "liquid-aether",
+    "amount": 0.4
   }
   },
   "requirements": [
