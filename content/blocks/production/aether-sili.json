@@ -1,0 +1,105 @@
+{
+  "type": "GenericCrafter",
+  "name": "Overlium",
+  "health": 5,
+  "size": 3 ,
+  "hasLiquid":true,
+  "hasItems": true,
+  "craftTime": 140,
+  "craftEffect": {
+   "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 15,
+    "sizeTo": 0,
+    "length": 0,
+    "lightColor": "66B1FFFF",
+    "lifetime": 40,
+    "layer": 109,
+    "colorFrom": "FFFFFFF",
+    "colorTo": "FFFFFFF"
+    },
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 30,
+    "sizeTo": 0,
+    "length": 0,
+    "lightColor": "66B1FFFF",
+    "lifetime": 40,
+    "layer": 109,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 17,
+    "offset": 20,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "lifetime": 30,
+    "length": 50,
+    "cone": -360,
+    "strokeFrom": 2,
+    "strokeTo": 0,
+    "lenFrom": 6,
+    "lenTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    {
+    "type": "WaveEffect",
+    "lifetime": 60,
+    "sizeFrom": 0,
+    "sizeTo": 26,
+    "strokeFrom": 3.5,
+    "strokeTo": 0,
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    }
+  ]
+  },
+"drawer": {
+   "type": "DrawMulti",
+        "drawers": [
+      {
+        "type": "DrawDefault"
+        },
+        {
+  "type": "DrawFlame",
+  "flameColor": "A9D8FFFF"
+    }
+  ]
+  },
+  "hasPower": true,
+  "hasLiquids": false,
+  "updateEffect": "none",
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.07,
+  "consumes": {
+  "power": 4.65,
+  "items": {
+    "items": [
+      "silver/5",
+      "coal/2",
+      "sand/2"
+    ]
+   },
+   "liquid": {
+    "liquid": [
+      "liquid-aether/4"
+    ]
+  }
+  },
+  "requirements": [
+    "lead/140",
+    "graphite/80",
+    "aether/240",
+    "silicon/80"
+  ],
+  "category": "crafting",
+  "outputItem": "silicon/10"
+}
