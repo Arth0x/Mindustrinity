@@ -28,7 +28,7 @@
   "name": "alpha-rocket",
     "rotateSpeed": 4,
     "alternate": false,
-    "mirror": false,
+    "mirror": true,
     "top": true,
     "x": 0,
     "y": -16,
@@ -37,11 +37,12 @@
 "type": "ShootAlternate",
 "shots": 1,
 "barrels": 3,
- "spread": 3
+"spread": 3
 },
     "recoil": 3,
     "shootY": 2,
     "inaccuracy": 7,
+    "xRand": 8,
     "shootSound": "missile",
     "velocityRnd": 0.4,
     "bullet": {
