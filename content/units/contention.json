@@ -32,7 +32,7 @@
     "top": true,
     "x": 0,
     "y": -4,
-   "reload": 12,
+   "reload": 6,
 "shoot": {
 "type": "ShootAlternate",
 "shots": 1,
@@ -79,7 +79,7 @@
     "y": -6,
     "shootY": 2,
     "rotateSpeed": 2,
-    "reload": 45,
+    "reload": 15,
     "recoil": 4,
     "inaccuracy": 5,
 "shoot": {
@@ -101,7 +101,7 @@
     "shrinkY": 0,
     "shrinkX": 0,
     "homingPower": 0.00786,
-	   "homingRange": 60,
+	  "homingRange": 80,
     "trailColor": "4587FFFF",
     "trailParam": 5,
     "trailEffect": "none",
