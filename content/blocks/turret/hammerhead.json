@@ -1,13 +1,14 @@
 {
+  "name": "Enforcer",
   "type": "ItemTurret",
   "health": 8660,
   "size": 8,
   "reload": 50,
-  "range": 600,
+  "range": 500,
   "recoil": 7,
   "base": "aetherunbound-block-8",
   "shake": 5,
-  "rotateSpeed": 0.89,
+  "rotateSpeed": 0.2,
   "shootSound": "jupiterShoot",
   "drawer": {
   "type": "drawTurret"
@@ -20,8 +21,8 @@
       "trailLength": 9,
       "trailWidth": 5,
           "sprite": "aetherunbound-gauss-bullet",
-          "speed": 22,
-          "damage": 4000,
+          "speed": 50,
+          "damage": 2000,
           "width": 25,
           "height": 38,
           "drag": 0.016,
@@ -39,10 +40,10 @@
           "pierceCap": 6,
           "pierce": false,
           "lightning": 10,
-          "lightningDamage": 10,
-          "lightningCone": 360,
-          "lightningLengthRand": 13,
-          "lightningLength": 18,
+          "lightningDamage": 1,
+          "lightningCone": 180,
+          "lightningLengthRand": 8,
+          "lightningLength": 8,
           "collidesAir": true
           }
   },
