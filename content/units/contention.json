@@ -84,7 +84,7 @@
     "inaccuracy": 0,
 "shoot": {
 "type": "ShootPattern",
-"shots": 3,
+"shots": 2,
  "shotDelay": 4
 },
 
@@ -116,8 +116,7 @@
     "lifetime": 100,
     "frontColor": "FFFFFFF",
     "backColor": "4587FFFF",
-    "despawnEffect": "absorb",
-    "shootEffect": "instBomb"
+    "despawnEffect": "absorb"
     }
   }
     ],
