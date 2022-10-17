@@ -28,7 +28,7 @@
   "name": "alpha-rocket",
     "rotateSpeed": 4,
     "alternate": false,
-    "mirror": true,
+    "mirror": false,
     "top": true,
     "x": 0,
     "y": -16,
@@ -40,6 +40,7 @@
 "spread": 3
 },
     "recoil": 3,
+    "rotate": true,
     "shootY": 2,
     "inaccuracy": 7,
     "xRand": 8,
