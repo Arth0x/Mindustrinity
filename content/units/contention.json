@@ -26,13 +26,12 @@
 	    "weapons": [
 	   {
   "name": "alpha-rocket",
-    "shootCone": 25,
     "rotateSpeed": 4,
     "alternate": false,
     "mirror": false,
     "top": true,
     "x": 0,
-    "y": -4,
+    "y": -14,
    "reload": 6,
 "shoot": {
 "type": "ShootAlternate",
@@ -44,7 +43,6 @@
     "shootY": 2,
     "inaccuracy": 7,
     "xRand": 8,
-   
     "shootSound": "missile",
     "velocityRnd": 0.4,
     "bullet": {
@@ -77,7 +75,7 @@
     "mirror": true,
     "alternate": true,
     "x": 35,
-    "y": 10,
+    "y": 15,
     "shootY": 2,
     "rotateSpeed": 1.4,
     "reload": 15,
@@ -101,7 +99,7 @@
     "pierce": true,
     "shrinkY": 0,
     "shrinkX": 0,
-    "homingPower": 0.2,
+    "homingPower": 5,
 	  "homingRange": 80,
     "trailColor": "4587FFFF",
     "trailParam": 5,
