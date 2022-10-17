@@ -81,7 +81,7 @@
     "rotateSpeed": 2,
     "reload": 15,
     "recoil": 4,
-    "inaccuracy": 5,
+    "inaccuracy": 0,
 "shoot": {
 "type": "ShootPattern",
 "shots": 3,
