@@ -116,7 +116,8 @@
     "lifetime": 100,
     "frontColor": "FFFFFFF",
     "backColor": "4587FFFF",
-    "despawnEffect": "absorb"
+    "despawnEffect": "absorb",
+    "shootEffect": "shootHealYellow"
     }
   }
     ],
