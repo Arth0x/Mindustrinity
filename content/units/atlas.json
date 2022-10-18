@@ -39,7 +39,7 @@
     "abilities": [
         {
             "type": "ForceFieldAbility",
-            "region": "aetherunbound-atlas-shield",
+            "glowRegion": "aetherunbound-atlas-shield",
             "regen": 15,
             "max": 10000,
             "cooldown": 500
