@@ -38,8 +38,9 @@
     "engineSize": 6,
     "abilities": [
         {
-            "type": "ForceFieldAbility",
-            "glowRegion": "aetherunbound-atlas-shield",
+            "type": "ShieldArcAbility",
+            "region": "aetherunbound-atlas-shield",
+            "whenShooting": false,
             "regen": 15,
             "max": 10000,
             "cooldown": 500
