@@ -19,6 +19,7 @@
     "health": 100000,
     "hitSize": 74,
     "armor": 20,
+    "effect": "aetherunbound-aether-flux",
     "engineOffset": 68,
     "engines": [
   {
