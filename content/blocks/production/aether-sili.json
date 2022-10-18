@@ -80,7 +80,7 @@
   "ambientSound": "smelter",
   "ambientSoundVolume": 0.07,
   "consumes": {
-  "power": 4.65,
+  "power": 4.5,
   "items": {
     "items": [
       "silver/5",
@@ -100,5 +100,5 @@
     "silicon/80"
   ],
   "category": "crafting",
-  "outputItem": "silicon/10"
+  "outputItem": "silicon/15"
 }
