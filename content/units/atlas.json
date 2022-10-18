@@ -36,86 +36,95 @@
     "maxRange": 180,
     "aimDst": 140,
     "engineSize": 6,
+    "abilities": [
+        {
+            "type": "mindustry.entities.abilities.ForceFieldAbility",
+            "radius": 70,
+            "regen": 8,
+            "max": 2700,
+            "cooldown": 280
+            }
+        ],
 	"weapons": [
 	   {
-  "name": "starshooter-mount",
-    "x": 34,
-    "y": -5,
-    "rotationLimit": 45,
-  "smoothReloadSpeed": 0.15,
-  "shootWarmupSpeed": 0.05,
-  "minWarmup": 0.9,
-    "shootY": 2,
-    "rotateSpeed": 4,
-    "reload": 100,
-    "recoil": 2,
-"shoot": {
-"type": "shootPattern",
-    "shots": 8,
-    "shotDelay": 3
-},
-  "layerOffset": -0.001,
-    "inaccuracy": 8,
-    "shootSound": "bolt",
-    "mirror": true,
-    "alternate": true,
-    "rotate": true,
-   "parts": [
-         {
-         "type": "RegionPart",
-          "suffix": "-blade",
-          "mirror": true,   
-          "moveRot": -13,
-          "progress": {
-          "type": "warmup",
-          "op": "blend",
-          "other": "reload",
-          "amount": 0.75
-          }
-          }
-]
-  },
-	   {
-  "name": "starshooter-mount",
-    "x": 48,
-    "y": -22,
-    "rotationLimit": 45,
-  "smoothReloadSpeed": 0.15,
-  "shootWarmupSpeed": 0.05,
-  "minWarmup": 0.9,
-    "shootY": 2,
-    "rotateSpeed": 4,
-    "reload": 100,
-    "recoil": 2,
-"shoot": {
-"type": "shootPattern",
-    "shots": 8,
-    "shotDelay": 3
-},
-  "layerOffset": -0.001,
-    "inaccuracy": 8,
-    "shootSound": "plasmaboom",
-    "mirror": true,
-    "alternate": true,
-    "rotate": true,
-   "parts": [
-         {
-         "type": "RegionPart",
-          "suffix": "-blade",
-          "mirror": true,   
-          "moveRot": -13,
-          "progress": {
-          "type": "warmup",
-          "op": "blend",
-          "other": "reload",
-          "amount": 0.75
-          }
-          }
-],
-    "bullet": {
-      "type": "basicBulletType",
-     "spawnUnit": "mono"
-    }
+            "name": "starshooter-mount",
+            "x": 34,
+            "y": -5,
+            "rotationLimit": 45,
+            "smoothReloadSpeed": 0.15,
+            "shootWarmupSpeed": 0.05,
+            "minWarmup": 0.9,
+            "shootY": 2,
+            "rotateSpeed": 4,
+            "reload": 100,
+            "recoil": 2,
+            "shoot": {
+            "type": "shootPattern",
+                "shots": 8,
+                "shotDelay": 3
+            },
+            "layerOffset": -0.001,
+            "inaccuracy": 8,
+            "shootSound": "bolt",
+            "mirror": true,
+            "alternate": true,
+            "rotate": true,
+            "parts": [
+                    {
+                    "type": "RegionPart",
+                    "suffix": "-blade",
+                    "mirror": true,   
+                    "moveRot": -13,
+                    "progress": {
+                    "type": "warmup",
+                    "op": "blend",
+                    "other": "reload",
+                    "amount": 0.75
+                    }
+                    }
+            ]
+            },
+            {
+            "name": "starshooter-mount",
+                "x": 48,
+                "y": -22,
+                "rotationLimit": 45,
+            "smoothReloadSpeed": 0.15,
+            "shootWarmupSpeed": 0.05,
+            "minWarmup": 0.9,
+                "shootY": 2,
+                "rotateSpeed": 4,
+                "reload": 100,
+                "recoil": 2,
+            "shoot": {
+            "type": "shootPattern",
+                "shots": 8,
+                "shotDelay": 3
+            },
+            "layerOffset": -0.001,
+                "inaccuracy": 8,
+                "shootSound": "plasmaboom",
+                "mirror": true,
+                "alternate": true,
+                "rotate": true,
+            "parts": [
+                    {
+                    "type": "RegionPart",
+                    "suffix": "-blade",
+                    "mirror": true,   
+                    "moveRot": -13,
+                    "progress": {
+                    "type": "warmup",
+                    "op": "blend",
+                    "other": "reload",
+                    "amount": 0.75
+                    }
+                    }
+            ],
+                "bullet": {
+                "type": "basicBulletType",
+                "spawnUnit": "mono"
+                }
             }
         ]
 }
