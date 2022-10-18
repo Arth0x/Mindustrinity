@@ -56,7 +56,14 @@
            "colorTo": "57D993FF" },
         "range": 300,
         "amount": 80000,
-        "reload": 10 } ],
+        "reload": 10 },
+        {
+            "type": "ShieldArcAbility",
+            "region": "aetherunbound-atlas-shield",
+            "whenShooting": false,
+            "regen": 15,
+            "max": 10000,
+            "cooldown": 500 } ],
 	"weapons": [
 	   {
             "name": "starshooter-mount",
