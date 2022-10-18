@@ -86,45 +86,45 @@
             },
             {
             "name": "starshooter-mount",
-                "x": 48,
-                "y": -22,
-                "rotationLimit": 45,
+            "x": 48,
+            "y": -22,
+            "rotationLimit": 45,
             "smoothReloadSpeed": 0.15,
             "shootWarmupSpeed": 0.05,
             "minWarmup": 0.9,
-                "shootY": 2,
-                "rotateSpeed": 4,
-                "reload": 100,
-                "recoil": 2,
+            "shootY": 2,
+            "rotateSpeed": 4,
+            "reload": 100,
+            "recoil": 2,
             "shoot": {
-            "type": "shootPattern",
+                "type": "shootPattern",
                 "shots": 8,
                 "shotDelay": 3
             },
             "layerOffset": -0.001,
-                "inaccuracy": 8,
-                "shootSound": "plasmaboom",
-                "mirror": true,
-                "alternate": true,
-                "rotate": true,
+            "inaccuracy": 8,
+            "shootSound": "plasmaboom",
+            "mirror": true,
+            "alternate": true,
+            "rotate": true,
             "parts": [
-                    {
+                {
                     "type": "RegionPart",
                     "suffix": "-blade",
                     "mirror": true,   
                     "moveRot": -13,
                     "progress": {
-                    "type": "warmup",
-                    "op": "blend",
-                    "other": "reload",
-                    "amount": 0.75
+                        "type": "warmup",
+                        "op": "blend",
+                        "other": "reload",
+                        "amount": 0.75
                     }
-                    }
-            ],
-                "bullet": {
-                "type": "basicBulletType",
-                "spawnUnit": "mono"
                 }
+            ],
+            "bullet": {
+                "type": "basicBulletType",
+                "spawnUnit": "crawler"
             }
-        ]
+        }
+    ]
 }
