@@ -38,7 +38,7 @@
     "engineSize": 6,
     "abilities": [
         {
-            "type": "ShieldArcAbility",
+            "type": "ShieldAbility",
             "radius": 60,
             "region": "aetherunbound-atlas-shield",
             "regen": 15,
