@@ -73,11 +73,7 @@
           "amount": 0.75
           }
           }
-],
-    "bullet": {
-      "type": "basicBulletType",
-     "spawnUnit": "exogenesis-starlit-missile"
-    }
+]
   },
 	   {
   "name": "starshooter-mount",
