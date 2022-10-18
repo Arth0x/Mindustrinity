@@ -40,10 +40,11 @@
     "abilities": [
         {
             "type": "UnitSpawnAbility",
+            "mirror": true,
             "spawnX": 0,
             "spawnY": 55,
-            "unit": "mono",
-            "spawnTime": 2 },
+            "unit": "corvus",
+            "spawnTime": 50 },
         {
             "type": "ShieldArcAbility",
             "region": "aetherunbound-atlas-shield",
