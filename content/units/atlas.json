@@ -40,7 +40,7 @@
         {
             "type": "ShieldArcAbility",
             "radius": 60,
-            "region": "aetherunbound-sirius-shield",
+            "region": "aetherunbound-atlas-shield",
             "regen": 15,
             "max": 10000,
             "cooldown": 500
