@@ -6,12 +6,12 @@
     "silicon/3000"
     ]
     },
-    "groundLayer": 75,
-    "drawShields": false,
-    "maxRange": 220,
-    "outlineColor": "666666FF",
-    "mechLegColor": "313131FF",
-    "type": "legs",
+  "groundLayer": 75,
+  "drawShields": false,
+  "maxRange": 220,
+  "outlineColor": "666666FF",
+  "mechLegColor": "313131FF",
+  "type": "legs",
 	"speed": 0.35,
 	"hitSize": 50,
 	"health": 45000,
@@ -22,17 +22,17 @@
 	"targetAir": true,
 	"rotateSpeed": 1,
 	"legCount": 6,
-    "legMoveSpace": 0.85,
+  "legMoveSpace": 0.85,
 	"legMaxLength": 1.6,
 	"legExtension": -15,
 	"legLength": 50,
-    "legPairOffset": 3,
-    "legBaseOffset": 19,
-    "legSpeed": 0.8,
-    "legContinuousMove": true,
-    "rippleScale": 3.5,
-    "legSplashDamage": 106,
-    "legSplashRange": 40,
+  "legPairOffset": 3,
+  "legBaseOffset": 19,
+  "legSpeed": 0.8,
+  "legContinuousMove": true,
+  "rippleScale": 3.5,
+  "legSplashDamage": 106,
+  "legSplashRange": 40,
 	"allowLegStep": true,
 	"hovering": true,
 	"immunities": [
@@ -62,10 +62,10 @@
   "cooldownTime": 145,
   "heatColor": "66B1FFFF",
   "shootSound": "malignShoot",
-"shoot": {
-"type": "shootSpread",
-    "shots": 3,
-    "spread": 3
+  "shoot": {
+  "type": "shootSpread",
+  "shots": 3,
+  "spread": 3
 },
          "parts": [
          {
