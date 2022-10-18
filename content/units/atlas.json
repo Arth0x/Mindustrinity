@@ -40,18 +40,23 @@
     "abilities": [
         {
             "type": "UnitSpawnAbility",
-            "mirror": true,
             "spawnX": 0,
             "spawnY": 55,
-            "unit": "corvus",
-            "spawnTime": 50 },
+            "unit": "mono",
+            "spawnTime": 500},
         {
-            "type": "ShieldArcAbility",
-            "region": "aetherunbound-atlas-shield",
-            "whenShooting": false,
-            "regen": 15,
-            "max": 10000,
-            "cooldown": 500 } ],
+           "type": "mindustry.entities.abilities.RepairFieldAbility",
+           "healEffect": {
+           "type": "WaveEffect",
+           "lifetime": 35,
+           "sizeFrom": 30,
+        "strokeFrom": 4,
+           "strokeTo": 0,
+           "colorFrom": "73FFAEFF",
+           "colorTo": "57D993FF" },
+        "range": 300,
+        "amount": 80000,
+        "reload": 10 } ],
 	"weapons": [
 	   {
             "name": "starshooter-mount",
