@@ -39,7 +39,6 @@
     "abilities": [
         {
             "type": "ForceFieldAbility",
-            "radius": 60,
             "region": "aetherunbound-atlas-shield",
             "regen": 15,
             "max": 10000,
