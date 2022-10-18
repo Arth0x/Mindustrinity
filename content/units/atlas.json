@@ -38,7 +38,7 @@
     "engineSize": 6,
     "abilities": [
         {
-            "type": "mindustry.entities.abilities.ForceFieldAbility",
+            "type": "ShieldArcAbility",
             "radius": 60,
             "region": "aetherunbound-sirius-shield",
             "regen": 15,
