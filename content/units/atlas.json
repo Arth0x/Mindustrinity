@@ -39,14 +39,18 @@
     "engineSize": 6,
     "abilities": [
         {
+            "type": "UnitSpawnAbility",
+            "spawnX": 0,
+            "spawnY": 55,
+            "unit": "mono",
+            "spawnTime": 2 },
+        {
             "type": "ShieldArcAbility",
             "region": "aetherunbound-atlas-shield",
             "whenShooting": false,
             "regen": 15,
             "max": 10000,
-            "cooldown": 500
-            }
-        ],
+            "cooldown": 500 } ],
 	"weapons": [
 	   {
             "name": "starshooter-mount",
