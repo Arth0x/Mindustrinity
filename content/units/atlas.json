@@ -54,8 +54,8 @@
            "strokeTo": 0,
            "colorFrom": "73FFAEFF",
            "colorTo": "57D993FF" },
-        "range": 300,
-        "amount": 80000,
+        "range": 200,
+        "amount": 1000,
         "reload": 10 },
         {
             "type": "ShieldArcAbility",
