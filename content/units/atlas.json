@@ -46,7 +46,6 @@
             "unit": "nano",
             "spawnTime": 500},
         {
-        
             "type": "UnitSpawnAbility",
             "mirror": true,
             "spawnX": -50,
