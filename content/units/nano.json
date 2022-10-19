@@ -52,8 +52,7 @@
                     "colorTo": "57D993FF"   
                 },
                 "speed": 100,
-                "maxRange": 10,
-                "range": 10
+                "maxRange": 10
             }
         }
     ]
