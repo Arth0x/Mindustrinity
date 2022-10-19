@@ -23,7 +23,8 @@
 "upgrades": [
 ["toxopid","sirius"],
 ["reign","core"],
-["eclipse","contention"]
+["eclipse","contention"],
+["oct","atlas"]
 ],
 "requirements": [
   "silicon/5000",
