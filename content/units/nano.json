@@ -29,7 +29,7 @@
             "reload": 1,
             "recoil": 0,
             "shake": 1,
-            "rotate": true,
+            "rotate": false,
             "shootSound": "laser",
             "laserColor": "73FFAEFF",
             "controllable": false,
@@ -53,7 +53,7 @@
                     "colorTo": "57D993FF"   
                 },
                 "speed": 100,
-                "maxRange": 300
+                "maxRange": 5
             }
         }
     ]

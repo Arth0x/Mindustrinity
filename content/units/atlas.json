@@ -40,8 +40,9 @@
     "abilities": [
         {
             "type": "UnitSpawnAbility",
-            "spawnX": 0,
-            "spawnY": 55,
+            "mirror": true,
+            "spawnX": 25,
+            "spawnY": -55,
             "unit": "nano",
             "spawnTime": 500},
         {
