@@ -20,9 +20,7 @@
     "weapons": [
         {
             "type": "RepairBeamWeapon",  
-            "mirror": true,
             "alternate": false,
-            "rotateSpeed": 3,
             "name": "repairer",
             "x": 0,
             "y": 0,
@@ -54,7 +52,8 @@
                     "colorTo": "57D993FF"   
                 },
                 "speed": 100,
-                "maxRange": 5
+                "maxRange": 10,
+                "range": 10
             }
         }
     ]

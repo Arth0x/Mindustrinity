@@ -67,7 +67,7 @@
   "shots": 3,
   "spread": 3
 },
-         "parts": [
+  "parts": [
          {
          "type": "RegionPart",
           "suffix": "-front",
@@ -105,7 +105,7 @@
     "lifetime": 60,
     "speed": 8,
     "damage": 65,
-  "trailRotation": true,
+    "trailRotation": true,
     "pierceArmor": true,
     "shrinkY": 0,
     "shrinkX": 0,
@@ -292,7 +292,7 @@
         "region": "particle"
         },
         {
-       "type": "ParticleEffect",
+       "type": "ParticleEffect-rene",
         "lifetime": 20,
         "length": 0,
         "sizeFrom": 8,
