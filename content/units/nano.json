@@ -12,8 +12,9 @@
     "armor": 5,
     "itemCapacity": 0,
     "engineOffset": 8,
-   "engineColor": "79AAF2FF",
-    "range": 200,
+    "engineColor": "79AAF2FF",
+    "range": 10,
+    "controllable": false,
     "targetAir": true,
     "faceTarget": true,
     "weapons": [
