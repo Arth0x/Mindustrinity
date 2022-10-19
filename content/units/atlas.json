@@ -42,7 +42,7 @@
             "type": "UnitSpawnAbility",
             "spawnX": 0,
             "spawnY": 55,
-            "unit": "mono",
+            "unit": "nano",
             "spawnTime": 500},
         {
            "type": "mindustry.entities.abilities.RepairFieldAbility",
