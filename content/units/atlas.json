@@ -74,7 +74,6 @@
 	"weapons": [ 
         {
             "name": "starshooter-mount",
-            "sprite": "aetherunbound-peircer",
             "x": 34,
             "y": -5,
             "rotationLimit": 90,
@@ -99,6 +98,23 @@
             "mirror": true,
             "alternate": true,
             "rotate": true,
+            "bullet": {
+                "type": "MissileBulletType",
+                "shootEffect": "shootHealYellow",
+                "damage": 45,
+                "speed": 4,
+                "keepVelocity": false,
+                "frontColor": "FFFFFFF",
+                "backColor": "4587FFFF",
+                "trailColor": "6FB2EDFF",
+                "lifetime": 50,
+                "homingPower": 10000,
+                "homingRange": 100,
+                "weaveScale": 5,			
+                "weaveMag": 2,
+                "height": 8,
+                "width": 8
+                },
             "parts": [ {
                 "type": "RegionPart",
                 "suffix": "-blade",
@@ -110,10 +126,10 @@
                 "other": "reload",
                 "amount": 0.75 } } ] 
         },
-        {"name": "starshooter-mount",
-        "sprite": "aetherunbound-peircer",
-            "x": 34,
-            "y": -5,
+        {
+            "name": "starshooter-mount",
+            "x": 48,
+            "y": -22,
             "rotationLimit": 90,
             "smoothReloadSpeed": 0.15,
             "shootWarmupSpeed": 0.05,
@@ -136,6 +152,23 @@
             "mirror": true,
             "alternate": true,
             "rotate": true,
+            "bullet": {
+                "type": "MissileBulletType",
+                "shootEffect": "shootHealYellow",
+                "damage": 45,
+                "speed": 4,
+                "keepVelocity": false,
+                "frontColor": "FFFFFFF",
+                "backColor": "4587FFFF",
+                "trailColor": "6FB2EDFF",
+                "lifetime": 50,
+                "homingPower": 10000,
+                "homingRange": 100,
+                "weaveScale": 5,			
+                "weaveMag": 2,
+                "height": 8,
+                "width": 8
+                },
             "parts": [ {
                 "type": "RegionPart",
                 "suffix": "-blade",
@@ -147,5 +180,5 @@
                 "other": "reload",
                 "amount": 0.75 } } ] 
         }
-    ]
+    ] 
 }
