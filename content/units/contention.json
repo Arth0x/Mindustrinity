@@ -82,11 +82,11 @@
       "recoil": 4,
       "inaccuracy": 0,
     "shoot": {
-    "type": "ShootPattern",
-    "shots": 2,
-    "shotDelay": 4 },
-    "shootSound": "laser",
-    "rotate": true,
+        "type": "ShootPattern",
+        "shots": 2,
+        "shotDelay": 4 },
+      "shootSound": "laser",
+      "rotate": true,
     "bullet": {
         "type": "BasicBulletType",
         "damage": 260,
