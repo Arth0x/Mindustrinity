@@ -84,27 +84,31 @@
             "rotateSpeed": 4,
             "reload": 100,
             "recoil": 2,
-            "shoot": {
-                    "type": "shootPattern",
-                    "shots": 8,
-                    "shotDelay": 3
-                },
+            "homingRange": 100,
+            "weaveScale": 5,			
+            "weaveMag": 2,
+            "height": 8,
+            "width": 8,
+            "lifetime": 270,
+            "splashDamageRadius": 30,
+            "splashDamage": 30,
             "layerOffset": -0.001,
             "inaccuracy": 8,
+            "type": "MissileBulletType",
             "shootSound": "bolt",
             "mirror": true,
             "alternate": true,
             "rotate": true,
             "parts": [ {
-                 "type": "RegionPart",
+                "type": "RegionPart",
                 "suffix": "-blade",
                 "mirror": true,   
                 "moveRot": -18,
                 "progress": {
-                    "type": "warmup",
-                    "op": "blend",
-                    "other": "reload",
-                    "amount": 0.75 } } ] 
+                "type": "warmup",
+                "op": "blend",
+                "other": "reload",
+                "amount": 0.75 } } ] 
         },
         {
             "name": "starshooter-mount",
