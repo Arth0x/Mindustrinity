@@ -98,9 +98,12 @@
             "mirror": true,
             "alternate": true,
             "rotate": true,
+            "shoot": {
+                "type": "ShootPattern",
+                "shots": 8
+            },
             "bullet": {
                 "type": "MissileBulletType",
-                "shots": 8,
                 "shootEffect": "shootHealYellow",
                 "damage": 45,
                 "speed": 4,
@@ -129,7 +132,6 @@
         },
         {
             "name": "starshooter-mount",
-            "shots": 8,
             "x": 48,
             "y": -22,
             "rotationLimit": 90,
@@ -154,6 +156,10 @@
             "mirror": true,
             "alternate": true,
             "rotate": true,
+            "shoot": {
+                "type": "ShootPattern",
+                "shots": 8
+            },
             "bullet": {
                 "type": "MissileBulletType",
                 "shootEffect": "shootHealYellow",
