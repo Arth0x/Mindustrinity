@@ -89,22 +89,23 @@
                     "shots": 8,
                     "shotDelay": 3
                 },
-        "layerOffset": -0.001,
-        "inaccuracy": 8,
-        "shootSound": "bolt",
-        "mirror": true,
-        "alternate": true,
-        "rotate": true,
-        "parts": [ {
-                "type": "RegionPart",
+            "layerOffset": -0.001,
+            "inaccuracy": 8,
+            "shootSound": "bolt",
+            "mirror": true,
+            "alternate": true,
+            "rotate": true,
+            "parts": [ {
+                 "type": "RegionPart",
                 "suffix": "-blade",
                 "mirror": true,   
                 "moveRot": -18,
                 "progress": {
-                "type": "warmup",
-                "op": "blend",
-                "other": "reload",
-            "amount": 0.75 } } ] },
+                    "type": "warmup",
+                    "op": "blend",
+                    "other": "reload",
+                    "amount": 0.75 } } ] 
+        },
         {
             "name": "starshooter-mount",
             "x": 48,
