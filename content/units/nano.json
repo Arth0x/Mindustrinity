@@ -4,6 +4,7 @@
     "controller": "DefenderAI",
     "lowAltitude": true,
     "speed": 5,
+    "range":5,
     "accel": 0.03,
     "drag": 0.03,
     "flying": true,
@@ -13,10 +14,10 @@
     "itemCapacity": 0,
     "engineOffset": 4,
     "engineColor": "79AAF2FF",
-    "range": 5,
     "controllable": false,
     "targetAir": true,
     "faceTarget": true,
+    "repairRadius": 12,
     "weapons": [
         {
             "type": "RepairBeamWeapon",  
