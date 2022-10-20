@@ -94,7 +94,6 @@
             "splashDamage": 30,
             "layerOffset": -0.001,
             "inaccuracy": 8,
-            "type": "MissileBulletType",
             "shootSound": "bolt",
             "mirror": true,
             "alternate": true,
