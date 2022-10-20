@@ -19,7 +19,6 @@
     "health": 100000,
     "hitSize": 74,
     "armor": 20,
-    "effect": "aetherunbound-aether-flux",
     "engineOffset": 68,
     "engines": [
   {
@@ -42,14 +41,14 @@
             "type": "UnitSpawnAbility",
             "mirror": true,
             "spawnX": 50,
-            "spawnY": -55,
+            "spawnY": -45,
             "unit": "nano",
             "spawnTime": 500},
         {
             "type": "UnitSpawnAbility",
             "mirror": true,
             "spawnX": -50,
-            "spawnY": -55,
+            "spawnY": -45,
             "unit": "nano",
             "spawnTime": 500},
         {
@@ -72,12 +71,12 @@
             "regen": 15,
             "max": 10000,
             "cooldown": 500 } ],
-	"weapons": [
-	   {
+	"weapons": [ 
+        {
             "name": "starshooter-mount",
             "x": 34,
             "y": -5,
-            "rotationLimit": 45,
+            "rotationLimit": 90,
             "smoothReloadSpeed": 0.15,
             "shootWarmupSpeed": 0.05,
             "minWarmup": 0.9,
@@ -86,32 +85,27 @@
             "reload": 100,
             "recoil": 2,
             "shoot": {
-            "type": "shootPattern",
-                "shots": 8,
-                "shotDelay": 3
-            },
-            "layerOffset": -0.001,
-            "inaccuracy": 8,
-            "shootSound": "bolt",
-            "mirror": true,
-            "alternate": true,
-            "rotate": true,
-            "parts": [
-                    {
-                    "type": "RegionPart",
-                    "suffix": "-blade",
-                    "mirror": true,   
-                    "moveRot": -13,
-                    "progress": {
-                    "type": "warmup",
-                    "op": "blend",
-                    "other": "reload",
-                    "amount": 0.75
-                    }
-                    }
-            ]
-            },
-            {
+                    "type": "shootPattern",
+                    "shots": 8,
+                    "shotDelay": 3
+                },
+        "layerOffset": -0.001,
+        "inaccuracy": 8,
+        "shootSound": "bolt",
+        "mirror": true,
+        "alternate": true,
+        "rotate": true,
+        "parts": [ {
+                "type": "RegionPart",
+                "suffix": "-blade",
+                "mirror": true,   
+                "moveRot": -18,
+                "progress": {
+                "type": "warmup",
+                "op": "blend",
+                "other": "reload",
+            "amount": 0.75 } } ] },
+        {
             "name": "starshooter-mount",
             "x": 48,
             "y": -22,
