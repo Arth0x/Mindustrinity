@@ -100,7 +100,8 @@
             "rotate": true,
             "shoot": {
                 "type": "ShootPattern",
-                "shots": 8
+                "shots": 8,
+                "shotDelay":4
             },
             "bullet": {
                 "type": "MissileBulletType",
@@ -132,7 +133,7 @@
         },
         {
             "name": "starshooter-mount",
-            "x": 48,
+            "x": -48,
             "y": -22,
             "rotationLimit": 90,
             "smoothReloadSpeed": 0.15,
@@ -158,7 +159,8 @@
             "rotate": true,
             "shoot": {
                 "type": "ShootPattern",
-                "shots": 8
+                "shots": 8,
+                "shotDelay":4
             },
             "bullet": {
                 "type": "MissileBulletType",
