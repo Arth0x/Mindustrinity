@@ -9,8 +9,6 @@
   "groundLayer": 75,
   "drawShields": false,
   "maxRange": 220,
-  "outlineColor": "666666FF",
-  "mechLegColor": "313131FF",
   "type": "legs",
 	"speed": 0.35,
 	"hitSize": 50,
