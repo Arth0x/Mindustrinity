@@ -42,7 +42,7 @@
 	"weapons": [
     {
       "name": "sirius-weapon",
-      "x": 31,
+      "x": 35,
       "y": 5,
       "rotateSpeed": 0.8,
       "rotate": true,
@@ -61,10 +61,10 @@
       "heatColor": "66B1FFFF",
       "shootSound": "malignShoot",
       "shoot": {
-      "type": "shootSpread",
-      "shots": 3,
-      "spread": 3
-    },
+        "type": "shootSpread",
+        "shots": 3,
+        "spread": 3
+      },
       "parts": [
             {
             "type": "RegionPart",
