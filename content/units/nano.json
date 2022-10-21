@@ -3,13 +3,12 @@
     "type": "flying",
     "controller": "DefenderAI",
     "lowAltitude": true,
-    "speed": 5,
-    "range":5,
+    "speed": 7,
     "accel": 0.03,
-    "drag": 0.03,
+    "drag": 0.5,
     "flying": true,
     "health": 30,
-    "hitSize": 13,
+    "hitSize": 5,
     "armor": 5,
     "itemCapacity": 0,
     "engineOffset": 4,
@@ -17,7 +16,6 @@
     "controllable": false,
     "targetAir": true,
     "faceTarget": true,
-    "repairRadius": 12,
     "weapons": [
         {
             "type": "RepairBeamWeapon",  
@@ -52,9 +50,7 @@
                     "lenTo": 0,
                     "colorFrom": "73FFAEFF",
                     "colorTo": "57D993FF"   
-                },
-                "speed": 100,
-                "maxRange": 10
+                }
             }
         }
     ]
