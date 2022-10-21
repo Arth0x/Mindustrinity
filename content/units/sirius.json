@@ -99,7 +99,7 @@
       "height": 17,
       "sprite": "circle-bullet",
       "frontColor": "FFFFFF",
-      "backColor": "66B1FFFF",
+      "backColor": "BF92F8FF",
       "lifetime": 60,
       "speed": 8,
       "damage": 255,
@@ -118,7 +118,7 @@
       "lenFrom": 6,
       "lenTo": 6,
       "colorFrom": "FFFFFFF",
-      "colorTo": "A9D8FFFF"
+      "colorTo": "BF92F8FF"
       },
       "hitColor": "A9D8FFFF",
       "timeIncrease": 0.5,
@@ -136,8 +136,8 @@
       "cone": -360,
       "lenFrom": 6,
       "lenTo": 0,
-      "colorFrom": "A9D8FFFF",
-      "colorTo": "66B1FFFF"
+      "colorFrom": "BF92F8FF",
+      "colorTo": "BF92F8FF"
       },
       "hitEffect": {
       "type": "ParticleEffect",
@@ -149,13 +149,13 @@
       "cone": -360,
       "lenFrom": 6,
       "lenTo": 0,
-      "colorFrom": "A9D8FFFF",
+      "colorFrom": "BF92F8FF",
       "colorTo": "66B1FFFF"
       },
-      "trailColor": "A9D8FFFF",
+      "trailColor": "BF92F8FF",
       "lightning": 6,
       "lightningDamage": 10,
-      "lightningColor": "66B1FFFF",
+      "lightningColor": "BF92F8FF",
       "lightningCone": 360,
       "lightningLengthRand": 4,
       "lightningLength": 3,
@@ -175,7 +175,7 @@
       "cone": -30,
       "lenFrom": 6,
       "lenTo": 0,
-      "colorFrom": "A9D8FFFF",
+      "colorFrom": "BF92F8FF",
       "colorTo": "66B1FFFF"
   },
       "status": "aetherunbound-high-energy-blast",
@@ -216,7 +216,7 @@
       "status": "freezing",
       "statusDuration": 50,
       "incendChance": 0,
-      "colors": ["66B1FFAA", "66B1FFAA", "A9D8FFFF", "FFFFFF"],
+      "colors": ["BF92F8FF", "BF92F8FF", "BF92F8FF", "FFFFFF"],
       "hitEffect": {
       "type": "ParticleEffect",
       "line": true,
@@ -229,7 +229,7 @@
       "lenFrom": 6,
       "lenTo": 0,
       "colorFrom": "FFFFFF",
-      "colorTo": "66B1FFFF"
+      "colorTo": "BF92F8FF"
         },
       "shootEffect": {
       "type": "ParticleEffect",
@@ -242,7 +242,7 @@
       "lenFrom": 10,
       "lenTo": 0,
       "colorFrom": "FFFFFF",
-      "colorTo": "66B1FFFF"
+      "colorTo": "BF92F8FF"
         }
       }
     }
@@ -275,7 +275,7 @@
           "strokeTo": 0,
           "lenFrom": 6,
           "lenTo": 0,
-          "colorFrom": "A9D8FFFF",
+          "colorFrom": "BF92F8FF",
           "colorTo": "66B1FFFF"
           },
           {
@@ -285,8 +285,8 @@
           "sizeFrom": 18,
           "sizeTo": 0,
           "particles": 1,
-          "colorFrom": "66B1FFFF",
-          "colorTo": "66B1FFFF",
+          "colorFrom": "BF92F8FF",
+          "colorTo": "BF92F8FF",
           "region": "particle"
           },
           {
