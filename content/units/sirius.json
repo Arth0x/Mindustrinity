@@ -102,7 +102,7 @@
       "backColor": "BF92F8FF",
       "lifetime": 60,
       "speed": 8,
-      "damage": 255,
+      "damage": 75,
       "trailRotation": true,
       "pierceArmor": true,
       "shrinkY": 0,
