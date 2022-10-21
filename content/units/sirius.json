@@ -10,7 +10,7 @@
   "drawShields": false,
   "maxRange": 220,
   "type": "legs",
-	"speed": 0.35,
+	"speed": 0.7,
 	"hitSize": 50,
 	"health": 45000,
 	"armor": 8,
