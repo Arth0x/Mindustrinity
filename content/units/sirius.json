@@ -254,6 +254,7 @@
       "region": "aetherunbound-sirius-shield",
       "regen": 11,
       "drawArc": false,
+      "whenShooting": false,
       "width": 11,
       "y": -25,
       "max": 6000,
