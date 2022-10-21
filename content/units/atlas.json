@@ -8,7 +8,6 @@
     },
     "singleTarget": true,
     "faceTarget": false,
-    "outlineColor": "36363c",
     "drawShields": false,
     "speed": 0.75,
     "accel": 0.2,
@@ -20,18 +19,6 @@
     "hitSize": 74,
     "armor": 20,
     "engineOffset": 68,
-    "engines": [
-  {
-    "x": -19,
-    "y": -60,
-   "radius": 7
-  },
-  {
-    "x": 19,
-    "y": -60,
-   "radius": 7
-  }
-    ],
     "range": 180,
     "maxRange": 180,
     "aimDst": 140,
@@ -87,6 +74,7 @@
             "weaveMag": 2,
             "height": 8,
             "width": 8,
+            "mirror": false,
             "lifetime": 270,
             "splashDamageRadius": 30,
             "splashDamage": 30,
