@@ -67,6 +67,7 @@
         {
             "type": "ShieldArcAbility",
             "region": "aetherunbound-atlas-shield",
+            "drawArc": false,
             "whenShooting": false,
             "regen": 15,
             "max": 10000,
