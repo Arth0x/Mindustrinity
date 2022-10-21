@@ -3,7 +3,7 @@
     "type": "flying",
     "controller": "DefenderAI",
     "lowAltitude": true,
-    "speed": 10,
+    "speed": 5,
     "drag": 0.2,
     "flying": true,
     "health": 30,
