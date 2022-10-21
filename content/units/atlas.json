@@ -72,18 +72,15 @@
             "regen": 15,
             "max": 10000,
             "cooldown": 500 } ],
-	"weapons": [ 
+	
+        "weapons": [ 
         {
-            "name": "starshooter-mount",
-            "x": 34,
-            "y": -5,
-            "rotationLimit": 180,
-            "smoothReloadSpeed": 0.15,
-            "shootWarmupSpeed": 0.05,
-            "minWarmup": 0.9,
+            "name": "atlas-mount",
+            "x": 0,
+            "y": 0,
             "shootY": 2,
             "rotateSpeed": 4,
-            "reload": 100,
+            "reload": 25,
             "recoil": 2,
             "homingRange": 100,
             "weaveScale": 5,			
@@ -96,8 +93,6 @@
             "layerOffset": -0.001,
             "inaccuracy": 8,
             "shootSound": "bolt",
-            "mirror": true,
-            "alternate": true,
             "rotate": true,
             "shoot": {
                 "type": "ShootPattern",
@@ -120,76 +115,7 @@
                 "weaveMag": 2,
                 "height": 8,
                 "width": 8
-                },
-            "parts": [ {
-                "type": "RegionPart",
-                "suffix": "-blade",
-                "mirror": true,   
-                "moveRot": -18,
-                "progress": {
-                "type": "warmup",
-                "op": "blend",
-                "other": "reload",
-                "amount": 0.75 } } ] 
-        },
-        {
-            "name": "starshooter-mount",
-            "x": -48,
-            "y": -22,
-            "rotationLimit": 180,
-            "smoothReloadSpeed": 0.15,
-            "shootWarmupSpeed": 0.05,
-            "minWarmup": 0.9,
-            "shootY": 2,
-            "rotateSpeed": 4,
-            "reload": 100,
-            "recoil": 2,
-            "homingRange": 100,
-            "weaveScale": 5,			
-            "weaveMag": 2,
-            "height": 8,
-            "width": 8,
-            "lifetime": 270,
-            "splashDamageRadius": 30,
-            "splashDamage": 30,
-            "layerOffset": -0.001,
-            "inaccuracy": 8,
-            "shootSound": "bolt",
-            "mirror": true,
-            "alternate": true,
-            "rotate": true,
-            "shoot": {
-                "type": "ShootPattern",
-                "shots": 8,
-                "shotDelay":4
-            },
-            "bullet": {
-                "type": "MissileBulletType",
-                "shootEffect": "shootHealYellow",
-                "damage": 45,
-                "speed": 4,
-                "keepVelocity": false,
-                "frontColor": "FFFFFFF",
-                "backColor": "4587FFFF",
-                "trailColor": "6FB2EDFF",
-                "lifetime": 50,
-                "homingPower": 10000,
-                "homingRange": 100,
-                "weaveScale": 5,			
-                "weaveMag": 2,
-                "height": 8,
-                "width": 8
-                },
-            "parts": [ {
-                "type": "RegionPart",
-                "suffix": "-blade",
-                "mirror": true,   
-                "moveRot": -18,
-                "progress": {
-                "type": "warmup",
-                "op": "blend",
-                "other": "reload",
-                "amount": 0.75 } } ] 
+                }
         }
     ] 
 }
