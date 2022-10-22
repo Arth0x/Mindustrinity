@@ -18,7 +18,7 @@
     "health": 75000,
     "hitSize": 74,
     "armor": 20,
-    "engineOffset": 68,
+    "engineOffset": 48,
     "range": 180,
     "maxRange": 180,
     "aimDst": 140,
