@@ -1,6 +1,9 @@
-name: aetherunbound
-displayName: "[cyan]Aether [gray]Unbound [red]Alpha" 
-author: "[gold]Arth0x"
-description: "discover the new powed of the [cyan]aether"
-version: "0.2"
-minGameVersion: "136"
+{
+    "name": "aetherunbound",
+    "displayName": "[cyan]Aether [gray]Unbound [red]Alpha", 
+    "author": "[gold]Arth0x le BG",
+    "description": "discover the new powed of the [cyan]aether. allows you to build T6 units.[red] Still work in progress",
+    "version": "0.17",
+    "minGameVersion": "136"
+    }
+    
