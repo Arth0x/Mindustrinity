@@ -1,5 +1,5 @@
 {
-  "name" : "sirius",
+  "name" : "behemoth",
   "research": {
     "requirements": [
       "lead/3940",
@@ -41,7 +41,7 @@
 	],
 	"weapons": [
     {
-      "name": "sirius-weapon",
+      "name": "behemoth-weapon",
       "x": 40,
       "y": 5,
       "rotateSpeed": 0.8,
@@ -183,7 +183,7 @@
       }
       },
     {
-    "name": "laser-sirius",
+    "name": "laser-behemoth",
     "x": 24,
     "y": -10,
   "controllable": false,
@@ -251,7 +251,7 @@
             {
       "type": "ShieldArcAbility",
       "radius": 60,
-      "region": "aetherunbound-sirius-shield",
+      "region": "aetherunbound-behemoth-shield",
       "regen": 11,
       "drawArc": false,
       "whenShooting": false,
