@@ -67,7 +67,7 @@
             "y": 0,
             "shootY": 2,
             "rotateSpeed": 4,
-            "reload": 25,
+            "reload": 50,
             "recoil": 2,
             "homingRange": 100,
             "weaveScale": 5,			
@@ -84,8 +84,8 @@
             "rotate": true,
             "shoot": {
                 "type": "ShootPattern",
-                "shots": 8,
-                "shotDelay":8
+                "shots": 4,
+                "shotDelay": 8
             },
             "bullet": {
                 "type": "MissileBulletType",
