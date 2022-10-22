@@ -1,38 +1,39 @@
 {
-"name": "Aether Reconstructor",
-"type": "Reconstructor",
-"size": 11,
-"constructTime": 3600,
-"liquidCapacity": 150,
-"consumes": {
-  "power": 75,
-    "items": {
-      "items": [
-        "silicon/10000",
-        "titanium/5000",
-        "plastanium/1000",
-        "aether/4000",
-        "surge-alloy/1500"
-      ]
-    },
-  "liquid": {
-    "liquid": "cryofluid",
-    "amount": 3
-  }
-},
-"upgrades": [
-["toxopid","sirius"],
-["reign","core"],
-["eclipse","contention"],
-["oct","atlas"]
-],
-"requirements": [
-  "silicon/5000",
-  "plastanium/1500",
-  "titanium/2500",
-  "aether/5000",
-  "surge-alloy/1000"
-],
-"category": "units"
-
+    "name": "Aether Reconstructor",
+    "type": "Reconstructor",
+    "size": 11,
+    "constructTime": 3600,
+    "liquidCapacity": 150,
+    "category": "units",
+    "consumes": 
+    {
+        "power": 75,
+        "items": 
+        [
+            "silicon/10000",
+            "titanium/5000",
+            "plastanium/1000",
+            "aether/4000",
+            "surge-alloy/1500"
+        ]
+        },
+        "liquid": {
+        "liquid": "cryofluid",
+        "amount": 3
+        },
+    "upgrades": [
+        ["toxopid","sirius"],
+        ["reign","core"],
+        ["eclipse","smaug"],
+        ["oct","atlas"]
+    ],
+    "requirements": [
+        "silicon/5000",
+        "plastanium/1500",
+        "titanium/2500",
+        "aether/5000",
+        "surge-alloy/1000"
+    ]
 }
+    
+    
