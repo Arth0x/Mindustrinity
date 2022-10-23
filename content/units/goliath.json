@@ -169,8 +169,8 @@
                     "length": 20,
                     "lifetime": 15,
                     "interp": "circleOut",
-                    "colorFrom": "FFA664FF",
-                    "colorTo": "FFA664FF",
+                    "colorFrom": "FFC1BBFF",
+                    "colorTo": "4587FFFF",
                     "cone": 360   
                 }
             }

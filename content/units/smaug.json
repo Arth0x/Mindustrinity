@@ -15,7 +15,7 @@
     "drag":0.018,
     "faceTarget":false,
     "flying":true,
-    "health":74000,
+    "health":50000,
     "hitSize":80,
     "armor":30,
     "engineOffset":47,
@@ -27,13 +27,15 @@
     [
         {
             "name":"alpha-rocket",
+            "controllable": false,
+            "autoTarget": true,
             "rotateSpeed":4,
             "alternate":false,
             "mirror":false,
             "top":true,
             "x":0,
             "y":-16,
-            "reload":6,
+            "reload":8,
             "shoot":
             {
                 "type":"ShootAlternate",
@@ -82,14 +84,14 @@
             "y":15,
             "shootY":2,
             "rotateSpeed":1.4,
-            "reload":15,
+            "reload":25,
             "recoil":4,
             "inaccuracy":0,
             "shoot":
             {
-            "type":"ShootPattern",
-            "shots":2,
-            "shotDelay":4
+                "type":"ShootPattern",
+                "shots":2,
+                "shotDelay":4
             },
             "shootSound":"laser",
             "rotate":true,
