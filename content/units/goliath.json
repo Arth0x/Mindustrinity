@@ -1,9 +1,7 @@
 {
     "name": "Goliath",
     "type": "mech",
-    "outlineColor": "666666FF",
     "armor": 19,
-    "mechLegColor": "666666FF",
     "rotateSpeed": 2.0,
     "canDrown": false,
     "hitSize": 42,
@@ -51,7 +49,7 @@
             "sideAngle": 25,
             "sideLength": 1,
             "sideWidth": 1,
-            "colors": ["4586FFFF", "BBE3FFFF", "FFFFFF"],
+            "colors": ["FFA664FF", "FFA664FF", "FFFFFF"],
             "status": "aetherunbound-molten",
             "statusDuration": 50,
             "hitEffect": {
@@ -64,8 +62,8 @@
                 "cone": -360,
                 "lenFrom": 5,
                 "lenTo": 0,
-                "colorFrom": "FFC1BBFF",
-                "colorTo": "4587FFFF"
+                "colorFrom": "FFA664FF",
+                "colorTo": "FFA664FF"
             },
             "shootEffect": 
             {
@@ -81,8 +79,8 @@
                         "lifetime": 25,
                         "layer": 109,
                         "region": "exogenesis-tall",
-                        "colorFrom": "4587FFFF",
-                        "colorTo": "4587FFFF"
+                        "colorFrom": "FFA664FF",
+                        "colorTo": "FFA664FF"
                     },
                     {
                         "type": "ParticleEffect",
@@ -102,8 +100,8 @@
                         "length": 0,
                         "layer": 109,
                         "lifetime": 25,
-                        "colorFrom": "4587FFFF",
-                        "colorTo": "4587FFFF"
+                        "colorFrom": "FFA664FF",
+                        "colorTo": "FFA664FF"
                     }
                 ]
             },
@@ -139,16 +137,16 @@
                 "speed": 5,
                 "lifetime" : 45,
                 "pierceBuilding": true,
-                "pierceCap": 5,
+                "pierceCap": 2,
                 "shootEffect": "hitMeltdown",
                 "pierce": true,
                 "trailParam": 5,
                 "trailLength": 19,
                 "trailWidth": 3,
                 "trailEffect": "none",
-                "trailColor": "4587FFFF",
-                "backColor": "4587FFFF",
-                "frontColor": "FFC1BBFF",
+                "trailColor": "FFA664FF",
+                "backColor": "FFA664FF",
+                "frontColor": "FFA664FF",
                 "hitEffect": 
                 {
                     "type": "ParticleEffect",
@@ -158,8 +156,8 @@
                     "length": 20,
                     "lifetime": 15,
                     "interp": "circleOut",
-                    "colorFrom": "FFC1BBFF",
-                    "colorTo": "4587FFFF",
+                    "colorFrom": "FFA664FF",
+                    "colorTo": "FFA664FF",
                     "cone": 360   
                 },
                 "despawnEffect": 
@@ -171,8 +169,8 @@
                     "length": 20,
                     "lifetime": 15,
                     "interp": "circleOut",
-                    "colorFrom": "FFC1BBFF",
-                    "colorTo": "4587FFFF",
+                    "colorFrom": "FFA664FF",
+                    "colorTo": "FFA664FF",
                     "cone": 360   
                 }
             }

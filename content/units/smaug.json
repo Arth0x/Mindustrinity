@@ -56,8 +56,8 @@
                 "speed":4,
                 "keepVelocity":false,
                 "frontColor":"FFFFFFF",
-                "backColor":"4587FFFF",
-                "trailColor":"6FB2EDFF",
+                "backColor":"FFA664FF",
+                "trailColor":"FFA664FF",
                 "lifetime":70,
                 "homingPower":1,
                 "homingRange":100,
@@ -106,7 +106,7 @@
                 "shrinkX":0,
                 "homingPower":5,
                 "homingRange":80,
-                "trailColor":"4587FFFF",
+                "trailColor":"FFA664FF",
                 "trailParam":5,
                 "trailEffect":"none",
                 "trailLength":16,
@@ -119,7 +119,7 @@
                 "speed":5,
                 "lifetime":100,
                 "frontColor":"FFFFFFF",
-                "backColor":"4587FFFF",
+                "backColor":"FFA664FF",
                 "despawnEffect":"absorb",
                 "shootEffect":"shootHealYellow"
             }
