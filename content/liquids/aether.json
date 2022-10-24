@@ -1,0 +1,8 @@
+{
+    "name": "Liquid Aether",
+    "description": "Aether seems ... Idon't know",
+    "temperature": -5,
+    "viscosity": 0.0,
+    "effect": "melting",
+    "color": "00b4ff"
+}

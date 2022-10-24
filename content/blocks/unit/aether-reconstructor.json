@@ -3,24 +3,22 @@
     "type": "Reconstructor",
     "size": 11,
     "constructTime": 3600,
-    "liquidCapacity": 150,
+    "liquidCapacity": 3500,
     "category": "units",
-    "consumes": 
-    {
+    "consumes": {
         "power": 75,
-        "items": 
-        [
+        "items": [
             "silicon/10000",
             "titanium/5000",
             "plastanium/1000",
-            "aether/4000",
+            "infused-steel/4000",
             "surge-alloy/1500"
-        ]
-        },
+        ], 
         "liquid": {
-        "liquid": "cryofluid",
-        "amount": 3
-        },
+            "liquid": "cryofluid",
+            "amount": 3
+        }
+    },
     "upgrades": [
         ["toxopid","behemoth"],
         ["reign","goliath"],
@@ -30,8 +28,8 @@
     "requirements": [
         "silicon/5000",
         "plastanium/1500",
-        "titanium/2500",
-        "aether/5000",
+         "titanium/2500",
+        "infused-steel/5000",
         "surge-alloy/1000"
     ]
 }

@@ -1,10 +1,10 @@
 {
-    "name": "Iron",
-    "description": "A new age !!",
+    "name": "Steel",
+    "description": "Just tough",
     "explosiveness": 0,
     "flammability": 0,
     "radioactivity": 0,
     "charge": 0,
     "cost": 5,
-    "color": "555555"
+    "color": "B0BAC0"
 }
