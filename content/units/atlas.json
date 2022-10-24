@@ -8,6 +8,7 @@
     },
     "singleTarget": true,
     "faceTarget": false,
+    "buildSpeed": 5,
     "drawShields": false,
     "speed": 0.75,
     "accel": 0.2,

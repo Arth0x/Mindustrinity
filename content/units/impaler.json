@@ -1,20 +1,19 @@
 {
     "speed": 3,
-
-     "lowAltitude": true,
+    "name": "Impaler",
+    "lowAltitude": true,
     "mineSpeed": 6,
     "buildSpeed": 2.5,
     "mineTier": 4,
     "itemCapacity": 110,
     "accel": 0.05,
     "drag": 0.04,
-    "flying": true,
+    "type": "leg",
     "health": 900,
     "hitSize": 24,
     "armor": 3,
     "engineSize": 3,
     "engineOffset": 12.5,
-   "engineColor": "F3E979FF",
     "range": 140,
     "faceTarget": true,
     "weapons": [
@@ -27,7 +26,7 @@
     "shootY": 14,
     "reload": 90,
     "shoot": {
-    "firstShotDelay": 60
+        "firstShotDelay": 60
     },
     "shootStatus": "unmoving",
     "shootStatusDuration": 60,
@@ -42,73 +41,73 @@
     "type": "multiEffect",
     "lifetime": 60,
     "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 15,
-    "offset": 100,
-    "sizeFrom": 4,
-    "sizeTo": 4,
-    "length": 60,
-    "baseLength": -60,
-    "interp": "pow3In",
-    "sizeInterp": "pow5Out",
-    "lifetime": 60,
-    "colorFrom": "F3E97900",
-    "colorTo": "F3E979FF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 15,
-    "offset": 100,
-    "sizeFrom": 4,
-    "sizeTo": 4,
-    "length": 70,
-    "baseLength": -70,
-    "interp": "pow3In",
-    "sizeInterp": "pow5Out",
-    "lifetime": 50,
-    "colorFrom": "F3E97900",
-    "colorTo": "F3E979FF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 15,
-    "offset": 100,
-    "sizeFrom": 4,
-    "sizeTo": 4,
-    "length": 80,
-    "baseLength": -80,
-    "interp": "pow3In",
-    "sizeInterp": "pow5Out",
-    "lifetime": 40,
-    "colorFrom": "F3E97900",
-    "colorTo": "F3E979FF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 0,
-    "sizeTo": 9,
-    "length": 0,
-    "region": "exogenesis-spear-effect",
-    "interp": "swingOut",
-    "lifetime": 70,
-    "colorFrom": "FFFFFFF",
-    "colorTo": "FFFFFFF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 0,
-    "sizeTo": 14,
-    "length": 0,
-    "region": "exogenesis-spear-effect",
-    "interp": "swingOut",
-    "lifetime": 70,
-    "colorFrom": "F3E979FF",
-    "colorTo": "F3E979FF"
-    }
-    ]
+        {
+        "type": "ParticleEffect",
+        "particles": 15,
+        "offset": 100,
+        "sizeFrom": 4,
+        "sizeTo": 4,
+        "length": 60,
+        "baseLength": -60,
+        "interp": "pow3In",
+        "sizeInterp": "pow5Out",
+        "lifetime": 60,
+        "colorFrom": "F3E97900",
+        "colorTo": "F3E979FF"
+        },
+        {
+        "type": "ParticleEffect",
+        "particles": 15,
+        "offset": 100,
+        "sizeFrom": 4,
+        "sizeTo": 4,
+        "length": 70,
+        "baseLength": -70,
+        "interp": "pow3In",
+        "sizeInterp": "pow5Out",
+        "lifetime": 50,
+        "colorFrom": "F3E97900",
+        "colorTo": "F3E979FF"
+        },
+        {
+        "type": "ParticleEffect",
+        "particles": 15,
+        "offset": 100,
+        "sizeFrom": 4,
+        "sizeTo": 4,
+        "length": 80,
+        "baseLength": -80,
+        "interp": "pow3In",
+        "sizeInterp": "pow5Out",
+        "lifetime": 40,
+        "colorFrom": "F3E97900",
+        "colorTo": "F3E979FF"
+        },
+        {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "sizeFrom": 0,
+        "sizeTo": 9,
+        "length": 0,
+        "region": "exogenesis-spear-effect",
+        "interp": "swingOut",
+        "lifetime": 70,
+        "colorFrom": "FFFFFFF",
+        "colorTo": "FFFFFFF"
+        },
+        {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "sizeFrom": 0,
+        "sizeTo": 14,
+        "length": 0,
+        "region": "exogenesis-spear-effect",
+        "interp": "swingOut",
+        "lifetime": 70,
+        "colorFrom": "F3E979FF",
+        "colorTo": "F3E979FF"
+        }
+        ]
     },
     "hitEffect": {
     "type": "ParticleEffect",
@@ -150,7 +149,7 @@
     "width": 44,
     "height": 44,
     "pierce": true,
-    "buildingDamageMultiplier": 0.15,
+    "buildingDamageMultiplier": 3,
     "lightning": 4,
     "lightningDamage": 10,
     "lightningLength": 10,
@@ -176,14 +175,6 @@
     "backColor": "F3E979FF",
     "lifetime": 15
             }
-        }
-    ],
-    "abilities": [ {
-            "type": "mindustry.entities.abilities.ForceFieldAbility",
-            "radius": 40,
-            "regen": 3,
-            "max": 230,
-            "cooldown": 60
         }
     ]
 }
