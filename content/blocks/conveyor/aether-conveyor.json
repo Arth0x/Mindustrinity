@@ -1,0 +1,14 @@
+{
+  "type": "Conveyor",
+  "name": "Aether conveyor",
+  "description": "Aether is fast",
+  "requirements": [
+    "titanium/1",
+    "copper/1",
+    "infused-steel/1"
+  ],
+  "category": "distribution",
+  "speed": 0.20,
+  "displayedSpeed": 20,
+  "research": "titanium-conveyor"
+}
