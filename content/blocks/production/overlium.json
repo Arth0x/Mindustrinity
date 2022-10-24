@@ -88,16 +88,5 @@
                 "colorTo": "66B1FFFF"
             }
         ]
-    },
-    "drawer": {
-        "type": "DrawMulti",
-        "drawers": [ {
-                "type": "DrawDefault"
-            },
-            {
-            "type": "DrawFlame",
-            "flameColor": "A9D8FFFF"
-            }
-        ]
     }
 }
