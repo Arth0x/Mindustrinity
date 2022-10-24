@@ -16,7 +16,7 @@
     "requirements": [
         "lead/140",
         "graphite/80",
-        "aether/240",
+        "infused-steel/240",
         "silicon/80"
     ],
     "consumes": {
@@ -29,7 +29,7 @@
             ]
         },
         "liquid": {
-            "liquid": "aether",
+            "liquid": "infused-steel",
             "amount": 0.4
         }
     },
