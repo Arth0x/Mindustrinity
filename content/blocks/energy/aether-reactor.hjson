@@ -10,7 +10,7 @@ powerProduction: 300
 itemDuration: 300
 
 requirements: [
-    {"item": "aether", "amount": 375},
+    {"item": "infused-steel", "amount": 375},
     {"item": "surge-alloy", "amount": 250},
     {"item": "titanium", "amount": 50}
 ]
@@ -18,12 +18,12 @@ consumes: {
     power: 25
     items:{
     	items: [
-      		aether/1
+      		infused-steel/1
 		blast-compound/1
     	]
     }
     liquid: {
-    	liquid: liquid-aether
+    	liquid: aether
     	amount: 0.25
 	liquid: cryofluid
     	amount: 0.5
