@@ -7,7 +7,7 @@
     "legContinuousMove": true,
     "allowLegStep": true,
     "mineTier": 4,
-    "itemCapacity": 110,
+    "itemCapacity": 250,
     "accel": 0.05,
     "drag": 0.04,
     "type": "legs",
