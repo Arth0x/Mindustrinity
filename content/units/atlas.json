@@ -44,15 +44,15 @@
            "type": "mindustry.entities.abilities.RepairFieldAbility",
            "healEffect": {
            "type": "WaveEffect",
-           "lifetime": 35,
+           "lifetime": 150,
            "sizeFrom": 30,
            "strokeFrom": 4,
            "strokeTo": 0,
            "colorFrom": "84F491FF",
            "colorTo": "84F491FF" },
            "range": 300,
-           "amount": 100,
-           "reload": 20 },
+           "amount": 200,
+           "reload": 40 },
         {
             "type": "ShieldArcAbility",
             "region": "aetherunbound-atlas-shield",
