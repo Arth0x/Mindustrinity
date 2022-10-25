@@ -1,5 +1,5 @@
 {
-    "speed": 3,
+    "speed": 0.7,
     "name": "Impaler",
     "flying": false,
 	"targetAir": false,
@@ -14,7 +14,7 @@
     "health": 15000,
     "hitSize": 48,
     "armor": 10,
-    "range": 350,
+    "range": 550,
     "faceTarget": true,
     "weapons": [ {
             "name": "impaler-spear",
@@ -49,7 +49,7 @@
                         "baseLength": -60,
                         "interp": "pow3In",
                         "sizeInterp": "pow5Out",
-                        "lifetime": 60,
+                        "lifetime": 200,
                         "colorFrom": "F3E97900",
                         "colorTo": "F3E979FF"
                         },
@@ -63,7 +63,7 @@
                         "baseLength": -70,
                         "interp": "pow3In",
                         "sizeInterp": "pow5Out",
-                        "lifetime": 50,
+                        "lifetime": 200,
                         "colorFrom": "F3E97900",
                         "colorTo": "F3E979FF"
                         },
@@ -77,7 +77,7 @@
                         "baseLength": -80,
                         "interp": "pow3In",
                         "sizeInterp": "pow5Out",
-                        "lifetime": 40,
+                        "lifetime": 120,
                         "colorFrom": "F3E97900",
                         "colorTo": "F3E979FF"
                         },
@@ -89,7 +89,7 @@
                         "length": 0,
                         "region": "aetherunbound-spear-effect",
                         "interp": "swingOut",
-                        "lifetime": 70,
+                        "lifetime": 220,
                         "colorFrom": "FFFFFFF",
                         "colorTo": "FFFFFFF"
                         },
@@ -101,7 +101,7 @@
                         "length": 0,
                         "region": "aetherunbound-spear-effect",
                         "interp": "swingOut",
-                        "lifetime": 70,
+                        "lifetime": 220,
                         "colorFrom": "F3E979FF",
                         "colorTo": "F3E979FF"
                         }
