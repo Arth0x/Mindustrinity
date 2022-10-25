@@ -16,9 +16,7 @@
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 70 },
-		{ "item": "copper", "amount": 100 },
 		{ "item": "silicon", "amount": 40},
-		{ "item": "graphite", "amount": 80},
 		{ "item": "titanium", "amount":120}
 	],
 	"category": "production"

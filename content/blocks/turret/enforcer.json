@@ -9,7 +9,7 @@
   "base": "aetherunbound-block-8",
   "shake": 5,
   "rotateSpeed": 0.2,
-  "shootSound": "jupiterShoot",
+  "shootSound": "enforcerShoot",
   "drawer": {
   "type": "drawTurret"
   },
@@ -30,7 +30,7 @@
           "shootEffect": "explosion",
           "smokeEffect": "none",
           "hitEffect": "flakExplosionBig",
-          "hitSound": "jupiterImpact",
+          "hitSound": "enforcerImpact",
           "knockback": 14,
           "hitShake": 3,
           "ammoMultiplier": 1,

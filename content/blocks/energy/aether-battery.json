@@ -1,0 +1,18 @@
+{
+    "type": "battery",
+    "name": "Aethered battery",
+    "description": "A good way to store energy",
+    "size": 3,
+    "health": 600,
+    "category": "power",
+    "research": "battery-large",
+    "requirements": [
+        {"item": "infused-steel", "amount": 75},
+        {"item": "silicon", "amount": 80},
+        {"item": "plastanium", "amount": 200}
+    ],
+    "consumes": { 
+        "powerBuffered": 250000
+    }
+}
+

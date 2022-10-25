@@ -1,0 +1,35 @@
+{
+	"type": "ImpactReactor",
+	"name": "Aether Reactor",
+	"description": "Reacteur d'Aether",
+	"size": 5,
+	"idleSound": "EnergyLoop2",
+	"idleSoundVolume": 0.5,
+	"health": 1200,
+	"category": "power",
+	"powerProduction": 300,
+	"itemDuration": 300,
+
+	"requirements": [
+		{"item": "infused-steel", "amount": 375},
+		{"item": "surge-alloy", "amount": 250},
+		{"item": "titanium", "amount": 50}
+	],
+	"consumes": { 
+		"power": 25,
+		"items":{
+			"items": [
+				"infused-steel/1",
+				"blast-compound/1"
+			]
+		},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.5
+		}
+
+	}
+}
+
+
+
