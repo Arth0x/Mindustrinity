@@ -1,7 +1,8 @@
 {
     "name": "Aether",
     "description": "Aether seems ... I don't know",
-    "temperature": -5,
+    "temperature": 0,
+    "heatCapacity": 1.5,
     "viscosity": 0.0,
     "effect": "freezing",
     "color": "00b4ff"
