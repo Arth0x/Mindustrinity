@@ -8,14 +8,16 @@
     "consumes": {
         "power": 75,
         "items": [
-            "silicon/10000",
+            "silicon/5000",
             "titanium/5000",
-            "plastanium/1000",
-            "infused-aether/4000",
-            "surge-alloy/1500"
+            "infused-aether/1500",
+            "infused-vulcanite/1500",
+            "infused-iridium/1500"
         ], 
         "liquid": {
             "liquid": "cryofluid",
+            "amount": 3,
+            "liquid": "acid",
             "amount": 3
         }
     },
