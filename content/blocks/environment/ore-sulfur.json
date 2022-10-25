@@ -1,6 +1,6 @@
 {
     "type": "OreBlock",
-    "itemDrop": "iron",
+    "itemDrop": "sulfur",
     "oreDefault": true,	
-    "oreScale": 25
+    "oreScale": 15
 }

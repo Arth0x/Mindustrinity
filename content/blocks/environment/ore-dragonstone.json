@@ -2,5 +2,5 @@
     "type": "OreBlock",
     "itemDrop": "iron",
     "oreDefault": true,	
-    "oreScale": 25
+    "oreScale": 7
 }

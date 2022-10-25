@@ -1,0 +1,10 @@
+{
+    "name": "Infused Vulcanite",
+    "description": "Vulcanite cobined wirh fresh steel",
+    "explosiveness": 10,
+    "flammability": 10,
+    "radioactivity": 0,
+    "charge": 0.1,
+    "cost": 5,
+    "color": "007DFF"
+}

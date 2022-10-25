@@ -1,0 +1,8 @@
+{
+    "name": "Vulcanite",
+    "description": "Hot Hot HOOOOOOOOOOOOOOT !",
+    "temperature": 100,
+    "viscosity": 5,
+    "effect": "melting",
+    "color": "FF5000"
+}
