@@ -2,7 +2,7 @@
     "name": "Acid",
     "description": "hmmm... yummy",
     "temperature": 0.5,
-    "viscosity": 1,
+    "viscosity": 0.5,
     "effect": "corroded",
     "color": "D2FF40"
 }
