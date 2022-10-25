@@ -15,10 +15,8 @@
             "infused-iridium/1500"
         ], 
         "liquid": {
-            "liquid": "cryofluid",
-            "amount": 3,
             "liquid": "acid",
-            "amount": 3
+            "amount": 5
         }
     },
     "upgrades": [
