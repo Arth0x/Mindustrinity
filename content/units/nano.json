@@ -9,6 +9,7 @@
     "minePower": 10,
     "mineSpeed": 10,
     "unitType": "MinerDrone",
+    "mineTier": 4,
     "itemcapacity": 5,
     "health": 30,
     "hitSize": 5,
