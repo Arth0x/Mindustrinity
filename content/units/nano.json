@@ -1,6 +1,6 @@
 {
     "name": "Nano",
-    "type": "flying",
+    "type": "RepairDrone",
     "controller": "DefenderAI",
     "lowAltitude": true,
     "speed": 5,
