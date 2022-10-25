@@ -3,6 +3,6 @@
     "description": "Aether seems ... I don't know",
     "temperature": -5,
     "viscosity": 0.0,
-    "effect": "freeze",
+    "effect": "freezing",
     "color": "00b4ff"
 }
