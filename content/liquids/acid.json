@@ -1,8 +1,8 @@
 {
     "name": "Acid",
     "description": "hmmm... yummy",
-    "temperature": 20,
-    "viscosity": 5,
+    "temperature": 0.5,
+    "viscosity": 1,
     "effect": "corroded",
     "color": "D2FF40"
 }
