@@ -2,8 +2,9 @@
     "name": "Atlas",
     "research": {
         "requirements": [
-            "plastanium/940",
-            "silicon/5300"
+            "plastanium/1500",
+            "silicon/5000",
+            "infused-steel/750"
         ]
     },
     "singleTarget": true,
@@ -28,15 +29,15 @@
         {
             "type": "UnitSpawnAbility",
             "mirror": true,
-            "spawnX": 50,
-            "spawnY": -45,
+            "spawnX": 20,
+            "spawnY": -25,
             "unit": "nano",
             "spawnTime": 500},
         {
             "type": "UnitSpawnAbility",
             "mirror": true,
-            "spawnX": -50,
-            "spawnY": -45,
+            "spawnX": -20,
+            "spawnY": -25,
             "unit": "nano",
             "spawnTime": 500},
         {
@@ -49,9 +50,9 @@
            "strokeTo": 0,
            "colorFrom": "84F491FF",
            "colorTo": "84F491FF" },
-           "range": 200,
+           "range": 300,
            "amount": 100,
-           "reload": 10 },
+           "reload": 20 },
         {
             "type": "ShieldArcAbility",
             "region": "aetherunbound-atlas-shield",
@@ -97,9 +98,9 @@
                 "frontColor": "FFFFFFF",
                 "backColor": "84F491FF",
                 "trailColor": "84F491FF",
-                "lifetime": 50,
-                "homingPower": 1000,
-                "homingRange": 10000,
+                "lifetime": 70,
+                "homingPower": 10,
+                "homingRange": 500,
                 "weaveScale": 5,			
                 "weaveMag": 2,
                 "height": 8,
