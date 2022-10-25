@@ -4,7 +4,7 @@
         "requirements": [
             "plastanium/1500",
             "silicon/5000",
-            "infused-steel/750"
+            "infused-aether/750"
         ]
     },
     "singleTarget": true,

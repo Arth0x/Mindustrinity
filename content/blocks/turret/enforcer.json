@@ -14,7 +14,7 @@
   "type": "drawTurret"
   },
   "ammoTypes": {
-      "infused-steel": {
+      "infused-aether": {
           "type":"BasicBulletType",
       "trailColor": "79A4F3FF",
       "trailParam": 5,

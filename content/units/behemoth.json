@@ -35,7 +35,7 @@
 	"hovering": true,
 	"immunities": [
     "burning",
-    "high-energy-blast", 
+    "iridiated", 
     "melting",
     "freezing"
 	],

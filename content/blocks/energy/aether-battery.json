@@ -7,7 +7,7 @@
     "category": "power",
     "research": "battery-large",
     "requirements": [
-        {"item": "infused-steel", "amount": 75},
+        {"item": "infused-aether", "amount": 75},
         {"item": "silicon", "amount": 80},
         {"item": "plastanium", "amount": 200}
     ],

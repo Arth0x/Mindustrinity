@@ -1,5 +1,5 @@
 {
-    "name": "Aether Reconstructor",
+    "name": "Omega Reconstructor",
     "type": "Reconstructor",
     "size": 11,
     "constructTime": 3600,
@@ -11,7 +11,7 @@
             "silicon/10000",
             "titanium/5000",
             "plastanium/1000",
-            "infused-steel/4000",
+            "infused-aether/4000",
             "surge-alloy/1500"
         ], 
         "liquid": {
@@ -29,7 +29,7 @@
         "silicon/5000",
         "plastanium/1500",
          "titanium/2500",
-        "infused-steel/5000",
+        "infused-aether/5000",
         "surge-alloy/1000"
     ]
 }

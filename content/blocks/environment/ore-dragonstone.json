@@ -1,6 +1,6 @@
 {
     "type": "OreBlock",
-    "itemDrop": "iron",
+    "itemDrop": "dragonstone",
     "oreDefault": true,	
     "oreScale": 7
 }

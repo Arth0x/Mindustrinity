@@ -50,7 +50,7 @@
             "sideLength": 1,
             "sideWidth": 1,
             "colors": ["FFA664FF", "FFA664FF", "FFFFFF"],
-            "status": "aetherunbound-molten",
+            "status": "aetherunbound-aethered",
             "statusDuration": 50,
             "hitEffect": {
                 "type": "ParticleEffect",

@@ -11,7 +11,7 @@
 	"itemDuration": 300,
 
 	"requirements": [
-		{"item": "infused-steel", "amount": 375},
+		{"item": "infused-aether", "amount": 375},
 		{"item": "surge-alloy", "amount": 250},
 		{"item": "titanium", "amount": 50}
 	],
@@ -19,7 +19,7 @@
 		"power": 25,
 		"items":{
 			"items": [
-				"infused-steel/1",
+				"infused-aether/1",
 				"blast-compound/1"
 			]
 		},
