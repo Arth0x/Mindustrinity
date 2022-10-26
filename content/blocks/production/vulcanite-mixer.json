@@ -22,7 +22,11 @@
     },
     "consumes": {
         "power": 5,
-        "items": "dragonstone/15",
+        "items": {
+            "items": [ 
+                "dragonstone/15"
+            ]
+        },
         "liquid": "slag/1"
 	},
     "requirements": [
