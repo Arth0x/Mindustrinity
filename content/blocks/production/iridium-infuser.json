@@ -14,9 +14,9 @@
                 "lifetime": 15,
                 "interp": "circleOut",
                 "sizeInterp": "pow5In",
-                "lightColor": "66B1FFFF",
-                "colorFrom": "787878",
-                "colorTo": "66B1FFFF",
+                "lightColor": "FFF740",
+                "colorFrom": "FFFB99",
+                "colorTo": "FFFFFFFFF",
                 "sizeFrom": 4.5,
                 "sizeTo": 0
                 },
@@ -27,9 +27,9 @@
                 "lifetime": 20,
                 "interp": "circleOut",
                 "sizeInterp": "pow5In",
-                "lightColor": "66B1FFFF",
-                "colorFrom": "787878",
-                "colorTo": "66B1FFFF",
+                "lightColor": "FFF740",
+                "colorFrom": "FFFB99",
+                "colorTo": "FFFFFFFFF",
                 "sizeFrom": 3.5,
                 "sizeTo": 0
                 },
@@ -40,9 +40,9 @@
                 "lifetime": 30,
                 "interp": "circleOut",
                 "sizeInterp": "pow5In",
-                "lightColor": "66B1FFFF",
-                "colorFrom": "787878",
-                "colorTo": "66B1FFFF",
+                "lightColor": "FFF740",
+                "colorFrom": "FFFB99",
+                "colorTo": "FFFFFFFF",
                 "sizeFrom": 2,
                 "sizeTo": 0
                 }
