@@ -10,6 +10,7 @@
     "itemCapacity": 150,
     "craftTime": 120,
     "updateEffect": "none",
+    "ambientSound": "flame2",
     "craftEffect": {
         "type": "WaveEffect",
         "lifetime": 60,
@@ -17,7 +18,7 @@
         "sizeTo": 20,
         "strokeFrom": 5,
         "strokeTo": 0,
-        "colorFrom": "FF1E00FF",
+        "colorFrom": "FFA599FF",
         "colorTo": "FFFFFFFF"    
     },
     "consumes": {

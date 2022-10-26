@@ -55,7 +55,9 @@ Iridium	: nom -> FFF740
 
 Vulcan	: nom -> FF1E00
 	  cla -> FF6D59
+		+FFA599
 	  smb -> A61400
+		
 
 dragonstone     -> 8C0900
 		-> 8C2A23
@@ -65,7 +67,7 @@ Steel 	-> 7B788C
 	-> A8A4BF
 	-> 4E4C59
 
-
+Sulfur ->  FFFF40
 
 
 
