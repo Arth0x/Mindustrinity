@@ -1,14 +1,14 @@
 {
     "type": "Conveyor",
-    "name": "Aether conveyor",
-    "description": "Aether is fast",
+    "name": "Iridium conveyor",
+    "description": "Fast af boii",
     "requirements": [
-      "titanium/1",
-      "copper/1",
-      "infused-aether/1"
+        "steel/1",
+        "copper/1",
+        "infused-iridium/1"
     ],
     "category": "distribution",
     "speed": 0.20,
     "displayedSpeed": 20,
     "research": "titanium-conveyor"
-  }
+}

@@ -1,18 +1,19 @@
 {
     "type": "battery",
-    "name": "Aethered battery",
+    "name": "Iridiated battery",
     "description": "A good way to store energy",
     "size": 3,
-    "health": 600,
+    "health": 1000,
     "category": "power",
     "research": "battery-large",
+    "fullLightColor": "FFFB99FF",
     "requirements": [
-        {"item": "infused-aether", "amount": 75},
-        {"item": "silicon", "amount": 80},
+        {"item": "infused-iridium", "amount": 75},
+        {"item": "steel", "amount": 80},
         {"item": "plastanium", "amount": 200}
     ],
     "consumes": { 
-        "powerBuffered": 250000
+        "powerBuffered": 500000
     }
 }
 
