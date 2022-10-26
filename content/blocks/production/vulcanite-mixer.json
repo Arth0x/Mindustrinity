@@ -39,7 +39,12 @@
         "type": "DrawMulti",
         "drawers": [ {
                 "type": "DrawDefault"
-            }, {
+            }, 
+            {
+                "type": "DrawRegion",
+                "suffix": "-heat"
+            },
+            {
                 "type": "DrawFlame",
                 "flameColor": "FF8F80FF"
             }
