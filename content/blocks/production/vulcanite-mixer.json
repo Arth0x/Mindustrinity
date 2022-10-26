@@ -41,7 +41,7 @@
                 "type": "DrawDefault"
             }, 
             {
-                "type": "DrawHeatRegion",
+                "type": "DrawGlowRegion",
                 "suffix": "-heat"
             },
             {
