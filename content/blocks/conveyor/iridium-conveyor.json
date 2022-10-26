@@ -8,7 +8,7 @@
         "infused-iridium/1"
     ],
     "category": "distribution",
-    "speed": 0.20,
-    "displayedSpeed": 20,
+    "speed": 0.15,
+    "displayedSpeed": 15,
     "research": "titanium-conveyor"
 }
