@@ -45,8 +45,7 @@
             }
         ]
     },
-    "outputLiquid": {
-		"liquid": "vulcanite",
-		"amount": 2
-	}
+    "outputLiquid": [
+        "vulcanite/2"
+    ]
 }
