@@ -1,5 +1,5 @@
 {	
-    "type": "Fracker",
+    "type": "GenericCrafter",
     "name": "Vulcanite Mixer",
     "size": 3,
     "health": 700,
@@ -8,16 +8,16 @@
     "hasItems": true,
     "hasLiquids": false,
     "itemCapacity": 30,
-    "craftTime": 130,
+    "craftTime": 100,
     "updateEffect": "none",
     "craftEffect": {
         "type": "WaveEffect",
-        "lifetime": 140,
+        "lifetime": 60,
         "sizeFrom": 0,
         "sizeTo": 20,
         "strokeFrom": 5,
         "strokeTo": 0,
-        "colorFrom": "FF6D59FF",
+        "colorFrom": "FF1E00FF",
         "colorTo": "FFFFFFFF"    
     },
     "consumes": {
@@ -45,7 +45,8 @@
             }
         ]
     },
-    "outputLiquid": [
-        "vulcanite/2"
-    ]
+    "outputLiquid": {
+		"liquid": "vulcanite",
+		"amount": 2
+	}
 }
