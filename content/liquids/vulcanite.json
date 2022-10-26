@@ -2,7 +2,7 @@
     "name": "Vulcanite",
     "description": "Hot Hot HOOOOOOOOOOOOOOT !",
     "temperature": 1,
-    "viscosity": 0.98,
+    "viscosity": 0.95,
     "effect": "melting",
     "color": "FF5000"
 }
