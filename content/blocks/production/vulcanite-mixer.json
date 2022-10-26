@@ -43,7 +43,7 @@
             {
                 "type": "DrawGlowRegion",
                 "suffix": "-heat",
-                "color": "FF1E00FF"
+                "color": "FF6D59FF"
             },
             {
                 "type": "DrawFlame",
