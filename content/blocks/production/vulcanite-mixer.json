@@ -45,7 +45,7 @@
             }
         ]
     },
-    "outputItem": {
+    "outputLiquid": {
 		"liquid": "vulcanite",
 		"amount": 2
 	}
