@@ -9,7 +9,6 @@
     "hasLiquids": false,
     "itemCapacity": 30,
     "craftTime": 130,
-    "result": "aether",
     "updateEffect": "none",
     "craftEffect": {
         "type": "WaveEffect",
@@ -46,7 +45,8 @@
             }
         ]
     },
-    "outputitem": [
-        "vulcanite/1"
-    ]
+    "outputItem": {
+		"liquid": "vulcanite",
+		"amount": 2
+	}
 }
