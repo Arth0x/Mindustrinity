@@ -1,13 +1,13 @@
 {	
     "type": "GenericCrafter",
     "name": "Vulcanite Mixer",
+    "category": "crafting",
     "size": 3,
     "health": 700,
-    "category": "crafting",
     "hasPower": true,
     "hasItems": true,
     "hasLiquids": false,
-    "itemCapacity": 30,
+    "itemCapacity": 150,
     "craftTime": 120,
     "updateEffect": "none",
     "craftEffect": {
@@ -22,11 +22,7 @@
     },
     "consumes": {
         "power": 5,
-        "items": {
-            "items": [ 
-                "dragonstone/15" 
-            ]
-        },
+        "items": "dragonstone/15",
         "liquid": "slag/1"
 	},
     "requirements": [
