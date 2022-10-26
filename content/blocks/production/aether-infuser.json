@@ -86,7 +86,7 @@
     "envRequired": 0,
     "category": "crafting",
     "outputItems": {
-        "item": "infused-aether",
+        "items": "infused-aether",
         "amount": 1
     }
 }
