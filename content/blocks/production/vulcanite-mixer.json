@@ -9,6 +9,7 @@
     "hasLiquids": false,
     "itemCapacity": 30,
     "craftTime": 130,
+    "result": "aether",
     "updateEffect": "none",
     "craftEffect": {
         "type": "WaveEffect",
