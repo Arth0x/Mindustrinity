@@ -17,8 +17,8 @@
         "sizeTo": 40,
         "strokeFrom": 3,
         "strokeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"    
+        "colorFrom": "FF1E00FF",
+        "colorTo": "FF6D5988"    
     },
     "consumes": {
         "power": 5,
