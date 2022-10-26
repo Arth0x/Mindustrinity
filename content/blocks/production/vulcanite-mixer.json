@@ -8,7 +8,7 @@
     "hasItems": true,
     "hasLiquids": false,
     "itemCapacity": 30,
-    "craftTime": 100,
+    "craftTime": 120,
     "updateEffect": "none",
     "craftEffect": {
         "type": "WaveEffect",
@@ -24,7 +24,7 @@
         "power": 5,
         "items": {
             "items": [ 
-                "dragonstone/5" 
+                "dragonstone/15" 
             ]
         },
         "liquid": "slag/1"
@@ -47,6 +47,6 @@
     },
     "outputLiquid": {
 		"liquid": "vulcanite",
-		"amount": 2
+		"amount": 0.4
 	}
 }
