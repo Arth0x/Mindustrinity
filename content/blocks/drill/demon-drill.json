@@ -5,15 +5,17 @@
     "updateEffectChance": 0.2,
 	"hasLiquids": true,
     "heatColor": "73FFAEFF",
+    "category": "production",
+	"research": "blast-drill",
     "hardnessDrillMultiplier": 10,
 	"liquidCapacity": 25,
 	"expanded": true,
-	"rotateSpeed": 5.5,
+	"rotateSpeed": 2,
 	"drillTime": 40,
 	"liquidBoostIntensity": 1.5,
 	"drawRim": true,
     "itemCapacity": 100,
-	"warmupSpeed": 0.0878,
+	"warmupSpeed": 1,
 	"updateEffect": {
         "type": "ParticleEffect",
         "line": true,
@@ -41,7 +43,5 @@
         "plastanium/500",
         "metaglass/500",
         "lead/1000"
-	],
-	"category": "production",
-	"research": "blast-drill"
+	]
 }
