@@ -1,61 +1,61 @@
 {
-  "name": "Enforcer",
-  "type": "ItemTurret",
-  "health": 8660,
-  "size": 8,
-  "reload": 50,
-  "range": 500,
-  "recoil": 7,
-  "base": "aetherunbound-block-8",
-  "shake": 5,
-  "rotateSpeed": 0.2,
-  "shootSound": "enforcerShoot",
-  "drawer": {
-  "type": "drawTurret"
-  },
-  "ammoTypes": {
-      "infused-aether": {
-          "type":"BasicBulletType",
-      "trailColor": "79A4F3FF",
-      "trailParam": 5,
-      "trailLength": 9,
-      "trailWidth": 5,
-          "sprite": "aetherunbound-gauss-bullet",
-          "speed": 50,
-          "damage": 2000,
-          "width": 25,
-          "height": 38,
-          "drag": 0.016,
-          "reflectable": false,
-          "shootEffect": "explosion",
-          "smokeEffect": "none",
-          "hitEffect": "flakExplosionBig",
-          "hitSound": "enforcerImpact",
-          "knockback": 14,
-          "hitShake": 3,
-          "ammoMultiplier": 1,
-          "pierceBuilding": true,
-          "frontColor": "FFFFFFF",
-      "backColor": "79A4F3FF",
-          "pierceCap": 6,
-          "pierce": false,
-          "lightning": 10,
-          "lightningDamage": 1,
-          "lightningCone": 180,
-          "lightningLengthRand": 8,
-          "lightningLength": 8,
-          "collidesAir": true
-          }
-  },
-  "requirements": [
-      "lead/650",
-      "graphite/500",
-      "thorium/400",
-      "surge-alloy/550",
-      "infused-aether/700"
-  ],
-  "category": "turret"
-
+    "name": "Enforcer",
+    "type": "ItemTurret",
+    "health": 5000,
+    "size": 8,
+    "reload": 50,
+    "range": 500,
+    "category": "turret",
+    "recoil": 7,
+    "targetAir": false,
+    "base": "aetherunbound-block-8",
+    "shake": 5,
+    "rotateSpeed": 0.2,
+    "shootSound": "enforcerShoot",
+    "drawer": {
+        "type": "drawTurret"
+    },
+    "ammoTypes": {
+        "infused-aether": {
+            "type":"BasicBulletType",
+            "trailColor": "79A4F3FF",
+            "trailParam": 5,
+            "trailLength": 9,
+            "trailWidth": 5,
+            "sprite": "aetherunbound-gauss-bullet",
+            "speed": 50,
+            "damage": 2000,
+            "width": 25,
+            "height": 38,
+            "drag": 0.016,
+            "reflectable": false,
+            "shootEffect": "explosion",
+            "smokeEffect": "none",
+            "hitEffect": "flakExplosionBig",
+            "hitSound": "enforcerImpact",
+            "knockback": 14,
+            "hitShake": 3,
+            "ammoMultiplier": 1,
+            "pierceBuilding": true,
+            "frontColor": "FFFFFFF",
+            "backColor": "79A4F3FF",
+            "pierceCap": 6,
+            "pierce": false,
+            "lightning": 10,
+            "lightningDamage": 1,
+            "lightningCone": 180,
+            "lightningLengthRand": 8,
+            "lightningLength": 8,
+            "collidesAir": true
+        }
+    },
+    "requirements": [
+        "lead/650",
+        "graphite/500",
+        "thorium/400",
+        "surge-alloy/550",
+        "infused-aether/700"
+    ]
 }
 
 
