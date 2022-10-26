@@ -12,10 +12,10 @@
 	"expanded": true,
 	"rotateSpeed": 2,
 	"drillTime": 40,
-	"liquidBoostIntensity": 1.5,
+	"liquidBoostIntensity": 2,
 	"drawRim": true,
     "itemCapacity": 100,
-	"warmupSpeed": 1,
+	"warmupSpeed": 0.00001,
 	"updateEffect": {
         "type": "ParticleEffect",
         "line": true,
@@ -26,8 +26,8 @@
         "strokeFrom": 2,
         "lenFrom": 4,
         "lenTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
+        "colorFrom": "FF1E00FF",
+        "colorTo": "FF1E00FF"
 	},
 	"consumes": {
 		"power": 45,
