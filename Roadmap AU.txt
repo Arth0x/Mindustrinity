@@ -67,8 +67,9 @@ Steel 	-> 7B788C
 	-> A8A4BF
 	-> 4E4C59
 
-Sulfur ->  FFFF40
-
+Sulfur 	-> FFEA00
+	-> FFF159
+	-> A69800
 
 
 
