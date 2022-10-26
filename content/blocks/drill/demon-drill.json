@@ -15,7 +15,7 @@
 	"liquidBoostIntensity": 2,
 	"drawRim": true,
     "itemCapacity": 100,
-	"warmupSpeed": 0.00001,
+	"warmupSpeed": 0.01,
 	"updateEffect": {
         "type": "ParticleEffect",
         "line": true,
