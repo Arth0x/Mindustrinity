@@ -1,10 +1,17 @@
 {
     "type": "GenericCrafter",
     "name": "Vulcanite Infuser",
-    "health": 700,
     "size": 3,
+    "health": 700,
+    "category": "crafting",
+    "hasPower": true,
     "hasItems": true,
+    "hasLiquids": false,
+    "itemCapacity": 80,
     "craftTime": 40,
+    "ambientSound": "smelter",
+    "ambientSoundVolume": 0.07,
+    "updateEffect": "none",
     "craftEffect": {
         "type": "multiEffect",
         "effects": [ {
@@ -48,23 +55,6 @@
                 }
             ]
         },
-        "drawer": {
-            "type": "DrawMulti",
-            "drawers": [
-                {
-                    "type": "DrawDefault"
-                },
-                {
-                    "type": "DrawFlame",
-                    "flameColor": "A9D8FFFF"  
-                }
-            ]
-        },
-        "hasPower": true,
-        "hasLiquids": false,
-        "updateEffect": "none",
-        "ambientSound": "smelter",
-        "ambientSoundVolume": 0.07,
         "consumes": {
         "power": 3,
         "items": {
@@ -72,10 +62,7 @@
                 "steel/1"
             ]
         },
-        "liquid": {
-            "liquid": "vulcanite",
-            "amount": 0.4
-        }
+        "liquid": "vulcanite/0.4"
     },
     "requirements": [
         "surge-alloy/140",
@@ -83,8 +70,18 @@
         "infused-iridium/140",
         "silicon/80"
     ],
-    "envRequired": 0,
-    "category": "crafting",
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawFlame",
+                "flameColor": "A9D8FFFF"  
+            }
+        ]
+    },
     "outputItems": [
         "infused-vulcanite/1"
     ]

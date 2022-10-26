@@ -53,13 +53,17 @@ Iridium	: nom -> FFF740
 	  cla -> FFFB99
 	  smb -> A6A12D
 
-Vulcan	: nom -> 
-	  cla -> 
-	  smb -> 
+Vulcan	: nom -> FF1E00
+	  cla -> FF6D59
+	  smb -> A61400
 
 dragonstone     -> 8C0900
 		-> 8C2A23
 		-> 590500
+
+Steel 	-> 7B788C
+	-> A8A4BF
+	-> 4E4C59
 
 
 

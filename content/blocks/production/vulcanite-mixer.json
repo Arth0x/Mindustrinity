@@ -1,0 +1,51 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Vulcanite Mixer",
+    "size": 3,
+    "health": 700,
+    "category": "crafting",
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": false,
+    "itemCapacity": 30,
+    "craftTime": 130,
+    "updateEffect": "none",
+    "craftEffect": {
+        "type": "WaveEffect",
+        "lifetime": 200,
+        "sizeFrom": 0,
+        "sizeTo": 40,
+        "strokeFrom": 3,
+        "strokeTo": 0,
+        "colorFrom": "73FFAEFF",
+        "colorTo": "73FFAEFF"    
+    },
+    "consumes": {
+        "power": 5,
+        "items": {
+            "items": [ 
+                "dragonstone/5" 
+            ]
+        },
+        "liquid": "slag/1"
+	},
+    "requirements": [
+        "silicon/250", 
+        "plastanium/100", 
+        "titanium/150", 
+        "iridium/200"
+    ],
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [ {
+                "type": "DrawDefault"
+            }, {
+                "type": "DrawFlame",
+                "flameColor": "B2FFD1FF"
+            }
+        ]
+    },
+    "outputliquid": [
+        "vulcanite/1"
+    ]
+}
