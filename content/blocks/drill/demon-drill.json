@@ -1,5 +1,6 @@
 {
 	"type": "Drill",
+    "name": "Demon Drill",
 	"size": 4,
 	"tier": 14,
     "updateEffectChance": 0.2,

@@ -71,6 +71,10 @@ Sulfur 	-> FFFF40
 	-> FFF699
 	-> A6972A
 
+Base    -> 989AA4
+	-> B0BAC0
+	-> 6E7080
+
 
 
 
