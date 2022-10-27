@@ -27,8 +27,8 @@
         "strokeFrom": 2,
         "lenFrom": 4,
         "lenTo": 0,
-        "colorFrom": "FF6D59FF",
-        "colorTo": "FFFFFF²²FF"
+        "colorFrom": "FFBF00FF",
+        "colorTo": "FFFFFFFF"
 	},
 	"consumes": {
 		"power": 7,
