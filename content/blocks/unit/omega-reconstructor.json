@@ -23,7 +23,8 @@
         ["toxopid","behemoth"],
         ["reign","goliath"],
         ["eclipse","smaug"],
-        ["oct","atlas"]
+        ["oct","atlas"],
+        ["corvus","impaler"]
     ],
     "requirements": [
         "silicon/5000",
