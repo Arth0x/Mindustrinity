@@ -10,11 +10,11 @@
     "hardnessDrillMultiplier": 10,
 	"liquidCapacity": 25,
 	"expanded": true,
-	"rotateSpeed": 2,
-	"drillTime": 40,
-	"liquidBoostIntensity": 2,
+	"rotateSpeed": 4,
+	"drillTime": 60,
+	"liquidBoostIntensity": 1.5,
 	"drawRim": true,
-    "itemCapacity": 100,
+    "itemCapacity": 25,
 	"warmupSpeed": 0.01,
 	"updateEffect": {
         "type": "ParticleEffect",
@@ -27,7 +27,7 @@
         "lenFrom": 4,
         "lenTo": 0,
         "colorFrom": "FF6D59FF",
-        "colorTo": "FFFFFFFF"
+        "colorTo": "FFFFFF²²FF"
 	},
 	"consumes": {
 		"power": 45,
