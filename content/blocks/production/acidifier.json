@@ -28,7 +28,7 @@
                 "sulfur/10"
             ]
         },
-        "liquid": "water/4"
+        "liquid": "water/0.8"
 	},
     "requirements": [
         "silicon/250", 
