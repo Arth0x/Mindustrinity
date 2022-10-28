@@ -75,6 +75,16 @@ Base    -> 989AA4
 	-> B0BAC0
 	-> 6E7080
 
+acid	-> D2FF40
+	-> E7FF99
+	-> 89A62A
 
 
 
+
+anti air
+corroder-exogenesis
+
+
+
+spooky25
