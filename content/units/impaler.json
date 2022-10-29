@@ -19,7 +19,7 @@
     "legSpeed": 0.8,
     "rippleScale": 3.5,
     "legContinuousMove": true,
-    "health": 10000,
+    "health": 20000,
     "hitSize": 24,
     "armor": 3,
     "range": 80,
@@ -33,7 +33,7 @@
             "x": 0,
             "y": 0,
             "shootY": 14,
-            "reload": 90,
+            "reload": 360,
             "shoot": {
                 "firstShotDelay": 360
             },
@@ -99,7 +99,7 @@
                             "length": 0,
                             "region": "aetherunbound-spear-effect",
                             "interp": "swingOut",
-                            "lifetime": 420,
+                            "lifetime": 360,
                             "colorFrom": "FFFFFFF",
                             "colorTo": "FFFFFFF"
                         },
@@ -111,7 +111,7 @@
                             "length": 0,
                             "region": "aetherunbound-spear-effect",
                             "interp": "swingOut",
-                            "lifetime": 420,
+                            "lifetime": 360,
                             "colorFrom": "84F491FF",
                             "colorTo": "84F491FF"
                         }
@@ -154,8 +154,8 @@
                     "colorFrom": "FFFFFFF",
                     "colorTo": "84F491FF"
                 },
-                "width": 44,
-                "height": 44,
+                "width": 60,
+                "height": 60,
                 "pierce": true,
                 "buildingDamageMultiplier": 3,
                 "lightning": 4,
