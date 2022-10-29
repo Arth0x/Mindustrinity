@@ -1,7 +1,8 @@
 {
     "speed": 3,
-    "name": "Implaer",
+    "name": "Impaler",
     "mineSpeed": 6,
+    "groundLayer": 75,
     "buildSpeed": 2.5,
     "mineTier": 4,
     "type": "legs",
@@ -23,6 +24,8 @@
     "armor": 3,
     "range": 140,
     "faceTarget": true,
+    "allowLegStep": true,
+    "hovering": true,
     "weapons": [ {
             "name": "aetherunbound-spear",
             "shootCone": 15,
