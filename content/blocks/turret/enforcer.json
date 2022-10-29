@@ -25,7 +25,7 @@
             "trailLength": 9,
             "trailWidth": 5,
             "sprite": "aetherunbound-gauss-bullet",
-            "speed": 640,
+            "speed": 200,
             "damage": 2000,
             "width": 25,
             "height": 38,
