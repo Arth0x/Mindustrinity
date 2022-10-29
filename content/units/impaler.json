@@ -157,7 +157,7 @@
                 "width": 44,
                 "height": 44,
                 "pierce": true,
-                "buildingDamageMultiplier": 0.15,
+                "buildingDamageMultiplier": 3,
                 "lightning": 4,
                 "lightningDamage": 10,
                 "lightningLength": 10,
