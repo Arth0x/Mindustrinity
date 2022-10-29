@@ -11,7 +11,7 @@
     "drag": 0.04,
     "flying": false,
     "legCount": 4,
-    "legMoveSpace": 3,
+    "legMoveSpace": 2,
     "legMaxLength": 1.6,
     "legExtension": -15,
     "legLength": 20,
@@ -60,8 +60,8 @@
                             "interp": "pow3In",
                             "sizeInterp": "pow5Out",
                             "lifetime": 60,
-                            "colorFrom": "F3E97900",
-                            "colorTo": "F3E979FF"
+                            "colorFrom": "84F49100",
+                            "colorTo": "84F491FF"
                         },
                         {
                             "type": "ParticleEffect",
@@ -74,8 +74,8 @@
                             "interp": "pow3In",
                             "sizeInterp": "pow5Out",
                             "lifetime": 50,
-                            "colorFrom": "F3E97900",
-                            "colorTo": "F3E979FF"
+                            "colorFrom": "84F49100",
+                            "colorTo": "84F491FF"
                         },
                         {
                             "type": "ParticleEffect",
@@ -88,8 +88,8 @@
                             "interp": "pow3In",
                             "sizeInterp": "pow5Out",
                             "lifetime": 40,
-                            "colorFrom": "F3E97900",
-                            "colorTo": "F3E979FF"
+                            "colorFrom": "84F49100",
+                            "colorTo": "84F491FF"
                         },
                         {
                             "type": "ParticleEffect",
@@ -112,8 +112,8 @@
                             "region": "aetherunbound-spear-effect",
                             "interp": "swingOut",
                             "lifetime": 70,
-                            "colorFrom": "F3E979FF",
-                            "colorTo": "F3E979FF"
+                            "colorFrom": "84F491FF",
+                            "colorTo": "84F491FF"
                         }
                     ]
                 },
@@ -127,7 +127,7 @@
                     "lenFrom": 8,
                     "lenTo": 8,
                     "colorFrom": "FFFFFFF",
-                    "colorTo": "F3E979FF"    
+                    "colorTo": "84F491FF"    
                 },
                 "despawnEffect": {
                     "type": "ParticleEffect",
@@ -139,7 +139,7 @@
                     "lenFrom": 8,
                     "lenTo": 8,
                     "colorFrom": "FFFFFFF",
-                    "colorTo": "F3E979FF"        
+                    "colorTo": "84F491FF"        
                 },
                 "hitPowerEffect": {
                     "type": "ParticleEffect",
@@ -152,7 +152,7 @@
                     "lenFrom": 10,
                     "lenTo": 0,
                     "colorFrom": "FFFFFFF",
-                    "colorTo": "F3E979FF"
+                    "colorTo": "84F491FF"
                 },
                 "width": 44,
                 "height": 44,
@@ -164,8 +164,8 @@
                 "lightningCone": 40,
                 "lightningLengthRand": 8,
                 "radius": 30,
-                "hitColor": "F3E979FF",
-                "trailColor": "F3E979FF",
+                "hitColor": "84F491FF",
+                "trailColor": "84F491FF",
                 "trailLength": 20,
                 "trailWidth": 2.5,
                 "hitUnits": true,
@@ -180,7 +180,7 @@
                 "damage": 90,
                 "speed": 13,
                 "frontColor": "FFFFFFF",
-                "backColor": "F3E979FF",
+                "backColor": "84F491FF",
                 "lifetime": 15
             }
         }
