@@ -35,10 +35,10 @@
             "shootY": 14,
             "reload": 90,
             "shoot": {
-                "firstShotDelay": 60
+                "firstShotDelay": 360
             },
             "shootStatus": "unmoving",
-            "shootStatusDuration": 60,
+            "shootStatusDuration": 360,
             "shootSound": "laser",
             "parentizeEffects": true,
             "bullet": {
@@ -59,7 +59,7 @@
                             "baseLength": -60,
                             "interp": "pow3In",
                             "sizeInterp": "pow5Out",
-                            "lifetime": 60,
+                            "lifetime": 360,
                             "colorFrom": "84F49100",
                             "colorTo": "84F491FF"
                         },
@@ -73,7 +73,7 @@
                             "baseLength": -70,
                             "interp": "pow3In",
                             "sizeInterp": "pow5Out",
-                            "lifetime": 50,
+                            "lifetime": 300,
                             "colorFrom": "84F49100",
                             "colorTo": "84F491FF"
                         },
@@ -87,7 +87,7 @@
                             "baseLength": -80,
                             "interp": "pow3In",
                             "sizeInterp": "pow5Out",
-                            "lifetime": 40,
+                            "lifetime": 240,
                             "colorFrom": "84F49100",
                             "colorTo": "84F491FF"
                         },
@@ -99,7 +99,7 @@
                             "length": 0,
                             "region": "aetherunbound-spear-effect",
                             "interp": "swingOut",
-                            "lifetime": 70,
+                            "lifetime": 420,
                             "colorFrom": "FFFFFFF",
                             "colorTo": "FFFFFFF"
                         },
@@ -111,7 +111,7 @@
                             "length": 0,
                             "region": "aetherunbound-spear-effect",
                             "interp": "swingOut",
-                            "lifetime": 70,
+                            "lifetime": 420,
                             "colorFrom": "84F491FF",
                             "colorTo": "84F491FF"
                         }
@@ -177,11 +177,11 @@
                 "type": "EmpBulletType",
                 "shrinkX": 0,
                 "shrinkY": 0,
-                "damage": 90,
-                "speed": 13,
+                "damage": 750,
+                "speed": 8,
                 "frontColor": "FFFFFFF",
                 "backColor": "84F491FF",
-                "lifetime": 120
+                "lifetime": 80
             }
         }
     ]
