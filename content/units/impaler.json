@@ -22,7 +22,7 @@
     "health": 10000,
     "hitSize": 24,
     "armor": 3,
-    "range": 600,
+    "range": 80,
     "faceTarget": true,
     "allowLegStep": true,
     "hovering": true,
@@ -181,7 +181,7 @@
                 "speed": 13,
                 "frontColor": "FFFFFFF",
                 "backColor": "84F491FF",
-                "lifetime": 200
+                "lifetime": 120
             }
         }
     ]
