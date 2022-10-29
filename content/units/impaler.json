@@ -55,7 +55,7 @@
                             "offset": 100,
                             "sizeFrom": 4,
                             "sizeTo": 4,
-                            "length": 60,
+                            "length": 200,
                             "baseLength": -60,
                             "interp": "pow3In",
                             "sizeInterp": "pow5Out",
