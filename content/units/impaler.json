@@ -48,7 +48,7 @@
                     "followParent": true,
                     "rotWithParent": true,
                     "type": "multiEffect",
-                    "lifetime": 6000,
+                    "lifetime": 120,
                     "effects": [ {
                             "type": "ParticleEffect",
                             "particles": 15,
