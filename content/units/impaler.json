@@ -8,7 +8,6 @@
     "type": "legs",
     "itemCapacity": 110,
     "accel": 0.05,
-    "drag": 0.04,
     "flying": false,
     "legCount": 4,
     "legMoveSpace": 1.2,
