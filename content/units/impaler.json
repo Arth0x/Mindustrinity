@@ -178,7 +178,7 @@
                 "shrinkX": 0,
                 "shrinkY": 0,
                 "damage": 90,
-                "speed": 200,
+                "speed": 13,
                 "frontColor": "FFFFFFF",
                 "backColor": "84F491FF",
                 "lifetime": 200
