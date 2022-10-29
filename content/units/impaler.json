@@ -21,7 +21,7 @@
     "health": 10000,
     "hitSize": 24,
     "armor": 3,
-    "range": 3500,
+    "range": 600,
     "faceTarget": true,
     "allowLegStep": true,
     "hovering": true,
