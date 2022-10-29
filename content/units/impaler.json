@@ -11,7 +11,7 @@
     "drag": 0.04,
     "flying": false,
     "legCount": 4,
-    "legMoveSpace": 2,
+    "legMoveSpace": 1.2,
     "legMaxLength": 1.6,
     "legExtension": -15,
     "legLength": 20,
