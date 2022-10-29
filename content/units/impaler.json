@@ -1,5 +1,5 @@
 {
-    "speed": 1.5,
+    "speed": 0.5,
     "name": "Impaler",
     "mineSpeed": 10,
     "groundLayer": 75,
@@ -35,7 +35,7 @@
             "shootY": 14,
             "reload": 120,
             "shoot": {
-                "firstShotDelay": 360
+                "firstShotDelay": 120
             },
             "shootStatus": "unmoving",
             "shootStatusDuration": 120,
