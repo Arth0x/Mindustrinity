@@ -99,7 +99,7 @@
                             "length": 0,
                             "region": "aetherunbound-spear-effect",
                             "interp": "swingOut",
-                            "lifetime": 360,
+                            "lifetime": 120,
                             "colorFrom": "FFFFFFF",
                             "colorTo": "FFFFFFF"
                         },
@@ -111,7 +111,7 @@
                             "length": 0,
                             "region": "aetherunbound-spear-effect",
                             "interp": "swingOut",
-                            "lifetime": 360,
+                            "lifetime": 120,
                             "colorFrom": "84F491FF",
                             "colorTo": "84F491FF"
                         }
