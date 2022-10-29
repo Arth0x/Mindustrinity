@@ -4,7 +4,7 @@
     "health": 5000,
     "size": 8,
     "reload": 50,
-    "range": 50,
+    "range": 800,
     "category": "turret",
     "recoil": 7,
     "targetAir": false,
