@@ -1,5 +1,5 @@
 {
-    "speed": 1,
+    "speed": 1.5,
     "name": "Impaler",
     "mineSpeed": 10,
     "groundLayer": 75,
@@ -7,7 +7,7 @@
     "mineTier": 4,
     "type": "legs",
     "itemCapacity": 110,
-    "accel": 0.05,
+    "drag": 0.2,
     "flying": false,
     "legCount": 4,
     "legMoveSpace": 1.2,
@@ -17,6 +17,7 @@
     "legPairOffset": 3,
     "legBaseOffset": 10,
     "legSpeed": 0.8,
+    "rippleScale": 3.5,
     "legContinuousMove": true,
     "health": 10000,
     "hitSize": 24,
@@ -177,10 +178,10 @@
                 "shrinkX": 0,
                 "shrinkY": 0,
                 "damage": 90,
-                "speed": 13,
+                "speed": 200,
                 "frontColor": "FFFFFFF",
                 "backColor": "84F491FF",
-                "lifetime": 15
+                "lifetime": 200
             }
         }
     ]
