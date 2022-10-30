@@ -3,6 +3,8 @@
     "type": "PowerTurret",
     "category": "turret",
 	"size": 4,
+    "targetAir": true,
+    "targetGround": false,
 	"health": 880,
 	"reload": 10,
 	"range": 400,
@@ -26,8 +28,8 @@
         "cone": -360,
         "lenFrom": 5,
         "lenTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "57D993FF"
+        "colorFrom": "59ABFFFF",
+        "colorTo": "59ABFFFF"
 	},
 	"recoil" : 1.5,
 	"rotateSpeed": 3,
@@ -39,7 +41,7 @@
         "status": "corroded",
         "damage": 50,
         "height" : 18,
-        "trailColor": "73FFAEFF",
+        "trailColor": "59ABFFFF",
         "trailLength": 10,
         "trailWidth": 2,
         "width" : 13,
@@ -57,8 +59,8 @@
             "cone": -360,
             "lenFrom": 6,
             "lenTo": 0,
-            "colorFrom": "73FFAEFF",
-            "colorTo": "73FFAEFF"
+            "colorFrom": "59ABFFFF",
+            "colorTo": "59ABFFFF"
         },
         "despawnEffect": {
             "type": "ParticleEffect",
@@ -69,12 +71,12 @@
             "cone": -360,
             "lenFrom": 6,
             "lenTo": 0,
-            "colorFrom": "73FFAEFF",
-            "colorTo": "73FFAEFF"
+            "colorFrom": "59ABFFFF",
+            "colorTo": "59ABFFFF"
         },
         "pierce": true,
         "frontColor": "FFFFFFF",
-        "backColor": "73FFAEFF"
+        "backColor": "59ABFFFF"
 	},
 
 	"requirements": [
