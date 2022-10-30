@@ -45,7 +45,7 @@
         "width" : 13,
         "hitSize": 10,
         "speed": 4,
-        "lifetime" : 50,
+        "lifetime" : 100,
         "shrinkX": 0,
         "shrinkY": 0,
         "hitEffect": {
