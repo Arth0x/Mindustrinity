@@ -35,7 +35,7 @@
             "shootY": 14,
             "reload": 120,
             "shoot": {
-                "firstShotDelay": 320
+                "firstShotDelay": 120
             },
             "shootStatus": "unmoving",
             "shootStatusDuration": 120,
