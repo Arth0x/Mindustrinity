@@ -78,10 +78,8 @@
 	},
 
 	"requirements": [
-		 "thorium/700",
-		 "valvanite/400",
-		 "plastanium/350",
-		 "titanium/400",
-		 "silicon/440"
+		"thorium/700",
+		"plastanium/350",
+		"titanium/400"
 	]
 }
