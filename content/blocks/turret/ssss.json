@@ -5,7 +5,7 @@
 	"size": 4,
 	"health": 880,
 	"reload": 10,
-	"range": 200,
+	"range": 400,
     "consumes" : {
 		"power": 20
 	},
