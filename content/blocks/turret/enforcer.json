@@ -12,6 +12,7 @@
     "targetAir": false,
     "base": "aetherunbound-block-8",
     "shake": 5,
+    "coolantMultiplier": 5,
     "coolEffect": "shoot",
     "rotateSpeed": 0.3,
     "shootSound": "enforcerShoot",
