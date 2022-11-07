@@ -59,8 +59,7 @@
     ],
     "requirements": [
         "lead/650",
-        "graphite/500",
-        "thorium/400",
+        "plastanium/500",
         "surge-alloy/550",
         "infused-aether/700"
     ]
