@@ -14,6 +14,7 @@
     "shake": 5,
     "coolEffect": "shoot",
     "coolantMultiplier": 5,
+    "cooldown": 3,
     "rotateSpeed": 0.3,
     "shootSound": "enforcerShoot",
     "drawer": {
