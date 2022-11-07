@@ -51,6 +51,11 @@
             "collidesAir": false
         }
     },
+    "booster": true,
+    "optional": true,
+    "liquid": [
+        "water/1.0"
+    ],
     "requirements": [
         "lead/650",
         "graphite/500",
