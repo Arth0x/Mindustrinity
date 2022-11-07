@@ -14,7 +14,7 @@
     "shake": 5,
     "coolantMultiplier": 5,
     "cooldown": 0.002,
-    "coolEffect": "fire",
+    "coolantUsage": 0.5,
     "rotateSpeed": 0.3,
     "shootSound": "enforcerShoot",
     "ammoTypes": {
