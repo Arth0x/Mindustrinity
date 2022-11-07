@@ -8,9 +8,6 @@
 	"health": 880,
 	"reload": 10,
 	"range": 400,
-    "consumes" : {
-		"power": 20
-	},
 	"inaccuracy": 2,
     "shoot": {
         "type": "shootAlternate",

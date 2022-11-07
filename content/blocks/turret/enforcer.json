@@ -12,14 +12,10 @@
     "targetAir": false,
     "base": "aetherunbound-block-8",
     "shake": 5,
-    "coolEffect": "shot",
     "coolantMultiplier": 5,
     "cooldown": 3,
     "rotateSpeed": 0.3,
     "shootSound": "enforcerShoot",
-    "drawer": {
-        "type": "drawTurret"
-    },
     "ammoTypes": {
         "infused-aether": {
             "type":"BasicBulletType",
