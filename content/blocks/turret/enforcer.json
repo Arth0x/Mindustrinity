@@ -1,6 +1,6 @@
 {
     "name": "Enforcer",
-    "type": "ItemTurret",
+    "type": "DoubleTurret",
     "health": 5000,
     "size": 8,
     "reload": 200,
