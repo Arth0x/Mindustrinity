@@ -26,6 +26,7 @@
             "trailWidth": 5,
             "sprite": "aetherunbound-gauss-bullet",
             "speed": 8,
+            "lifetime": 80,
             "buildingDamageMultiplier": 0.1,
             "damage": 1800,
             "width": 15,
