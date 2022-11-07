@@ -12,7 +12,7 @@
     "targetAir": false,
     "base": "aetherunbound-block-8",
     "shake": 5,
-    "rotateSpeed": 0.2,
+    "rotateSpeed": 0.3,
     "shootSound": "enforcerShoot",
     "drawer": {
         "type": "drawTurret"
@@ -25,7 +25,12 @@
             "trailLength": 9,
             "trailWidth": 5,
             "sprite": "aetherunbound-gauss-bullet",
+<<<<<<< Updated upstream
             "speed": 640,
+=======
+            "speed": 50,
+            "lifetime": 60,
+>>>>>>> Stashed changes
             "damage": 2000,
             "width": 25,
             "height": 38,
