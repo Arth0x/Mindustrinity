@@ -25,12 +25,8 @@
             "trailLength": 9,
             "trailWidth": 5,
             "sprite": "aetherunbound-gauss-bullet",
-<<<<<<< Updated upstream
-            "speed": 640,
-=======
             "speed": 50,
-            "lifetime": 60,
->>>>>>> Stashed changes
+            "lifetime": 120,
             "damage": 2000,
             "width": 25,
             "height": 38,
