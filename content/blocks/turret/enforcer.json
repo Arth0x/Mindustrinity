@@ -1,6 +1,6 @@
 {
     "name": "Enforcer",
-    "type": "ItemTurret",
+    "type": "Turret",
     "health": 5000,
     "size": 8,
     "reload": 200,
@@ -14,6 +14,7 @@
     "shake": 5,
     "coolantMultiplier": 5,
     "cooldown": 200,
+    "coolEffect": "fire",
     "rotateSpeed": 0.3,
     "shootSound": "enforcerShoot",
     "ammoTypes": {
