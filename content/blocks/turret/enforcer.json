@@ -1,11 +1,10 @@
 {
     "name": "Enforcer",
-    "type": "Turret",
+    "type": "CooledTurret",
     "health": 5000,
     "size": 8,
     "reload": 200,
     "range": 640,
-    "category": "turret",
     "recoil": 7,
     "liquidCapacity": 3500,
     "hasLiquids": true,
