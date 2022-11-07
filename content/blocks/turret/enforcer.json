@@ -10,7 +10,7 @@
     "liquidCapacity": 3500,
     "hasLiquids": true,
     "targetAir": false,
-    "base": "aetherunbound-block-8",
+    "base": "aetherunbound-block-5",
     "shake": 5,
     "coolantMultiplier": 5,
     "cooldown": 0.002,
