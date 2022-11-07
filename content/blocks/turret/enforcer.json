@@ -13,7 +13,7 @@
     "base": "aetherunbound-block-8",
     "shake": 5,
     "coolantMultiplier": 5,
-    "cooldown": 200,
+    "cooldown": 0.002,
     "coolEffect": "fire",
     "rotateSpeed": 0.3,
     "shootSound": "enforcerShoot",
