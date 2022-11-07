@@ -12,6 +12,7 @@
     "targetAir": false,
     "base": "aetherunbound-block-8",
     "shake": 5,
+    "coolEffect": "shoot",
     "rotateSpeed": 0.3,
     "shootSound": "enforcerShoot",
     "drawer": {
@@ -26,7 +27,6 @@
             "trailWidth": 5,
             "sprite": "aetherunbound-gauss-bullet",
             "speed": 8,
-            "lifetime": 80,
             "damage": 1800,
             "width": 15,
             "height": 38,
