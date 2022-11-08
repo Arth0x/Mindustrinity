@@ -64,18 +64,25 @@
         "infused-aether/700"
     ],
     "drawer": {
-        "type": "DrawMulti",
-        "drawers": [
-            {
-                "type": "DrawTurret"
-            },
-            {
-                "type": "DrawFront",
-                "sprite": "-front", 
-                "xpos": 600
+        "type": "DrawTurret",
+        "parts": [ {
+                "type": "RegionPart",
+                "suffix": "-front",    
+                "progress": "warmup",
+                "mirror": false,
+                "under": true,
+                "heatProgress": {
+                    "type": "reload",
+                    "op": "delay",
+                    "amount": 0.85
+                },
+                "x": 22,
+                 "y": -34,
+                "moveRot": -90
             }
-        ]
+        ]   
     }
 }
+
 
 
