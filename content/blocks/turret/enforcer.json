@@ -67,18 +67,18 @@
         "type": "DrawTurret",
         "parts": [ {
                 "type": "RegionPart",
-                "suffix": "-front",    
+                "layer": -1,
+                "colorTo": "66B1FF90",
+                "color": "A9D8FF00",
                 "progress": "warmup",
+                "blending": "additive",
+                "moveY": 15.5,
+                "suffix": "-front",    
                 "mirror": false,
                 "under": true,
-                "heatProgress": {
-                    "type": "reload",
-                    "op": "delay",
-                    "amount": 0.85,
-                    "recoil": 7
-                },
+                "recoil": 7,
                 "x": 0,
-                "y": 10,
+                "y": 13,
                 "moveRot": 0
             }
         ]   
