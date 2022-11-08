@@ -1,9 +1,10 @@
 {
+	"name": "Trinity Core",
 	"type": "CoreBlock",
-	"health": 18520,
+	"health": 18000,
 	"size": 7,
-	"itemCapacity": 14000,
-	"unitCapModifier": 25,
+	"itemCapacity": 15000,
+	"unitCapModifier": 35,
     "unitType": "trinity",
 	"requirements": [
 		{ "item": "silicon", "amount": 4000 },
