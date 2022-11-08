@@ -6,13 +6,14 @@
 	"health": 1900,
 	"reload": 0,
 	"range": 350,
+    "heatcolor": "FF0000FF",
     "consumes" : {
         "power": 28
     },
     "update": true,
     "hasPower": true,
     "shake": 40,
-    "shootDuration": 4000,
+    "shootDuration": 20,
     "shootSound": "beam",
 	"recoil" : 2,
 	"rotateSpeed": 2,
