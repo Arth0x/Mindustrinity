@@ -34,9 +34,6 @@
             "y": 0,
             "shootY": 14,
             "reload": 120,
-            "shoot": {
-                "firstShotDelay": 120
-            },
             "shootStatus": "unmoving",
             "shootStatusDuration": 120,
             "shootSound": "laser",
@@ -177,7 +174,7 @@
                 "type": "EmpBulletType",
                 "shrinkX": 0,
                 "shrinkY": 0,
-                "damage": 750,
+                "damage": 2750,
                 "speed": 8,
                 "frontColor": "FFFFFFF",
                 "backColor": "84F491FF",
