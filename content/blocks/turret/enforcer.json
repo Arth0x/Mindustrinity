@@ -3,22 +3,21 @@
     "type": "ItemTurret",
     "health": 5000,
     "size": 5,
-    "reload": 50,
+    "reload": 200,
     "range": 640,
     "category": "turret",
     "recoil": 4,
-    "shoot": {
-        "shotDelay": 200
-    },
-    "liquidCapacity": 3500,
-    "hasLiquids": true,
     "targetAir": false,
     "base": "aetherunbound-block-5",
     "shake": 5,
+    "liquidCapacity": 3500,
+    "hasLiquids": true,
     "coolantMultiplier": 5,
     "cooldown": 0.002,
     "coolantUsage": 0.5,
     "rotateSpeed": 0.3,
+    "shootY": 15.5,
+    "shootCone": 8,
     "shootSound": "enforcerShoot",
     "ammoTypes": {
         "infused-aether": {
