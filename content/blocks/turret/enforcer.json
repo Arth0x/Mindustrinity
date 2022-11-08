@@ -131,7 +131,6 @@
                 "suffix": "-front",    
                 "mirror": false,
                 "under": true,
-                "blending": "additive",
                 "x": 0,
                 "y": 0
             }, {
