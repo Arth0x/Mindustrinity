@@ -7,14 +7,14 @@
     "buildPower": 5,
     "buildSpeed": 5,
     "flying": true,
-    "health": 1750,
+    "health": 750,
     "hitSize": 12,
     "armor": 3,
     "itemCapacity": 120,
     "engineOffset": 10.5,
     "range": 180,
     "maxRange": 180,
-    "engineColor": "A9D8FFFF",
+    "engineColor": "FFD37FFF",
     "aimDst": 180,
     "targetAir": true,
     "faceTarget": true,
@@ -37,7 +37,7 @@
                     "lenFrom": 6,
                     "lenTo": 0,
                     "colorFrom": "FFFFFF",
-                    "colorTo": "A9D8FFFF"
+                    "colorTo": "FFA664FF"
                 },
                 "despawnEffect": {
                     "type": "ParticleEffect",
@@ -50,21 +50,7 @@
                     "lenFrom": 6,
                     "lenTo": 0,
                     "colorFrom": "FFFFFF",
-                    "colorTo": "A9D8FFFF"
-                },
-                "shootEffect": {
-                    "type": "ParticleEffect",
-                    "line": true,
-                    "particles": 7,
-                    "lifetime": 45,
-                    "length": 65,
-                    "cone": -40,
-                    "strokeFrom": 4.5,
-                    "strokeTo": 0,
-                    "lenFrom": 8,
-                    "lenTo": 0,
-                    "colorFrom": "A9D8FFFF",
-                    "colorTo": "66B1FFFF"
+                    "colorTo": "FFA664FF"
                 },
                 "keepVelocity": false,
                 "pierce": true,
@@ -72,16 +58,14 @@
                 "pierceBuilding": true,
                 "type": "basicBulletType",
                 "sprite": "exogenesis-star-cutter",
-                "damage": 30,
-                "status": "freezing",
-                "statusDuration": 150,
+                "damage": 75,
                 "shrinkY": 0,
                 "shrinkX": 0,
                 "width": 13,
                 "height": 23,
                 "speed": 5.5,
-                "frontColor": "A9D8FFFF",
-                "backColor": "66B1FFFF",
+                "frontColor": "FFCCA6FF",
+                "backColor": "FFA664FF",
                 "trailChance": 1,
                 "trailRotation": true,
                 "trailEffect": {
@@ -90,13 +74,12 @@
                     "length": 0,
                     "lifetime": 20,
                     "sizeFrom": 8,
-                    "region": "exogenesis-star-cutter-effect",
-                    "colorFrom": "A9D8FFFF",
-                    "colorTo": "66B1FFAA"
+                    "colorFrom": "FFCCA6FF",
+                    "colorTo": "FFA664AA"
                 },
                 "lifetime": 60,
-                "homingRange": 60,
-            "homingPower": 0.0845
+                "homingRange": 80,
+                "homingPower": 0.1
             }
         }
     ]
