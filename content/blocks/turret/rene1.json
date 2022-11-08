@@ -4,7 +4,7 @@
     "base": "aetherunbound-block-8",
 	"size": 5,
 	"health": 1900,
-	"reload": 0,
+	"reload": 20,
 	"range": 350,
     "heatcolor": "FF0000FF",
     "consumes" : {
@@ -93,7 +93,7 @@
         "parts": [ {
                 "type": "RegionPart",
                 "progress": "warmup",
-                "moveY": 15,
+                "moveY": 7,
                 "suffix": "-bis",    
                 "mirror": false,
                 "x": 0,
