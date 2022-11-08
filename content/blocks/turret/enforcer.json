@@ -63,7 +63,7 @@
             "sprite": "aetherunbound-gauss-bullet",
             "speed": 10,
             "lifetime": 64,
-            "buildingDamageMultiplier": 0.1,
+            "buildingDamageMultiplier": 1,
             "damage": 100,
             "width": 15,
             "height": 38,
