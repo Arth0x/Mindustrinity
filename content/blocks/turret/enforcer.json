@@ -80,7 +80,7 @@
                 "under": false,
                 "progress": "warmup",
                 "moveY": -5,
-                "moveRot": 30,
+                "moveRot": 40,
                 "suffix": "-back",    
                 "mirror": true,
                 "x": 20,
