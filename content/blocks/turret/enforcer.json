@@ -45,7 +45,7 @@
             "pierceCap": 8,
             "pierce": false,
             "lightning": 14,
-            "lightningDamage": 150,
+            "lightningDamage": 50,
             "lightningCone": 180,
             "lightningLengthRand": 8,
             "lightningLength": 8,
