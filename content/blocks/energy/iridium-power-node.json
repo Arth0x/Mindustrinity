@@ -12,5 +12,5 @@
         {"item": "titanium", "amount": 10}
     ],
     "maxNodes": 30,
-    "laserRange": 16
+    "laserRange": 20
 }
