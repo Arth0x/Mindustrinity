@@ -19,7 +19,7 @@
     "targetAir": true,
     "faceTarget": true,
 	"weapons": [ {
-            "name": "energy-piercer",
+            "name": "trinity-piercer",
             "x": 0,
             "y": 0,
             "mirror": false,
@@ -77,7 +77,7 @@
                     "colorFrom": "FFCCA6FF",
                     "colorTo": "FFA664AA"
                 },
-                "lifetime": 60,
+                "lifetime": 80,
                 "homingRange": 80,
                 "homingPower": 0.1
             }
