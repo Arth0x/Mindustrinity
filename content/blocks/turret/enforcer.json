@@ -131,6 +131,10 @@
                 "suffix": "-front",    
                 "mirror": false,
                 "under": true,
+                "outline": false,
+                "colorTo": "66B1FF90",
+                "color": "A9D8FF00",
+                "blending": "additive",
                 "x": 0,
                 "y": 0
             }, {
