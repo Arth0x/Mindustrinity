@@ -6,6 +6,7 @@
     "speed": 5,
     "drag": 0.2,
     "flying": true,
+    "buildSpeed": 5,
     "minePower": 10,
     "mineSpeed": 10,
     "buildower": 10,
