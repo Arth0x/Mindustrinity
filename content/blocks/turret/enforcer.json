@@ -7,7 +7,9 @@
     "range": 640,
     "category": "turret",
     "recoil": 4,
-    "shotDelay": 200,
+    "shoot": {
+        "shotDelay": 200
+    },
     "liquidCapacity": 3500,
     "hasLiquids": true,
     "targetAir": false,
@@ -108,7 +110,7 @@
                 "type": "RegionPart",
                 "under": false,
                 "progress": "warmup",
-                "moveY": -25,
+                "moveY": -5,
                 "moveRot": 25,
                 "suffix": "-backl",    
                 "mirror": false,
@@ -118,7 +120,7 @@
                 "type": "RegionPart",
                 "under": false,
                 "progress": "warmup",
-                "moveY": -25,
+                "moveY": -5,
                 "moveRot": -25,
                 "suffix": "-backr",    
                 "mirror": false,
