@@ -71,14 +71,14 @@
                 "progress": "warmup",
                 "mirror": false,
                 "under": true,
-                "recoil": 7,
                 "heatProgress": {
                     "type": "reload",
                     "op": "delay",
-                    "amount": 0.85
+                    "amount": 0.85,
+                    "recoil": 7
                 },
                 "x": 0,
-                "y": 30,
+                "y": 10,
                 "moveRot": 0
             }
         ]   
