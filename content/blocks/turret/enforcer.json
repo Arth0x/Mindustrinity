@@ -6,7 +6,7 @@
     "reload": 200,
     "range": 640,
     "category": "turret",
-    "recoil": 7,
+    "recoil": 1,
     "liquidCapacity": 3500,
     "hasLiquids": true,
     "targetAir": false,
@@ -71,6 +71,7 @@
                 "progress": "warmup",
                 "mirror": false,
                 "under": true,
+                "recoil": 7,
                 "heatProgress": {
                     "type": "reload",
                     "op": "delay",
