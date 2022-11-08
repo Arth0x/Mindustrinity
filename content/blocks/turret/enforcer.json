@@ -7,6 +7,7 @@
     "range": 640,
     "category": "turret",
     "recoil": 4,
+    "firstShotDelay": 120,
     "liquidCapacity": 3500,
     "hasLiquids": true,
     "targetAir": false,
