@@ -114,7 +114,7 @@
                 "moveRot": 30,
                 "suffix": "-backl",    
                 "mirror": false,
-                "x": 10,
+                "x": 0,
                 "y": 0
             }, {
                 "type": "RegionPart",
@@ -124,7 +124,7 @@
                 "moveRot": -30,
                 "suffix": "-backr",    
                 "mirror": false,
-                "x": -10,
+                "x": 0,
                 "y": 0
             }
         ]   
