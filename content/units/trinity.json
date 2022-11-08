@@ -5,6 +5,7 @@
     "speed": 3.5,
     "accel": 0.5,
     "drag": 0.02,
+    "buildPower": 5,
     "flying": true,
     "health": 1750,
     "hitSize": 12,
