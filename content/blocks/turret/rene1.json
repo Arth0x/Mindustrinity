@@ -12,7 +12,7 @@
     },
     "update": true,
     "hasPower": true,
-    "shake": 40,
+    "shake": 10,
     "shootDuration": 20,
     "shootSound": "beam",
 	"recoil" : 2,
@@ -93,7 +93,7 @@
         "parts": [ {
                 "type": "RegionPart",
                 "progress": "warmup",
-                "moveY": 25,
+                "moveY": 15,
                 "suffix": "-bis",    
                 "mirror": false,
                 "x": 0,
