@@ -67,7 +67,7 @@
         "type": "DrawMulti",
         "drawers": [
             {
-                "type": "DrawDefault"
+                "type": "DrawTurret"
             },
             {
                 "type": "DrawFront",
