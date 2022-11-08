@@ -68,8 +68,6 @@
         "parts": [ {
                 "type": "RegionPart",
                 "layer": -1,
-                "colorTo": "66B1FF90",
-                "color": "A9D8FF00",
                 "progress": "warmup",
                 "blending": "additive",
                 "moveY": 15.5,
@@ -78,7 +76,7 @@
                 "under": true,
                 "recoil": 7,
                 "x": 0,
-                "y": 13
+                "y": 0
             }
         ]   
     }
