@@ -6,7 +6,7 @@
     "reload": 200,
     "range": 640,
     "category": "turret",
-    "recoil": 1,
+    "recoil": 4,
     "liquidCapacity": 3500,
     "hasLiquids": true,
     "targetAir": false,
@@ -74,7 +74,18 @@
                 "suffix": "-front",    
                 "mirror": false,
                 "under": true,
-                "recoil": 7,
+                "x": 0,
+                "y": 0
+            }, {
+                "type": "RegionPart",
+                "layer": 1,
+                "progress": "warmup",
+                "blending": "additive",
+                "moveY": -5,
+                "move": 30,
+                "suffix": "-back",    
+                "mirror": true,
+                "under": false,
                 "x": 0,
                 "y": 0
             }
