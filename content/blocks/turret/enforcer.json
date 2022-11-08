@@ -85,19 +85,18 @@
                 "moveY": -5,
                 "moveRot": 40,
                 "suffix": "-backl",    
-                "mirror": true,
-                "x": 0,
+                "mirror": false,
+                "x": -10,
                 "y": 0
-            },
-            {
+            }, {
                 "type": "RegionPart",
                 "under": false,
                 "progress": "warmup",
                 "moveY": -5,
                 "moveRot": -40,
                 "suffix": "-backr",    
-                "mirror": true,
-                "x": 0,
+                "mirror": false,
+                "x": 10,
                 "y": 0
             }
         ]   
