@@ -84,7 +84,7 @@
                 "progress": "warmup",
                 "moveY": -5,
                 "moveRot": 40,
-                "suffix": "-back-l",    
+                "suffix": "-backl",    
                 "mirror": true,
                 "x": 0,
                 "y": 0
@@ -95,7 +95,7 @@
                 "progress": "warmup",
                 "moveY": -5,
                 "moveRot": -40,
-                "suffix": "-back-r",    
+                "suffix": "-backr",    
                 "mirror": true,
                 "x": 0,
                 "y": 0
