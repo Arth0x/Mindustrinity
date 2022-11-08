@@ -130,9 +130,8 @@
                 "moveY": 15.5,
                 "suffix": "-front",    
                 "mirror": false,
-                "colorTo": "FFFFFFFF",
+                "colorTo": "808080FF",
                 "color": "A9D8FF00",
-                "blending": "additive",
                 "x": 0,
                 "y": 0
             }, {
