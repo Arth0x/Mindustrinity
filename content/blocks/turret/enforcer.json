@@ -62,7 +62,20 @@
         "plastanium/500",
         "surge-alloy/550",
         "infused-aether/700"
-    ]
+    ],
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawFront",
+                "sprite": "-front", 
+                "xpos": 600
+            }
+        ]
+    }
 }
 
 
