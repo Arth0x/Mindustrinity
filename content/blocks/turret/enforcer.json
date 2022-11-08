@@ -130,7 +130,7 @@
                 "moveY": 15.5,
                 "suffix": "-front",    
                 "mirror": false,
-                "colorTo": "7B7B7BFF",
+                "under": true,
                 "x": 0,
                 "y": 0
             }, {
