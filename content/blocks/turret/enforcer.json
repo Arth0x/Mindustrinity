@@ -77,13 +77,13 @@
                 "y": 0
             }, {
                 "type": "RegionPart",
-                "layer": 1,
+                "under": false,
                 "progress": "warmup",
                 "moveY": -5,
                 "moveRot": 30,
                 "suffix": "-back",    
                 "mirror": true,
-                "x": 0,
+                "x": 20,
                 "y": 0
             }
         ]   
