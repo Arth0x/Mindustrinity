@@ -83,7 +83,7 @@
             "lightning": 25,
             "lightningDamage": 250,
             "lightningCone": 360,
-            "lightningLengthRand": 812,
+            "lightningLengthRand": 12,
             "lightningLength": 15,
             "collidesAir": true
         }
@@ -110,21 +110,21 @@
                 "type": "RegionPart",
                 "under": false,
                 "progress": "warmup",
-                "moveY": -5,
-                "moveRot": 40,
+                "moveY": -25,
+                "moveRot": 30,
                 "suffix": "-backl",    
                 "mirror": false,
-                "x": -10,
+                "x": 10,
                 "y": 0
             }, {
                 "type": "RegionPart",
                 "under": false,
                 "progress": "warmup",
-                "moveY": -5,
-                "moveRot": -40,
+                "moveY": -25,
+                "moveRot": -30,
                 "suffix": "-backr",    
                 "mirror": false,
-                "x": 10,
+                "x": -10,
                 "y": 0
             }
         ]   
