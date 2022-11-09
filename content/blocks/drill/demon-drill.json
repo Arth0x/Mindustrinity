@@ -5,7 +5,7 @@
 	"tier": 14,
     "updateEffectChance": 0.2,
 	"hasLiquids": true,
-    "heatColor": "FF0000FF",
+    "heatColor": "FFFFFFFF",
     "category": "production",
 	"research": "blast-drill",
     "hardnessDrillMultiplier": 10,
