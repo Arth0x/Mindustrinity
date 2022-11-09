@@ -5,7 +5,7 @@ Unité :
 	Reign - Goliath
 	Reap  - Smaug
 	Corv  - Impaler
-	Omura - Montana*
+	Omura - Leviathan*
 	basup - Navy*
 
 - Fly (Support artillerie): 
