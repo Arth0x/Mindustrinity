@@ -14,7 +14,7 @@
     "drawShields": false,
     "payloadCapacity": 5000,
     "controller": "DefenderAI",
-    "crashDamageMultiplier": 18,
+    "crashDamageMultiplier": 20,
     "speed": 0.75,
     "accel": 0.2,
     "drag": 0.2,
