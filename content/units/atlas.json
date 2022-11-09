@@ -1,9 +1,10 @@
 {
     "name": "Atlas",
+    "type": "payload",
     "research": {
         "requirements": [
             "plastanium/1500",
-            "silicon/5000",
+            "silicon/2000",
             "infused-aether/750"
         ]
     },
