@@ -88,7 +88,7 @@
         },
         "infused-vulcanite": {
             "type":"BasicBulletType",
-            "trailColor": "FF1E00FF",
+            "trailColor": "FF6D59FF",
             "trailParam": 5,
             "trailLength": 25,
             "trailWidth": 6,
@@ -109,7 +109,7 @@
             "ammoMultiplier": 1,
             "pierceBuilding": true,
             "frontColor": "FF6D59FF",
-            "backColor": "FF1E00FF",
+            "backColor": "FF6D59FF",
             "pierceCap": 12,
             "pierce": true,
             "collidesAir": false
