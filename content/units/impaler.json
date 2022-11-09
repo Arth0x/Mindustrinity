@@ -13,11 +13,10 @@
     "legMoveSpace": 1.2,
     "legMaxLength": 1.6,
     "legExtension": 0,
-    "legLength": 18,
+    "legLength": 13,
     "legPairOffset": 3,
     "legBaseOffset": 10,
     "legSpeed": 0.8,
-    "rippleScale": 3.5,
     "legContinuousMove": true,
     "health": 20000,
     "hitSize": 24,
@@ -39,7 +38,6 @@
             "shootSound": "laser",
             "parentizeEffects": true,
             "bullet": {
-                "recoil": 2,
                 "sprite": "aetherunbound-spear",
                 "chargeEffect": {
                     "followParent": true,
@@ -175,7 +173,7 @@
                 "shrinkX": 0,
                 "shrinkY": 0,
                 "damage": 2750,
-                "speed": 8,
+                "speed": 10,
                 "frontColor": "FFFFFFF",
                 "backColor": "84F491FF",
                 "lifetime": 80
