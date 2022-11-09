@@ -64,51 +64,7 @@
             "whenShooting": false,
             "regen": 15,
             "max": 10000,
-            "cooldown": 500 } ],
+            "cooldown": 500 } ]
 	
-        "weapons": [ 
-        {
-            "name": "atlas-mount",
-            "x": 0,
-            "y": 0,
-            "shootY": 2,
-            "rotateSpeed": 4,
-            "reload": 50,
-            "recoil": 2,
-            "weaveScale": 5,			
-            "weaveMag": 2,
-            "height": 8,
-            "width": 8,
-            "mirror": false,
-            "lifetime": 270,
-            "splashDamageRadius": 30,
-            "splashDamage": 30,
-            "layerOffset": -0.001,
-            "inaccuracy": 8,
-            "shootSound": "bolt",
-            "rotate": true,
-            "shoot": {
-                "type": "ShootPattern",
-                "shots": 4,
-                "shotDelay": 8
-            },
-            "bullet": {
-                "type": "MissileBulletType",
-                "shootEffect": "shootHealYellow",
-                "damage": 45,
-                "speed": 4,
-                "keepVelocity": false,
-                "frontColor": "FFFFFFF",
-                "backColor": "84F491FF",
-                "trailColor": "84F491FF",
-                "lifetime": 70,
-                "homingPower": 1,
-                "homingRange": 50,
-                "weaveScale": 5,			
-                "weaveMag": 2,
-                "height": 8,
-                "width": 8
-                }
-        }
-    ] 
+        
 }
