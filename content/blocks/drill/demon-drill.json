@@ -11,12 +11,12 @@
     "hardnessDrillMultiplier": 10,
 	"liquidCapacity": 25,
 	"expanded": true,
-	"rotateSpeed": 4,
+	"rotateSpeed": 8,
 	"drillTime": 60,
 	"liquidBoostIntensity": 1.5,
 	"drawRim": true,
-    "itemCapacity": 25,
-	"warmupSpeed": 0.01,
+    "itemCapacity": 50,
+	"warmupSpeed": 0.004,
 	"updateEffect": {
         "type": "ParticleEffect",
         "line": true,
@@ -27,8 +27,8 @@
         "strokeFrom": 2,
         "lenFrom": 4,
         "lenTo": 0,
-        "colorFrom": "FFBF00FF",
-        "colorTo": "FFFFFFFF"
+        "colorFrom": "FF1E00FF",
+        "colorTo": "FFBF00FF"
 	},
 	"consumes": {
 		"power": 7,
@@ -40,9 +40,8 @@
 		}
 	},
 	"requirements": [
-        "thorium/600",
+        "vulcanite/100",
         "plastanium/500",
-        "metaglass/500",
-        "lead/1000"
+        "lead/200"
 	]
 }
