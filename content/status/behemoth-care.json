@@ -5,13 +5,11 @@
     "effect": {
         "type": "ParticleEffect",
         "region": "boost-effect",
-        "particles": 100,
-        "lifetime": 120,
+        "particles": 0.1,
+        "lifetime": 60,
         "length": 65,
         "height": 65,
-        "cone": 90,
-        "lenFrom": 150,
-        "lenTo": 10,
+        "cone": 10,
         "colorFrom": "808080FF",
         "colorTo": "80808000"
     }
