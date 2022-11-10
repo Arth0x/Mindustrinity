@@ -9,9 +9,9 @@
         "lifetime": 600,
         "length": 35,
         "cone": 0,
-        "sizeFrom": 30,
+        "sizeFrom": 3,
         "sizeTo": 0,
-        "colorFrom": "BF92F8FF",
+        "colorFrom": "BF92F8AA",
         "colorTo": "BF92F800"
     }
 }
