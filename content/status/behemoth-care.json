@@ -5,10 +5,10 @@
     "effect": {
         "type": "ParticleEffect",
         "region": "boost-effect",
-        "particles": 1,
-        "lifetime": 60,
-        "length": 65,
-        "height": 65,
+        "particles": 0.1,
+        "lifetime": 600,
+        "length": 650,
+        "height": 650,
         "colorFrom": "808080FF",
         "colorTo": "80808000"
     }
