@@ -8,8 +8,7 @@
         "particles": 1,
         "lifetime": 600,
         "length": 35,
-        "cone": 10,
-        "offset": -90,
+        "cone": 360,
         "sizeFrom": 3,
         "sizeTo": 0,
         "colorTo": "80808000"
