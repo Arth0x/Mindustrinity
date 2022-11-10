@@ -5,7 +5,7 @@
     "effect": {
         "type": "ParticleEffect",
         "region": "aetherunbound-tank-effect",
-        "particles": 1,
+        "particles": 1000,
         "lifetime": 600,
         "length": 35,
         "cone": 360,

@@ -67,7 +67,7 @@
             "parts": [ {
                     "type": "RegionPart",
                     "suffix": "-front",
-                    "mirror": false,   
+                    "mirror": true,   
                     "moveY": -3,
                     "moveRot": -7,
                     "progress": {
@@ -82,7 +82,7 @@
                     "suffix": "-mid",
                     "moveRot": -4,
                     "moveY": -3,               
-                    "mirror": false,
+                    "mirror": true,
                     "progress": {
                         "type": "warmup",
                         "op": "blend",
@@ -261,8 +261,8 @@
             "type": "StatusFieldAbility",
             "effect": "aetherunbound-behemoth-care",
             "range": 165,
-            "reload": 180,
-            "duration": 180,
+            "reload": 60,
+            "duration": 60,
             "activeEffect": {
                 "type": "MultiEffect",
                 "effects": [ {     
