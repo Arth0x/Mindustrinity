@@ -44,7 +44,7 @@
             "x": 40,
             "y": 5,
             "rotateSpeed": 0.8,
-            "rotate": true,
+            "rotate": false,
             "mirror": true,
             "reload": 40,
             "recoil": 2,
@@ -83,7 +83,7 @@
                     "suffix": "-frontl",
                     "mirror": false,   
                     "moveY": -3,
-                    "moveRot": -7,
+                    "moveRot": 7,
                     "progress": {
                         "type": "warmup",
                         "op": "blend",
