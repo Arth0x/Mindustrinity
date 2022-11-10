@@ -34,7 +34,10 @@
             "effect": "aetherunbound-atlas-care",
             "range": 300,
             "reload": 180,
-            "duration": 180
+            "duration": 180,
+            "activeEffect": {
+                "type": "MultiEffect"
+            }
         },
         {
             "type": "UnitSpawnAbility",
