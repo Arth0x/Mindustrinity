@@ -56,7 +56,6 @@
             "shootWarmupSpeed": 0.05,
             "minWarmup": 0.9,
             "shootCone": 15,
-            "cooldownTime": 145,
             "heatColor": "FF9b59FF",
             "shootSound": "malignShoot",
             "shoot": {
