@@ -34,25 +34,7 @@
             "effect": "aetherunbound-atlas-care",
             "range": 300,
             "reload": 180,
-            "duration": 180,
-            "activeEffect": {
-                "type": "MultiEffect",
-                "effects": [ {     
-                        "type": "ParticleEffect",
-                        "line": true,
-                        "particles": 4,
-                        "lifetime": 25,
-                        "length": 85,
-                        "cone": -360,
-                        "strokeFrom": 2,
-                        "strokeTo": 0,
-                        "lenFrom": 6,
-                        "lenTo": 0,
-                        "colorFrom": "BF92F8FF",
-                        "colorTo": "66B1FFFF"
-                    }
-                ]
-            }
+            "duration": 180
         },
         {
             "type": "UnitSpawnAbility",

@@ -261,15 +261,15 @@
             "type": "StatusFieldAbility",
             "effect": "aetherunbound-behemoth-care",
             "range": 165,
-            "reload": 60,
-            "duration": 60,
+            "reload": 300,
+            "duration": 300,
             "activeEffect": {
                 "type": "MultiEffect",
                 "effects": [ {     
                         "type": "ParticleEffect",
                         "line": true,
                         "particles": 4,
-                        "lifetime": 25,
+                        "lifetime": 325,
                         "length": 85,
                         "cone": -360,
                         "strokeFrom": 2,
