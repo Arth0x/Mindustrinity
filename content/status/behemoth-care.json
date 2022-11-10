@@ -1,0 +1,17 @@
+{
+    "name": "Behemoth Care",
+    "description": "You are part of him now.",
+    "effect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "region": "boost-effect",
+        "particles": 5,
+        "lifetime": 10,
+        "length": 35,
+        "cone": 0,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "FF0000FF",
+        "colorTo": "0000FFFF"
+    }
+}

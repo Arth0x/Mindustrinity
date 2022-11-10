@@ -259,10 +259,10 @@
         },
         {
             "type": "StatusFieldAbility",
-            "effect": "aetherunbound-iridiated",
+            "effect": "aetherunbound-behemoth-care",
             "range": 165,
             "reload": 1,
-            "duration": 5,
+            "duration": 10,
             "activeEffect": {
                 "type": "MultiEffect",
                 "effects": [ {     

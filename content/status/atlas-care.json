@@ -1,0 +1,17 @@
+{
+    "name": "Altas Care",
+    "description": "You are part of him now.",
+    "effect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "region": "tank-effect",
+        "particles": 5,
+        "lifetime": 10,
+        "length": 35,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF"
+    }
+}
