@@ -57,7 +57,7 @@
             "minWarmup": 0.9,
             "shootCone": 15,
             "cooldownTime": 145,
-            "heatColor": "66B1FFFF",
+            "heatColor": "FF9b59FF",
             "shootSound": "malignShoot",
             "shoot": {
                 "type": "shootSpread",
@@ -193,7 +193,7 @@
             "recoil": 2,
             "shake": 0.1,
             "cooldownTime": 145,
-            "heatColor": "79F2EEFF",
+            "heatColor": "FF9b59FF",
             "shootSound": "beam",
             "chargeSound": "lasercharge2",
             "continuous": true,
