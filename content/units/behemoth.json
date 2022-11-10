@@ -269,7 +269,7 @@
                         "type": "ParticleEffect",
                         "line": true,
                         "particles": 4,
-                        "lifetime": 325,
+                        "lifetime": 25,
                         "length": 85,
                         "cone": -360,
                         "strokeFrom": 2,
@@ -290,7 +290,7 @@
                         "region": "particle"
                     }, {
                         "type": "ParticleEffect-rene",
-                        "lifetime": 20,
+                        "lifetime": 320,
                         "length": 0,
                         "sizeFrom": 8,
                         "sizeTo": 0,
