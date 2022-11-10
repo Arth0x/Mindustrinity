@@ -3,14 +3,14 @@
     "description": "You are part of him now.",
     "effect": {
         "type": "ParticleEffect",
-        "line": true,
         "region": "boost-effect",
         "particles": 1,
-        "lifetime": 50,
+        "lifetime": 120,
         "length": 35,
-        "cone": 0,
-        "lenFrom": 5,
-        "lenTo": 0,
+        "height": 35,
+        "cone": -90,
+        "lenFrom": 15,
+        "lenTo": 10,
         "colorFrom": "808080FF",
         "colorTo": "80808000"
     }
