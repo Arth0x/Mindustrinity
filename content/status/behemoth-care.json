@@ -7,11 +7,12 @@
         "region": "aetherunbound-boost-effect",
         "particles": 1,
         "lifetime": 600,
-        "length": 25,
-        "cone": 10,
+        "length": 35,
+        "coneFrom": -190,
+        "coneTo": -170,
         "sizeFrom": 3,
         "sizeTo": 0,
-        "colorFrom": "808080FF",
+        "colorFrom": "FFFFFFFF",
         "colorTo": "80808000"
     }
 }
