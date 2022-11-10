@@ -67,7 +67,7 @@
             "parts": [ {
                     "type": "RegionPart",
                     "suffix": "-front",
-                    "mirror": true,   
+                    "mirror": false,   
                     "moveY": -3,
                     "moveRot": -7,
                     "progress": {
@@ -82,7 +82,7 @@
                     "suffix": "-mid",
                     "moveRot": -4,
                     "moveY": -3,               
-                    "mirror": true,
+                    "mirror": false,
                     "progress": {
                         "type": "warmup",
                         "op": "blend",
