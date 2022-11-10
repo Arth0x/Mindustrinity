@@ -30,6 +30,13 @@
     "engineSize": 6,
     "abilities": [
         {
+            "type": "StatusFieldAbility",
+            "effect": "aetherunbound-atlas-care",
+            "range": 300,
+            "reload": 60,
+            "duration": 60
+        },
+        {
             "type": "UnitSpawnAbility",
             "mirror": true,
             "spawnX": 20,
@@ -44,18 +51,20 @@
             "unit": "nano",
             "spawnTime": 500},
         {
-           "type": "mindustry.entities.abilities.RepairFieldAbility",
-           "healEffect": {
-           "type": "WaveEffect",
-           "lifetime": 150,
-           "sizeFrom": 30,
-           "strokeFrom": 4,
-           "strokeTo": 0,
-           "colorFrom": "84F491FF",
-           "colorTo": "84F491FF" },
-           "range": 300,
-           "amount": 200,
-           "reload": 40 },
+            "type": "mindustry.entities.abilities.RepairFieldAbility",
+            "healEffect": {
+                "type": "WaveEffect",
+                "lifetime": 150,
+                "sizeFrom": 30,
+                "strokeFrom": 4,
+                "strokeTo": 0,
+                "colorFrom": "84F491FF",
+                "colorTo": "84F491FF" 
+            },
+            "range": 300,
+            "amount": 3500,
+            "reload": 300 
+        },
         {
             "type": "ShieldArcAbility",
             "region": "aetherunbound-atlas-shield",

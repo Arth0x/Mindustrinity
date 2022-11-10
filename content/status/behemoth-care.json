@@ -11,6 +11,7 @@
         "cone": 360,
         "sizeFrom": 3,
         "sizeTo": 0,
+        "colorFrom": "808080FF",
         "colorTo": "80808000"
     }
 }
