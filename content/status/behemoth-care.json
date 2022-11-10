@@ -10,6 +10,8 @@
         "length": 65,
         "height": 65,
         "cone": 10,
+        "lenFrom": 1500,
+        "lenTo": 1000,
         "colorFrom": "808080FF",
         "colorTo": "80808000"
     }
