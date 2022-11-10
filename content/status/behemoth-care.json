@@ -7,8 +7,9 @@
         "region": "boost-effect",
         "particles": 1,
         "lifetime": 600,
-        "length": 650,
-        "height": 650,
+        "length": 65,
+        "height": 65,
+        "cone": 10,
         "colorFrom": "808080FF",
         "colorTo": "80808000"
     }
