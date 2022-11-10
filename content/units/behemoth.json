@@ -64,10 +64,24 @@
                 "shots": 3,
                 "spread": 3
             },
-            "parts": [ {
+            "parts": [ 
+                {
                     "type": "RegionPart",
-                    "suffix": "-front",
-                    "mirror": true,   
+                    "suffix": "-frontr",
+                    "mirror": false,   
+                    "moveY": -3,
+                    "moveRot": -7,
+                    "progress": {
+                        "type": "warmup",
+                        "op": "blend",
+                        "other": "reload",
+                        "amount": 0.75
+                    }
+                },
+                {
+                    "type": "RegionPart",
+                    "suffix": "-frontl",
+                    "mirror": false,   
                     "moveY": -3,
                     "moveRot": -7,
                     "progress": {
@@ -79,7 +93,7 @@
                 },
                 { 
                     "type": "RegionPart",
-                    "suffix": "-mid",
+                    "suffix": "-midR",
                     "moveRot": -4,
                     "moveY": -3,               
                     "mirror": true,
