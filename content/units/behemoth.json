@@ -123,8 +123,6 @@
                 "trailLength": 10,
                 "trailWidth": 3.5,
                 "trailChance": 1,
-                "status": "aetherunbound-aethered",
-                "statusDuration": 150,
                 "hitPowerEffect": {
                     "type": "ParticleEffect",
                     "line": true,
