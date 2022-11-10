@@ -5,7 +5,7 @@
     "effect": {
         "type": "ParticleEffect",
         "region": "boost-effect",
-        "particles": 0.1,
+        "particles": 1,
         "lifetime": 60,
         "length": 65,
         "height": 65,
