@@ -44,7 +44,7 @@
             "x": 40,
             "y": 5,
             "rotateSpeed": 0.8,
-            "rotate": false,
+            "rotate": true,
             "mirror": true,
             "reload": 40,
             "recoil": 2,
@@ -89,19 +89,6 @@
                         "op": "blend",
                         "other": "reload",
                         "amount": 0.75
-                    }
-                },
-                { 
-                    "type": "RegionPart",
-                    "suffix": "-midR",
-                    "moveRot": -4,
-                    "moveY": -3,               
-                    "mirror": true,
-                    "progress": {
-                        "type": "warmup",
-                        "op": "blend",
-                        "other": "reload",
-                        "amount": 0.5
                     }
                 }
             ],
@@ -265,14 +252,7 @@
             "width": 11,
             "y": -25,
             "max": 6000,
-            "cooldown": 260
-        },
-        {
-            "type": "StatusFieldAbility",
-            "effect": "aetherunbound-behemoth-care",
-            "range": 165,
-            "reload": 300,
-            "duration": 300,
+            "cooldown": 260,
             "activeEffect": {
                 "type": "MultiEffect",
                 "effects": [ {     
@@ -311,6 +291,13 @@
                     }
                 ]
             }
+        },
+        {
+            "type": "StatusFieldAbility",
+            "effect": "aetherunbound-behemoth-care",
+            "range": 165,
+            "reload": 300,
+            "duration": 300
         }
     ]
 }
