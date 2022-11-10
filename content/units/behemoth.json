@@ -11,6 +11,7 @@
     "maxRange": 220,
     "type": "legs",
     "speed": 0.7,
+    "heatColor": "FF9b59FF",
     "hitSize": 50,
     "health": 30000,
     "armor": 8,
