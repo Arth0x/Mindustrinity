@@ -33,8 +33,8 @@
             "type": "StatusFieldAbility",
             "effect": "aetherunbound-atlas-care",
             "range": 300,
-            "reload": 60,
-            "duration": 60
+            "reload": 180,
+            "duration": 180
         },
         {
             "type": "UnitSpawnAbility",
