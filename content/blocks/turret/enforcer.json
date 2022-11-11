@@ -26,7 +26,7 @@
             "trailParam": 5,
             "trailLength": 6,
             "trailWidth": 3,
-            "sprite": "aetherunbound-gauss-bullet",
+            "sprite": "aetherunbound-heavy-bullet",
             "speed": 8,
             "lifetime": 80,
             "buildingDamageMultiplier": 0.1,
@@ -46,11 +46,6 @@
             "backColor": "79A4F3FF",
             "pierceCap": 8,
             "pierce": true,
-            "lightning": 14,
-            "lightningDamage": 50,
-            "lightningCone": 180,
-            "lightningLengthRand": 8,
-            "lightningLength": 8,
             "collidesAir": false
         },
         "infused-iridium": {
