@@ -1,5 +1,5 @@
 {	
-    "type": "Separator",
+    "type": "GenericCrafter",
     "name": "Acid Blender",
     "category": "crafting",
     "size": 3,
