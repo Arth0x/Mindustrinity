@@ -60,7 +60,7 @@
             },
             {
                 "type": "DrawLiquidRegion",
-                "drawLiquid": "acid"
+                "drawLiquid": "aetherunbound-acid"
             },
             {
                 "type": "DrawDefault"
