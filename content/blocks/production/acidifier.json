@@ -36,24 +36,30 @@
         "titanium/150", 
         "thorium/200"
     ],
-    "drawer": {
-        "type": "DrawMulti",
-        "drawers": [ {
-                "type": "DrawDefault"
-            }, 
-            {
-                "type": "DrawGlowRegion",
-                "suffix": "-heat",
-                "color": "FF6D59FF"
-            },
-            {
-                "type": "DrawFlame",
-                "flameColor": "FF8F80FF"
-            }
-        ]
-    },
     "outputLiquid": {
 		"liquid": "acid",
 		"amount": 0.8
-	}
+	},
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "drawRegion",
+                "suffix": "-bottom"    
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-rotator",
+                "rotateSpeed": -4,
+                "spinSprite": true
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "slag"
+            },
+            {
+                "type": "DrawDefault"
+            }
+        ]
+    }
 }
