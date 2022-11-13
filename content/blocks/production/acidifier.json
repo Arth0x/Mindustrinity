@@ -39,6 +39,10 @@
                 "suffix": "-bottom"    
             },
             {
+                "type": "DrawLiquidRegion",
+                "suffix": "-liquid" 
+            },
+            {
                 "type": "DrawRegion",
                 "suffix": "-rotator",
                 "rotateSpeed": -4,
