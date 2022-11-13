@@ -12,6 +12,13 @@
                 "suffix": "-bottom"    
             },
             {
+                "type": "DrawRegion",
+                "suffix": "-rotator",
+                "rotateSpeed": 10,
+                "warmupSpeed": 0.004,
+                "spinSprite": true
+            }, 
+            {
                 "type": "DrawLiquidRegion",
                 "drawLiquid": "cryofluid",
                 "suffix": "-liquid" 
