@@ -10,6 +10,11 @@
             {
                 "type": "drawRegion",
                 "suffix": "-bottom"    
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "cryofluid",
+                "suffix": "-liquid" 
             },    
             {
                 "type": "DrawDefault"
