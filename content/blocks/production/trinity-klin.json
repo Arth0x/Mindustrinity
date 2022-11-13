@@ -13,10 +13,7 @@
             },    
             {
                 "type": "DrawDefault"
-            }, {
-                "type": "DrawFlame",
-                "flameColor": "A9D8FFFF"
-	        }
+            }
         ]
     },
 	"hasPower": true,
@@ -24,7 +21,7 @@
 	"itemCapacity": 150,
 	"craftTime": 300,
 	"craftEffect": {
-        "type": "ParticleEffect",
+        "type": "WaveEffect",
         "line": true,
         "particles": 6,
         "lifetime": 25,
