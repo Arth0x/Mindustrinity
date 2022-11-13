@@ -11,7 +11,11 @@
             }, {
                 "type": "DrawFlame",
                 "flameColor": "A9D8FFFF"
-	        }
+	        },
+            {
+                "type": "drawRegion",
+                "suffix": "-bottom"    
+            }
         ]
     },
 	"hasPower": true,
