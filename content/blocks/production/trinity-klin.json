@@ -39,9 +39,9 @@
         "line": true,
         "particles": 1,
         "lifetime": 300,
-        "length": 60,
+        "length": 300,
         "cone": -360,
-        "lenFrom": 12,
+        "lenFrom": 1,
         "lenTo": 0,
         "colorFrom": "FFFFFFFF",
         "colorTo": "FFFFFF00"
