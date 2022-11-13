@@ -18,19 +18,21 @@
     },
 	"hasPower": true,
 	"hasItems": true,
+    "hasLiquids": true,
 	"itemCapacity": 150,
+    "liquidCapacity": 1200,
 	"craftTime": 300,
 	"craftEffect": {
         "type": "WaveEffect",
         "line": true,
-        "particles": 6,
-        "lifetime": 25,
-        "length": 10,
+        "particles": 1,
+        "lifetime": 300,
+        "length": 60,
         "cone": -360,
-        "lenFrom": 5,
+        "lenFrom": 12,
         "lenTo": 0,
-        "colorFrom": "A9D8FFFF",
-        "colorTo": "66B1FFFF"
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "FFFFFF00"
 	},
 	"updateEffect": "none",
 	"consumes": {
