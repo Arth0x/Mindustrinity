@@ -6,16 +6,17 @@
 	"outputItem": "elementium/1",
 	"drawer": {
 	"type": "DrawMulti",
-        "drawers": [ {
+        "drawers": [ 
+            {
+                "type": "drawRegion",
+                "suffix": "-bottom"    
+            },    
+            {
                 "type": "DrawDefault"
             }, {
                 "type": "DrawFlame",
                 "flameColor": "A9D8FFFF"
-	        },
-            {
-                "type": "drawRegion",
-                "suffix": "-bottom"    
-            }
+	        }
         ]
     },
 	"hasPower": true,
