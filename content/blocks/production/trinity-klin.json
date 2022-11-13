@@ -41,7 +41,8 @@
                "infused-iridium/5",
                "infused-vulcanite/5"
 			]
-		}
+		},
+        "liquid": "cryofluid/2"
 	},
 	"requirements": [
         "copper/20",
