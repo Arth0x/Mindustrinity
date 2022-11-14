@@ -2,10 +2,10 @@
     "name": "Aether River",
     "localizedName": "Aether-river",
     "description": "A lifely river of the life essence.",
-    "sector": 215,
-    "captureWave": 60,
+    "sector": 214,
+    "captureWave": 80,
     "difficulty": 8,
     "research": {
-      "parent": "extractionOutpost"
+      "parent": "tarFields"
     }
 }
