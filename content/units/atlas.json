@@ -3,10 +3,13 @@
     "controller": "DefenderAI",
     "type": "payload",
     "research": {
+        "parent": "oct",
         "requirements": [
             "plastanium/1500",
             "silicon/2000",
-            "infused-aether/750"
+            "infused-aether/750",
+            "infused-iridium/750",
+            "infused-vulcanite/750"
         ]
     },
     "singleTarget": true,

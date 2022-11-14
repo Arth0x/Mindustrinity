@@ -1,6 +1,16 @@
 {
     "speed": 0.5,
     "name": "Impaler",
+    "research": {
+        "parent": "corvus",
+        "requirements": [
+            "plastanium/1500",
+            "silicon/2000",
+            "infused-aether/750",
+            "infused-iridium/750",
+            "infused-vulcanite/750"
+        ]
+    },
     "mineSpeed": 10,
     "groundLayer": 75,
     "buildSpeed": 2.5,

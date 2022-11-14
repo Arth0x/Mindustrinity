@@ -1,9 +1,13 @@
 {
     "name" : "Behemoth",
     "research": {
+        "parent": "reign",
         "requirements": [
-            "lead/3940",
-            "silicon/3000"
+            "plastanium/1500",
+            "silicon/2000",
+            "infused-aether/750",
+            "infused-iridium/750",
+            "infused-vulcanite/750"
         ]
     },
     "groundLayer": 75,

@@ -1,12 +1,13 @@
 {
     "name":"Smaug",
-    "research":
-    {
-        "requirements":
-        [
-            "surge-alloy/1000",
-            "plastanium/940",
-            "silicon/1300"
+    "research": {
+        "parent": "reaper",
+        "requirements": [
+            "plastanium/1500",
+            "silicon/2000",
+            "infused-aether/750",
+            "infused-iridium/750",
+            "infused-vulcanite/750"
         ]
     },
     "lightRadius":200,
@@ -90,15 +91,15 @@
             "shoot":
             {
                 "type":"ShootPattern",
-                "shots":2,
-                "shotDelay":4
+                "shots":5,
+                "shotDelay":7
             },
             "shootSound":"laser",
             "rotate":true,
             "bullet":
             {
                 "type":"BasicBulletType",
-                "damage":260,
+                "damage":550,
                 "width":18,
                 "height":26,
                 "sprite":"aetherunbound-peircer",
