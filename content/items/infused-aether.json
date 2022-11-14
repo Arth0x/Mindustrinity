@@ -6,5 +6,11 @@
     "radioactivity": 0,
     "charge": 0.1,
     "cost": 5,
-    "color": "007DFF"
+    "color": "007DFF",
+    "research": {
+        "parent": "steel",
+        "requirements": [
+            "steel/1000"
+        ]
+    }
 }

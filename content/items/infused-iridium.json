@@ -6,5 +6,11 @@
     "radioactivity": 10,
     "charge": 0.1,
     "cost": 5,
-    "color": "FFF740"
+    "color": "FFF740",
+    "research": {
+        "parent": "infused-aether",
+        "requirements": [
+            "infused-aether/1000"
+        ]
+    }
 }

@@ -6,5 +6,11 @@
     "radioactivity": 2,
     "charge": 0.1,
     "cost": 5,
-    "color": "FFFF40"
+    "color": "FFFF40",
+    "research": {
+        "parent": "copper",
+        "requirements": [
+            "copper/1000"
+        ]
+    }
 }
