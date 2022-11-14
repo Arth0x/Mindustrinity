@@ -2,6 +2,15 @@
     "type": "GenericCrafter",
     "name": "Acid Blender",
     "category": "crafting",
+    "research": {
+        "parent": "silicon-smelter",
+        "requirements": [
+            "silicon/9000", 
+            "plastanium/7500", 
+            "titanium/15000", 
+            "sulfur/2500"
+        ]
+    },
     "size": 3,
     "health": 700,
     "hasPower": true,
