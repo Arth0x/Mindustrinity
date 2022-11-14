@@ -2,5 +2,6 @@
     "type": "OreBlock",
     "itemDrop": "sulfur",
     "oreDefault": true,	
-    "oreScale": 15
+    "oreScale": 22.45,
+    "oreThreshold": 0.87
 }

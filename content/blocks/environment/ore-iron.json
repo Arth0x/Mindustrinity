@@ -2,5 +2,6 @@
     "type": "OreBlock",
     "itemDrop": "iron",
     "oreDefault": true,	
-    "oreScale": 25
+    "oreScale": 22.45,
+    "oreThreshold": 0.87
 }
