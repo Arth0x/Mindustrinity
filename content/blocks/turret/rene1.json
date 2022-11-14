@@ -4,7 +4,7 @@
     "base": "aetherunbound-block-8",
 	"size": 5,
 	"health": 1900,
-	"reload": 20,
+	"reload": 300,
 	"range": 350,
     "heatcolor": "FF0000FF",
     "consumes" : {
@@ -13,7 +13,7 @@
     "update": true,
     "hasPower": true,
     "shake": 10,
-    "shootDuration": 20,
+    "shootDuration": 280,
     "shootSound": "beam",
 	"recoil" : 2,
 	"rotateSpeed": 2,
