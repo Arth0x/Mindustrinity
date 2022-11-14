@@ -3,7 +3,7 @@
 	"name": "Aether extrator",
 	"description": "Aether Extrator",
 	"research": {
-        "parent": "oil-extrator",
+        "parent": "oil-extractor",
         "requirements": [
             "silicon/3000",
             "lead/7000",
