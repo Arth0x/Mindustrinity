@@ -1,7 +1,10 @@
 {
     "liquidDrop": "aether",
+    "type":"floor",
+    "isLiquid":true,
     "drownTime": 120,
     "status": "aetherunbound-aethered",
+    "cacheLayer": "water",
     "statusDuration": 300,
     "speedMultiplier": 1.8
 }
