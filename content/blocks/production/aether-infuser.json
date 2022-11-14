@@ -2,6 +2,15 @@
     "type": "GenericCrafter",
     "name": "Aether Compressor",
     "category": "crafting",
+    "research": {
+        "parent": "steel-forge",
+        "requirements": [
+            "graphite/15000",
+            "lead/4000",
+            "plastanium/7000",
+            "silicon/8000"
+        ]
+    },
     "size": 3,
     "health": 700,
     "hasPower": true,

@@ -3,7 +3,7 @@
     "name": "Acid Blender",
     "category": "crafting",
     "research": {
-        "parent": "silicon-smelter",
+        "parent": "laser-drill",
         "requirements": [
             "silicon/9000", 
             "plastanium/7500", 
@@ -31,10 +31,10 @@
         "liquid": "water/0.8"
 	},
     "requirements": [
-        "silicon/250", 
-        "plastanium/100", 
-        "titanium/150", 
-        "thorium/200"
+        "silicon/75", 
+        "plastanium/10", 
+        "titanium/15", 
+        "thorium/20"
     ],
     "outputLiquid": {
 		"liquid": "acid",

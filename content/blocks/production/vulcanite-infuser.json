@@ -1,6 +1,15 @@
 {
     "type": "GenericCrafter",
     "name": "Vulcanite Infuser",
+    "research": {
+        "parent": "iridium-infuser",
+        "requirements": [
+            "lead/26000",
+            "graphite/18000",
+            "infused-iridium/7500",
+            "silicon/8000"
+        ]
+    },
     "size": 3,
     "health": 700,
     "category": "crafting",

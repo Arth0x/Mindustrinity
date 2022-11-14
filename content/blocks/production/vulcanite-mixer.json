@@ -2,6 +2,15 @@
     "type": "GenericCrafter",
     "name": "Vulcanite Mixer",
     "category": "crafting",
+    "research": {
+        "parent": "disassembler",
+        "requirements": [
+            "silicon/2500", 
+            "plastanium/3000", 
+            "titanium/7500", 
+            "infused-iridium/2000"
+        ]
+    },
     "size": 3,
     "health": 700,
     "hasPower": true,
