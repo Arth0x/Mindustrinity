@@ -1,0 +1,7 @@
+{
+    "liquidDrop": "aether",
+    "drownTime": 120,
+    "status": "aetherunbound-aethered",
+    "statusDuration": 300,
+    "speedMultiplier": 1.8
+}
