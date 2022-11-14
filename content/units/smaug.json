@@ -3,11 +3,11 @@
     "research": {
         "parent": "reaper",
         "requirements": [
-            "plastanium/1500",
-            "silicon/2000",
-            "infused-aether/750",
-            "infused-iridium/750",
-            "infused-vulcanite/750"
+            "plastanium/7500",
+            "silicon/150000",
+            "infused-aether/25000",
+            "infused-iridium/25000",
+            "infused-vulcanite/25000"
         ]
     },
     "lightRadius":200,
