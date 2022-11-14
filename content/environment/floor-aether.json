@@ -1,4 +1,5 @@
 {
+    "name": "Aether",
     "liquidDrop": "aether",
     "type":"floor",
     "isLiquid":true,
