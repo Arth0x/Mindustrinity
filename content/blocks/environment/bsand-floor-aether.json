@@ -1,7 +1,7 @@
 {
     "variants": 3,
     "albedo": 0.5,
-    "name": "DarkSand Aether",
+    "name": "Aether DarkSand",
     "liquidDrop": "aether",
     "type":"floor",
     "isLiquid":true,
