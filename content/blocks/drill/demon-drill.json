@@ -41,7 +41,7 @@
 	},
 	"requirements": [
         "infused-vulcanite/100",
-        "plastanium/500",
+        "plastanium/150",
         "lead/200"
 	]
 }

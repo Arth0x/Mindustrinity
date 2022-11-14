@@ -1,0 +1,12 @@
+{
+    "variants": 3,
+    "albedo": 0.5,
+    "name": "Aether",
+    "liquidDrop": "aether",
+    "type":"floor",
+    "isLiquid":true,
+    "status": "aetherunbound-aethered",
+    "cacheLayer": "water",
+    "statusDuration": 300,
+    "speedMultiplier": 0.9
+}
