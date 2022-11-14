@@ -2,9 +2,7 @@
     "name": "Atlas",
     "controller": "DefenderAI",
     "type": "payload",
-    "research": {
-        "parent": "oct"
-    },
+    "research": "oct",
     "singleTarget": true,
     "faceTarget": false,
     "buildSpeed": 5,

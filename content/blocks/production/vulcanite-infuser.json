@@ -1,9 +1,7 @@
 {
     "type": "GenericCrafter",
     "name": "Vulcanite Infuser",
-    "research": {
-        "parent": "iridium-infuser"
-    },
+    "research": "iridium-infuser",
     "size": 3,
     "health": 700,
     "category": "crafting",

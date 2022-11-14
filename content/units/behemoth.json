@@ -1,14 +1,7 @@
 {
     "name" : "Behemoth",
     "research": {
-        "parent": "toxopid",
-        "requirements": [
-            "plastanium/7500",
-            "silicon/250000",
-            "infused-aether/25000",
-            "infused-iridium/25000",
-            "infused-vulcanite/25000"
-        ]
+        "parent": "toxopid"
     },
     "groundLayer": 75,
     "drawShields": false,

@@ -2,17 +2,7 @@
     "name": "Omega Reconstructor",
     "type": "Reconstructor",
     "size": 11,
-    "research": {
-        "parent": "tetrative-reconstructor",
-        "requirements": [
-            "plastanium/75000",
-            "phase-fabric/50000",
-            "silicon/450000",
-            "infused-aether/50000",
-            "infused-iridium/50000",
-            "infused-vulcanite/50000"
-        ]
-    },
+    "research": "tetrative-reconstructor",
     "constructTime": 3600,
     "liquidCapacity": 3500,
     "category": "units",

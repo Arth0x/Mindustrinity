@@ -1,9 +1,7 @@
 {
     "type": "GenericCrafter",
     "name": "Iridium Infuser",
-    "research": {
-        "parent": "aether-infuser"
-    },
+    "research": "aether-infuser",
     "health": 700,
     "size": 3,
     "hasItems": true,

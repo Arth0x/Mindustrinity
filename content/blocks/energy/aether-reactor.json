@@ -2,6 +2,7 @@
 	"type": "ImpactReactor",
 	"name": "Aether Reactor",
 	"description": "Reacteur d'Aether",
+	"research": "impact-reactor",
 	"size": 5,
 	"idleSound": "EnergyLoop2",
 	"idleSoundVolume": 0.5,
@@ -9,7 +10,6 @@
 	"category": "power",
 	"powerProduction": 300,
 	"itemDuration": 300,
-
 	"requirements": [
 		{"item": "infused-aether", "amount": 375},
 		{"item": "surge-alloy", "amount": 250},

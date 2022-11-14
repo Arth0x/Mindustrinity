@@ -2,9 +2,7 @@
     "type": "GenericCrafter",
     "name": "Acid Blender",
     "category": "crafting",
-    "research": {
-        "parent": "laser-drill"
-    },
+    "research": "laser-drill",
     "size": 3,
     "health": 700,
     "hasPower": true,

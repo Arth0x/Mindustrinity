@@ -1,14 +1,15 @@
 {
 	"name": "Trinity Core",
 	"type": "CoreBlock",
+	"research": "core-nucleus",
 	"health": 18000,
 	"size": 7,
 	"itemCapacity": 15000,
 	"unitCapModifier": 35,
     "unitType": "trinity",
 	"requirements": [
-		{ "item": "silicon", "amount": 4000 },
-		{ "item": "surge-alloy", "amount": 1000 },
+		{ "item": "silicon", "amount": 12000 },
+		{ "item": "surge-alloy", "amount": 2500 },
 		{ "item": "infused-aether", "amount": 2000 },
 		{ "item": "infused-iridium", "amount": 2000 },
 		{ "item": "infused-vulcanite", "amount": 2000 }

@@ -1,9 +1,7 @@
 {	
     "name": "Steel Forge",
     "size": 2,
-    "research": {
-        "parent": "graphite-press"
-    },
+    "research": "graphite-press",
     "type": "GenericCrafter",
     "category": "crafting",
 	"outputItem": "steel/1",

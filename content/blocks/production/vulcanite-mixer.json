@@ -2,9 +2,7 @@
     "type": "GenericCrafter",
     "name": "Vulcanite Mixer",
     "category": "crafting",
-    "research": {
-        "parent": "disassembler"
-    },
+    "research": "disassembler",
     "size": 3,
     "health": 700,
     "hasPower": true,

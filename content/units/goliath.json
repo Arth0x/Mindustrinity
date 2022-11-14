@@ -1,15 +1,6 @@
 {
     "name": "Goliath",
-    "research": {
-        "parent": "reign",
-        "requirements": [
-            "plastanium/7500",
-            "silicon/250000",
-            "infused-aether/25000",
-            "infused-iridium/25000",
-            "infused-vulcanite/25000"
-        ]
-    },
+    "research": "reign",
     "type": "mech",
     "armor": 19,
     "rotateSpeed": 2.0,

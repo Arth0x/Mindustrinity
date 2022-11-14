@@ -1,15 +1,6 @@
 {
     "name":"Smaug",
-    "research": {
-        "parent": "eclipse",
-        "requirements": [
-            "plastanium/7500",
-            "silicon/250000",
-            "infused-aether/25000",
-            "infused-iridium/25000",
-            "infused-vulcanite/25000"
-        ]
-    },
+    "research": "eclipse",
     "lightRadius":200,
     "speed":0.7,
     "accel":0.02,

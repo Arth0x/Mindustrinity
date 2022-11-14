@@ -2,9 +2,7 @@
     "type": "GenericCrafter",
     "name": "iridium mixer",
     "category": "crafting",
-    "research": {
-        "parent": "acidifier"
-    },
+    "research": "acidifier",
     "size": 3,
     "health": 700,
     "hasPower": true,

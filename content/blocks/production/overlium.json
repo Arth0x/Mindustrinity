@@ -1,9 +1,7 @@
 {
     "type": "GenericCrafter",
     "name": "Overlium",
-    "research": {
-        "parent": "silicon-crucible"
-    },
+    "research": "silicon-crucible",
     "health": 5,
     "size": 3 ,
     "category": "crafting",
