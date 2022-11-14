@@ -2,13 +2,7 @@
     "type": "GenericCrafter",
     "name": "Overlium",
     "research": {
-        "parent": "silicon-crucible",
-        "requirements": [
-            "lead/26000",
-            "graphite/18000",
-            "infused-aether/2500",
-            "silicon/8000"
-        ]
+        "parent": "silicon-crucible"
     },
     "health": 5,
     "size": 3 ,

@@ -3,13 +3,7 @@
     "name": "Acid Blender",
     "category": "crafting",
     "research": {
-        "parent": "laser-drill",
-        "requirements": [
-            "silicon/9000", 
-            "plastanium/7500", 
-            "titanium/15000", 
-            "sulfur/2500"
-        ]
+        "parent": "laser-drill"
     },
     "size": 3,
     "health": 700,

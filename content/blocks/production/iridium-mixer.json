@@ -3,13 +3,7 @@
     "name": "iridium mixer",
     "category": "crafting",
     "research": {
-        "parent": "acidifier",
-        "requirements": [
-            "silicon/5500", 
-            "plastanium/3000", 
-            "titanium/7500", 
-            "infused-aether/25000"
-        ]
+        "parent": "acidifier"
     },
     "size": 3,
     "health": 700,

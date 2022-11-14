@@ -8,7 +8,7 @@
     "cost": 5,
     "color": "FF1E00",
     "research": {
-        "parent": "infused-aether",
+        "parent": "infused-iridium",
         "requirements": [
             "infused-iridium/1000"
         ]

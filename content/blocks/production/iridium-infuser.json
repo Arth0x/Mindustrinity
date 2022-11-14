@@ -2,13 +2,7 @@
     "type": "GenericCrafter",
     "name": "Iridium Infuser",
     "research": {
-        "parent": "aether-infuser",
-        "requirements": [
-            "graphite/15000",
-            "lead/4000",
-            "infused-aether/7500",
-            "silicon/8000"
-        ]
+        "parent": "aether-infuser"
     },
     "health": 700,
     "size": 3,

@@ -2,12 +2,7 @@
     "name": "Steel Forge",
     "size": 2,
     "research": {
-        "parent": "graphite-press",
-        "requirements": [
-            "copper/3000",
-            "lead/7000",
-            "titanium/4500"
-        ]
+        "parent": "graphite-press"
     },
     "type": "GenericCrafter",
     "category": "crafting",

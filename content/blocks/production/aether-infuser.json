@@ -3,13 +3,7 @@
     "name": "Aether Compressor",
     "category": "crafting",
     "research": {
-        "parent": "steel-forge",
-        "requirements": [
-            "graphite/15000",
-            "lead/4000",
-            "plastanium/7000",
-            "silicon/8000"
-        ]
+        "parent": "steel-forge"
     },
     "size": 3,
     "health": 700,
