@@ -1,7 +1,7 @@
 {
     "name":"Smaug",
     "research": {
-        "parent": "reaper",
+        "parent": "eclipse",
         "requirements": [
             "plastanium/7500",
             "silicon/250000",
