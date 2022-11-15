@@ -109,9 +109,9 @@
           "under": true,
           "heatColor": "A9D8FFff",
           "heatProgress": {
-          "type": "reload",
-          "op": "delay",
-          "amount": 0.85
+            "type": "reload",
+            "op": "delay",
+            "amount": 0.85
           },
           "x": 22,
           "y": -34,
