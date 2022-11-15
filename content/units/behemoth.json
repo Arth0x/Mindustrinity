@@ -166,7 +166,6 @@
     "abilities": [ {
             "type": "ShieldArcAbility",
             "radius": 60,
-            "x": 15,
             "region": "aetherunbound-behemoth-shield",
             "regen": 11,
             "drawArc": false,
@@ -180,7 +179,7 @@
             "type": "StatusFieldAbility",
             "effect": "behemoth-care",
             "range": 165,
-            "x": 35,
+            "y": -35,
             "reload": 2,
             "duration": 300,
             "activeEffect": {
@@ -197,8 +196,8 @@
                         "strokeTo": 0,
                         "lenFrom": 6,
                         "lenTo": 0,
-                        "colorFrom": "A9D8FFFF",
-                        "colorTo": "BF92F8FF"
+                        "colorFrom": "BF92F8FF",
+                        "colorTo": "665C9FFF"
                     },
                     {
                         "type": "ParticleEffect",
@@ -207,8 +206,8 @@
                         "sizeFrom": 18,
                         "sizeTo": 0,
                         "particles": 1,
-                        "colorFrom": "FFFFFFFF",
-                        "colorTo": "BF92F8FF",
+                        "colorFrom": "BF92F8FF",
+                        "colorTo": "665C9FFF",
                         "region": "particle"
                     },
                     {
@@ -218,8 +217,8 @@
                         "sizeFrom": 8,
                         "sizeTo": 0,
                         "particles": 1,
-                        "colorFrom": "FFFFFFF",
-                        "colorTo": "BF92F8FF",
+                        "colorFrom": "BF92F8FF",
+                        "colorTo": "665C9FFF",
                         "region": "particle"
                     }
                 ]
