@@ -51,7 +51,7 @@
             "sideLength": 1,
             "sideWidth": 1,
             "colors": ["FFA664FF", "FFA664FF", "FFFFFF"],
-            "status": "mindustrinity-aethered",
+            "status": "aethered",
             "statusDuration": 50,
             "hitEffect": {
                 "type": "ParticleEffect",
@@ -79,7 +79,7 @@
                         "length": 0,
                         "lifetime": 25,
                         "layer": 109,
-                        "region": "mindustrinity-tall",
+                        "region": "tall",
                         "colorFrom": "FFFFFFFF",
                         "colorTo": "FFA664FF"
                     },
@@ -129,7 +129,7 @@
             "bullet": 
             {
                 "type" : "basicBulletType",
-                "sprite" : "mindustrinity-peircer",
+                "sprite" : "peircer",
                 "status": "melting",
                 "damage": 250,
                 "height" : 12,

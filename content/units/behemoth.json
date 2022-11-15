@@ -242,7 +242,7 @@
     "abilities": [ {
             "type": "ShieldArcAbility",
             "radius": 60,
-            "region": "mindustrinity-behemoth-shield",
+            "region": "behemoth-shield",
             "regen": 11,
             "drawArc": false,
             "whenShooting": false,
@@ -253,7 +253,7 @@
         },
         {
             "type": "StatusFieldAbility",
-            "effect": "mindustrinity-behemoth-care",
+            "effect": "behemoth-care",
             "range": 165,
             "reload": 2,
             "duration": 300,

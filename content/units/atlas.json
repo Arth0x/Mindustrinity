@@ -40,7 +40,7 @@
         },
         {
             "type": "StatusFieldAbility",
-            "effect": "mindustrinity-atlas-care",
+            "effect": "atlas-care",
             "range": 300,
             "reload": 180,
             "duration": 180,
@@ -79,7 +79,7 @@
         },
         {
             "type": "ShieldArcAbility",
-            "region": "mindustrinity-atlas-shield",
+            "region": "atlas-shield",
             "drawArc": false,
             "whenShooting": false,
             "regen": 15,

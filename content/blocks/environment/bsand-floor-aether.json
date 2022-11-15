@@ -5,7 +5,7 @@
     "liquidDrop": "aether",
     "type":"floor",
     "isLiquid":true,
-    "status": "mindustrinity-aethered",
+    "status": "aethered",
     "cacheLayer": "water",
     "statusDuration": 300,
     "speedMultiplier": 0.9
