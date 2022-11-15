@@ -179,15 +179,15 @@
             "type": "StatusFieldAbility",
             "effect": "behemoth-care",
             "range": 165,
-            "y": -35,
-            "reload": 2,
+            "reload": 5,
             "duration": 300,
             "activeEffect": {
                 "type": "MultiEffect",
                 "effects": [
                     {     
                         "type": "ParticleEffect",
-                        "line": true,
+                        "line": true,   
+                        "y": -35,
                         "particles": 4,
                         "lifetime": 25,
                         "length": 85,
@@ -201,6 +201,7 @@
                     },
                     {
                         "type": "ParticleEffect",
+                        "y": -35,
                         "lifetime": 20,
                         "length": 0,
                         "sizeFrom": 18,
@@ -212,6 +213,7 @@
                     },
                     {
                         "type": "ParticleEffect",
+                        "y": -35,
                         "lifetime": 20,
                         "length": 0,
                         "sizeFrom": 8,
