@@ -4,7 +4,7 @@
     "damageMultiplier": 1.8,
     "effect": {
         "type": "ParticleEffect",
-        "region": "mindustrinity-boost-effect",
+        "region": "boost-effect",
         "particles": 1,
         "lifetime": 600,
         "length": 35,
