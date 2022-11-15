@@ -130,12 +130,11 @@
                 "y": 0
             }, {
                 "type": "RegionPart",
-                "under": false,
+                "suffix": "-back",
                 "progress": "warmup",
                 "moveY": -5,
                 "moveRot": 20,
-                "suffix": "-back",    
-                "mirror": false,
+                "mirror": true,
                 "x": 0,
                 "y": 0
             }
