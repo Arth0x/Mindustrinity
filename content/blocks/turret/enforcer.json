@@ -54,7 +54,7 @@
             "trailParam": 5,
             "trailLength": 15,
             "trailWidth": 5,
-            "sprite": "mindustrinity-gauss-bullet",
+            "sprite": "gauss-bullet",
             "speed": 10,
             "lifetime": 64,
             "buildingDamageMultiplier": 1,
@@ -87,7 +87,7 @@
             "trailParam": 5,
             "trailLength": 25,
             "trailWidth": 6,
-            "sprite": "mindustrinity-heavy-bullet",
+            "sprite": "heavy-bullet",
             "speed": 2,
             "lifetime": 320,
             "buildingDamageMultiplier": 1.3,
@@ -118,7 +118,18 @@
     ],
     "drawer": {
         "type": "DrawTurret",
-        "parts": [ {
+        "parts": [ 
+            {
+                "type": "RegionPart",
+                "suffix": "-back",
+                "progress": "warmup",
+                "moveY": -5,
+                "moveRot": 20,
+                "mirror": true,
+                "x": 0,
+                "y": 0
+            },
+            {
                 "type": "RegionPart",
                 "layer": -1,
                 "progress": "warmup",
@@ -126,15 +137,6 @@
                 "suffix": "-front",    
                 "mirror": false,
                 "under": true,
-                "x": 0,
-                "y": 0
-            }, {
-                "type": "RegionPart",
-                "suffix": "-back",
-                "progress": "warmup",
-                "moveY": -5,
-                "moveRot": 20,
-                "mirror": true,
                 "x": 0,
                 "y": 0
             }
