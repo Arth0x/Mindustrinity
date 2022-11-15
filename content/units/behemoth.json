@@ -37,7 +37,7 @@
     ],
     "weapons": [ {
             "name": "behemoth-weapon",
-            "x": 40,
+            "x": 25,
             "y": 5,
             "rotateSpeed": 0.8,
             "rotate": true,
@@ -56,37 +56,9 @@
             "shootSound": "malignShoot",
             "shoot": {
                 "type": "shootSpread",
-                "shots": 3,
-                "spread": 3
+                "shots": 5,
+                "spread": 5
             },
-            "parts": [ 
-                {
-                    "type": "RegionPart",
-                    "suffix": "-frontr",
-                    "mirror": false,   
-                    "moveY": -3,
-                    "moveRot": -7,
-                    "progress": {
-                        "type": "warmup",
-                        "op": "blend",
-                        "other": "reload",
-                        "amount": 0.75
-                    }
-                },
-                {
-                    "type": "RegionPart",
-                    "suffix": "-frontl",
-                    "mirror": false,   
-                    "moveY": -3,
-                    "moveRot": 7,
-                    "progress": {
-                        "type": "warmup",
-                        "op": "blend",
-                        "other": "reload",
-                        "amount": 0.75
-                    }
-                }
-            ],
             "bullet": { 
                 "type": "EmpBulletType",
                 "width": 13,
@@ -240,7 +212,7 @@
     "abilities": [ {
             "type": "ShieldArcAbility",
             "radius": 60,
-            "region": "mindustrinity-behemoth-shield",
+            "region": "behemoth-shield",
             "regen": 11,
             "drawArc": false,
             "whenShooting": false,
@@ -254,7 +226,12 @@
             "effect": "behemoth-care",
             "range": 165,
             "reload": 300,
-            "duration": 300
+            "duration": 300,
+            "activeEffect": {
+                "type": "MultiEffect",
+                "effects": [ 
+                ]
+            }
         }
     ]
 }
