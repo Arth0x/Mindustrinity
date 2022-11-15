@@ -253,47 +253,8 @@
             "type": "StatusFieldAbility",
             "effect": "behemoth-care",
             "range": 165,
-            "reload": 2,
-            "duration": 300,
-            "activeEffect": {
-                "type": "MultiEffect",
-                "effects": [ 
-                    {     
-                        "type": "ParticleEffect",
-                        "line": true,
-                        "particles": 4,
-                        "lifetime": 25,
-                        "length": 85,
-                        "cone": -360,
-                        "strokeFrom": 2,
-                        "strokeTo": 0,
-                        "lenFrom": 6,
-                        "lenTo": 0,
-                        "colorFrom": "BF92F8FF",
-                        "colorTo": "66B1FFFF"
-                    }, {
-                        "type": "ParticleEffect",
-                        "lifetime": 20,
-                        "length": 0,
-                        "sizeFrom": 18,
-                        "sizeTo": 0,
-                        "particles": 1,
-                        "colorFrom": "BF92F8FF",
-                        "colorTo": "BF92F8FF",
-                        "region": "particle"
-                    }, {
-                        "type": "ParticleEffect-rene",
-                        "lifetime": 20,
-                        "length": 0,
-                        "sizeFrom": 8,
-                        "sizeTo": 0,
-                        "particles": 1,
-                        "colorFrom": "FFFFFFF",
-                        "colorTo": "FFFFFFF",
-                        "region": "particle"
-                    }
-                ]
-            }
+            "reload": 300,
+            "duration": 300
         }
     ]
 }
