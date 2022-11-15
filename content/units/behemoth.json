@@ -53,7 +53,7 @@
             "shootY": 4,
             "alternate": true,
             "layerOffset": -0.001,
-            "rotationLimit": 30,
+            "rotationLimit": 40,
             "smoothReloadSpeed": 0.15,
             "shootWarmupSpeed": 0.05,
             "minWarmup": 0.9,
