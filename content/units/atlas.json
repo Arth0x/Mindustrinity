@@ -40,7 +40,7 @@
         },
         {
             "type": "StatusFieldAbility",
-            "effect": "aetherunbound-atlas-care",
+            "effect": "mindustrinity-atlas-care",
             "range": 300,
             "reload": 180,
             "duration": 180,
@@ -79,7 +79,7 @@
         },
         {
             "type": "ShieldArcAbility",
-            "region": "aetherunbound-atlas-shield",
+            "region": "mindustrinity-atlas-shield",
             "drawArc": false,
             "whenShooting": false,
             "regen": 15,

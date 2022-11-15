@@ -4,7 +4,7 @@
     "damageMultiplier": 1.8,
     "effect": {
         "type": "ParticleEffect",
-        "region": "aetherunbound-boost-effect",
+        "region": "mindustrinity-boost-effect",
         "particles": 1,
         "lifetime": 600,
         "length": 35,

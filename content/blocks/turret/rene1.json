@@ -1,7 +1,7 @@
 {
     "name":" rené [red](troll turret)",
 	"type": "LaserTurret",
-    "base": "aetherunbound-block-8",
+    "base": "mindustrinity-block-8",
 	"size": 5,
 	"health": 1900,
 	"reload": 300,
@@ -40,7 +40,6 @@
         "fragBullets": 1,
         "fragBullet": {
         "type" : "basicBulletType",
-        "sprite" : "exogenesis-peircer",
         "status": "melting",
         "damage": 20,
         "height" : 10,

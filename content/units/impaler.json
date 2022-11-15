@@ -27,7 +27,7 @@
     "allowLegStep": true,
     "hovering": true,
     "weapons": [ {
-            "name": "aetherunbound-spear",
+            "name": "mindustrinity-spear",
             "shootCone": 15,
             "mirror": false,
             "x": 0,
@@ -39,7 +39,7 @@
             "shootSound": "laser",
             "parentizeEffects": true,
             "bullet": {
-                "sprite": "aetherunbound-spear",
+                "sprite": "mindustrinity-spear",
                 "chargeEffect": {
                     "followParent": true,
                     "rotWithParent": true,
@@ -93,7 +93,7 @@
                             "sizeFrom": 0,
                             "sizeTo": 20,
                             "length": 0,
-                            "region": "aetherunbound-spear-effect",
+                            "region": "mindustrinity-spear-effect",
                             "interp": "swingOut",
                             "lifetime": 120,
                             "colorFrom": "FFFFFFF",
@@ -105,7 +105,7 @@
                             "sizeFrom": 0,
                             "sizeTo": 20,
                             "length": 0,
-                            "region": "aetherunbound-spear-effect",
+                            "region": "mindustrinity-spear-effect",
                             "interp": "swingOut",
                             "lifetime": 120,
                             "colorFrom": "84F491FF",

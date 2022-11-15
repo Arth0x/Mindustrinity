@@ -4,7 +4,7 @@
     "healthMultiplier": 1.8,
     "effect": {
         "type": "ParticleEffect",
-        "region": "aetherunbound-tank-effect",
+        "region": "mindustrinity-tank-effect",
         "particles": 1,
         "lifetime": 600,
         "length": 45,
