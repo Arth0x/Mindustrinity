@@ -12,4 +12,3 @@
 
 
 
-<h3>Credits for some units sprites (Exogenesis and Advancement<h3>
