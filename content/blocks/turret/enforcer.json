@@ -122,13 +122,12 @@
             {
                 "type": "RegionPart",
                 "suffix": "-back",
-                "color": "A9D8FFff",
                 "mirror": true,
                 "under": false,
                 "x": 14,
-                "y": 0,
+                "y": -4,
                 "moveY": -5,
-                "moveRot": 20,
+                "moveRot": -20,
                 "progress": "warmup"
             },
             {
