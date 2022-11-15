@@ -125,13 +125,7 @@
                 "color": "A9D8FFff",
                 "mirror": true,
                 "under": false,
-                "heatColor": "A9D8FFff",
-                "heatProgress": {
-                    "type": "reload",
-                    "op": "delay",
-                    "amount": 0.85
-                 },
-                "x": 20,
+                "x": 14,
                 "y": 0,
                 "moveY": -5,
                 "moveRot": 20,
