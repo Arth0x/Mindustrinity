@@ -35,7 +35,7 @@
 	"hasPower" : true,
 	"shootType": {
         "type" : "BasicBulletType",
-        "sprite" : "mindustrinity-armored-bullet",
+        "sprite" : "armored-bullet",
         "status": "corroded",
         "damage": 50,
         "height" : 18,
