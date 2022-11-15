@@ -3,7 +3,8 @@
     "research": "toxopid",
     "groundLayer": 75,
     "drawShields": false,
-    "maxRange": 220,
+    "faceTarget": false,
+    "maxRange": 250,
     "type": "legs",
     "speed": 0.7,
     "heatColor": "FF9b59FF",
@@ -16,7 +17,7 @@
     "targetAir": true,
     "rotateSpeed": 1,
     "legCount": 6,
-    "legMoveSpace": 0.5,
+    "legMoveSpace": 0.8,
     "legMaxLength": 1.7,
     "legExtension": -15,
     "legLength": 50,
@@ -24,8 +25,6 @@
     "legBaseOffset": 15,
     "legSpeed": 0.9,
     "legMinLength": 0.6,
-    "legLengthScl": 0.96,
-    "legForwardScl": 3,
     "legStraightness": 0.3,
     "legPhysicsLayer": false,
     "legContinuousMove": true,
@@ -41,7 +40,8 @@
         "melting",
         "freezing"
     ],
-    "weapons": [ {
+    "weapons": [ 
+        {
             "name": "behemoth-weapon",
             "x": 23,
             "y": 15,
