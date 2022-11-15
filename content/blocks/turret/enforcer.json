@@ -134,17 +134,7 @@
                 "progress": "warmup",
                 "moveY": -5,
                 "moveRot": 20,
-                "suffix": "-backl",    
-                "mirror": false,
-                "x": 0,
-                "y": 0
-            }, {
-                "type": "RegionPart",
-                "under": false,
-                "progress": "warmup",
-                "moveY": -5,
-                "moveRot": -20,
-                "suffix": "-backr",    
+                "suffix": "-back",    
                 "mirror": false,
                 "x": 0,
                 "y": 0
