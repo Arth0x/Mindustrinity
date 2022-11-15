@@ -1,4 +1,5 @@
 {
+    "name": "[red]WIP",
 	"type": "PowerTurret",
 	"size": 12,
 	"health": 90000,
@@ -14,7 +15,7 @@
     "minWarmup": 0.85,
     "shootWarmupSpeed": 0.07,
 	"consumes" : {
-	"power": 200
+        "power": 200
     },
     "drawer": {
     "type": "drawTurret",
@@ -24,180 +25,7 @@
          "suffix": "-ring",    
          "progress": "warmup"
      },
- {
-        "type": "HaloPart",
-        "y": 36.5,
-        "x": -24,
-        "radius": 3.5,
-        "mirror": true,
-        "tri": true,
-        "layer": 110,
-        "progress": {
-           "type": "reload",
-          "op": "delay",
-          "amount": 0.85
-          },
-        "color": "66B1FFff",
-        "haloRadius": 1,
-        "haloRadiusTo": 1,
-        "haloRotation": 45,
-        "stroke": 0,
-        "strokeTo": 2,
-         "shapes": 1,
-        "triLengthTo": 10
-         },
-          { 
-        "type": "HaloPart",
-        "y": 36.5,
-        "x": -24,
-        "mirror": true,
-        "radius": 3.5,
-        "tri": true,
-        "layer": 110,
-        "progress": {
-           "type": "reload",
-          "op": "delay",
-          "amount": 0.85
-          },
-        "color": "66B1FFff",
-        "haloRadius": 1,
-        "haloRotation": 45,
-        "shapeRotation": 180,
-         "stroke": 0,
-        "strokeTo": 2,
-         "shapes": 1,
-        "triLengthTo": 5
-         },
- {
-        "type": "HaloPart",
-        "y": 29.5,
-        "x": -25,
-        "radius": 3.7,
-        "mirror": true,
-        "tri": true,
-        "layer": 110,
-        "progress": {
-           "type": "reload",
-          "op": "delay",
-          "amount": 0.65
-          },
-        "color": "66B1FFff",
-        "haloRadius": 1,
-        "haloRotation": 45,
-        "stroke": 0,
-        "strokeTo": 2,
-        "shapes": 1,
-        "triLengthTo": 15
-         },
-          { 
-        "type": "HaloPart",
-        "y": 29.5,
-        "x": -25,
-        "mirror": true,
-        "radius": 3.7,
-        "tri": true,
-        "layer": 110,
-        "progress": {
-           "type": "reload",
-          "op": "delay",
-          "amount": 0.65
-          },
-        "color": "66B1FFff",
-        "haloRadius": 1,
-        "haloRotation": 45,
-        "shapeRotation": 180,
-        "stroke": 0,
-        "strokeTo": 2,
-        "shapes": 1,
-        "triLengthTo": 5
-       },
- {
-        "type": "HaloPart",
-        "y": 22.5,
-        "x": -27,
-        "radius": 3.9,
-        "mirror": true,
-        "tri": true,
-        "layer": 110,
-        "progress": {
-           "type": "reload",
-          "op": "delay",
-          "amount": 0.45
-          },
-        "color": "66B1FFff",
-        "haloRadius": 1,
-        "haloRotation": 45,
-        "stroke": 0,
-        "strokeTo": 2.4,
-         "shapes": 1,
-        "triLengthTo": 18
-         },
-          { 
-        "type": "HaloPart",
-        "y": 22.5,
-        "x": -27,
-        "mirror": true,
-        "radius": 3.7,
-        "tri": true,
-        "layer": 110,
-        "progress": {
-           "type": "reload",
-          "op": "delay",
-          "amount": 0.45
-          },
-        "color": "66B1FFff",
-        "haloRadius": 1,
-        "haloRadiusTo": 1,
-        "haloRotation": 45,
-        "shapeRotation": 180,
-        "stroke": 0,
-        "strokeTo": 2.4,
-        "shapes": 1,
-        "triLengthTo": 5
-            },
- {
-        "type": "HaloPart",
-        "y": 14.5,
-        "x": -30,
-        "radius": 4.2,
-        "mirror": true,
-        "tri": true,
-        "layer": 110,
-        "progress": {
-           "type": "reload",
-          "op": "delay",
-          "amount": 0.25
-          },
-        "color": "66B1FFff",
-        "haloRadius": 1,
-        "haloRotation": 45,
-         "stroke": 0,
-        "strokeTo": 2.4,
-         "shapes": 1,
-        "triLengthTo": 21
-         },
-          { 
-        "type": "HaloPart",
-        "y": 14.5,
-        "x": -30,
-        "mirror": true,
-        "radius": 4.2,
-        "tri": true,
-        "layer": 110,
-        "progress": {
-           "type": "reload",
-          "op": "delay",
-          "amount": 0.25
-          },
-        "color": "66B1FFff",
-        "haloRadius": 1,
-        "haloRotation": 45,
-        "shapeRotation": 180,
-         "stroke": 0,
-        "strokeTo": 2.4,
-         "shapes": 1,
-        "triLengthTo": 5
-        },
+
         {
          "type": "RegionPart",
          "layer": -1,
