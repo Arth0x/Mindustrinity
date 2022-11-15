@@ -1,11 +1,10 @@
 {
-	"name": "Guardian [red](NO TEXTURES)",
+	"name": "[red]WIP",
     "type": "PowerTurret",
     "category": "turret",
 	"size": 4,
     "targetAir": true,
     "targetGround": false,
-    "collidesGround": false,
 	"health": 880,
 	"reload": 10,
 	"range": 400,
