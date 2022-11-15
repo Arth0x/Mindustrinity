@@ -1,8 +1,6 @@
 {
     "name" : "Behemoth",
-    "research": {
-        "parent": "toxopid"
-    },
+    "research": "toxopid",
     "groundLayer": 75,
     "drawShields": false,
     "maxRange": 220,
@@ -242,7 +240,7 @@
     "abilities": [ {
             "type": "ShieldArcAbility",
             "radius": 60,
-            "region": "mindustrinity-behemoth-shield",
+            "region": "behemoth-shield",
             "regen": 11,
             "drawArc": false,
             "whenShooting": false,
@@ -259,7 +257,8 @@
             "duration": 300,
             "activeEffect": {
                 "type": "MultiEffect",
-                "effects": [ {     
+                "effects": [ 
+                    {     
                         "type": "ParticleEffect",
                         "line": true,
                         "particles": 4,
