@@ -1,4 +1,4 @@
-<img src=https://github.com/Arth0x/AetherUnbound/blob/master/sprites/ui/front-cover.png>
+![](https://github.com/Arth0x/AetherUnbound/blob/master/sprites/ui/front-cover.png)
 
 <h1>Welcom to MindusTrinity<h1>
 
