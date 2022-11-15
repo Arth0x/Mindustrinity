@@ -1,17 +1,5 @@
 {
     "name": "Behemoth's Boost",
     "description": "You are part of him now.",
-    "damageMultiplier": 1.8,
-    "effect": {
-        "type": "ParticleEffect",
-        "region": "aetherunbound-boost-effect",
-        "particles": 1,
-        "lifetime": 600,
-        "length": 35,
-        "cone": 0,
-        "sizeFrom": 3,
-        "sizeTo": 0,
-        "colorFrom": "BF92F8AA",
-        "colorTo": "BF92F800"
-    }
+    "damageMultiplier": 1.8
 }
