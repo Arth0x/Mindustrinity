@@ -43,8 +43,8 @@
     "weapons": [ 
         {
             "name": "behemoth-weapon",
-            "x": 23,
-            "y": 15,
+            "x": 21,
+            "y": 16,
             "rotateSpeed": 0.8,
             "rotate": true,
             "mirror": true,
@@ -184,7 +184,43 @@
             "duration": 300,
             "activeEffect": {
                 "type": "MultiEffect",
-                "effects": [ 
+                "effects": [
+                    {     
+                    "type": "ParticleEffect",
+                    "line": true,
+                    "particles": 4,
+                    "lifetime": 25,
+                    "length": 85,
+                    "cone": -360,
+                    "strokeFrom": 2,
+                    "strokeTo": 0,
+                    "lenFrom": 6,
+                    "lenTo": 0,
+                    "colorFrom": "A9D8FFFF",
+                    "colorTo": "BF92F8FF"
+                    },
+                    {
+                "type": "ParticleEffect",
+                    "lifetime": 20,
+                    "length": 0,
+                    "sizeFrom": 18,
+                    "sizeTo": 0,
+                    "particles": 1,
+                    "colorFrom": "FFFFFFFF",
+                    "colorTo": "BF92F8FF",
+                    "region": "particle"
+                    },
+                    {
+                "type": "ParticleEffect",
+                    "lifetime": 20,
+                    "length": 0,
+                    "sizeFrom": 8,
+                    "sizeTo": 0,
+                    "particles": 1,
+                    "colorFrom": "FFFFFFF",
+                    "colorTo": "BF92F8FF",
+                    "region": "particle"
+                    }
                 ]
             }
         }
