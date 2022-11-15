@@ -242,7 +242,7 @@
     "abilities": [ {
             "type": "ShieldArcAbility",
             "radius": 60,
-            "region": "behemoth-shield",
+            "region": "mindustrinity-behemoth-shield",
             "regen": 11,
             "drawArc": false,
             "whenShooting": false,
