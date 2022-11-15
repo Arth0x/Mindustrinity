@@ -112,7 +112,7 @@
             }
         },
         {
-            "name": "scourge-shock",
+            "name": "aetherunbound-scourge-shock",
             "x": 15.5,
             "y": -5,
             "reload": 28,
@@ -129,7 +129,7 @@
             "bullet": 
             {
                 "type" : "basicBulletType",
-                "sprite" : "peircer",
+                "sprite" : "aetherunbound-peircer",
                 "status": "melting",
                 "damage": 250,
                 "height" : 12,
