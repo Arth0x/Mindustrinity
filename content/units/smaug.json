@@ -77,13 +77,13 @@
             "shootY":2,
             "rotateSpeed":1.4,
             "reload":25,
-            "recoil":4,
-            "inaccuracy":0,
+            "recoil":14,
+            "inaccuracy": 10,
             "shoot":
             {
                 "type":"ShootPattern",
                 "shots":5,
-                "shotDelay":25
+                "shotDelay":4
             },
             "shootSound":"laser",
             "rotate":true,
