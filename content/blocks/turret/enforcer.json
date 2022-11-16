@@ -134,6 +134,7 @@
                 "type": "RegionPart",
                 "layer": -2,
                 "progress": "warmup",
+                "blending": "additive",
                 "moveY": 15,
                 "suffix": "-front",    
                 "mirror": false,
