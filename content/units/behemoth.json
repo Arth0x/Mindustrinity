@@ -58,7 +58,7 @@
             "shootWarmupSpeed": 0.05,
             "minWarmup": 0.9,
             "shootCone": 15,
-            "spread": 6,
+            "inaccuracy": 6,
             "heatColor": "FF9b59FF",
             "shootSound": "malignShoot",
             "shoot": {
