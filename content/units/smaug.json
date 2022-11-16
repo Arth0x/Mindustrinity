@@ -83,7 +83,7 @@
             {
                 "type":"ShootPattern",
                 "shots":5,
-                "shotDelay":15
+                "shotDelay":25
             },
             "shootSound":"laser",
             "rotate":true,
