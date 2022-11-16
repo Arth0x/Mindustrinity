@@ -43,8 +43,8 @@
     "weapons": [ 
         {
             "name": "behemoth-weapon",
-            "x": 21,
-            "y": 16,
+            "x": 20.8,
+            "y": 15,
             "rotateSpeed": 0.8,
             "rotate": true,
             "mirror": true,
