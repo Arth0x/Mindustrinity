@@ -132,7 +132,6 @@
             },
             {
                 "type": "RegionPart",
-                "layer": 0.52,
                 "progress": "warmup",
                 "moveY": 15,
                 "suffix": "-front",    
