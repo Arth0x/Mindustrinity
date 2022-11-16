@@ -137,7 +137,7 @@
                 "moveY": 15,
                 "suffix": "-front",    
                 "mirror": false,
-                "under": true,
+                "under": false,
                 "x": 0,
                 "y": 0
             }
