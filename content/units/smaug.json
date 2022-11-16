@@ -76,7 +76,7 @@
             "y":15,
             "shootY":2,
             "rotateSpeed":1.4,
-            "reload": 55,
+            "reload": 75,
             "recoil": 7,
             "inaccuracy": 10,
             "shoot":
