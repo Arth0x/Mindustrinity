@@ -24,7 +24,7 @@
     "legPairOffset": 30,
     "legBaseOffset": 10,
     "legSpeed": 0.9,
-    "legMinLength": 0.6,
+    "legMinLength": 2,
     "legStraightness": 0.3,
     "legPhysicsLayer": false,
     "legContinuousMove": true,
