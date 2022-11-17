@@ -18,7 +18,7 @@
     "targetAir": true,
 	"legSpeed": 0.09,
 	"maxStretch": 1.5,
-	"legCount": 6,
+	"legCount": 8,
 	"legBaseOffset": 15,
     "legLengthScl": 0.93,
     "legPairOffset": 3,
@@ -159,7 +159,8 @@
             }
         }
     ],
-    "abilities": [ {
+    "abilities": [ 
+        {
             "type": "ShieldArcAbility",
             "radius": 60,
             "region": "aetherunbound-scylla-shield",
