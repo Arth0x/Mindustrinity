@@ -19,7 +19,7 @@
     "legCount": 6,
     "legMoveSpace": 2.5,
     "legMaxLength": 2.5,
-    "legExtension": -45,
+    "legExtension": 0,
     "legLength": 50,
     "legPairOffset": 30,
     "legBaseOffset": 10,
