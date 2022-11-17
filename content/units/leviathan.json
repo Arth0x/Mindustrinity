@@ -102,7 +102,7 @@
         {
             "name": "leviathan-main",
             "x": 0,
-            "y": -10,
+            "y": 10,
             "reload": 380,
             "top": true,
             "rotate": true,
