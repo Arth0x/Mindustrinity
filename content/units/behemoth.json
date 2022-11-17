@@ -29,7 +29,7 @@
     "legPhysicsLayer": false,
     "legContinuousMove": true,
     "lockLegBase": true,
-    "rippleScale": 15.5,
+    "rippleScale": 2.5,
     "legSplashDamage": 106,
     "legSplashRange": 40,
     "allowLegStep": true,
