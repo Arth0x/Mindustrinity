@@ -16,7 +16,7 @@
     "health": 30,
     "hitSize": 7,
     "armor": 5,
-    "engineOffset": 7,
+    "engineOffset": 6,
     "engineColor": "FFD37FFF",
     "targetAir": true,
     "faceTarget": true,
