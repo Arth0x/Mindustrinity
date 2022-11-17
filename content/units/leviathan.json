@@ -67,7 +67,7 @@
             "rotate": true,
             "rotateSpeed": 2.9,
             "reload": 60,
-            "recoil": 4.5,
+            "recoil": 2,
             "shoot": {
                 "type": "shootPattern",
                 "shots": 4,
@@ -102,7 +102,7 @@
             "rotate": true,
             "mirror": false,
             "cooldownTime": 380,
-            "recoil": 5.5,
+            "recoil": 2,
             "rotateSpeed": 1.0,
             "shootY": 4,
             "shake": 1,
