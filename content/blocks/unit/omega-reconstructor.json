@@ -25,7 +25,8 @@
         ["reign","goliath"],
         ["eclipse","smaug"],
         ["oct","atlas"],
-        ["corvus","impaler"]
+        ["corvus","impaler"],
+        ["omura","leviathan"]
     ],
     "requirements": [
         "silicon/5000",
