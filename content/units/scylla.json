@@ -6,7 +6,7 @@
     "faceTarget": true,
     "maxRange": 250,
     "type": "legs",
-    "speed": 0.7,
+    "speed": 0.5,
     "heatColor": "FF9b59FF",
     "hitSize": 45,
     "rotateSpeed": 0.8,
