@@ -19,8 +19,7 @@
         "melting",
         "blasted"
     ],
-    "weapons": 
-    [
+    "weapons": [
         {
         "name": "goliath-fusion",
         "x": 29,
@@ -174,6 +173,20 @@
                     "colorTo": "FFA664FF",
                     "cone": 360   
                 }
+            }
+        }
+    ],
+    "abilities": [ 
+        {
+            "type": "StatusFieldAbility",
+            "effect": "goliath-care",
+            "range": 165,
+            "reload": 60,
+            "duration": 300,
+            "activeEffect": {
+                "type": "MultiEffect",
+                "effects": [
+                ]
             }
         }
     ]
