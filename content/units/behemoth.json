@@ -105,7 +105,7 @@
                     "type": "ParticleEffect",
                     "line": true,
                     "particles": 3,
-                    "lifetime": 20,
+                    "lifetime": 10,
                     "offset": 50,
                     "length": -85,
                     "cone": -30,
