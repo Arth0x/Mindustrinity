@@ -151,8 +151,8 @@
         {
             "type": "UnitSpawnAbility",
             "spawnX": 0,
-            "spawnY": -45,
-            "unit": "minke",
+            "spawnY": -35,
+            "unit": "risso",
             "spawnTime": 1500
         }
     ]
