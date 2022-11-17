@@ -1,8 +1,9 @@
 {
-"speedMultiplier": 0.7,
-"opposites": [ "freezing", "wet"],
-"affinities": ["tarred", "melting"],
-"transitionDamage": 5,
-"damage": 0.8,
-"healthMultiplier": 0.7
+    "name": "Vulcanise",
+    "speedMultiplier": 0.7,
+    "opposites": [ "freezing", "wet"],
+    "affinities": ["tarred", "melting"],
+    "transitionDamage": 5,
+    "damage": 0.8,
+    "healthMultiplier": 0.7
 }
