@@ -16,7 +16,7 @@
     "flying": false,
     "targetAir": true,
     "legMoveSpace": 0.85,
-	"legMaxLength": 1.6,
+	"legMaxLength": 1.2,
 	"legExtension": -15,
 	"legLength": 50,
     "legPairOffset": 3,
