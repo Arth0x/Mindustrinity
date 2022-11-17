@@ -21,7 +21,7 @@
         }
     },
     "upgrades": [
-        ["toxopid","behemoth"],
+        ["toxopid","scylla"],
         ["reign","goliath"],
         ["eclipse","smaug"],
         ["oct","atlas"],

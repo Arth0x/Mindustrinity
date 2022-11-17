@@ -1,5 +1,5 @@
 {
-    "name" : "Behemoth",
+    "name" : "Scylla",
     "research": "toxopid",
     "groundLayer": 75,
     "drawShields": false,
@@ -42,7 +42,7 @@
     ],
     "weapons": [ 
         {
-            "name": "behemoth-weapon",
+            "name": "scylla-weapon",
             "x": 20.8,
             "y": 15,
             "rotateSpeed": 0.8,
@@ -117,7 +117,7 @@
             }
         },
         {
-            "name": "laser-behemoth",
+            "name": "laser-scylla",
             "x": 0,
             "y": -13,
             "controllable": false,
@@ -164,7 +164,7 @@
     "abilities": [ {
             "type": "ShieldArcAbility",
             "radius": 60,
-            "region": "aetherunbound-behemoth-shield",
+            "region": "aetherunbound-scylla-shield",
             "regen": 11,
             "drawArc": false,
             "whenShooting": false,
@@ -175,7 +175,7 @@
         },
         {
             "type": "StatusFieldAbility",
-            "effect": "behemoth-care",
+            "effect": "scylla-care",
             "range": 165,
             "reload": 60,
             "duration": 300,
