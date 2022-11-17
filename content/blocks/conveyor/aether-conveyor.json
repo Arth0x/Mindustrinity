@@ -1,0 +1,14 @@
+{
+    "type": "Conveyor",
+    "name": "Aether conveyor",
+    "description": "Fast af boii",
+    "requirements": [
+        "steel/1",
+        "copper/1",
+        "infused-aether/1"
+    ],
+    "category": "distribution",
+    "speed": 0.15,
+    "displayedSpeed": 15,
+    "research": "armored-conveyor"
+}

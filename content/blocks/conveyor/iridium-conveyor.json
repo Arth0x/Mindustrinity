@@ -1,14 +1,40 @@
 {
-    "type": "Conveyor",
+    "type": "StackConveyor",
     "name": "Iridium conveyor",
-    "description": "Fast af boii",
+    "description": "FASTER !!!!!",
     "requirements": [
         "steel/1",
-        "copper/1",
+        "plastanium/1",
         "infused-iridium/1"
     ],
+    "health": 300,
+    "speed": 0.10,
+    "itemCapacity": 25,
     "category": "distribution",
-    "speed": 0.15,
-    "displayedSpeed": 15,
-    "research": "armored-conveyor"
+    "displayedSpeed": 10,
+    "research": "aether-conveyor",
+    "loadEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 7,
+        "lifetime": 15,
+        "length": 25,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "FFFB99FF",
+        "colorTo": "FFF740FF"
+    },
+    "unloadEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 7,
+        "lifetime": 15,
+        "length": 25,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "FFFB99FF",
+        "colorTo": "FFF740FF"
+    }
 }
