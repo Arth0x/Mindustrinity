@@ -60,9 +60,9 @@
             "heatColor": "FF9b59FF",
             "shootSound": "malignShoot",
             "shoot": {
-                "type":"ShootPattern",
-                "shots":12,
-                "shotDelay":1
+                "type": "ShootPattern",
+                "shots": 12,
+                "shotDelay": 0.4
             },
             "bullet": { 
                 "type": "basicBulletType",
