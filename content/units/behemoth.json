@@ -67,7 +67,7 @@
                 "shotDelay":7
             },
             "bullet": { 
-                "type": "EmpBulletType",
+                "type": "basicBulletType",
                 "width": 13,
                 "height": 17,
                 "sprite": "aetherunbound-heavy-bullet",
@@ -112,7 +112,7 @@
                     "lenFrom": 6,
                     "lenTo": 0,
                     "colorFrom": "BF92F8FF",
-                    "colorTo": "66B1FFFF"
+                    "colorTo": "665C9FFF"
                 }
             }
         },
@@ -123,7 +123,6 @@
             "controllable": false,
             "autoTarget": true,
             "shootY": 8.5,
-            "ejectEffect": "none",
             "rotateSpeed": 2.5,
             "rotate": true,
             "alternate": false,
@@ -146,8 +145,6 @@
                 "shake": 0.5,
                 "despawnEffect": "smokeCloud",
                 "smokeEffect": "smokeCloud",
-                "incendChance": 0,
-                "colors": ["BF92F8FF", "BF92F8FF", "BF92F8FF", "FFFFFF"],
                 "shootEffect": {
                     "type": "ParticleEffect",
                     "line": true,
