@@ -1,6 +1,6 @@
 {
     "name": "Aethered",
-    "affinities": ["Wet"],
+    "affinities": ["wet"],
     "speedMultiplier": 0.80,
     "healthMultiplier": 1.05,
     "damage": -1.5
