@@ -34,7 +34,6 @@
     "legCount": 6,
     "legSpeed": 0.9,
     "legMinLength": 1.5,
-    "legStraightness": 0.3,
     "legPhysicsLayer": false,
     "lockLegBase": true,
     "immunities": [
