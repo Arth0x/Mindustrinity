@@ -48,7 +48,7 @@
             "rotateSpeed": 0.8,
             "rotate": true,
             "mirror": true,
-            "reload": 100,
+            "reload": 150,
             "recoil": 5,
             "shootY": 4,
             "alternate": true,
@@ -61,8 +61,8 @@
             "shootSound": "malignShoot",
             "shoot": {
                 "type":"ShootPattern",
-                "shots":5,
-                "shotDelay":7
+                "shots":12,
+                "shotDelay":1
             },
             "bullet": { 
                 "type": "basicBulletType",
