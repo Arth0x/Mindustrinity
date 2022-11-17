@@ -50,14 +50,12 @@
         },
         {
             "type": "UnitSpawnAbility",
-            "mirror": true,
             "spawnX": 20,
             "spawnY": -25,
             "unit": "nano",
             "spawnTime": 500},
         {
             "type": "UnitSpawnAbility",
-            "mirror": true,
             "spawnX": -20,
             "spawnY": -25,
             "unit": "nano",

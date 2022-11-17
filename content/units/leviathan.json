@@ -124,5 +124,14 @@
                 "shootEffect": "bigShockwave"
             }
         }
+    ],
+    "abilities": [
+        {
+            "type": "UnitSpawnAbility",
+            "spawnX": 0,
+            "spawnY": -45,
+            "unit": "minke",
+            "spawnTime": 1500
+        }
     ]
 }
