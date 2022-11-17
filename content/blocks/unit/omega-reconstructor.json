@@ -3,7 +3,7 @@
     "type": "Reconstructor",
     "size": 11,
     "research": "tetrative-reconstructor",
-    "constructTime": 3600,
+    "constructTime": 5000,
     "liquidCapacity": 3500,
     "category": "units",
     "consumes": {
