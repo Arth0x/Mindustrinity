@@ -32,6 +32,7 @@
 	"allowLegStep": true,
 	"hovering": true,
     "lockLegBase": true,
+    "legContinuousMove": true,
     "immunities": [
         "burning",
         "iridiated", 
