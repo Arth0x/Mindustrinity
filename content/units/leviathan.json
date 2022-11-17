@@ -24,19 +24,17 @@
             "mirror": true,
             "top": true,
             "y": 3,
-            "x": 27,
+            "x": -24,
             "rotate": true,
             "rotateSpeed": 2.9,
-            "reload": 18,
+            "reload": 20,
             "recoil": 4.5,
             "shoot": {
                 "type": "shootPattern",
                 "shots": 4,
-                "shotDelay": 1
+                "shotDelay": 10
             },
-            "shootY": 8,
             "inaccuracy": 10,
-            "xRand": 11,
             "shootSound": "missile",
             "velocityRnd": 0.4,
             "bullet": {
@@ -65,19 +63,17 @@
             "mirror": true,
             "top": true,
             "y": -23,
-            "x": 31,
+            "x": 28,
             "rotate": true,
             "rotateSpeed": 2.9,
-            "reload": 18,
+            "reload": 20,
             "recoil": 4.5,
             "shoot": {
                 "type": "shootPattern",
                 "shots": 4,
-                "shotDelay": 1
+                "shotDelay": 10
             },
-            "shootY": 8,
             "inaccuracy": 10,
-            "xRand": 11,
             "shootSound": "missile",
             "bullet": {
                 "keepVelocity": false,
