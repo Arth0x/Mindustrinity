@@ -91,7 +91,7 @@
             {
                 "type":"BasicBulletType",
                 "damage":550,
-                "width":13,
+                "width":16,
                 "height":18,
                 "sprite":"aetherunbound-peircer",
                 "pierceCap":15,
