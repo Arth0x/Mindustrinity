@@ -1,6 +1,8 @@
 {
     "name": "Aethered",
+    "description": "You are powered by a mystical essence.",
     "affinities": ["wet"],
+    "transitionDamage": -5,
     "speedMultiplier": 0.80,
     "healthMultiplier": 1.05,
     "damage": -1.5

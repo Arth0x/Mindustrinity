@@ -1,5 +1,6 @@
 {
     "name": "Vulcanise",
+    "description": "You are melting to death",
     "speedMultiplier": 0.7,
     "opposites": [ "freezing", "wet"],
     "affinities": ["tarred", "melting"],
