@@ -11,7 +11,7 @@
     "mechStepParticles": true,
     "mechLandShake": 3,
     "singleTarget": true,
-    "speed": 1,
+    "speed": 0.85,
     "health": 50000,
     "range": 200,
     "immunities": [
