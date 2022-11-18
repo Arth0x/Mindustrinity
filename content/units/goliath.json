@@ -78,7 +78,7 @@
                         "length": 0,
                         "lifetime": 25,
                         "layer": 109,
-                        "region": "aetherunbound-tall",
+                        "region": "mindustrinity-tall",
                         "colorFrom": "FFFFFFFF",
                         "colorTo": "FFA664FF"
                     },
@@ -128,7 +128,7 @@
             "bullet": 
             {
                 "type" : "basicBulletType",
-                "sprite" : "aetherunbound-peircer",
+                "sprite" : "mindustrinity-peircer",
                 "status": "melting",
                 "damage": 250,
                 "height" : 12,

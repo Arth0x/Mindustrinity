@@ -68,7 +68,7 @@
                 "type": "basicBulletType",
                 "width": 13,
                 "height": 17,
-                "sprite": "aetherunbound-heavy-bullet",
+                "sprite": "mindustrinity-heavy-bullet",
                 "frontColor": "FFFFFF",
                 "backColor": "BF92F8FF",
                 "lifetime": 50,
@@ -163,7 +163,7 @@
         {
             "type": "ShieldArcAbility",
             "radius": 60,
-            "region": "aetherunbound-scylla-shield",
+            "region": "mindustrinity-scylla-shield",
             "regen": 11,
             "drawArc": false,
             "whenShooting": false,

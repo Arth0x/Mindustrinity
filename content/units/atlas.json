@@ -77,7 +77,7 @@
         },
         {
             "type": "ShieldArcAbility",
-            "region": "aetherunbound-atlas-shield",
+            "region": "mindustrinity-atlas-shield",
             "drawArc": false,
             "whenShooting": false,
             "regen": 15,
