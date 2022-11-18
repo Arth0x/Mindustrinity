@@ -207,7 +207,7 @@
             "autoTarget": true,
             "targetInterval": 5,
             "targetSwitchInterval": 5,
-            "name": "namielle-defence",
+            "name": "namielle-defense",
             "y": -15,
             "rotate": true,
             "shootY": 4,
