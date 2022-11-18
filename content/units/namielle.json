@@ -183,7 +183,7 @@
             "rotateSpeed": 3,
             "name": "namielle-heal",
             "y": -35,
-            "x": 28,
+            "x": 25,
             "shootY": 8,
             "reload": 1,
             "recoil": 0,
@@ -198,7 +198,7 @@
             "repairSpeed": 7.75,
             "bullet": {
                 "shootEffect": "hitEmpSpark",
-                "maxRange": 60
+                "maxRange": 120
             }
         },
         {
@@ -228,7 +228,7 @@
             "rotateSpeed": 3,
             "name": "namielle-heal",
             "y": 35,
-            "x": 28,
+            "x": 25,
             "shootY": 8,
             "reload": 1,
             "recoil": 0,
@@ -243,7 +243,7 @@
             "repairSpeed": 7.75,
             "bullet": {
                 "shootEffect": "hitEmpSpark",
-                "maxRange": 60
+                "maxRange": 120
             }
         }
     ],
