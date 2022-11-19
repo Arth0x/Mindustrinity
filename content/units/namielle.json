@@ -23,7 +23,7 @@
     "rotateShooting": false,
 	"weapons": [
         {
-            "name": "weapon",
+            "name": "namielle-defense",
             "y": 0,
             "x": 29,
             "top": true,
@@ -207,7 +207,7 @@
             "autoTarget": true,
             "targetInterval": 5,
             "targetSwitchInterval": 5,
-            "name": "namielle-defense",
+            "name": "tt",
             "y": -15,
             "rotate": true,
             "shootY": 4,
