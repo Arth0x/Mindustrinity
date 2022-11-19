@@ -1,5 +1,6 @@
 {
     "name": "Diver OS [red]WIP",
+    "size": 2, 
     "category": "effect",
     "color": "#feb380",
     "phase": "#ffd59e",
@@ -8,5 +9,10 @@
     "speedBoost": 9.5,
     "speedBoostPhase": 0.75,
     "useTime": 400,
-    "phaseRangeBoost": 20
+    "phaseRangeBoost": 20,
+    "solid": true,
+    "update": true,
+    "hasPower":	true,
+    "hasItems":	true,
+    "canOverdrive":	false
 }
