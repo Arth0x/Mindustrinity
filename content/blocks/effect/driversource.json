@@ -1,0 +1,11 @@
+{
+    "name": "Diver OS [red]WIP",
+    "color": "#feb380",
+    "phase": "#ffd59e",
+    "reload": 60,
+    "range"	: 380,
+    "speedBoost": 9.5,
+    "speedBoostPhase": 0.75,
+    "useTime": 400,
+    "phaseRangeBoost": 20
+}
