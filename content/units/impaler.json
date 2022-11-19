@@ -38,19 +38,20 @@
             "shoot": {
                 "firstShotDelay": 120
             },
-            "reload": 300,
+            "reload": 400,
+            "shootStatus": "unmoving",
             "shootSound": "railgun",
             "rotate": false,
             "bullet": {
                 "type": "basicBulletType",
                 "damage": 1800,
                 "splashDamage": 100,
-                "splashDamageRadius": 25,
+                "splashDamageRadius": 55,
                 "width": 35,
                 "height": 35,
                 "shootEffect": "instBomb",
                 "sprite": "circle-bullet",
-                "pierceCap": 3,
+                "pierceCap": 15,
                 "pierce": true,
                 "trailColor": "84F491FF",
                 "trailChance": 1,
