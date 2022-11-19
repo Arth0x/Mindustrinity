@@ -2,6 +2,7 @@
     "speed": 0.5,
     "name": "Impaler",
     "research": "corvus",
+    "rotateSpeed": 0.6,
     "mineSpeed": 10,
     "groundLayer": 75,
     "buildSpeed": 2.5,
