@@ -15,7 +15,7 @@
     "legMoveSpace": 1,
     "legLength": 21,
     "legExtension": -10,
-    "legBaseOffset": 5,
+    "legBaseOffset": 12,
     "legSpeed": 0.2,
     "legLengthScl": 0.94,
     "legMaxLength": 1.6,
@@ -97,6 +97,57 @@
                     "colorTo": "84F491FF",
                     "sizeFrom": 5,
                     "sizeTo": 0
+                },
+                "chargeEffect": {
+                    "type": "multiEffect",
+                    "lifetime": 120,
+                    "effects": [
+                        {
+                        "type": "ParticleEffect",
+                        "particles": 1,
+                        "sizeFrom": 1,
+                        "sizeTo": 17,
+                        "length": 0,
+                        "lifetime": 125,
+                        "colorFrom": "F3E979FF",
+                        "colorTo": "F3E979FF",
+                        "cone": 360
+                        },
+                        {
+                        "type": "WaveEffect",
+                        "lifetime": 120,
+                        "sizeFrom": 0,
+                        "sizeTo": 70,
+                        "strokeFrom": 7,
+                        "strokeTo": 0,
+                        "colorFrom": "D99F6BFF",
+                        "colorTo": "F3E979FF"
+                        },
+                        {
+                        "type": "ParticleEffect",
+                        "particles": 1,
+                        "sizeFrom": 2,
+                        "sizeTo": 37,
+                        "length": 0,
+                        "spin": 11,
+                        "lifetime": 125,
+                        "region": "mindustrinity-starlarg",
+                        "colorFrom": "D99F6BFF",
+                        "colorTo": "F3E979FF"
+                        },
+                        {
+                        "type": "ParticleEffect",
+                        "particles": 1,
+                        "sizeFrom": 2,
+                        "sizeTo": 46,
+                        "length": 0,
+                        "spin": -11,
+                        "lifetime": 125,
+                        "region": "mindustrinity-starup",
+                        "colorFrom": "D99F6BFF",
+                        "colorTo": "F3E979FF"
+                        }
+                    ]
                 }
             }
         }

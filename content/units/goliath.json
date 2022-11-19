@@ -3,7 +3,7 @@
     "research": "reign",
     "type": "mech",
     "armor": 19,
-    "rotateSpeed": 2.0,
+    "rotateSpeed": 1.5,
     "canDrown": false,
     "hitSize": 42,
     "mechFrontSway": 1.6,
@@ -78,7 +78,7 @@
                         "length": 0,
                         "lifetime": 25,
                         "layer": 109,
-                        "region": "mindustrinity-tall",
+                        "region": "mindustrinity-star",
                         "colorFrom": "FFFFFFFF",
                         "colorTo": "FFA664FF"
                     },
