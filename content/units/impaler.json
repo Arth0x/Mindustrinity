@@ -35,6 +35,9 @@
             "top": false,
             "x": 0,
             "y": 0,
+            "shoot": {
+                "firstShotDelay": 120
+            },
             "reload": 300,
             "shootSound": "railgun",
             "rotate": false,
@@ -100,7 +103,7 @@
                 },
                 "chargeEffect": {
                     "type": "multiEffect",
-                    "lifetime": 120,
+                    "lifetime": 500,
                     "effects": [
                         {
                         "type": "ParticleEffect",
@@ -109,8 +112,8 @@
                         "sizeTo": 17,
                         "length": 0,
                         "lifetime": 125,
-                        "colorFrom": "F3E979FF",
-                        "colorTo": "F3E979FF",
+                        "colorFrom": "84F491FF",
+                        "colorTo": "84F491FF",
                         "cone": 360
                         },
                         {
@@ -120,8 +123,8 @@
                         "sizeTo": 70,
                         "strokeFrom": 7,
                         "strokeTo": 0,
-                        "colorFrom": "D99F6BFF",
-                        "colorTo": "F3E979FF"
+                        "colorFrom": "62AE7FFF",
+                        "colorTo": "84F491FF"
                         },
                         {
                         "type": "ParticleEffect",
@@ -132,8 +135,8 @@
                         "spin": 11,
                         "lifetime": 125,
                         "region": "mindustrinity-starlarg",
-                        "colorFrom": "D99F6BFF",
-                        "colorTo": "F3E979FF"
+                        "colorFrom": "62AE7FFF",
+                        "colorTo": "84F491FF"
                         },
                         {
                         "type": "ParticleEffect",
@@ -144,8 +147,8 @@
                         "spin": -11,
                         "lifetime": 125,
                         "region": "mindustrinity-starup",
-                        "colorFrom": "D99F6BFF",
-                        "colorTo": "F3E979FF"
+                        "colorFrom": "62AE7FFF",
+                        "colorTo": "84F491FF"
                         }
                     ]
                 }
