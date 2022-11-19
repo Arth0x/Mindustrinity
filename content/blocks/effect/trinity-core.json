@@ -14,5 +14,5 @@
 		{ "item": "infused-iridium", "amount": 2000 },
 		{ "item": "infused-vulcanite", "amount": 2000 }
 	],
-  "category": "effect"
+  	"category": "effect"
 }
