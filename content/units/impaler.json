@@ -36,11 +36,11 @@
             "x": 0,
             "y": 0,
             "shoot": {
-                "firstShotDelay": 120
+                "firstShotDelay": 120,
+                "shootStatus": "unmoving"
             },
             "reload": 400,
             "shake": 25,
-            "shootStatus": "unmoving",
             "shootSound": "railgun",
             "rotate": false,
             "bullet": {
