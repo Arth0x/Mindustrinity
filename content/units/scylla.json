@@ -58,7 +58,7 @@
             "shootCone": 25,
             "inaccuracy": 10,
             "heatColor": "FF9b59FF",
-            "shootSound": "malignShoot",
+            "shootSound": "Shogun",
             "shoot": {
                 "type": "ShootPattern",
                 "shots": 12,
@@ -133,6 +133,7 @@
             "shootSound": "beam",
             "chargeSound": "lasercharge2",
             "continuous": true,
+            "colors": ["BF92F8FF", "665C9FFF", "FFFFFF"],
             "bullet": { 
                 "type": "ContinuousLaserBulletType",
                 "damage": 25,
