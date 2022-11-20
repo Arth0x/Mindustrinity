@@ -42,7 +42,7 @@
             "reload": 400,
             "shake": 25,
             "shootStatus": "unmoving",
-            "shootSound": "railgun",
+            "shootSound": "laserblast",
             "rotate": false,
             "cooldownTime": 390,
             "bullet": {
@@ -66,6 +66,7 @@
                     "colorTo": "62AE7FFF"
                 },
                 "chargeEffect": {
+                    "chargeSound": "lasercharge",
                     "type": "multiEffect",
                     "lifetime": 500,
                     "effects": [
