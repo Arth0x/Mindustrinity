@@ -36,11 +36,11 @@
             "x": 0,
             "y": 0,
             "shoot": {
-                "firstShotDelay": 120,
-                "shootStatus": "unmoving"
+                "firstShotDelay": 120
             },
-            "reload": 400,
+            "reload": 120,
             "shake": 25,
+            "shootStatus": "unmoving",
             "shootSound": "railgun",
             "rotate": false,
             "bullet": {
@@ -51,8 +51,8 @@
                 "width": 35,
                 "height": 35,
                 "shootEffect": "instBomb",
-                "sprite": "circle-bullet",
-                "pierceCap": 15,
+                "sprite": "mindustrinity-armored-bullet",
+                "pierceCap": 35,
                 "pierce": true,
                 "trailColor": "84F491FF",
                 "trailChance": 1,
