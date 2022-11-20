@@ -39,7 +39,7 @@
                 "firstShotDelay": 120
             },
             "reload": 400,
-            "shake": 10,
+            "shake": 25,
             "shootStatus": "unmoving",
             "shootSound": "railgun",
             "rotate": false,
