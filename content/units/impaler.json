@@ -30,7 +30,7 @@
     "hovering": true,
     "weapons": [ 
         {
-            "name": "mindustrinity-impaler",
+            "name": "impalor",
             "mirror": false,
             "top": false,
             "x": 0,
@@ -47,7 +47,7 @@
             "bullet": {
                 "type": "LaserBulletType",
                 "length": 1800,
-                "width": 45,
+                "width": 145,
                 "damage": 950,
                 "lightColor": "A9D8FFFF",
                 "hitEffect": {
@@ -95,7 +95,8 @@
                             "length": 0,
                             "spin": 11,
                             "lifetime": 125,
-                            "region": "mindustrinity-starlarg",                            "colorFrom": "62AE7FFF",
+                            "region": "mindustrinity-starlarg",                           
+                            "colorFrom": "62AE7FFF",
                             "colorTo": "84F491FF"
                         },
                         {
