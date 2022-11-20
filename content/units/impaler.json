@@ -48,8 +48,8 @@
             "bullet": {
                 "type": "LaserBulletType",
                 "length": 1800,
-                "lifetime": 75,
-                "width": 145,
+                "lifetime": 45,
+                "width": 120,
                 "damage": 950,
                 "lightColor": "84F491FF",
                 "hitEffect": {
