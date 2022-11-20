@@ -184,7 +184,7 @@
                     {     
                         "type": "ParticleEffect",
                         "line": true,
-                        "particles": 4,
+                        "particles": 1,
                         "lifetime": 60,
                         "length": 5,
                         "cone": -360,

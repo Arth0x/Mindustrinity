@@ -17,7 +17,7 @@
     "legExtension": -10,
     "legBaseOffset": 12,
     "legSpeed": 0.2,
-    "legLengthScl": 0.94,
+    "legLengthScl": 0.90,
     "legMaxLength": 1.6,
     "legPairOffset": 2,
     "legContinuousMove": true,
