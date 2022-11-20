@@ -41,6 +41,7 @@
             },
             "reload": 400,
             "shake": 25,
+            "recoil": 0,
             "shootStatus": "unmoving",
             "shootSound": "laserblast",
             "chargeSound": "lasercharge",
