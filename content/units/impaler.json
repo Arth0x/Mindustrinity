@@ -38,7 +38,7 @@
             "shoot": {
                 "firstShotDelay": 120
             },
-            "reload": 120,
+            "reload": 400,
             "shake": 25,
             "shootStatus": "unmoving",
             "shootSound": "railgun",
