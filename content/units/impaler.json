@@ -47,7 +47,7 @@
             "cooldownTime": 390,
             "bullet": {
                 "type": "LaserBulletType",
-                "length": 1800,
+                "length": 800,
                 "lifetime": 45,
                 "width": 120,
                 "damage": 950,
