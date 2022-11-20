@@ -58,7 +58,7 @@
             "shootCone": 25,
             "inaccuracy": 10,
             "heatColor": "FF9b59FF",
-            "shootSound": "Shogun",
+            "shootSound": "shogun",
             "shoot": {
                 "type": "ShootPattern",
                 "shots": 12,
