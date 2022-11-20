@@ -43,6 +43,7 @@
             "shake": 25,
             "shootStatus": "unmoving",
             "shootSound": "laserblast",
+            "chargeSound": "lasercharge",
             "rotate": false,
             "cooldownTime": 390,
             "bullet": {
@@ -66,7 +67,6 @@
                     "colorTo": "62AE7FFF"
                 },
                 "chargeEffect": {
-                    "chargeSound": "lasercharge",
                     "type": "multiEffect",
                     "lifetime": 500,
                     "effects": [
