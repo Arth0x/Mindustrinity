@@ -117,16 +117,14 @@
             "reload": 28,
             "alternate": true,
             "top": true,
-            "shoot": 
-            {
+            "shoot": {
                 "type": "shootPattern",
                 "shotDelay": 4,
                 "shots": 3
             },
             "inaccuracy": 3,
             "shootSound": "laser",
-            "bullet": 
-            {
+            "bullet": {
                 "type" : "basicBulletType",
                 "sprite" : "mindustrinity-peircer",
                 "status": "melting",
@@ -147,8 +145,7 @@
                 "trailColor": "FFA664FF",
                 "backColor": "FFA664FF",
                 "frontColor": "FFFFFFFF",
-                "hitEffect": 
-                {
+                "hitEffect": {
                     "type": "ParticleEffect",
                     "particles": 6,
                     "sizeFrom": 5,
@@ -160,8 +157,7 @@
                     "colorTo": "FFA664FF",
                     "cone": 360   
                 },
-                "despawnEffect": 
-                {
+                "despawnEffect": {
                     "type": "ParticleEffect",
                     "particles": 6,
                     "sizeFrom": 5,
