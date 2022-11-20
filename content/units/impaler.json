@@ -44,12 +44,14 @@
             "shootStatus": "unmoving",
             "shootSound": "railgun",
             "rotate": false,
+            "cooldownTime": 390,
             "bullet": {
                 "type": "LaserBulletType",
                 "length": 1800,
+                "lifetime": 75,
                 "width": 145,
                 "damage": 950,
-                "lightColor": "A9D8FFFF",
+                "lightColor": "84F491FF",
                 "hitEffect": {
                     "type": "ParticleEffect",
                     "line": true,
@@ -59,8 +61,8 @@
                     "cone": -360,
                     "lenFrom": 5,
                     "lenTo": 0,
-                    "colorFrom": "A9D8FFFF",
-                    "colorTo": "66B1FFFF"
+                    "colorFrom": "84F491FF",
+                    "colorTo": "62AE7FFF"
                 },
                 "chargeEffect": {
                     "type": "multiEffect",
