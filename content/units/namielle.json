@@ -10,6 +10,7 @@
     "engineSize": 9,
     "lowAltitude": true,
     "targetAir": true,
+    "boostSpeed": 0.35,
     "range": 300,
     "hitSize": 77,
     "health": 137200,
