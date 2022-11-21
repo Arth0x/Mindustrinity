@@ -3,6 +3,7 @@
     "research": "reign",
     "type": "mech",
     "armor": 19,
+    "canBoost": true,
     "rotateSpeed": 1.5,
     "canDrown": false,
     "hitSize": 42,
@@ -33,7 +34,7 @@
             "shootY": 22,
             "ejectEffect": "casing1",
             "cooldownTime": 120,
-            "rotationLimit": 30,
+            "rotationLimit": 45,
             "shootSound": "torch",
             "alwaysContinuous": true,
             "continuous": true,
@@ -111,12 +112,14 @@
             }
         },
             {
-                "name": "scourge-shock",
+                "name": "anti-air",
                 "x": 15.5,
                 "y": -5,
                 "reload": 28,
                 "alternate": true,
                 "top": true,
+                "controllable": false,
+                "autoTarget": true,
                 "shoot": {
                     "type": "shootPattern",
                     "shotDelay": 4,
