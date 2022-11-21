@@ -26,6 +26,7 @@
             "x": 29,
             "y": -0.5,
             "reload": 120,
+            "rotate": true,
             "alternate": false,
             "top": false,
             "layerOffset": -0.001,
