@@ -44,6 +44,7 @@
                 "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
                 "flareWidth": 0,
                 "length": 200,
+                "range": 200,
                 "width": 10,
                 "damage": 750,
                 "lifetime": 75,
