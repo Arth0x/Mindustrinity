@@ -148,7 +148,7 @@
     "abilities": [ 
         {
             "type": "StatusFieldAbility",
-            "effect": "leviathan-care",
+            "effect": "regen",
             "range": 165,
             "reload": 60,
             "duration": 300,
