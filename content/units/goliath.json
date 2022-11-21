@@ -120,6 +120,7 @@
                 "reload": 28,
                 "alternate": true,
                 "top": true,
+                "rotate": true,
                 "controllable": false,
                 "rotateSpeed": 2.5,
                 "autoTarget": true,
