@@ -18,7 +18,7 @@
     "weapons":
     [
         {
-            "name":"alpha-rocket",
+            "name":"rocketeer",
             "controllable": false,
             "autoTarget": true,
             "rotateSpeed":4,
@@ -69,7 +69,7 @@
             }
         },
         {
-            "name":"luminous",
+            "name":"smaug-laser",
             "mirror":true,
             "alternate":true,
             "x":35,
