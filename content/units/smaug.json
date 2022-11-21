@@ -76,44 +76,20 @@
             "y":0,
             "shootY":2,
             "rotateSpeed":1.4,
-            "reload": 75,
-            "recoil": 7,
-            "inaccuracy": 10,
-            "shoot":
-            {
-                "type":"ShootPattern",
-                "shots":5,
-                "shotDelay":4
-            },
-            "shootSound":"laser",
-            "rotate":true,
-            "bullet":
-            {
-                "type":"BasicBulletType",
-                "damage":550,
-                "width":16,
-                "height":18,
-                "sprite":"mindustrinity-peircer",
-                "pierceCap":15,
-                "pierce":true,
-                "homingPower":5,
-                "homingRange":120,
-                "trailColor":"FFA664FF",
-                "trailParam":5,
-                "trailEffect":"none",
-                "trailLength":16,
-                "trailInterval":13,
-                "trailWidth":4.7,
-                "status":"shocked",
-                "reflectable":false,
-                "absorbable":true,
-                "statusDuration":300,
-                "speed":5,
-                "lifetime":100,
-                "frontColor":"FFFFFFF",
-                "backColor":"FFA664FF",
-                "despawnEffect":"absorb",
-                "shootEffect":"shootHealYellow"
+            "shake": 4,
+            "reload": 35,
+            "recoil": 4,
+            "shootSound": "laser",
+            "rotate": true,
+            "bullet": {
+                "type": "laserBulletType",
+                "damage": 150,
+                "sideAngle": 20,
+                "sideWidth": 1.5,
+                "sideLength": 80,
+                "width": 25,
+                "colors":["CF6A53AA", "FFA566FF", "FFFFFF"],
+                "length": 320
             }
         }
     ],
