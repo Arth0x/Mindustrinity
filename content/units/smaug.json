@@ -26,7 +26,7 @@
             "mirror":false,
             "top":true,
             "x":0,
-            "y":-16,
+            "y":-24,
             "reload":8,
             "shoot":
             {
@@ -73,7 +73,7 @@
             "mirror":true,
             "alternate":true,
             "x":35,
-            "y":15,
+            "y":0,
             "shootY":2,
             "rotateSpeed":1.4,
             "reload": 75,
