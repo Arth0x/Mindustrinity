@@ -57,6 +57,10 @@ Vulcan	: nom -> FF1E00
 	  cla -> FF6D59
 		+FFA599
 	  smb -> A61400
+
+Fer -> 	7f7f7f
+	B3B3B3
+	4D4D4D
 		
 
 dragonstone     -> 8C0900
