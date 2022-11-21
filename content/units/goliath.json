@@ -119,6 +119,7 @@
                 "alternate": true,
                 "top": true,
                 "controllable": false,
+                "rotateSpeed": 2.5,
                 "autoTarget": true,
                 "shoot": {
                     "type": "shootPattern",
