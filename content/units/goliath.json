@@ -40,7 +40,9 @@
         "cooldownTime": 120,
         "bullet": 
         {
-            "type": "LaserBulletType",
+            "type": "ContinuousFlameBulletType",
+            "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
+            "flareWidth": 0,
             "length": 200,
             "width": 32,
             "damage": 750,
@@ -49,7 +51,6 @@
             "sideAngle": 25,
             "sideLength": 1,
             "sideWidth": 1,
-            "colors": ["FFA664FF", "FFA664FF", "FFFFFF"],
             "status": "aethered",
             "statusDuration": 50,
             "hitEffect": {
