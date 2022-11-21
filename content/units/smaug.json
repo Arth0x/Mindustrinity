@@ -125,6 +125,18 @@
             "regen":8,
             "max":2700,
             "cooldown":280
+        },
+        {
+            "type": "StatusFieldAbility",
+            "effect": "damage",
+            "range": 165,
+            "reload": 60,
+            "duration": 300,
+            "activeEffect": {
+                "type": "MultiEffect",
+                "effects": [
+                ]
+            }
         }
     ]
 }

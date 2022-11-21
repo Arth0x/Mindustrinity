@@ -182,42 +182,6 @@
             "activeEffect": {
                 "type": "MultiEffect",
                 "effects": [
-                    {     
-                        "type": "ParticleEffect",
-                        "line": true,
-                        "particles": 1,
-                        "lifetime": 60,
-                        "length": 5,
-                        "cone": -360,
-                        "strokeFrom": 2,
-                        "strokeTo": 0,
-                        "lenFrom": 6,
-                        "lenTo": 0,
-                        "colorFrom": "BF92F8FF",
-                        "colorTo": "665C9FFF"
-                    },
-                    {
-                        "type": "ParticleEffect",
-                        "lifetime": 60,
-                        "length": 0,
-                        "sizeFrom": 18,
-                        "sizeTo": 0,
-                        "particles": 1,
-                        "colorFrom": "BF92F8FF",
-                        "colorTo": "665C9FFF",
-                        "region": "particle"
-                    },
-                    {
-                        "type": "ParticleEffect",
-                        "lifetime": 60,
-                        "length": 0,
-                        "sizeFrom": 8,
-                        "sizeTo": 0,
-                        "particles": 1,
-                        "colorFrom": "BF92F8FF",
-                        "colorTo": "665C9FFF",
-                        "region": "particle"
-                    }
                 ]
             }
         }

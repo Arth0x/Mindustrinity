@@ -40,7 +40,7 @@
         },
         {
             "type": "StatusFieldAbility",
-            "effect": "atlas-care",
+            "effect": "tank",
             "range": 300,
             "reload": 180,
             "duration": 180,

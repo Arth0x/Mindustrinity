@@ -264,6 +264,18 @@
             "sectorRad": 0.14,
             "effectRadius": 0,
             "reload": 70
+        },
+        {
+            "type": "StatusFieldAbility",
+            "effect": "build",
+            "range": 165,
+            "reload": 60,
+            "duration": 300,
+            "activeEffect": {
+                "type": "MultiEffect",
+                "effects": [
+                ]
+            }
         }
     ]
 }
