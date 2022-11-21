@@ -3,7 +3,6 @@
     "research": "reign",
     "type": "mech",
     "armor": 19,
-    "canBoost": true,
     "rotateSpeed": 1.5,
     "canDrown": false,
     "hitSize": 42,
@@ -69,7 +68,7 @@
                     "colorFrom": "FFFFFFFF",
                     "colorTo": "FFA664FF"
                 },
-                "shootEffect": 
+                "Effect": 
                 {
                     "type": "multiEffect",
                     "effects": 
