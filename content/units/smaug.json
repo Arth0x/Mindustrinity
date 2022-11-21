@@ -117,15 +117,7 @@
             }
         }
     ],
-    "abilities":
-    [
-        {
-            "type":"mindustry.entities.abilities.ForceFieldAbility",
-            "radius":70,
-            "regen":8,
-            "max":2700,
-            "cooldown":280
-        },
+    "abilities": [
         {
             "type": "StatusFieldAbility",
             "effect": "damage",
