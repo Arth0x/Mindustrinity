@@ -1,10 +1,11 @@
 {
     "variants": 0,
     "albedo": 0.5,
-    "name": "Aether",
+    "name": "Deep Aether",
     "liquidDrop": "aether",
     "type":"floor",
     "isLiquid":true,
+    "drownTime": 120,
     "status": "aethered",
     "cacheLayer": "water",
     "statusDuration": 300,
