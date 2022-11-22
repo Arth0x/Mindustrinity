@@ -8,7 +8,7 @@
     "hasPower": true,
     "hasItems": true,
     "hasLiquids": true,
-    "itemCapacity": 15,
+    "itemCapacity": 30,
     "craftTime": 120,
     "updateEffect": "none",
     "ambientSound": "flame2",
@@ -35,6 +35,11 @@
                 "suffix": "-bottom"    
             },
             {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "mindustrinity-iridium",
+                "suffix": "-liquid" 
+            },
+            {
                 "type": "DrawRegion",
                 "suffix": "-rotator1",
                 "rotateSpeed": -4,
@@ -46,11 +51,6 @@
                 "rotateSpeed": 4,
                 "spinSprite": true
             },  
-            {
-                "type": "DrawLiquidRegion",
-                "drawLiquid": "mindustrinity-iridium",
-                "suffix": "-liquid" 
-            },
             {
                 "type": "DrawDefault"
             }
