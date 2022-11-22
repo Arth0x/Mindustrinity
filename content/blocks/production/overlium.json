@@ -10,7 +10,6 @@
     "hasItems": true,
     "craftTime": 35,
     "hasPower": true,
-    "hasLiquids": false,
     "updateEffect": "none",
     "ambientSound": "smelter",
     "ambientSoundVolume": 0.07,
