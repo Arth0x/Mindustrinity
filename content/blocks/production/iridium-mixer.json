@@ -39,17 +39,30 @@
     ],
     "drawer": {
         "type": "DrawMulti",
-        "drawers": [ {
-                "type": "DrawDefault"
-            }, 
+        "drawers": [
             {
-                "type": "DrawGlowRegion",
-                "suffix": "-heat",
-                "color": "FF6D59FF"
+                "type": "drawRegion",
+                "suffix": "-bottom"    
             },
             {
-                "type": "DrawFlame",
-                "flameColor": "FF8F80FF"
+                "type": "DrawRegion",
+                "suffix": "-rotator1",
+                "rotateSpeed": -4,
+                "spinSprite": true
+            },  
+            {
+                "type": "DrawRegion",
+                "suffix": "-rotator2",
+                "rotateSpeed": 4,
+                "spinSprite": true
+            },  
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "mindustrinity-acid",
+                "suffix": "-liquid" 
+            },
+            {
+                "type": "DrawDefault"
             }
         ]
     },

@@ -8,7 +8,7 @@
     "hasPower": true,
     "hasItems": true,
     "hasLiquids": true,
-    "itemCapacity": 150,
+    "itemCapacity": 15,
     "liquidCapacity": 750,
     "craftTime": 120,
     "updateEffect": "none",
