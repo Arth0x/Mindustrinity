@@ -58,7 +58,7 @@
             },  
             {
                 "type": "DrawLiquidRegion",
-                "drawLiquid": "mindustrinity-acid",
+                "drawLiquid": "mindustrinity-iridium",
                 "suffix": "-liquid" 
             },
             {
