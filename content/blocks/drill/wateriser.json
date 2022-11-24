@@ -1,22 +1,22 @@
 {
 	"type": "Fracker",
-	"name": "Aether Extrator",
-	"description": "Aether Extrator",
-	"research": "oil-extractor",
+	"name": "Waterizer",
+	"description": "I need water",
+	"research": "aether-extractor",
 	"liquidCapacity": 50,
-	"result": "aether",
+	"result": "water",
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": true,
 	"consumes": {
 		"power": 1.2,
 		"liquid": {
-			"liquid":"water",
+			"liquid":"aether",
 			"amount":"0.2"
 		}
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 70 },
+		{ "item": "iron", "amount": 70 },
 		{ "item": "silicon", "amount": 40},
 		{ "item": "titanium", "amount":120}
 	],
