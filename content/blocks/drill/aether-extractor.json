@@ -2,7 +2,7 @@
 	"type": "Fracker",
 	"name": "Aether Extrator",
 	"description": "Aether Extrator",
-	"research": "oil-extractor",
+	"research": "pneumanic-drill",
 	"liquidCapacity": 50,
 	"result": "aether",
 	"size": 3,
