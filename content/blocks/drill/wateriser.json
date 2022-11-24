@@ -9,10 +9,10 @@
 	"hasPower": true,
 	"hasLiquids": true,
 	"consumes": {
-		"power": 1.2,
+		"power": 0.7,
 		"liquid": {
 			"liquid":"aether",
-			"amount":"0.2"
+			"amount":"0.4"
 		}
 	},
 	"requirements": [
