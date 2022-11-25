@@ -21,10 +21,8 @@
         "type": "ContinuousLaserBulletType",
         "damage": 750,
         "width": 7,
-        "length": 1250,
-        "colors": ["CD4238AA", "FF5845FF", "FFFFFFF", "FFFFFFF"],
-        "statusDuration": 60,
-        "drawSize": 260
+        "length": 250,
+        "colors": ["CD4238AA", "FF5845FF", "FFFFFFF", "FFFFFFF"]
     },
     "requirements": [
         "iron/500",
