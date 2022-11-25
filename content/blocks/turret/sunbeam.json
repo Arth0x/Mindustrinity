@@ -73,10 +73,10 @@
                 "suffix": "-edge",   
                 "mirror": true,
                 "under": false,
-                "x": 50,
+                "x": 0,
                 "y": 0,
                 "movex": 15,
-                "progress": "warmup"
+                "progress": "shoot"
             }
         ]   
     }
