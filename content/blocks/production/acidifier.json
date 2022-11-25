@@ -8,7 +8,7 @@
     "hasPower": true,
     "hasItems": true,
     "hasLiquids": true,
-    "itemCapacity": 150,
+    "itemCapacity": 15,
     "liquidCapacity": 750,
     "craftTime": 120,
     "updateEffect": "none",
@@ -17,7 +17,7 @@
         "power": 5,
         "items": {
             "items": [ 
-                "sulfur/10"
+                "sulfur/6"
             ]
         },
         "liquid": "water/0.8"
@@ -50,6 +50,11 @@
                 "rotateSpeed": -4,
                 "spinSprite": true
             },   
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "mindustrinity-acid",
+                "suffix": "-liquid" 
+            },
             {
                 "type": "DrawDefault"
             }

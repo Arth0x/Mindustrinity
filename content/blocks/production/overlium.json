@@ -6,12 +6,10 @@
     "size": 3 ,
     "category": "crafting",
     "outputItem": "silicon/15",
-    "hasLiquid":true,
+    "hasLiquids":true,
     "hasItems": true,
     "craftTime": 35,
     "hasPower": true,
-    "hasLiquids": false,
-    "updateEffect": "none",
     "ambientSound": "smelter",
     "ambientSoundVolume": 0.07,
     "requirements": [

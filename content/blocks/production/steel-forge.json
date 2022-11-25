@@ -6,7 +6,7 @@
     "category": "crafting",
 	"outputItem": "steel/1",
 	"drawer": {
-	"type": "DrawMulti",
+	    "type": "DrawMulti",
         "drawers": [ {
                 "type": "DrawDefault"
             }, {
@@ -28,10 +28,9 @@
         "cone": -360,
         "lenFrom": 5,
         "lenTo": 0,
-        "colorFrom": "A9D8FFFF",
-        "colorTo": "66B1FFFF"
+        "colorFrom": "FFD27EFF",
+        "colorTo": "D4806BFF"
 	},
-	"updateEffect": "none",
 	"consumes": {
 		"power": 0.3,
 		"items": {

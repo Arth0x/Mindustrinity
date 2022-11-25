@@ -7,21 +7,11 @@
     "health": 700,
     "hasPower": true,
     "hasItems": true,
-    "hasLiquids": false,
-    "itemCapacity": 150,
+    "hasLiquids": true,
+    "itemCapacity": 30,
     "craftTime": 120,
     "updateEffect": "none",
     "ambientSound": "flame2",
-    "craftEffect": {
-        "type": "WaveEffect",
-        "lifetime": 60,
-        "sizeFrom": 0,
-        "sizeTo": 20,
-        "strokeFrom": 5,
-        "strokeTo": 0,
-        "colorFrom": "FFA599FF",
-        "colorTo": "FFFFFFFF"    
-    },
     "consumes": {
         "power": 5,
         "items": {
@@ -39,17 +29,30 @@
     ],
     "drawer": {
         "type": "DrawMulti",
-        "drawers": [ {
-                "type": "DrawDefault"
-            }, 
+        "drawers": [
             {
-                "type": "DrawGlowRegion",
-                "suffix": "-heat",
-                "color": "FF6D59FF"
+                "type": "drawRegion",
+                "suffix": "-bottom"    
             },
             {
-                "type": "DrawFlame",
-                "flameColor": "FF8F80FF"
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "mindustrinity-iridium",
+                "suffix": "-liquid" 
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-rotator1",
+                "rotateSpeed": -4,
+                "spinSprite": true
+            },  
+            {
+                "type": "DrawRegion",
+                "suffix": "-rotator2",
+                "rotateSpeed": 4,
+                "spinSprite": true
+            },  
+            {
+                "type": "DrawDefault"
             }
         ]
     },
