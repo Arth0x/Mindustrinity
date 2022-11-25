@@ -40,7 +40,7 @@
                 "under": false,
                 "x": 0,
                 "y": 0,
-                "moveX": 10,
+                "moveX": 4,
                 "progress": {
                     "type": "reload"
                 }
