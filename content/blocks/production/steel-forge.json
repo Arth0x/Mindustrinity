@@ -28,8 +28,8 @@
         "cone": -360,
         "lenFrom": 5,
         "lenTo": 0,
-        "colorFrom": "A9D8FFFF",
-        "colorTo": "66B1FFFF"
+        "colorFrom": "FFD27EFF",
+        "colorTo": "D4806BFF"
 	},
 	"consumes": {
 		"power": 0.3,
