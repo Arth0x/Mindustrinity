@@ -12,7 +12,7 @@
     "update": true,
     "hasPower": true,
     "shake": 10,
-    "shootSound": "beam",
+    "shootSound": "lasezbig",
 	"recoil" : 2,
     "alwaysContinuous": true,
     "continuous": true,
@@ -40,11 +40,11 @@
                 "under": false,
                 "x": 0,
                 "y": 0,
-                "movex": 15,
+                "moveX": 25,
                 "progress": {
                     "type": "reload",
-                   "op": "delay",
-                   "amount": 0.25
+                    "op": "delay",
+                    "amount": 0.25
                 }
             }
         ]   
