@@ -3,11 +3,11 @@
     "type": "LaserTurret",
 	"size": 5,
 	"health": 1900,
-	"reload": 300,
 	"range": 1350,
     "heatcolor": "FF0000FF",
     "consumes" : {
-        "power": 28
+        "power": 28,
+        "liquids": ["mindustrinity-vulcanite/2"]
     },
     "update": true,
     "hasPower": true,
@@ -76,7 +76,7 @@
                 "x": 0,
                 "y": 0,
                 "movex": 15,
-                "progress": "warmup"
+                "progress": "reload"
             }
         ]   
     }
