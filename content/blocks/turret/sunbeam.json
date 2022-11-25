@@ -89,20 +89,17 @@
         "infused-aether/350"
     ],
     "drawer": {
-        "type": "DrawMulti",
+        "type": "DrawTurret",
         "parts": [ 
             {
                 "type": "RegionPart",
                 "progress": "warmup",
                 "movex": 15,
                 "suffix": "-edge",    
-                "mirror": false,
+                "mirror": true,
                 "under": false,
                 "x": 0,
                 "y": 0
-            },
-            {
-                "type": "DrawDefault"
             }
         ]   
     }
