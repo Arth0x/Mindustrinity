@@ -4,6 +4,7 @@
 	"size": 5,
 	"health": 1900,
 	"range": 1350,
+    "reload": 300,
     "heatcolor": "FF0000FF",
     "consumes" : {
         "power": 28,
@@ -12,10 +13,9 @@
     "update": true,
     "hasPower": true,
     "shake": 10,
-    "shootSound": "lasezbig",
+    "cooldownTime": 120,
+    "shootSound": "laserbig",
 	"recoil" : 2,
-    "alwaysContinuous": true,
-    "continuous": true,
 	"rotateSpeed": 3,
     "shootType" : {
         "type": "ContinuousLaserBulletType",
@@ -40,11 +40,9 @@
                 "under": false,
                 "x": 0,
                 "y": 0,
-                "moveX": 25,
+                "moveX": 10,
                 "progress": {
-                    "type": "reload",
-                    "op": "delay",
-                    "amount": 0.25
+                    "type": "reload"
                 }
             }
         ]   
