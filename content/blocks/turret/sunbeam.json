@@ -48,10 +48,10 @@
                 "suffix": "-blade",   
                 "mirror": true,
                 "under": false,
-                "x": 15,
+                "x": 5,
                 "y": -12,
                 "moveRot": 90,
-                "moveX": -5,
+                "moveX": 5,
                 "progress": {
                     "type": "reload"
                 }
@@ -61,10 +61,10 @@
                 "suffix": "-blade",   
                 "mirror": true,
                 "under": false,
-                "x": 15,
+                "x": 5,
                 "y": 0,
                 "moveRot": 90,
-                "moveX": -6,
+                "moveX": 5,
                 "progress": {
                     "type": "reload"
                 }
@@ -74,10 +74,10 @@
                 "suffix": "-blade",   
                 "mirror": true,
                 "under": false,
-                "x": 15,
-                "y": -5,
+                "x": 5,
+                "y": -6,
                 "moveRot": 90,
-                "moveX": -5,
+                "moveX": 5,
                 "progress": {
                     "type": "reload"
                 }
