@@ -49,13 +49,13 @@
                 "mirror": true,
                 "under": false,
                 "x": 10,
-                "y": 2,
+                "y": 0,
                 "rotation": -35,
                 "moveX": 5,
                 "progress": {
                     "type": "reload",
                     "op": "delay",
-                    "amount": 0.60
+                    "amount": 0.50
                 }
             },
             {
@@ -64,13 +64,13 @@
                 "mirror": true,
                 "under": false,
                 "x": 10,
-                "y": -4,
+                "y": -6,
                 "rotation": -35,
                 "moveX": 5,
                 "progress": {
                     "type": "reload",
                     "op": "delay",
-                    "amount": 0.40
+                    "amount": 0.30
                 }
             },
             {
@@ -79,13 +79,13 @@
                 "mirror": true,
                 "under": false,
                 "x": 10,
-                "y": -10,
+                "y": -12,
                 "rotation": -35,
                 "moveX": 5,
                 "progress": {
                     "type": "reload",
                     "op": "delay",
-                    "amount": 0.20
+                    "amount": 0.10
                 }
             },
             {
