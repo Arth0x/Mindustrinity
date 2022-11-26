@@ -140,7 +140,15 @@
                 "under": false,
                 "x": 0,
                 "y": 0
-            }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-main",
+                "mirror": false,
+                "under": false,
+                "x": 0,
+                "y": 0
+            },
         ]   
     }
 }
