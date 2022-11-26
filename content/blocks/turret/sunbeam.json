@@ -45,6 +45,18 @@
         "parts": [ 
             {
                 "type": "RegionPart",
+                "suffix": "-glow",   
+                "mirror": true,
+                "under": false,
+                "x": 0,
+                "y": 0,
+                "moveRot": 90,
+                "progress": {
+                    "type": "reload"
+                }
+            },
+            {
+                "type": "RegionPart",
                 "suffix": "-edge",   
                 "mirror": true,
                 "under": false,
