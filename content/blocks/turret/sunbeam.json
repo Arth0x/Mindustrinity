@@ -22,7 +22,7 @@
         "type": "ContinuousLaserBulletType",
         "damage": 750,
         "width": 7,
-        "length": 250,
+        "length": 550,
         "colors": ["A61400AA", "FF1E00FF", "FFA599F", "FFFFFFF"]
     },
     "requirements": [
