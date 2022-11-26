@@ -2,28 +2,38 @@
     "name": "Sunbeam",
     "type": "LaserTurret",
     "category": "turret",
+    "research": "meltdown",
 	"size": 5,
 	"health": 1900,
-	"range": 1350,
+	"range": 450,
     "reload": 150,
     "shootDuration": 300,
     "heatcolor": "FF0000FF",
     "consumes" : {
         "power": 28,
-        "liquids": ["mindustrinity-vulcanite/0.5"]
+        "consumes": {
+            "liquid": {
+            "liquid": "mindustrinity-vulcanite",
+                "optional": false,
+                "update": false,
+                "amount": 0.5
+            }
+        }
     },
     "update": true,
     "hasPower": true,
     "shake": 10,
     "cooldownTime": 120,
     "shootSound": "laserbig",
+    "status": "vulcanise",
+    "statusDuration": 50,
 	"recoil" : 2,
 	"rotateSpeed": 4,
     "shootType" : {
         "type": "ContinuousLaserBulletType",
         "damage": 750,
         "width": 7,
-        "length": 550,
+        "length": 450,
         "colors": ["A61400AA", "FF1E00FF", "FFA599F", "FFFFFFF"]
     },
     "requirements": [
