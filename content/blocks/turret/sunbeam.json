@@ -24,12 +24,12 @@
     "shootSound": "laserbig",
     "loopSound": "beam",
     "status": "vulcanise",
-    "statusDuration": 50,
+    "statusDuration": 120,
 	"recoil" : 2,
 	"rotateSpeed": 4,
     "shootType" : {
         "type": "ContinuousLaserBulletType",
-        "damage": 100,
+        "damage": 120,
         "width": 7,
         "length": 450,
         "colors": ["A61400AA", "FF1E00FF", "FFA599F", "FFFFFFF"]
