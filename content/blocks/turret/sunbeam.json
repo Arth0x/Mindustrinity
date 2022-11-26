@@ -45,11 +45,35 @@
         "parts": [ 
             {
                 "type": "RegionPart",
-                "suffix": "-glow",   
+                "suffix": "-blade",   
                 "mirror": true,
                 "under": false,
-                "x": 0,
+                "x": 15,
+                "y": 5,
+                "moveRot": 90,
+                "progress": {
+                    "type": "reload"
+                }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-blade",   
+                "mirror": true,
+                "under": false,
+                "x": 15,
                 "y": 0,
+                "moveRot": 90,
+                "progress": {
+                    "type": "reload"
+                }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-blade",   
+                "mirror": true,
+                "under": false,
+                "x": 15,
+                "y": -5,
                 "moveRot": 90,
                 "progress": {
                     "type": "reload"
