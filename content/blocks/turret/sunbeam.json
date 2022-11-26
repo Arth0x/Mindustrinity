@@ -50,7 +50,7 @@
                 "under": false,
                 "x": 10,
                 "y": 0,
-                "rotation": -35,
+                "rotation": -32,
                 "moveX": 5,
                 "progress": {
                     "type": "reload",
@@ -80,7 +80,7 @@
                 "under": false,
                 "x": 10,
                 "y": -12,
-                "rotation": -35,
+                "rotation": -38,
                 "moveX": 5,
                 "progress": {
                     "type": "reload",
