@@ -5,7 +5,7 @@
 	"health": 1900,
 	"range": 1350,
     "reload": 300,
-    "shootDuration": 280,
+    "shootDuration": 480,
     "heatcolor": "FF0000FF",
     "consumes" : {
         "power": 28,
@@ -23,7 +23,7 @@
         "damage": 750,
         "width": 7,
         "length": 250,
-        "colors": ["CD4238AA", "FF5845FF", "FFFFFFF", "FFFFFFF"]
+        "colors": ["A61400AA", "FF1E00FF", "FFA599F", "FFFFFFF"]
     },
     "requirements": [
         "iron/500",
