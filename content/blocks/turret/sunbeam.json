@@ -4,8 +4,8 @@
 	"size": 5,
 	"health": 1900,
 	"range": 1350,
-    "reload": 300,
-    "shootDuration": 480,
+    "reload": 150,
+    "shootDuration": 350,
     "heatcolor": "FF0000FF",
     "consumes" : {
         "power": 28,
