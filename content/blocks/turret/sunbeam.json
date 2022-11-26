@@ -1,15 +1,16 @@
 {
     "name": "Sunbeam",
     "type": "LaserTurret",
+    "category": "turret",
 	"size": 5,
 	"health": 1900,
 	"range": 1350,
     "reload": 150,
-    "shootDuration": 350,
+    "shootDuration": 300,
     "heatcolor": "FF0000FF",
     "consumes" : {
         "power": 28,
-        "liquids": ["mindustrinity-vulcanite/2"]
+        "liquids": ["mindustrinity-vulcanite/0.5"]
     },
     "update": true,
     "hasPower": true,
