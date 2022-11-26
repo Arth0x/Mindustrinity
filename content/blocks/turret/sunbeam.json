@@ -29,7 +29,7 @@
 	"rotateSpeed": 4,
     "shootType" : {
         "type": "ContinuousLaserBulletType",
-        "damage": 150,
+        "damage": 100,
         "width": 7,
         "length": 450,
         "colors": ["A61400AA", "FF1E00FF", "FFA599F", "FFFFFFF"]
