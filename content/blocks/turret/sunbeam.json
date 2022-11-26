@@ -54,6 +54,14 @@
                 "progress": {
                     "type": "reload"
                 }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-main",   
+                "mirror": false,
+                "under": false,
+                "x": 0,
+                "y": 0
             }
         ]   
     }
