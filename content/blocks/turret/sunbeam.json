@@ -55,7 +55,7 @@
                 "progress": {
                     "type": "reload",
                     "op": "delay",
-                    "amount": 0.85
+                    "amount": 0.75
                 }
             },
             {
@@ -70,7 +70,7 @@
                 "progress": {
                     "type": "reload",
                     "op": "delay",
-                    "amount": 0.90
+                    "amount": 0.80
                 }
             },
             {
@@ -85,7 +85,7 @@
                 "progress": {
                     "type": "reload",
                     "op": "delay",
-                    "amount": 0.95
+                    "amount": 0.85
                 }
             },
             {
