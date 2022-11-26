@@ -49,19 +49,8 @@
                 "mirror": true,
                 "under": false,
                 "x": 10,
-                "y": -12,
-                "moveX": 5,
-                "progress": {
-                    "type": "reload"
-                }
-            },
-            {
-                "type": "RegionPart",
-                "suffix": "-blade",   
-                "mirror": true,
-                "under": false,
-                "x": 10,
                 "y": 0,
+                "shapeRotation": 30,
                 "moveX": 5,
                 "progress": {
                     "type": "reload"
@@ -75,8 +64,26 @@
                 "x": 10,
                 "y": -6,
                 "moveX": 5,
+                "shapeRotation": 30,
                 "progress": {
-                    "type": "reload"
+                    "type": "reload",
+                    "op": "delay",
+                    "amount": 0.85
+                }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-blade",   
+                "mirror": true,
+                "under": false,
+                "x": 10,
+                "y": -12,
+                "moveX": 5,
+                "shapeRotation": 30,
+                "progress": {
+                    "type": "reload",
+                    "op": "delay",
+                    "amount": 1.85
                 }
             },
             {
@@ -102,6 +109,3 @@
         ]   
     }
 }
-
-
-
