@@ -53,7 +53,9 @@
                 "shapeRotation": 30,
                 "moveX": 5,
                 "progress": {
-                    "type": "reload"
+                    "type": "reload",
+                    "op": "delay",
+                    "amount": 0.85
                 }
             },
             {
@@ -68,7 +70,7 @@
                 "progress": {
                     "type": "reload",
                     "op": "delay",
-                    "amount": 0.85
+                    "amount": 0.90
                 }
             },
             {
@@ -83,7 +85,7 @@
                 "progress": {
                     "type": "reload",
                     "op": "delay",
-                    "amount": 1.85
+                    "amount": 0.95
                 }
             },
             {
