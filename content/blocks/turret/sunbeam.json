@@ -52,7 +52,7 @@
                 "y": 0,
                 "rotation": 45,
                 "moveX": 5,
-                "moveRot": 45,
+                "moveRot": -45,
                 "progress": {
                     "type": "reload",
                     "op": "delay",
@@ -68,7 +68,7 @@
                 "y": -6,
                 "rotation": 45,
                 "moveX": 5,
-                "moveRot": 45,
+                "moveRot": -45,
                 "progress": {
                     "type": "reload",
                     "op": "delay",
@@ -84,7 +84,7 @@
                 "y": -12,
                 "rotation": 45,
                 "moveX": 5,
-                "moveRot": 45,
+                "moveRot": -45,
                 "progress": {
                     "type": "reload",
                     "op": "delay",
