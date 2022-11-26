@@ -129,12 +129,13 @@
                 "y": -4,
                 "moveY": -5,
                 "moveRot": -20,
-                "progress": "warmup"
+                "progress": "reload"
             },
             {
                 "type": "RegionPart",
                 "progress": "warmup",
                 "moveY": 15,
+                "recoil": 4,
                 "suffix": "-front",    
                 "mirror": false,
                 "under": false,
@@ -148,7 +149,7 @@
                 "under": false,
                 "x": 0,
                 "y": 0
-            },
+            }
         ]   
     }
 }
