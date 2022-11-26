@@ -135,7 +135,11 @@
                 "type": "RegionPart",
                 "progress": "warmup",
                 "moveY": 15,
-                "recoil": 4,
+                "heatProgress": {
+                    "type": "reload",
+                    "op": "delay",
+                    "amount": 0.25
+                    },
                 "suffix": "-front",    
                 "mirror": false,
                 "under": false,
