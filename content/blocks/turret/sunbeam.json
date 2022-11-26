@@ -49,10 +49,9 @@
                 "mirror": true,
                 "under": false,
                 "x": 15,
-                "y": -10,
-                "rot": 90,
+                "y": -12,
                 "moveRot": 90,
-                "moveX": 5,
+                "moveX": -5,
                 "progress": {
                     "type": "reload"
                 }
@@ -64,9 +63,8 @@
                 "under": false,
                 "x": 15,
                 "y": 0,
-                "rot": 90,
                 "moveRot": 90,
-                "moveX": 5,
+                "moveX": -6,
                 "progress": {
                     "type": "reload"
                 }
@@ -78,9 +76,8 @@
                 "under": false,
                 "x": 15,
                 "y": -5,
-                "rot": 90,
                 "moveRot": 90,
-                "moveX": 5,
+                "moveX": -5,
                 "progress": {
                     "type": "reload"
                 }
