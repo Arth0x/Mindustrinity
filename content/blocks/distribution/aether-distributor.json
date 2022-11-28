@@ -4,10 +4,10 @@
     "category": "distribution",
     "research": "aether-router",
     "type": "router",
-    "health": 120,
+    "health": 300,
     "itemCapacity": 25,
     "size": 2,
-    "speed": 50,
+    "speed": 120,
     "requirements": [
         "iron/10",
         "infused-aether/15"

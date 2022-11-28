@@ -5,7 +5,7 @@
     "category": "distribution",
     "health": 180,
     "range": 6,
-    "transportTime": 0.1,
+    "transportTime": 0.01,
     "research": "bridge",
     "requirements": [
       "iron/5",
