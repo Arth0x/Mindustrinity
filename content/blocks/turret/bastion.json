@@ -28,7 +28,7 @@
     },
 	"ammoTypes": {
         "steel": {
-            "speed": 3.6,
+            "speed": 4,
             "type":"BasicBulletType",
             "sprite": "shell",
             "lifetime": 450,
