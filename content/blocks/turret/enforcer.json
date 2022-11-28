@@ -23,8 +23,8 @@
     "shootSound": "enforcerShoot",
     "consumes": {
         "liquid": {
-            "liquid": "aether",
-            "amount": 0.12,
+            "coolantMultiplier": 1,
+            "amount": 0.3,
             "optional": true,
             "booster": true
         }
