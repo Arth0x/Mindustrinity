@@ -29,8 +29,7 @@
         "type": "waveEffect",
         "line": true,
         "particles": 1,
-        "lifetime": 10,
-        "speed": 0.1,
+        "lifetime": 1000,
         "colorFrom": "FFFB99FF",
         "colorTo": "FFF740FF"
     }
