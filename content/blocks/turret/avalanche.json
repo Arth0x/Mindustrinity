@@ -31,7 +31,7 @@
             "speed": 4,
             "type":"BasicBulletType",
             "sprite": "shell",
-            "lifetime": 400,
+            "lifetime": 380,
             "damage": 50,
             "splashDamage" : 450,
             "splashDamageRadius" : 40,	
@@ -93,40 +93,12 @@
         "parts": [ 
             {
                 "type": "RegionPart",
-                "suffix": "-blade",   
+                "suffix": "-edge",   
                 "mirror": true,
-                "under": true,
-                "x": 11,
-                "y": -1,
-                "rotation": -25,
-                "moveX": 5,
-                "cooldown": 300,
-                "progress": {
-                    "type": "reload"
-                }
-            },
-            {
-                "type": "RegionPart",
-                "suffix": "-blade",   
-                "mirror": true,
-                "under": true,
-                "x": 13,
-                "y": -8,
-                "rotation": -35,
-                "moveX": 5,
-                "progress": {
-                    "type": "reload"
-                }
-            },
-            {
-                "type": "RegionPart",
-                "suffix": "-blade",   
-                "mirror": true,
-                "under": true,
-                "x": 11,
-                "y": -14,
-                "rotation": -45,
-                "moveX": 5,
+                "under": false,
+                "x": 0,
+                "y": 0,
+                "moveRot": 35,
                 "progress": {
                     "type": "reload"
                 }
