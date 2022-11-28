@@ -1,0 +1,21 @@
+{
+    "name": "Avenatrax",
+    "type": "PointDefenseTurret",
+    "shootLength": 10,
+    "reload": 2,
+    "rotateSpeed": 8,
+    "range": 330,
+    "size": 3,
+    "health": 2300,
+    "bulletDamage": 150,
+    "consumes": {
+        "power": 8.2
+    },
+    "category": "turret",
+    "research": "segment",
+    "requirements": [
+        "silicon/450",
+        "iron/500",
+        "phase-fabric/185"
+    ]
+}
