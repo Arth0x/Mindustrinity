@@ -15,6 +15,13 @@
     "spread": 0,
     "rotateSpeed": 1.4,
     "shootSound": "artillery",
+    "consumes": {
+        "coolant": {
+            "amount": 0.6,
+            "optional": true,
+            "coolantMultiplier": 2
+        }
+    },
 	"ammoTypes": {
         "steel": {
             "speed": 3.6,
