@@ -7,6 +7,7 @@
     "range": 640,
     "category": "turret",
     "recoil": 4,
+    "coolEffect": true,
     "booster": true,
     "targetAir": false,
     "base": "mindustrinity-block-5",
