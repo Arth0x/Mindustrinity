@@ -27,7 +27,7 @@
             "type": "EnergyFieldAbility",
             "statusDuration": 300,
             "status": "electrified",
-            "maxTargets": 30,
+            "maxTargets": 10,
             "damage": 100,
             "healPercent": 0.6,
             "range": 300,
