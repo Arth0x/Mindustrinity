@@ -7,7 +7,7 @@
     "shootLength": 15,
     "rotateSpeed": 8,
     "range": 330,
-    "size": 1,
+    "size": 3,
     "health": 2400,
     "force": 45,
     "scaledForce": 25,
