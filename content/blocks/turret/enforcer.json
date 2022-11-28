@@ -22,12 +22,9 @@
     "shootCone": 8,
     "shootSound": "enforcerShoot",
     "consumes": {
-        "liquid": {
-            "liquid": "water",
-            "coolantMultiplier": 1,
-            "amount": 0.3,
-            "optional": true,
-            "booster": true
+        "coolant": {
+            "amount": 0.4,
+            "optional": true
         }
     },
     "ammoTypes": {
