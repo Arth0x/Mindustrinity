@@ -30,8 +30,8 @@
         "line": true,
         "particles": 1,
         "lifetime": 10,
-        "lenFrom": 500,
-        "lenTo": 500,
+        "lenFrom": 0,
+        "lenTo": 0,
         "colorFrom": "FFFB99FF",
         "colorTo": "FFF740FF"
     }
