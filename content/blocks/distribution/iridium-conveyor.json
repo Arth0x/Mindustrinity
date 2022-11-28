@@ -30,7 +30,7 @@
         "line": true,
         "particles": 1,
         "lifetime": 10,
-        "length": 2,
+        "speed": 0.1,
         "colorFrom": "FFFB99FF",
         "colorTo": "FFF740FF"
     }
