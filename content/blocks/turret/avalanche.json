@@ -13,8 +13,7 @@
     "shootShake": 4,
     "inaccuracy": 0,
     "ammoPerShot": 2,
-    "recoil": 6,
-    "shots": 2,
+    "recoil": 1,
     "spread": 0,
     "restitution": 0.2,
     "rotateSpeed": 1.4,
@@ -35,11 +34,12 @@
             "speed": 4,
             "type":"ArtilleryBulletType",
             "sprite": "shell",
+            "buildingDamageMultiplier": 1.25,
             "lifetime": 380,
             "damage": 50,
             "keepVelocity":	false,
             "splashDamage" : 550,
-            "splashDamageRadius" : 100,	
+            "splashDamageRadius" : 48,	
             "statusDuration": 80,
             "width": 15,
             "height": 35,
@@ -69,7 +69,7 @@
                 "drag": 0.02,
                 "speed": 4.5,
                 "splashDamage" : 40,
-                "splashDamageRadius" : 50,	
+                "splashDamageRadius" : 32,	
                 "hitEffect" : "flakExplosionBig",
                 "despawnEffect": "flakExplosionBig"
 		    }
@@ -91,7 +91,7 @@
                 "under": false,
                 "x": 0,
                 "y": 0,
-                "moveY": 6,
+                "moveY": -6,
                 "progress": {
                     "type": "reload"
                 }
