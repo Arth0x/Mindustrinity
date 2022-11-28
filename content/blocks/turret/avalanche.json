@@ -31,7 +31,7 @@
 	"ammoTypes": {
         "steel": {
             "speed": 4,
-            "type":"ArilleryBulletType",
+            "type":"ArtilleryBulletType",
             "sprite": "shell",
             "lifetime": 380,
             "damage": 50,

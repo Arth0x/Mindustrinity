@@ -23,46 +23,7 @@
             "homingRange": 128,
             "hitSound": "plasmaboom",
             "width": 40,
-            "height": 40,
-            "fragBullets": 24,
-            "fragLifeMin": 0.5,
-            "fragAngle": 35,
-            "fragBullet": {
-            "type": "BasicBulletType",
-            "absorbable": true,
-            "shootEffect": {
-                "type": "ParticleEffect",
-                "particles": 30,
-                "length": 40,
-                "lifetime": 46,
-                "interp": "circleOut",
-                "cone": 20,
-                "lightColor": "A9D8FFFF",
-                "colorFrom": "A9D8FFFF",
-                "colorTo": "66B1FFFF",
-                "sizeFrom": 5,
-                "sizeTo": 0
-            },
-            "shrinkY": 0,
-            "shrinkX": 0,
-            "speed": 3,
-            "lifetime": 47,
-            "splashDamage" : 300,
-            "splashDamageRadius" : 40,	
-            "damage": 237,
-            "lightColor": "A9D8FFFF",
-            "trailColor": "66B1FFFF",
-            "trailParam": 5,
-            "trailLength": 10,
-            "trailWidth": 3,
-            "trailEffect": "none",
-            "status": "freezing",
-            "statusDuration": 70,
-            "height": 15,
-            "width": 15,
-            "frontColor": "A9D8FFFF",
-            "backColor": "66B1FFFF"
-            }
+            "height": 40
         }
     },
 	"requirements": [
