@@ -1,0 +1,16 @@
+{
+    "name": "Aether Router",
+    "description": "A better router",
+    "category": "distribution",
+    "research": "router",
+    "type": "router",
+    "dumpTime": 0.5,
+    "speed": 2,
+    "health": 120,
+    "itemCapacity": 5,
+    "size": 1,
+    "requirements": [
+        "iron/1",
+        "infused-aether/2"
+    ]
+}
