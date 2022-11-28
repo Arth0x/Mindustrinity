@@ -22,9 +22,6 @@
     "knockback": 0.8,
     "hitSize": 16,
 	"fragBullets": 25,
-    "shoot": {
-        "firstShotDelay": 450
-    },
     "consumes": {
         "coolant": {
             "amount": 0.1,
