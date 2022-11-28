@@ -53,6 +53,7 @@
                 "y": -1,
                 "rotation": -25,
                 "moveX": 5,
+                "cooldown": 300,
                 "progress": {
                     "type": "reload",
                     "op": "delay",
@@ -106,6 +107,7 @@
                 "suffix": "-main",   
                 "mirror": false,
                 "under": false,
+                "cooldown": 300,
                 "x": 0,
                 "y": 0
             }
