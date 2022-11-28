@@ -23,9 +23,8 @@
     "shootSound": "enforcerShoot",
     "consumes": {
         "coolant": {
-            "amount": 0.6,
-            "optional": true,
-            "coolantMultiplier": 2
+            "amount": 0.05,
+            "optional": true
         }
     },
     "ammoTypes": {
