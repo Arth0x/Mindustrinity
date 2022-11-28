@@ -31,9 +31,6 @@
         "particles": 1,
         "lifetime": 10,
         "length": 2,
-        "cone": -360,
-        "lenFrom": 5,
-        "lenTo": 0,
         "colorFrom": "FFFB99FF",
         "colorTo": "FFF740FF"
     }
