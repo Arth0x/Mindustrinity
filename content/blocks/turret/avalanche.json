@@ -18,7 +18,7 @@
     "hitEffect": "flakExplosionBig",
     "knockback": 0.8,
     "hitSize": 16,
-	"fragBullets": 18,
+	"fragBullets": 25,
     "consumes": {
         "coolant": {
             "amount": 0.6,
@@ -33,8 +33,8 @@
             "sprite": "shell",
             "lifetime": 380,
             "damage": 50,
-            "splashDamage" : 450,
-            "splashDamageRadius" : 40,	
+            "splashDamage" : 550,
+            "splashDamageRadius" : 100,	
             "collides": true,
             "collidesAir": false,
             "collidesTiles": true,
@@ -43,10 +43,7 @@
             "height": 30,
 			"bulletShrink": 0.1,
             "drag": 0.001,
-			"frontColor":"79F2EEFF" ,
-			"backColor": "74C2E8FF",
             "trailChance": 0.6,
-            "trailColor": "74C2E8FF",
             "shootEffect": "shootBig2",
             "smokeEffect": {
                 "type": "ParticleEffect",
@@ -72,13 +69,10 @@
                 "collidesTiles": false,
                 "drag": 0.02,
                 "speed": 4.5,
-                "trailColor": "74C2E8FF",
                 "splashDamage" : 40,
                 "splashDamageRadius" : 50,	
                 "hitEffect" : "flakExplosionBig",
-                "despawnEffect": "flakExplosionBig",
-                "frontColor":"79F2EEFF" ,
-                "backColor": "74C2E8FF"
+                "despawnEffect": "flakExplosionBig"
 		    }
         }
     },
@@ -99,7 +93,7 @@
                 "x": 0,
                 "y": 0,
                 "moveY": 0,
-                "moveRot": -15,
+                "moveRot": -25,
                 "progress": {
                     "type": "reload"
                 }
