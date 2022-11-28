@@ -4,8 +4,8 @@
     "description": "A better, faster, and longer bridge conveyer",
     "category": "distribution",
     "health": 180,
-    "range": 7,
-    "transportTime": 0.5,
+    "range": 6,
+    "transportTime": 0.1,
     "research": "bridge",
     "requirements": [
       "iron/5",
