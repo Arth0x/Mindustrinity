@@ -43,6 +43,7 @@
             "height": 30,
 			"shrinkX": 0,
 			"shrinkY": 0,
+            "drag": 0.05,
 			"frontColor":"79F2EEFF" ,
 			"backColor": "74C2E8FF",
             "trailChance": 0.6,
