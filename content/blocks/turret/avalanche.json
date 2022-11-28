@@ -3,7 +3,7 @@
     "type": "ItemTurret",
     "category": "turret",
     "research": "ripple",
-    "health": 1500,
+    "health": 2800,
     "targetAir": false,
     "size": 4,
     "reload": 450,
