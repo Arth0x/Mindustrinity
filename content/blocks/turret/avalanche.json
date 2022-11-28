@@ -1,6 +1,6 @@
 {
     "name": "Avalanche",
-    "type": "ItemTurret",
+    "type": "ArtilleryTurret",
     "category": "turret",
     "research": "ripple",
     "health": 2800,
@@ -37,7 +37,7 @@
             "splashDamage" : 550,
             "splashDamageRadius" : 100,	
             "statusDuration": 80,
-            "width": 20,
+            "width": 10,
             "height": 30,
             "drag": 0.001,
             "trailChance": 0.6,
