@@ -1,6 +1,6 @@
 {
     "name": "Avalanche",
-    "type": "ArtilleryTurret",
+    "type": "ItemTurret",
     "category": "turret",
     "research": "ripple",
     "health": 2800,
