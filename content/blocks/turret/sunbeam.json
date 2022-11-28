@@ -32,8 +32,7 @@
         "type": "ContinuousLaserBulletType",
         "damage": 120,
         "width": 7,
-        "length": 450,
-        "colors": ["A61400AA", "FF1E00FF", "FFA599F", "FFFFFFF"]
+        "length": 450
     },
     "requirements": [
         "iron/500",
