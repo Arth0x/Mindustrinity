@@ -23,13 +23,12 @@
     "hitSize": 16,
 	"fragBullets": 25,
     "shoot": {
-        "firstShotDelay": 120
+        "firstShotDelay": 450
     },
     "consumes": {
         "coolant": {
-            "amount": 2,
-            "optional": true,
-            "coolantMultiplier": 0.2   
+            "amount": 0.1,
+            "optional": true 
         }
     },
 	"ammoTypes": {
