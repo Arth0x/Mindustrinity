@@ -28,9 +28,9 @@
     "unloadEffect": {
         "type": "waveEffect",
         "line": true,
-        "particles": 7,
-        "lifetime": 15,
-        "length": 25,
+        "particles": 1,
+        "lifetime": 10,
+        "length": 2,
         "cone": -360,
         "lenFrom": 5,
         "lenTo": 0,
