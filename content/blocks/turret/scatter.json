@@ -1,6 +1,6 @@
 {
     "name": "Scatter",
-    "type": "PointDefenseTurret",
+    "type": "itemTurret",
     "category": "turret",
     "research": "segment",
     "shootLength": 10,
