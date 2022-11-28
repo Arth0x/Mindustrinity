@@ -1,7 +1,9 @@
 {
-    "name": "Avenatrax",
+    "name": "Scatter",
     "type": "PointDefenseTurret",
     "shootLength": 10,
+    "category": "turret",
+    "research": "segment",
     "reload": 2,
     "rotateSpeed": 8,
     "range": 330,
@@ -11,8 +13,6 @@
     "consumes": {
         "power": 8.2
     },
-    "category": "turret",
-    "research": "segment",
     "requirements": [
         "silicon/450",
         "iron/500",

@@ -29,7 +29,7 @@
 	"ammoTypes": {
         "steel": {
             "speed": 4,
-            "type":"BasicBulletType",
+            "type":"PointBulletType",
             "sprite": "shell",
             "lifetime": 380,
             "damage": 50,
