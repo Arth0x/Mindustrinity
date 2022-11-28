@@ -16,6 +16,7 @@
     "recoil": 6,
     "shots": 2,
     "spread": 0,
+    "restitution": 0.2,
     "rotateSpeed": 1.4,
     "shootSound": "artillery",
     "hitEffect": "flakExplosionBig",
@@ -90,7 +91,7 @@
                 "under": false,
                 "x": 0,
                 "y": 0,
-                "moveY": 8,
+                "moveY": 6,
                 "moveX": 2,
                 "moveRot": -20,
                 "progress": {
