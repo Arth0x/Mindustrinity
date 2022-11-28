@@ -18,7 +18,7 @@
     "hitEffect": "flakExplosionBig",
     "knockback": 0.8,
     "hitSize": 16,
-	"fragBullets": 9,
+	"fragBullets": 18,
     "consumes": {
         "coolant": {
             "amount": 0.6,
