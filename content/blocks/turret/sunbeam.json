@@ -17,7 +17,13 @@
             "optional": false,
             "update": false,
             "amount": 0.5
+        },
+        "coolant": {
+            "amount": 0.6,
+            "optional": true,
+            "coolantMultiplier": 2
         }
+        
     },
     "update": true,
     "hasPower": true,

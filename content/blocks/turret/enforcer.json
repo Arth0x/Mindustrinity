@@ -23,7 +23,7 @@
     "shootSound": "enforcerShoot",
     "consumes": {
         "coolant": {
-            "amount": 0.4,
+            "amount": 0.6,
             "optional": true,
             "coolantMultiplier": 2
         }
@@ -72,10 +72,8 @@
             "height": 38,
             "reflectable": false,
             "shootEffect": "explosion",
-            "smokeEffect": "none",
             "hitEffect": "flakExplosionBig",
             "hitSound": "enforcerImpact",
-            "knockback": 14,
             "hitShake": 3,
             "ammoMultiplier": 1,
             "pierceBuilding": true,
@@ -83,7 +81,7 @@
             "backColor": "FFFBA5FF",
             "pierceCap": 2,
             "pierce": false,
-            "lightning": 25,
+            "lightning": 15,
             "lightningDamage": 150,
             "lightningCone": 360,
             "lightningLengthRand": 5,
