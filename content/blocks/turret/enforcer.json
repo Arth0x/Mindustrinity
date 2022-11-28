@@ -21,6 +21,14 @@
     "shootY": 15.5,
     "shootCone": 8,
     "shootSound": "enforcerShoot",
+    "consumes": {
+        "liquid": {
+            "liquid": "aether",
+            "amount": 0.12,
+            "optional": true,
+            "booster": true
+        }
+    },
     "ammoTypes": {
         "infused-aether": {
             "type":"BasicBulletType",
