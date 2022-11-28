@@ -4,11 +4,11 @@
     "category": "distribution",
     "research": "rjunction",
     "type": "junction",
+    "dumpTime": 0.5,
+    "speed": 2,
     "health": 120,
     "itemCapacity": 5,
     "size": 1,
-    "hasitems": true,
-    "speed": 30,
     "requirements": [
         "iron/1",
         "infused-aether/2"
