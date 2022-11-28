@@ -1,0 +1,130 @@
+
+{
+    "type": "ItemTurret",
+	"reload": 265,
+	"range": 540,
+	"size": 7,
+	"maxAmmo": "48",
+	"health": 2650,
+	"rotateSpeed": 1,
+	"shake": 8,
+	"shootSound": "artillery",
+	"ammoPerShot": 20,
+    "recoil": 5,
+	"ammoTypes": {
+    "omega-blue": {
+    "speed": 3,
+    "type":"ArtilleryBulletType",
+    "lifetime": 80,
+"statusDuration": 200,
+    "splashDamage" : 3800,
+    "splashDamageRadius" : 70,	
+	"homingPower": 0.0200,
+    "homingRange": 128,
+    "hitSound": "plasmaboom",
+    "width": 40,
+    "height": 40,
+    "fragBullets": 24,
+    "fragLifeMin": 0.5,
+	"fragAngle": 35,
+	"fragBullet": {
+	"type": "BasicBulletType",
+    "absorbable": true,
+    "shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 30,
+        "length": 40,
+        "lifetime": 46,
+        "interp": "circleOut",
+        "cone": 20,
+        "lightColor": "A9D8FFFF",
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 5,
+        "sizeTo": 0
+    },
+    "shrinkY": 0,
+    "shrinkX": 0,
+    "speed": 3,
+    "lifetime": 47,
+    "splashDamage" : 300,
+    "splashDamageRadius" : 40,	
+    "damage": 237,
+    "lightColor": "A9D8FFFF",
+    "trailColor": "66B1FFFF",
+    "trailParam": 5,
+    "trailLength": 10,
+    "trailWidth": 3,
+    "trailEffect": "none",
+    "status": "freezing",
+    "statusDuration": 70,
+    "height": 15,
+    "width": 15,
+    "hitEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 15,
+    "sizeTo": 0,
+    "length": 0,
+    "spin": 3,
+    "interp": "swing",
+    "lifetime": 60,
+    "lightColor": "A9D8FFFF",
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sizeFrom": 0,
+    "sizeTo": 35,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "lightColor": "A9D8FFFF",
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    }
+    ]
+    },
+    "despawnEffect": {
+    "type": "multiEffect",
+    "effects": [
+    {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "sizeFrom": 15,
+    "sizeTo": 0,
+    "length": 0,
+    "spin": 3,
+    "interp": "swing",
+    "lifetime": 60,
+    "lightColor": "A9D8FFFF",
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    },
+    {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sizeFrom": 0,
+    "sizeTo": 35,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "lightColor": "A9D8FFFF",
+    "colorFrom": "A9D8FFFF",
+    "colorTo": "66B1FFFF"
+    }
+    ]
+    },
+    "frontColor": "A9D8FFFF",
+    "backColor": "66B1FFFF"
+    }
+    }
+    },
+	"requirements": [
+        "thorium/540"
+	],
+	"category": "turret"
+}
