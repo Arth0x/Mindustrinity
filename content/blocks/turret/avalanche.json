@@ -13,6 +13,7 @@
     "shootShake": 4,
     "inaccuracy": 0,
     "ammoPerShot": 2,
+    "recoil": 6,
     "shots": 2,
     "spread": 0,
     "rotateSpeed": 1.4,
@@ -89,7 +90,7 @@
                 "under": false,
                 "x": 0,
                 "y": 0,
-                "moveY": 2,
+                "moveY": 8,
                 "moveX": 2,
                 "moveRot": -20,
                 "progress": {
