@@ -33,6 +33,7 @@
             "sprite": "shell",
             "lifetime": 380,
             "damage": 50,
+            "keepVelocity":	false,
             "splashDamage" : 550,
             "splashDamageRadius" : 100,	
             "statusDuration": 80,
