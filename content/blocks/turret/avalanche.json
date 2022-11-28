@@ -65,7 +65,7 @@
                 "type": "artilleryBulletType",
                 "height" : 10,
                 "width" : 10,
-                "status": "shockwave",
+                "status": "melting",
                 "statusDuration": 40,
                 "lifetime": 10,
                 "collidesGround": false,
