@@ -103,9 +103,7 @@
                 "moveX": 5,
                 "cooldown": 300,
                 "progress": {
-                    "type": "reload",
-                    "op": "delay",
-                    "amount": 0.90
+                    "type": "reload"
                 }
             },
             {
@@ -118,9 +116,7 @@
                 "rotation": -35,
                 "moveX": 5,
                 "progress": {
-                    "type": "reload",
-                    "op": "delay",
-                    "amount": 0.80
+                    "type": "reload"
                 }
             },
             {
@@ -133,9 +129,7 @@
                 "rotation": -45,
                 "moveX": 5,
                 "progress": {
-                    "type": "reload",
-                    "op": "delay",
-                    "amount": 0.70
+                    "type": "reload"
                 }
             }
         ]
