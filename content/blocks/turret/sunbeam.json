@@ -8,6 +8,7 @@
 	"range": 450,
     "reload": 60,
     "shootDuration": 300,
+    "cooldown": 300,
     "heatcolor": "FF0000FF",
     "consumes" : {
         "power": 28,
