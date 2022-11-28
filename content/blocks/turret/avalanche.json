@@ -98,7 +98,8 @@
                 "under": false,
                 "x": 0,
                 "y": 0,
-                "moveRot": 35,
+                "moveY": -5,
+                "moveRot": -25,
                 "progress": {
                     "type": "reload"
                 }
