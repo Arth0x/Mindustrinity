@@ -24,9 +24,9 @@
 	"fragBullets": 25,
     "consumes": {
         "coolant": {
-            "amount": 0.6,
+            "amount": 2,
             "optional": true,
-            "coolantMultiplier": 2
+            "coolantMultiplier": 120    
         }
     },
 	"ammoTypes": {
@@ -103,11 +103,11 @@
                 "under": false,
                 "x": 0,
                 "y": 0,
-                "moveY": 4,
+                "moveY": 3.5,
                 "moveX": 2,
                 "moveRot": -20,
                 "progress": {
-                    "type": "reload"
+                    "type": "warmup"
                 }
             }
         ]
