@@ -7,7 +7,6 @@
     "health": 120,
     "itemCapacity": 5,
     "size": 1,
-    "hasitems": true,
     "speed": 30,
     "requirements": [
         "iron/1",

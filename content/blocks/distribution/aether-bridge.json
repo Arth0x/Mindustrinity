@@ -1,0 +1,16 @@
+{
+    "name": "Aether Bridge",
+    "type": "ItemBridge",
+    "description": "A better, faster, and longer bridge conveyer",
+    "category": "distribution",
+    "health": 180,
+    "range": 7,
+    "transportTime": 0.5,
+    "research": "bridge",
+    "requirements": [
+      "iron/5",
+      "lead/2",
+      "infused-aether/6"
+  
+    ]
+}
