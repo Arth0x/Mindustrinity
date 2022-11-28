@@ -86,12 +86,24 @@
         "parts": [ 
             {
                 "type": "RegionPart",
+                "suffix": "-cannon",   
+                "mirror": false,
+                "under": false,
+                "x": 0,
+                "y": 0,
+                "moveY": 6,
+                "progress": {
+                    "type": "reload"
+                }
+            },
+            {
+                "type": "RegionPart",
                 "suffix": "-edge",   
                 "mirror": true,
                 "under": false,
                 "x": 0,
                 "y": 0,
-                "moveY": 6,
+                "moveY": 4,
                 "moveX": 2,
                 "moveRot": -20,
                 "progress": {
