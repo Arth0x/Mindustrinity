@@ -23,6 +23,7 @@
     "shootSound": "enforcerShoot",
     "consumes": {
         "liquid": {
+            "liquid": "water",
             "coolantMultiplier": 1,
             "amount": 0.3,
             "optional": true,
