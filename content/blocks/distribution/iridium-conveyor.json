@@ -26,7 +26,7 @@
         "colorTo": "FFF740FF"
     },
     "unloadEffect": {
-        "type": "ParticleEffect",
+        "type": "waveEffect",
         "line": true,
         "particles": 7,
         "lifetime": 15,
