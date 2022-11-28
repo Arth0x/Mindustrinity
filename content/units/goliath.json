@@ -24,7 +24,6 @@
             "name": "goliath-fusion",
             "x": 29,
             "y": -0.5,
-            "reload": 120,
             "rotate": true,
             "rotateSpeed": 0.5,
             "alternate": false,
