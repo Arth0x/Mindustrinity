@@ -6,13 +6,13 @@
     "rotateSpeed": 8,
     "range": 220,
     "size": 3,
-    "health": 2250,
+    "health": 1200,
     "bulletDamage": 50,
     "consumes": {
         "power": 10.2
     },
     "category": "turret",
-    "research": "parallax",
+    "research": "segment",
     "requirements": [
         "silicon/250",
         "steel/350",
