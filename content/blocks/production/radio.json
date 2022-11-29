@@ -6,6 +6,8 @@
     "health": 250,
     "activeSoundVolume": 7,
     "activeSound": "music",
+    "idleSoundVolume": 7,
+    "idleSound": "music",
     "hasPower": true,
     "type": "GenericCrafter",
     "craftTime": 300,
