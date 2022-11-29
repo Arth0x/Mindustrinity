@@ -17,22 +17,23 @@
 	    "type": "DrawMulti",
         "drawers": [ {
                 "type": "DrawDefault"
-            }, {
-                "type": "WaveEffect",
-                "line": true,
-                "particles": 1,
-                "lifetime": 48,
-                "length": 30,
-                "sizeFrom": 0,
-                "sizeTo": 12,
-                "colorFrom": "808080FFF",
-                "colorTo": "80808000"
-	        }
+            }
         ]
     },
     "requirements": [
         "silicon/15",
         "iron/25",
         "steel/7"
-    ]
+    ],
+    "craftEffect": {
+        "type": "WaveEffect",
+        "line": true,
+        "particles": 1,
+        "lifetime": 48,
+        "length": 30,
+        "sizeFrom": 0,
+        "sizeTo": 12,
+        "colorFrom": "808080FFF",
+        "colorTo": "80808000"
+    }
 }

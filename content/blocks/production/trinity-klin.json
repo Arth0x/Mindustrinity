@@ -40,6 +40,8 @@
         "particles": 1,
         "lifetime": 300,
         "length": 30,
+        "sizeFrom": 0,
+        "sizeTo": 24,
         "cone": -360,
         "colorFrom": "FFFFFFFF",
         "colorTo": "FFFFFF00"
