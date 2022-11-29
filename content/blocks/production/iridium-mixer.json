@@ -1,6 +1,6 @@
 {	
     "type": "GenericCrafter",
-    "name": "Iridium Mixer [red](NO TEXTURES)",
+    "name": "Iridium Mixer",
     "category": "crafting",
     "research": "acidifier",
     "size": 3,
