@@ -11,8 +11,9 @@
     "hasPower": true,
     "type": "GenericCrafter",
     "craftTime": 300,
+    "outputItem": "steel/1",
     "consumes": {
-        "power":2
+        "power": 2
     },
     "requirements": [
         "silicon/15",
