@@ -18,11 +18,11 @@
             "items": [ 
                 "iron/1"
             ]
-        },
-        "requirements": [
-            "silicon/15",
-            "iron/25",
-            "steel/7"
-        ]
-    }
+        }
+    },
+    "requirements": [
+        "silicon/15",
+        "iron/25",
+        "steel/7"
+    ]
 }
