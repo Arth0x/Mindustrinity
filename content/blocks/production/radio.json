@@ -6,9 +6,12 @@
     "health": 250,
     "loopSound": "music",
     "ambientSound": "music",
+    "hasPower": true,
+    "hasItems": true,
     "type": "GenericCrafter",
+    "itemCapacity": 30,
     "craftTime": 300,
-    "consume": {
+    "consumes": {
         "power":2,
         "items": {
             "items": [ 
