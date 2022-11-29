@@ -6,14 +6,17 @@
     "rotateSpeed": 8,
     "range": 220,
     "size": 3,
-    "health": 1200,
-    "bulletDamage": 50,
+    "health": 2250,
+    "bulletDamage": 150,
     "consumes": {
-        "power": 10.2
+        "power": 8.2
     },
     "category": "turret",
     "research": "segment",
     "requirements": [
-        "silicon/450"
+        "silicon/250",
+        "steel/350",
+        "phase-fabric/125",
+        "lead/250"
         ]
 }

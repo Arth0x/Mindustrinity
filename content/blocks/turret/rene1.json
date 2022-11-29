@@ -7,7 +7,13 @@
 	"range": 1350,
     "heatcolor": "FF0000FF",
     "consumes" : {
-        "power": 28
+        "power": 666,
+        "liquid": {
+            "liquid": "mindustrinity-vulcanite",
+            "optional": true,
+            "update": false,
+            "amount": 0.5
+        }
     },
     "update": true,
     "hasPower": true,
@@ -21,7 +27,6 @@
         "damage": 999666,
         "width": 7,
         "length": 1250,
-        "colors": ["CD4238AA", "FF5845FF", "FFFFFFF", "FFFFFFF"],
         "statusDuration": 60,
         "hitEffect": {
             "type": "ParticleEffect",
