@@ -94,25 +94,5 @@
             }
         }
     ],
-    "research": {
-        "parent": "zenith",
-        "requirements": [
-            {
-                "item": "plastanium",
-                "amount": 7000
-            },
-            {
-                "item": "silicon",
-                "amount": 7500
-            },
-            {
-                "item": "metaglass",
-                "amount": 7000
-            },
-            {
-                "item": "titanium",
-                "amount": 8000
-            }
-        ]
-    }
+    "research": "zenith"
 }
