@@ -1,0 +1,31 @@
+{
+    "name": "Shredder",
+    "category": "turret",
+    "research": "segment",
+    "size": 3,
+    "ammoTypes": {
+        "metaglass": {
+            "speed": 4,
+            "type":"ArtilleryBulletType",
+            "sprite": "shell",
+            "lifetime": 90,
+            "damage": 50,
+            "trailChance": 0.9,
+            "fragBullet": {
+                "type":"MissileBulletType",
+                "height" : 7,
+                "width" : 7,
+                "status": "Freezing",
+                "statusDuration": 40,
+                "lifetime": 60,
+                "speed": 6.5,
+                "homingPower": 1.5,
+                "homingRange":600,
+                "splashDamage" : 40,
+                "splashDamageRadius" : 32,	
+                "hitEffect" : "flakExplosionBig",
+                "despawnEffect": "flakExplosionBig"
+		    }
+        }
+    }
+}
