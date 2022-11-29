@@ -5,6 +5,7 @@
     "size": 2,
     "health": 250,
     "loopSound": "music",
+    "ambientSound": "music",
     "type": "GenericCrafter",
     "craftTime": 300,
     "consume": {
