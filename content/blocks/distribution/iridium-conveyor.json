@@ -14,14 +14,12 @@
     "displayedSpeed": 10,
     "research": "aether-conveyor",
     "loadEffect": {
-        "type": "ParticleEffect",
+        "type": "waveEffect",
         "line": true,
-        "particles": 7,
-        "lifetime": 15,
-        "length": 25,
-        "cone": -360,
-        "lenFrom": 5,
-        "lenTo": 0,
+        "particles": 1,
+        "lifetime": 25,
+        "sizeFrom": 12,
+        "sizeTo": 0,
         "colorFrom": "FFFB99FF",
         "colorTo": "FFF740FF"
     },
@@ -29,11 +27,9 @@
         "type": "waveEffect",
         "line": true,
         "particles": 1,
-        "lifetime": 130,
-        "lenFrom": 0,
-        "lenTo": 0,
+        "lifetime": 25,
         "sizeFrom": 0,
-        "sizeTo": 5,
+        "sizeTo": 12,
         "colorFrom": "FFFB99FF",
         "colorTo": "FFF740FF"
     }
