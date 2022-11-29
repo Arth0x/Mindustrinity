@@ -1,9 +1,14 @@
 {
     "name": "Shredder",
-    "type": "PowerTurret",
+    "type": "ItemTurret",
     "category": "turret",
     "research": "segment",
     "size": 3,
+    "health": 880,
+	"reload": 10,
+	"range": 400,
+    "recoil" : 1.5,
+	"rotateSpeed": 3,
     "ammoTypes": {
         "metaglass": {
             "speed": 4,
