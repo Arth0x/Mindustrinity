@@ -7,16 +7,16 @@
     "range": 220,
     "size": 3,
     "health": 2250,
-    "bulletDamage": 150,
+    "bulletDamage": 50,
     "consumes": {
         "power": 8.2
     },
     "category": "turret",
-    "research": "segment",
+    "research": "parallax",
     "requirements": [
         "silicon/250",
         "steel/350",
         "phase-fabric/125",
         "lead/250"
-        ]
+    ]
 }

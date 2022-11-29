@@ -2,7 +2,7 @@
     "name": "Avenatrax",
     "type": "TractorBeamTurret",
     "category": "turret",
-    "research": "parallax",
+    "research": "segment",
     "targetGround": false,
     "shootLength": 15,
     "rotateSpeed": 8,
