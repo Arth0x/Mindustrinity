@@ -54,8 +54,6 @@
                 "sizeTo": 0,
                 "length": 70,
                 "lifetime": 28,
-                "colorFrom": "74C2E8FF",
-                "colorTo": "C28590FF",
                 "cone": 25
             },
 		    "fragBullet": {
