@@ -9,7 +9,7 @@
     "health": 2250,
     "bulletDamage": 50,
     "consumes": {
-        "power": 8.2
+        "power": 10.2
     },
     "category": "turret",
     "research": "parallax",
