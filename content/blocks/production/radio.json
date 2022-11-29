@@ -11,6 +11,7 @@
     "type": "GenericCrafter",
     "itemCapacity": 30,
     "craftTime": 300,
+    "outputItem": "iron/1",
     "consumes": {
         "power":2,
         "items": {
