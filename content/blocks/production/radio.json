@@ -4,21 +4,13 @@
     "description": "You can chill with everytype music. Even custome one! Go in the mod folder -> sounds and replace music by your own (must be in .mp3)",
     "size": 2,
     "health": 250,
-    "loopSound": "music",
+    "ambientSoundVolume": 7,
     "ambientSound": "music",
     "hasPower": true,
-    "hasItems": true,
     "type": "GenericCrafter",
-    "itemCapacity": 30,
     "craftTime": 300,
-    "outputItem": "iron/1",
     "consumes": {
-        "power":2,
-        "items": {
-            "items": [ 
-                "iron/1"
-            ]
-        }
+        "power":2
     },
     "requirements": [
         "silicon/15",
