@@ -1,6 +1,6 @@
 {
-    "name": "Scatter",
-    "type": "PointDefenseTurret",
+    "name": "Scar",
+    "type": "PointDefenseitemTurret",
     "category": "turret",
     "research": "segment",
     "shootLength": 10,

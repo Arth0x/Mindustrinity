@@ -28,11 +28,9 @@
     "unloadEffect": {
         "type": "waveEffect",
         "line": true,
-        "particles": 7,
-        "lifetime": 15,
-        "length": 25,
-        "cone": -360,
-        "lenFrom": 5,
+        "particles": 1,
+        "lifetime": 10,
+        "lenFrom": 0,
         "lenTo": 0,
         "colorFrom": "FFFB99FF",
         "colorTo": "FFF740FF"
