@@ -1,7 +1,8 @@
 {
+    "name": "Scatter",
     "type": "PointDefenseTurret",
     "shootLength": 10,
-    "reloadTime": 7,
+    "reloadTime": 2,
     "rotateSpeed": 8,
     "range": 220,
     "size": 3,
