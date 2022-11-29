@@ -8,7 +8,8 @@
     "ambientSoundVolume": 0.8,
     "hasPower": true,
     "type": "GenericCrafter",
-    "craftTime": 300,
+    "craftTime": 600,
+    "outputItem": "iron/1",
     "consumes": {
         "power": 2
     },
