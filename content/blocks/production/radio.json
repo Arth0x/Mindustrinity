@@ -9,7 +9,6 @@
     "hasPower": true,
     "type": "GenericCrafter",
     "craftTime": 300,
-    "outputItem": "steel/1",
     "consumes": {
         "power": 2
     },
