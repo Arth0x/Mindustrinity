@@ -1,21 +1,18 @@
 {
-    "name": "Scar",
-    "type": "PointDefenseitemTurret",
+    "type": "PointDefenseTurret",
+    "shootLength": 10,
+    "reloadTime": 7,
+    "rotateSpeed": 8,
+    "range": 220,
+    "size": 3,
+    "health": 1200,
+    "bulletDamage": 50,
+    "consumes": {
+        "power": 10.2
+    },
     "category": "turret",
     "research": "segment",
-    "shootLength": 10,
-    "reload": 2,
-    "rotateSpeed": 8,
-    "range": 330,
-    "size": 3,
-    "health": 2300,
-    "bulletDamage": 150,
-    "consumes": {
-        "power": 8.2
-    },
     "requirements": [
-        "silicon/450",
-        "iron/500",
-        "phase-fabric/185"
-    ]
+        "silicon/450"
+        ]
 }
