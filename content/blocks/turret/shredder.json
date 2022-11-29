@@ -1,5 +1,6 @@
 {
     "name": "Shredder",
+    "type": "PowerTurret",
     "category": "turret",
     "research": "segment",
     "size": 3,
