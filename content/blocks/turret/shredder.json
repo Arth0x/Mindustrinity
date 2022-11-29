@@ -10,7 +10,7 @@
     "recoil" : 1.5,
 	"rotateSpeed": 3,
     "ammoTypes": {
-        "metaglass": {
+        "iron": {
             "speed": 4,
             "type":"ArtilleryBulletType",
             "sprite": "shell",
@@ -21,8 +21,6 @@
                 "type":"MissileBulletType",
                 "height" : 7,
                 "width" : 7,
-                "status": "Freezing",
-                "statusDuration": 40,
                 "lifetime": 60,
                 "speed": 6.5,
                 "homingPower": 1.5,
