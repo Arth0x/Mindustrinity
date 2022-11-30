@@ -97,9 +97,14 @@
                 "x": 0,
                 "y": 0,
                 "moveX": 5,
-                "progress": {
-                    "type": "reload"
-                }
+                "progress": "warmup",
+                "moves": [
+                    {
+                        "type": "PartMove",
+                        "progress": "recoil",
+                        "moveX": 5
+                    }
+                ]
             },
             {
                 "type": "RegionPart",

@@ -6,7 +6,7 @@
     "health": 600,
     "targetAir": false,
     "size": 2,
-    "reload": 30,
+    "reload": 60,
     "range": 120,
     "shootShake": 2,
     "inaccuracy": 4,
@@ -22,7 +22,8 @@
 	"fragBullets": 4,
     "shoot": {
         "type": "shootAlternate",
-        "spread": 10
+        "spread": 10,
+        "shot": 3
 	},
     "consumes": {
         "coolant": {
@@ -35,7 +36,7 @@
             "speed": 4,
             "type":"ArtilleryBulletType",
             "sprite": "shell",
-            "lifetime": 80,
+            "lifetime": 140,
             "damage": 50,
             "keepVelocity":	false,
             "splashDamage" : 150,
