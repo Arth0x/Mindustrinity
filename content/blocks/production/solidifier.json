@@ -23,6 +23,10 @@
         "type": "DrawMulti",
         "drawers": [
             {
+                "type": "DrawFlame",
+                "flameColor": "FFFFFFFF"  
+            },
+            {
                 "type": "DrawDefault"
             }
         ]
