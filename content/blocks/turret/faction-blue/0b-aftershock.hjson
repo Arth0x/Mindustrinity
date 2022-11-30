@@ -40,11 +40,9 @@ shootType: {
   hitShake: 6
 }
 category: turret
-research: 0b-division
 requirements: [
   copper/1000
   lead/900
-  territe-alloy/450
   titanium/350
   thorium/250
   surge-alloy/200

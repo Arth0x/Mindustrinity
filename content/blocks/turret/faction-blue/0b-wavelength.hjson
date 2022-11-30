@@ -60,10 +60,7 @@ shootType: {
   }
   despawnEffect: none
 }
-research: 0b-radius
 category: turret
 requirements: [
   copper/50
-  lead/50
-  silicon/40
 ]

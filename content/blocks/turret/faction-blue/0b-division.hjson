@@ -14,10 +14,8 @@ consumes: {
   power: 6.6
 }
 category: turret
-research: 0b-pinpoint
 requirements: [
   lead/250
-  territe-alloy/200
   titanium/125
   plastanium/75
 ]

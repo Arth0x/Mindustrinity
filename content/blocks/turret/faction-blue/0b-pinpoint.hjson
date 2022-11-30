@@ -84,7 +84,6 @@ ammoTypes: {
   }
 }
 category: turret
-research: 0b-radius
 requirements: [
   copper/80
   silicon/60

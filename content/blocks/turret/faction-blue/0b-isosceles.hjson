@@ -60,11 +60,9 @@ shootType: {
   }
 }
 category: turret
-research: 0b-wavelength
 requirements: [
   copper/400
   graphite/300
   metaglass/200
-  territe-alloy/150
   phase-fabric/70
 ]
