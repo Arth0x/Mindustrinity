@@ -7,9 +7,9 @@
     "targetAir": false,
     "size": 2,
     "reload": 60,
-    "range": 200,
+    "range": 280,
     "shootShake": 2,
-    "inaccuracy": 4,
+    "inaccuracy": 8,
     "ammoPerShot": 3,
     "recoil": 1,
     "spread": 0,
@@ -23,7 +23,7 @@
     "shoot": {
         "type": "shootAlternate",
         "spread": 10,
-        "shot": 3
+        "shots": 3
 	},
     "consumes": {
         "coolant": {
@@ -36,7 +36,7 @@
             "speed": 4,
             "type":"ArtilleryBulletType",
             "sprite": "shell",
-            "lifetime": 20,
+            "lifetime": 280,
             "damage": 50,
             "keepVelocity":	false,
             "splashDamage" : 150,

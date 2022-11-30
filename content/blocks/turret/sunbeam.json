@@ -100,7 +100,7 @@
                 "moves": [
                     {
                         "type": "PartMove",
-                        "progress": "warmup",
+                        "progress": "reload",
                         "moveX": 5
                     }
                 ]
