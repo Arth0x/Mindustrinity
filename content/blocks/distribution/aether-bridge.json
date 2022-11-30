@@ -8,9 +8,8 @@
     "transportTime": 0.01,
     "research": "bridge",
     "requirements": [
-      "iron/5",
-      "lead/2",
-      "infused-aether/6"
-  
+        "iron/5",
+        "lead/2",
+        "infused-aether/6"
     ]
 }

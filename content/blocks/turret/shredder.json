@@ -17,11 +17,11 @@
     "ammoTypes": {
         "iron": {
             "speed": 2,
-            "type":"ArtilleryBulletType",
+            "type":"BasicBulletType",
             "sprite": "shell",
             "height" : 10,
             "width" : 10,
-            "lifetime": 90,
+            "lifetime": 40,
             "damage": 50,
             "trailChance": 0.9,
             "fragBullet": {
@@ -34,6 +34,7 @@
                 "homingPower": 0.7,
                 "homingRange":600,
                 "splashDamage" : 40,
+                "cone": 45,
                 "splashDamageRadius" : 30,	
                 "hitEffect" : "flakExplosionBig",
                 "despawnEffect": "flakExplosionBig"
