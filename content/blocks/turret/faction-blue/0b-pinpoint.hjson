@@ -48,7 +48,7 @@ ammoTypes: {
       colorTo: "6e7080"
     }
   }
-  territe-alloy: {
+  titanium: {
     type: RailBulletType
     damage: 240
     pierceDamageFactor: 0.8
