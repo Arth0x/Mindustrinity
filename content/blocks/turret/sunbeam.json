@@ -97,11 +97,10 @@
                 "x": 0,
                 "y": 0,
                 "moveX": 5,
-                "progress": "warmup",
                 "moves": [
                     {
                         "type": "PartMove",
-                        "progress": "recoil",
+                        "progress": "warmup",
                         "moveX": 5
                     }
                 ]
