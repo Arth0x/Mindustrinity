@@ -11,7 +11,7 @@
                 "type": "DrawDefault"
             }, {
                 "type": "DrawFlame",
-                "flameColor": "A9D8FFFF"
+                "flameColor": "FFD27EFF"
 	        }
         ]
     },

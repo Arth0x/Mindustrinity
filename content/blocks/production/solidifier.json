@@ -9,6 +9,18 @@
     "craftTime": 55,
     "ambientSound": "smelter",
     "ambientSoundVolume": 0.07,
+    "craftEffect": {
+        "type": "SmokeEffect",
+        "line": true,
+        "particles": 6,
+        "lifetime": 25,
+        "length": 10,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "808080FF",
+        "colorTo": "80808000"
+	},
     "consumes": {
         "power": 1,
         "liquid": "slag/0.2"
@@ -23,11 +35,22 @@
         "type": "DrawMulti",
         "drawers": [
             {
-                "type": "DrawFlame",
-                "flameColor": "FFFFFFFF"  
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "mindustrinity-acid",
+                "suffix": "-liquid" 
             },
             {
+                "type": "DrawRegion",
+                "suffix": "-rotator",
+                "rotateSpeed": -14,
+                "spinSprite": true
+            },  
+            {
                 "type": "DrawDefault"
+            },
+            {
+                "type": "DrawFlame",
+                "flameColor": "FFFFFFFF"  
             }
         ]
     },
