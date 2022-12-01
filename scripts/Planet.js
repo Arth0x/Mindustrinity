@@ -8,10 +8,10 @@ const free = new JavaAdapter(Planet, {
 const sS = require("sectorSize");
 sS.planetGrid(free, 3.3);
 free.generator = new SerpuloPlanetGenerator();
-free.atmosphereColor = Color.valueOf("000000");
+free.atmosphereColor = Color.valueOf("008800");
 free.atmosphereRadIn = 0.05;
 free.atmosphereRadOut = 0.5;
-free.localizedName = "mindustrinity";;
+free.localizedName = "Vivolus";;
 free.visible = true;
 free.bloom = false;
 free.accessible = true;
