@@ -139,29 +139,5 @@
             }
         }
     ],
-    "research": {
-        "parent": "t4A_copter",
-        "requirements": [
-            {
-                "item": "plastanium",
-                "amount": 20000
-            },
-            {
-                "item": "silicon",
-                "amount": 15000
-            },
-            {
-                "item": "metaglass",
-                "amount": 16000
-            },
-            {
-                "item": "thorium",
-                "amount": 20000
-            },
-            {
-                "item": "titanium-carbide",
-                "amount": 16000
-            }
-        ]
-    }
+    "research": "t4A_copter"
 }
