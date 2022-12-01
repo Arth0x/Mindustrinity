@@ -1,2 +1,2 @@
-require("copters")
+
 require("test")
