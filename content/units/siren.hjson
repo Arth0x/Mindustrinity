@@ -73,8 +73,6 @@ research:{
   parent: risso
   requirements:[
       silicon/3000
-      spore-pod/1000
       metaglass/1000
-      diamond/1000
   ]
 }
