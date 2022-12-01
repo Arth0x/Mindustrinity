@@ -9,7 +9,7 @@
     "reload": 60,
     "range": 280,
     "shootShake": 2,
-    "inaccuracy": 8,
+    "inaccuracy": 5,
     "ammoPerShot": 3,
     "recoil": 0.1,
     "spread": 0,
