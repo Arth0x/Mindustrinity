@@ -1,9 +1,9 @@
 {
-    "displayName": "[blue]MindusTrinity ", 
-    "name": "mindustrinity",
-    "author": "[cyan]Arth0x",
-    "description":"Rise and shine 3 new elements appeared",
-    "version": "0.8.5",
+    "displayName": "Trinity ", 
+    "name": "trinity",
+    "author": "[cyan]M.Crystal",
+    "description":"Rise",
+    "version": "0.0.1",
     "minGameVersion": "140.4"
 }
     

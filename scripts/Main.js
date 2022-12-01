@@ -1,2 +1,2 @@
 
-require("tesst")
+require("test")
