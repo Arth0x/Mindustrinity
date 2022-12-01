@@ -1,1 +1,2 @@
-require("units/copters")
+require("copters")
+require("test")
