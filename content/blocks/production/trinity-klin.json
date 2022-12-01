@@ -1,0 +1,66 @@
+{	
+    "name": "Trinity Klin",
+    "size": 5,
+    "type": "GenericCrafter",
+    "category": "crafting",
+	"outputItem": "elementium/1",
+	"drawer": {
+	"type": "DrawMulti",
+        "drawers": [ 
+            {
+                "type": "drawRegion",
+                "suffix": "-bottom"    
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-rotator",
+                "rotateSpeed": 10,
+                "warmupSpeed": 0.004,
+                "spinSprite": true
+            }, 
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "cryofluid",
+                "suffix": "-liquid" 
+            },    
+            {
+                "type": "DrawDefault"
+            }
+        ]
+    },
+	"hasPower": true,
+	"hasItems": true,
+    "hasLiquids": true,
+	"itemCapacity": 150,
+    "liquidCapacity": 1200,
+	"craftTime": 300,
+	"craftEffect": {
+        "type": "WaveEffect",
+        "line": true,
+        "particles": 1,
+        "lifetime": 300,
+        "length": 30,
+        "sizeFrom": 0,
+        "sizeTo": 24,
+        "cone": -360,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "FFFFFF00"
+	},
+	"updateEffect": "none",
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+               "infused-aether/5",
+               "infused-iridium/5",
+               "infused-vulcanite/5"
+			]
+		},
+        "liquid": "cryofluid/2"
+	},
+	"requirements": [
+        "copper/20",
+        "lead/100",
+        "titanium/100"
+	]
+}

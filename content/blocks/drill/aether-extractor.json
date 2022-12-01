@@ -1,0 +1,24 @@
+{
+	"type": "Fracker",
+	"name": "Aether Extrator",
+	"description": "Aether Extrator",
+	"research": "pneumatic-drill",
+	"liquidCapacity": 50,
+	"result": "aether",
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"consumes": {
+		"power": 1.2,
+		"liquid": {
+			"liquid":"water",
+			"amount":"0.2"
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 70 },
+		{ "item": "silicon", "amount": 40},
+		{ "item": "titanium", "amount":120}
+	],
+	"category": "production"
+}

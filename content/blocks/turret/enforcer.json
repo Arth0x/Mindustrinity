@@ -1,0 +1,167 @@
+{
+    "name": "Enforcer",
+    "type": "ItemTurret",
+    "health": 5000,
+    "size": 5,
+    "reload": 200,
+    "range": 640,
+    "category": "turret",
+    "recoil": 4,
+    "coolEffect": true,
+    "booster": true,
+    "targetAir": false,
+    "base": "mindustrinity-block-5",
+    "shake": 5,
+    "liquidCapacity": 3500,
+    "hasLiquids": true,
+    "update": true,
+    "coolantMultiplier": 5,
+    "coolantUsage": 0.5,
+    "rotateSpeed": 0.3,
+    "shootY": 15.5,
+    "shootCone": 8,
+    "shootSound": "enforcerShoot",
+    "consumes": {
+        "coolant": {
+            "amount": 0.05,
+            "optional": true
+        }
+    },
+    "ammoTypes": {
+        "infused-aether": {
+            "type":"BasicBulletType",
+            "trailColor": "79A4F3FF",
+            "trailParam": 5,
+            "trailLength": 6,
+            "trailWidth": 3,
+            "sprite": "mindustrinity-heavy-bullet",
+            "speed": 8,
+            "lifetime": 80,
+            "buildingDamageMultiplier": 0.75,
+            "damage": 800,
+            "width": 15,
+            "height": 38,
+            "reflectable": false,
+            "shootEffect": "explosion",
+            "smokeEffect": "none",
+            "hitEffect": "flakExplosionBig",
+            "hitSound": "enforcerImpact",
+            "knockback": 14,
+            "hitShake": 3,
+            "ammoMultiplier": 1,
+            "pierceBuilding": true,
+            "frontColor": "FFFFFFF",
+            "backColor": "79A4F3FF",
+            "pierceCap": 8,
+            "pierce": true,
+            "collidesAir": false
+        },
+        "infused-iridium": {
+            "type":"BasicBulletType",
+            "trailColor": "FFFBA5FF",
+            "trailParam": 5,
+            "trailLength": 15,
+            "trailWidth": 5,
+            "sprite": "mindustrinity-heavy-bullet",
+            "speed": 10,
+            "lifetime": 64,
+            "buildingDamageMultiplier": 1,
+            "damage": 75,
+            "width": 15,
+            "height": 38,
+            "reflectable": false,
+            "shootEffect": "explosion",
+            "hitEffect": "flakExplosionBig",
+            "hitSound": "enforcerImpact",
+            "hitShake": 3,
+            "ammoMultiplier": 1,
+            "pierceBuilding": true,
+            "frontColor": "FFFFFFF",
+            "backColor": "FFFBA5FF",
+            "pierceCap": 2,
+            "pierce": false,
+            "lightning": 15,
+            "lightningDamage": 150,
+            "lightningCone": 360,
+            "lightningLengthRand": 5,
+            "lightningLength": 8,
+            "collidesAir": true
+        },
+        "infused-vulcanite": {
+            "type":"BasicBulletType",
+            "trailColor": "FF6D59FF",
+            "trailParam": 5,
+            "trailLength": 25,
+            "trailWidth": 6,
+            "sprite": "mindustrinity-heavy-bullet",
+            "speed": 2,
+            "lifetime": 320,
+            "buildingDamageMultiplier": 1.3,
+            "damage": 1800,
+            "width": 25,
+            "height": 40,
+            "reflectable": false,
+            "shootEffect": "explosion",
+            "smokeEffect": "none",
+            "hitEffect": "flakExplosionBig",
+            "hitSound": "enforcerImpact",
+            "knockback": 14,
+            "hitShake": 3,
+            "ammoMultiplier": 1,
+            "pierceBuilding": true,
+            "frontColor": "FF6D59FF",
+            "backColor": "FF6D59FF",
+            "pierceCap": 12,
+            "pierce": true,
+            "collidesAir": false
+        }
+    },
+    "requirements": [
+        "lead/650",
+        "plastanium/500",
+        "surge-alloy/550",
+        "infused-aether/700"
+    ],
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [ 
+            {
+                "type": "RegionPart",
+                "suffix": "-back",
+                "mirror": true,
+                "under": false,
+                "x": 14,
+                "y": -4,
+                "moveY": -5,
+                "moveRot": -20,
+                "progress": "reload"
+            },
+            {
+                "type": "RegionPart",
+                "progress": "warmup",
+                "moveY": 15,
+                "heatProgress": {
+                    "type": "reload",
+                    "op": "delay",
+                    "amount": 0.25
+                    },
+                "suffix": "-front",    
+                "mirror": false,
+                "under": false,
+                "x": 0,
+                "y": 0
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-main",
+                "mirror": false,
+                "under": false,
+                "x": 0,
+                "y": 0
+            }
+        ]   
+    }
+}
+
+
+

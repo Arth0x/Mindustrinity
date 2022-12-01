@@ -1,0 +1,195 @@
+{
+    "name": "Goliath",
+    "research": "reign",
+    "type": "mech",
+    "armor": 19,
+    "rotateSpeed": 1.5,
+    "canDrown": false,
+    "hitSize": 42,
+    "mechFrontSway": 1.6,
+    "mechSideSway": 0.6,
+    "mechStepParticles": true,
+    "mechLandShake": 3,
+    "singleTarget": true,
+    "speed": 0.85,
+    "health": 50000,
+    "range": 200,
+    "immunities": [
+        "burning",
+        "melting",
+        "blasted"
+    ],
+    "weapons": [
+        {
+            "name": "goliath-fusion",
+            "x": 29,
+            "y": -0.5,
+            "rotate": true,
+            "rotateSpeed": 0.5,
+            "alternate": false,
+            "top": false,
+            "layerOffset": -0.001,
+            "recoil": 3,
+            "shake": 2,
+            "shootY": 22,
+            "ejectEffect": "casing1",
+            "cooldownTime": 120,
+            "rotationLimit": 45,
+            "shootSound": "torch",
+            "alwaysContinuous": true,
+            "continuous": true,
+            "bullet": 
+            {
+                "type": "ContinuousFlameBulletType",
+                "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
+                "flareWidth": 0,
+                "length": 200,
+                "range": 200,
+                "width": 10,
+                "damage": 750,
+                "lifetime": 75,
+                "lightColor": "4587FFFF",
+                "sideAngle": 25,
+                "sideLength": 1,
+                "sideWidth": 1,
+                "status": "aethered",
+                "statusDuration": 50,
+                "hitEffect": {
+                    "type": "ParticleEffect",
+                    "line": true,
+                    "particles": 5,
+                    "lifetime": 10,
+                    "offset": 20,
+                    "length": 35,
+                    "cone": -360,
+                    "lenFrom": 5,
+                    "lenTo": 0,
+                    "colorFrom": "FFFFFFFF",
+                    "colorTo": "FFA664FF"
+                },
+                "Effect": 
+                {
+                    "type": "multiEffect",
+                    "effects": 
+                    [
+                        {
+                            "type": "ParticleEffect",
+                            "particles": 1,
+                            "sizeFrom": 40,
+                            "sizeTo": 0,
+                            "length": 0,
+                            "lifetime": 25,
+                            "layer": 109,
+                            "region": "mindustrinity-star",
+                            "colorFrom": "FFFFFFFF",
+                            "colorTo": "FFA664FF"
+                        },
+                        {
+                            "type": "ParticleEffect",
+                            "particles": 1,
+                            "sizeFrom": 5.5,
+                            "sizeTo": 0,
+                            "length": 0,
+                            "lifetime": 25,
+                            "colorFrom": "FFFFFF",
+                            "colorTo": "FFA664FF"
+                        },
+                        {
+                            "type": "ParticleEffect",
+                            "particles": 1,
+                            "sizeFrom": 13,
+                            "sizeTo": 0,
+                            "length": 0,
+                            "layer": 109,
+                            "lifetime": 25,
+                            "colorFrom": "FFFFFFFF",
+                            "colorTo": "FFA664FF"
+                        }
+                    ]
+                },
+                "incendChance": 0.4,
+                "incendSpread": 5,
+                "incendAmount": 1
+            }
+        },
+            {
+                "name": "anti-air",
+                "x": 15.5,
+                "y": -5,
+                "reload": 28,
+                "alternate": true,
+                "top": true,
+                "rotate": true,
+                "controllable": false,
+                "rotateSpeed": 2.5,
+                "autoTarget": true,
+                "shoot": {
+                    "type": "shootPattern",
+                    "shotDelay": 4,
+                    "shots": 3
+                },
+                "inaccuracy": 3,
+                "shootSound": "laser",
+                "bullet": {
+                    "type" : "basicBulletType",
+                    "sprite" : "mindustrinity-peircer",
+                    "status": "melting",
+                    "damage": 250,
+                    "height" : 12,
+                    "width" : 12,
+                    "hitSize": 5,
+                    "speed": 5,
+                    "lifetime" : 45,
+                    "pierceBuilding": true,
+                    "pierceCap": 2,
+                    "shootEffect": "hitMeltdown",
+                    "pierce": true,
+                    "trailParam": 5,
+                    "trailLength": 19,
+                    "trailWidth": 3,
+                    "trailEffect": "none",
+                    "trailColor": "FFA664FF",
+                    "backColor": "FFA664FF",
+                    "frontColor": "FFFFFFFF",
+                    "hitEffect": {
+                        "type": "ParticleEffect",
+                        "particles": 6,
+                        "sizeFrom": 5,
+                        "sizeTo": 0,
+                        "length": 20,
+                        "lifetime": 15,
+                        "interp": "circleOut",
+                        "colorFrom": "FFFFFFFF",
+                        "colorTo": "FFA664FF",
+                        "cone": 360   
+                    },
+                    "despawnEffect": {
+                        "type": "ParticleEffect",
+                        "particles": 6,
+                        "sizeFrom": 5,
+                        "sizeTo": 0,
+                        "length": 20,
+                        "lifetime": 15,
+                        "interp": "circleOut",
+                        "colorFrom": "FFFFFFFF",
+                        "colorTo": "FFA664FF",
+                        "cone": 360   
+                    }
+                }
+        }
+    ],
+    "abilities": [ 
+        {
+            "type": "StatusFieldAbility",
+            "effect": "reload",
+            "range": 165,
+            "reload": 60,
+            "duration": 300,
+            "activeEffect": {
+                "type": "MultiEffect",
+                "effects": [
+                ]
+            }
+        }
+    ]
+}

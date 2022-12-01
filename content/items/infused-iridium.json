@@ -1,0 +1,16 @@
+{
+    "name": "Infused Iridium",
+    "description": "Iridium cobined wirh fresh steel",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 10,
+    "charge": 0.1,
+    "cost": 5,
+    "color": "FFF740",
+    "research": {
+        "parent": "infused-aether",
+        "requirements": [
+            "infused-aether/1000"
+        ]
+    }
+}

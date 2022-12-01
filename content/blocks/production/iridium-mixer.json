@@ -1,0 +1,63 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Iridium Mixer",
+    "category": "crafting",
+    "research": "acidifier",
+    "size": 3,
+    "health": 700,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 30,
+    "craftTime": 120,
+    "updateEffect": "none",
+    "ambientSound": "flame2",
+    "consumes": {
+        "power": 5,
+        "items": {
+            "items": [ 
+                "pyratite/10"
+            ]
+        },
+        "liquid": "acid/0.8"
+	},
+    "requirements": [
+        "silicon/250", 
+        "plastanium/100", 
+        "titanium/150", 
+        "infused-aether/200"
+    ],
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "drawRegion",
+                "suffix": "-bottom"    
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "mindustrinity-iridium",
+                "suffix": "-liquid" 
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-rotator1",
+                "rotateSpeed": -4,
+                "spinSprite": true
+            },  
+            {
+                "type": "DrawRegion",
+                "suffix": "-rotator2",
+                "rotateSpeed": 4,
+                "spinSprite": true
+            },  
+            {
+                "type": "DrawDefault"
+            }
+        ]
+    },
+    "outputLiquid": {
+		"liquid": "iridium",
+		"amount": 0.8
+	}
+}

@@ -1,0 +1,36 @@
+{
+    "type": "StackConveyor",
+    "name": "Iridium conveyor",
+    "description": "FASTER !!!!!",
+    "requirements": [
+        "steel/1",
+        "plastanium/1",
+        "infused-iridium/1"
+    ],
+    "health": 300,
+    "speed": 0.10,
+    "itemCapacity": 25,
+    "category": "distribution",
+    "displayedSpeed": 10,
+    "research": "aether-conveyor",
+    "loadEffect": {
+        "type": "waveEffect",
+        "line": true,
+        "particles": 1,
+        "lifetime": 30,
+        "sizeFrom": 12,
+        "sizeTo": 0,
+        "colorFrom": "FFFB99FF",
+        "colorTo": "FFF740FF"
+    },
+    "unloadEffect": {
+        "type": "waveEffect",
+        "line": true,
+        "particles": 1,
+        "lifetime": 30,
+        "sizeFrom": 0,
+        "sizeTo": 12,
+        "colorFrom": "FFFB99FF",
+        "colorTo": "FFF740FF"
+    }
+}

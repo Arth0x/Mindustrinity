@@ -1,0 +1,114 @@
+{
+    "name": "Sunbeam",
+    "type": "LaserTurret",
+    "category": "turret",
+    "research": "meltdown",
+	"size": 5,
+	"health": 1900,
+	"range": 450,
+    "reload": 60,
+    "shootDuration": 300,
+    "cooldown": 300,
+    "heatcolor": "FF0000FF",
+    "consumes" : {
+        "power": 28,
+        "liquid": {
+            "liquid": "mindustrinity-vulcanite",
+            "optional": false,
+            "update": false,
+            "amount": 0.5
+        }
+    },
+    "update": true,
+    "hasPower": true,
+    "shake": 10,
+    "shootSound": "laserbig",
+    "loopSound": "beam",
+    "status": "vulcanise",
+    "statusDuration": 120,
+	"recoil" : 2,
+	"rotateSpeed": 4,
+    "shootType" : {
+        "type": "ContinuousLaserBulletType",
+        "damage": 120,
+        "width": 7,
+        "length": 450
+    },
+    "requirements": [
+        "iron/500",
+        "plastanium/150",
+        "surge-alloy/250",
+        "infused-aether/350"
+    ],
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [ 
+            {
+                "type": "RegionPart",
+                "suffix": "-blade",   
+                "mirror": true,
+                "under": true,
+                "x": 11,
+                "y": -1,
+                "rotation": -25,
+                "moveX": 5,
+                "cooldown": 300,
+                "progress": {
+                    "type": "reload",
+                    "op": "delay",
+                    "amount": 0.90
+                }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-blade",   
+                "mirror": true,
+                "under": true,
+                "x": 13,
+                "y": -8,
+                "rotation": -35,
+                "moveX": 5,
+                "progress": {
+                    "type": "reload",
+                    "op": "delay",
+                    "amount": 0.80
+                }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-blade",   
+                "mirror": true,
+                "under": true,
+                "x": 11,
+                "y": -14,
+                "rotation": -45,
+                "moveX": 5,
+                "progress": {
+                    "type": "reload",
+                    "op": "delay",
+                    "amount": 0.70
+                }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-edge",   
+                "mirror": true,
+                "under": false,
+                "x": 0,
+                "y": 0,
+                "progress": "reload",
+                "moveX": 5
+                
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-main",   
+                "mirror": false,
+                "under": false,
+                "cooldown": 300,
+                "x": 0,
+                "y": 0
+            }
+        ]   
+    }
+}

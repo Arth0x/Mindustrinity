@@ -1,0 +1,138 @@
+{
+    "speed": 0.5,
+    "name": "Impaler",
+    "research": "corvus",
+    "rotateSpeed": 0.6,
+    "mineSpeed": 10,
+    "groundLayer": 75,
+    "buildSpeed": 2.5,
+    "mineTier": 4,
+    "type": "legs",
+    "itemCapacity": 110,
+    "drag": 0.2,
+    "flying": false,
+    "legCount": 4,
+    "legMoveSpace": 1,
+    "legLength": 21,
+    "legExtension": -10,
+    "legBaseOffset": 12,
+    "legSpeed": 0.2,
+    "legLengthScl": 0.90,
+    "legMaxLength": 1.6,
+    "legPairOffset": 2,
+    "legContinuousMove": true,
+    "health": 20000,
+    "hitSize": 24,
+    "armor": 3,
+    "range": 80,
+    "faceTarget": true,
+    "allowLegStep": true,
+    "hovering": true,
+    "weapons": [ 
+        {
+            "name": "impalor",
+            "mirror": false,
+            "top": false,
+            "x": 0,
+            "y": 0,
+            "shootStatusDuration": 120,
+            "shoot": {
+                "firstShotDelay": 120
+            },
+            "reload": 400,
+            "shake": 25,
+            "recoil": 0,
+            "shootStatus": "unmoving",
+            "shootSound": "laserblast",
+            "chargeSound": "lasercharge",
+            "rotate": false,
+            "cooldownTime": 390,
+            "bullet": {
+                "type": "LaserBulletType",
+                "length": 800,
+                "lifetime": 45,
+                "width": 120,
+                "damage": 950,
+                "colors": ["62AE7FFF", "84F491FF", "FFFFFF"],
+                "lightColor": "84F491FF",
+                "hitEffect": {
+                    "type": "ParticleEffect",
+                    "line": true,
+                    "particles": 15,
+                    "lifetime": 20,
+                    "offset": 50,
+                    "cone": -360,
+                    "lenFrom": 5,
+                    "lenTo": 0,
+                    "colorFrom": "84F491FF",
+                    "colorTo": "62AE7FFF"
+                },
+                "chargeEffect": {
+                    "type": "multiEffect",
+                    "lifetime": 500,
+                    "effects": [
+                        {
+                            "type": "ParticleEffect",
+                            "particles": 1,
+                            "sizeFrom": 1,
+                            "sizeTo": 17,
+                            "length": 0,
+                            "lifetime": 125,
+                            "colorFrom": "84F491FF",
+                            "colorTo": "84F491FF",
+                            "cone": 360
+                        },
+                        {
+                            "type": "WaveEffect",
+                            "lifetime": 120,
+                            "sizeFrom": 0,
+                            "sizeTo": 70,
+                            "strokeFrom": 7,
+                            "strokeTo": 0,
+                            "colorFrom": "62AE7FFF",
+                            "colorTo": "84F491FF"
+                        },
+                        {
+                            "type": "ParticleEffect",
+                            "particles": 1,
+                            "sizeFrom": 2,
+                            "sizeTo": 37,
+                            "length": 0,
+                            "spin": 11,
+                            "lifetime": 125,
+                            "region": "mindustrinity-starlarg",                           
+                            "colorFrom": "62AE7FFF",
+                            "colorTo": "84F491FF"
+                        },
+                        {
+                            "type": "ParticleEffect",
+                            "particles": 1,
+                            "sizeFrom": 2,
+                            "sizeTo": 46,
+                            "length": 0,
+                            "spin": -11,
+                            "lifetime": 125,
+                            "region": "mindustrinity-starup",
+                            "colorFrom": "62AE7FFF",
+                            "colorTo": "84F491FF"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "abilities": [ 
+        {
+            "type": "StatusFieldAbility",
+            "effect": "regen",
+            "range": 165,
+            "reload": 60,
+            "duration": 300,
+            "activeEffect": {
+                "type": "MultiEffect",
+                "effects": [
+                ]
+            }
+        }
+    ]
+}

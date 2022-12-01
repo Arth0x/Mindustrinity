@@ -1,0 +1,92 @@
+{
+    "type": "GenericCrafter",
+    "name": "Iridium Infuser",
+    "research": "aether-infuser",
+    "health": 700,
+    "size": 3,
+    "hasItems": true,
+    "craftTime": 40,
+    "craftEffect": {
+        "type": "multiEffect",
+        "effects": [ {
+                "type": "ParticleEffect",
+                "particles": 4,
+                "length": 15,
+                "lifetime": 15,
+                "interp": "circleOut",
+                "sizeInterp": "pow5In",
+                "lightColor": "FFFB99FF",
+                "colorFrom": "787878",
+                "colorTo": "FFFB99FF",
+                "sizeFrom": 4.5,
+                "sizeTo": 0
+                },
+                {
+                "type": "ParticleEffect",
+                "particles": 3,
+                "length": 20,
+                "lifetime": 20,
+                "interp": "circleOut",
+                "sizeInterp": "pow5In",
+                "lightColor": "FFFB99FF",
+                "colorFrom": "787878",
+                "colorTo": "FFFB99FF",
+                "sizeFrom": 3.5,
+                "sizeTo": 0
+                },
+                {
+                "type": "ParticleEffect",
+                "particles": 2,
+                "length": 25,
+                "lifetime": 30,
+                "interp": "circleOut",
+                "sizeInterp": "pow5In",
+                "lightColor": "FFFB99FF",
+                "colorFrom": "787878",
+                "colorTo": "FFFB99FF",
+                "sizeFrom": 2,
+                "sizeTo": 0
+                }
+            ]
+        },
+        "drawer": {
+            "type": "DrawMulti",
+            "drawers": [
+                {
+                    "type": "DrawDefault"
+                },
+                {
+                    "type": "DrawFlame",
+                    "flameColor": "FFFB99FF"  
+                }
+            ]
+        },
+        "hasPower": true,
+        "hasLiquids": false,
+        "updateEffect": "none",
+        "ambientSound": "smelter",
+        "ambientSoundVolume": 0.07,
+        "consumes": {
+        "power": 3,
+        "items": {
+            "items": [
+                "steel/1"
+            ]
+        },
+        "liquid": {
+            "liquid": "iridium",
+            "amount": 0.4
+        }
+    },
+    "requirements": [
+        "graphite/140",
+        "lead/40",
+        "infused-aether/140",
+        "silicon/80"
+    ],
+    "envRequired": 0,
+    "category": "crafting",
+    "outputItems": [
+        "infused-iridium/1"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+"name": "Dragonium",
+"description": "Roaaaar",
+"localizedName": "Dragonium",
+"explosiveness": 100,
+"flammability": 50,
+"radioactivity": 0,
+"charge": 0,
+"cost": 5,
+"color": "990000"
+}

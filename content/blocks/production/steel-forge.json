@@ -1,0 +1,48 @@
+{	
+    "name": "Steel Forge",
+    "size": 2,
+    "research": "graphite-press",
+    "type": "GenericCrafter",
+    "category": "crafting",
+	"outputItem": "steel/1",
+	"drawer": {
+	    "type": "DrawMulti",
+        "drawers": [ {
+                "type": "DrawDefault"
+            }, {
+                "type": "DrawFlame",
+                "flameColor": "A9D8FFFF"
+	        }
+        ]
+    },
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 20,
+	"craftTime": 40,
+	"craftEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 6,
+        "lifetime": 25,
+        "length": 10,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "FFD27EFF",
+        "colorTo": "D4806BFF"
+	},
+	"consumes": {
+		"power": 0.3,
+		"items": {
+			"items": [
+               "iron/2",
+               "coal/2"
+			]
+		}
+	},
+	"requirements": [
+        "copper/20",
+        "lead/100",
+        "titanium/100"
+	]
+}

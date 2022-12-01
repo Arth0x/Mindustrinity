@@ -1,0 +1,22 @@
+{
+    "name": "Diver OS [red]WIP",
+    "type": "OverdriveProjector",
+    "size": 2, 
+    "category": "effect",
+    "color": "#feb380",
+    "phase": "#ffd59e",
+    "reload": 60,
+    "range"	: 380,
+    "speedBoost": 15,
+    "speedBoostPhase": 0.75,
+    "useTime": 400,
+    "phaseRangeBoost": 20,
+    "update": true,
+    "hasPower":	true,
+    "hasItems":	true,
+    "canOverdrive":	false,
+    "health": 1500,
+    "consumes": {},
+    "requirements": []
+
+}
