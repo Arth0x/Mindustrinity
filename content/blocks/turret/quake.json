@@ -11,7 +11,7 @@
     "shootShake": 2,
     "inaccuracy": 8,
     "ammoPerShot": 3,
-    "recoil": 1,
+    "recoil": 0.1,
     "spread": 0,
     "restitution": 0.2,
     "rotateSpeed": 1.4,
@@ -21,9 +21,8 @@
     "hitSize": 16,
 	"fragBullets": 4,
     "shoot": {
-        "type": "shootAlternate",
         "spread": 10,
-        "shots": 3
+        "shots": 2
 	},
     "consumes": {
         "coolant": {
@@ -85,24 +84,18 @@
                 "under": false,
                 "x": 0,
                 "y": 0,
-                "moveY": -6,
+                "moveY": -2,
                 "progress": {
-                    "type": "reload"
+                    "type": "recoil"
                 }
             },
             {
                 "type": "RegionPart",
-                "suffix": "-edge",   
-                "mirror": true,
+                "suffix": "-top",   
+                "mirror": false,
                 "under": false,
                 "x": 0,
-                "y": 0,
-                "moveY": 3.5,
-                "moveX": 2,
-                "moveRot": -20,
-                "progress": {
-                    "type": "warmup"
-                }
+                "y": 0
             }
         ]
     }
