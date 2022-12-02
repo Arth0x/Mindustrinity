@@ -1,0 +1,16 @@
+{
+    "name": "Aether Compressed Container",
+    "type": "StorageBlock",
+    "size": 4,
+    "researchCostMultiplier": 0.8, 
+    "health": 2250,
+    "itemCapacity": 8500,
+    "research": "gamma-core",
+    "category": "effect",
+    "requirements": [
+        "mindustrinity-infused-aether/950",
+        "thorium/350",
+        "plastanium/275",
+        "mindustrinity-steel/550"
+    ]
+}

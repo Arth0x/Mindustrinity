@@ -1,0 +1,15 @@
+{
+    "name": "Reinforced Container",
+    "type": "StorageBlock",
+    "size": 3,
+    "researchCostMultiplier": 0.8, 
+    "health": 950,
+    "itemCapacity": 3200,
+    "research": "gamma-core",
+    "category": "effect",
+    "requirements": [
+        "mindustrinity-steel/650",
+        "thorium/225",
+        "titanium/350"
+    ]
+}
