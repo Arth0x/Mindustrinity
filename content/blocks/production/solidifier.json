@@ -11,7 +11,7 @@
     "ambientSound": "smelter",
     "ambientSoundVolume": 0.07,
     "craftEffect": {
-        "type": "ParticleEffect",
+        "type": "SmokeEffect",
         "line": true,
         "particles": 6,
         "lifetime": 25,
@@ -35,11 +35,7 @@
         "type": "DrawMulti",
         "drawers": [
             {
-                "type": "DrawDefault"
-            },
-            {
-                "type": "DrawFlame",
-                "flameColor": "FFFFFFFF"  
+                "type": "DrawDefault" 
             }
         ]
     },

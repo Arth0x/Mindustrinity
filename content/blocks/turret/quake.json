@@ -21,6 +21,7 @@
     "hitSize": 16,
 	"fragBullets": 4,
     "shoot": {
+        "type": "shootAlternate",
         "spread": 10,
         "shots": 2
 	},
