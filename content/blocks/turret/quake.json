@@ -22,7 +22,7 @@
 	"fragBullets": 4,
     "shoot": {
         "type": "shootAlternate",
-        "spread": 10,
+        "spread": 8,
         "shots": 2
 	},
     "consumes": {
