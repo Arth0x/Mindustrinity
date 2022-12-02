@@ -8,7 +8,7 @@
     "research": "gamma-core",
     "category": "effect",
     "requirements": [
-        "mindustrinity-steel/650",
+        "steel/650",
         "thorium/225",
         "titanium/350"
     ]
