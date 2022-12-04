@@ -5,7 +5,7 @@
     "researchCostMultiplier": 0.8, 
     "health": 2250,
     "itemCapacity": 8500,
-    "research": "gamma-core",
+    "research": "reinforced-container",
     "category": "effect",
     "requirements": [
         "infused-aether/950",
