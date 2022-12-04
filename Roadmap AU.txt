@@ -1,0 +1,171 @@
+Unité :
+- T6 :
+	Oct   - Atlas
+	Toxo  - Behmoth
+	Reign - Goliath
+	Reap  - Smaug
+	Corv  - Impaler
+	Omura - Leviathan*
+	basup - Navy*
+
+- Fly (Support artillerie): 
+	T1 -  
+	T2 - 
+	T3 - Raptor
+	T4 -
+	T5 - 
+	T6 - Rex
+
+- ter  (Rapid cac tank):
+	T1 - 
+	T2 -
+	T3 -
+	T4 -
+	T5 -
+	T6 -
+
+- bat (Missile longue porté): 
+	T1 -
+	T2 -
+	T3 -
+	T4 -
+	T5 -
+	T6 -
+
+Ressource :
+
+Iron -> 
+Acier -> charbon+iron
+Acier-infuser
+
+
+
+
+
+
+Couleurs
+
+Aether	: nom -> 007CFF
+	  cla -> 59ABFF
+	  smb -> 0051A6
+
+Iridium	: nom -> FFF740
+	  cla -> FFFB99
+	  smb -> A6A12D
+
+Vulcan	: nom -> FF1E00
+	  cla -> FF6D59
+		+FFA599
+	  smb -> A61400
+
+Fer -> 	7f7f7f
+	B3B3B3
+	4D4D4D
+		
+
+dragonstone     -> 8C0900
+		-> 8C2A23
+		-> 590500
+
+Steel 	-> 7B788C
+	-> A8A4BF
+	-> 4E4C59
+
+Sulfur 	-> DEB269
+	-> F7E89C
+	-> B47446
+
+Base    -> 989AA4
+	-> B0BAC0
+	-> 6E7080
+
+acid	-> D2FF40
+	-> E7FF99
+	-> 89A62A
+
+
+
+
+anti air
+corroder-exogenesis
+
+
+
+effect atlas
+
+"activeEffect": {
+                "type": "MultiEffect",
+                "effects": [ {     
+                        "type": "ParticleEffect",
+                        "line": true,
+                        "particles": 4,
+                        "lifetime": 25,
+                        "length": 85,
+                        "cone": -360,
+                        "strokeFrom": 2,
+                        "strokeTo": 0,
+                        "lenFrom": 6,
+                        "lenTo": 0,
+                        "colorFrom": "BF92F8FF",
+                        "colorTo": "66B1FFFF"
+                    }
+                ]
+            }
+
+arme atlas
+
+
+"weapons": [ 
+        {
+            "name": "atlas-mount",
+            "x": 0,
+            "y": 0,
+            "shootY": 2,
+            "rotateSpeed": 4,
+            "reload": 50,
+            "recoil": 2,
+            "weaveScale": 5,			
+            "weaveMag": 2,
+            "height": 8,
+            "width": 8,
+            "mirror": false,
+            "lifetime": 270,
+            "splashDamageRadius": 30,
+            "splashDamage": 30,
+            "layerOffset": -0.001,
+            "inaccuracy": 8,
+            "shootSound": "bolt",
+            "rotate": true,
+            "shoot": {
+                "type": "ShootPattern",
+                "shots": 4,
+                "shotDelay": 8
+            },
+            "bullet": {
+                "type": "MissileBulletType",
+                "shootEffect": "shootHealYellow",
+                "damage": 45,
+                "speed": 4,
+                "keepVelocity": false,
+                "frontColor": "FFFFFFF",
+                "backColor": "84F491FF",
+                "trailColor": "84F491FF",
+                "lifetime": 70,
+                "homingPower": 1,
+                "homingRange": 50,
+                "weaveScale": 5,			
+                "weaveMag": 2,
+                "height": 8,
+                "width": 8
+            }
+        }
+    ]
+
+
+
+
+
+
+
+
+
