@@ -33,7 +33,10 @@
         "colors": ["66B1FFAA", "66B1FFFF", "A9D8FFFF", "E1F2FFFF"],
         "damage": 120,
         "width": 7,
-        "length": 450
+        "length": 450,
+        "flareWidth": 5,
+        "flareLength": 32,
+        "flareColor": "A9D8FFFF"
     },
     "requirements": [
         "iron/500",
