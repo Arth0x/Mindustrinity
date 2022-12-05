@@ -60,7 +60,7 @@
         {
             "controllable": false,
             "autoTarget": true,
-            "rotateSpeed": 4,
+            "rotateSpeed": 0,
             "alternate": false,
             "mirror": false,
             "top": true,
