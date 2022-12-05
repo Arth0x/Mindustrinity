@@ -2,7 +2,7 @@
     "name": "Hurricane",
     "type": "ItemTurret",
     "category": "turret",
-    "research": "segment",
+    "research": "cyclone",
     "base": "reinforced-block-3",
     "size": 3,
     "health": 1580,
@@ -49,9 +49,9 @@
         }
     },
     "requirements": [
-		"steel/550",
-        "thorium/750",
-        "plastanium/650",
-		"surge-alloy/600"
+		"steel/325",
+        "thorium/175",
+        "plastanium/150",
+		"surge-alloy/100"
     ]
 }
