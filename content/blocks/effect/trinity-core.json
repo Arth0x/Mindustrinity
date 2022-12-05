@@ -8,11 +8,11 @@
 	"unitCapModifier": 35,
     "unitType": "trinity",
 	"requirements": [
-		{ "item": "silicon", "amount": 12000 },
-		{ "item": "surge-alloy", "amount": 2500 },
-		{ "item": "infused-aether", "amount": 2000 },
-		{ "item": "infused-iridium", "amount": 2000 },
-		{ "item": "infused-vulcanite", "amount": 2000 }
+		"silicon/12000",
+		"surge-alloy/2500",
+		"infused-aether/2000",
+		"infused-iridium/2000",
+		"infused-vulcanite/2000"
 	],
   	"category": "effect"
 }

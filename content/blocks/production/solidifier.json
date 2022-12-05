@@ -6,6 +6,8 @@
     "size": 2,
     "health": 650,
     "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
     "itemCapacity": 10,
     "liquidCapacity": 150,
     "craftTime": 55,
@@ -35,6 +37,21 @@
     "drawer": {
         "type": "DrawMulti",
         "drawers": [
+            {
+                "type": "drawRegion",
+                "suffix": "-bottom"    
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "slag",
+                "suffix": "-liquid" 
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-rotator",
+                "rotateSpeed": -4,
+                "spinSprite": true
+            },
             {
                 "type": "DrawDefault" 
             }

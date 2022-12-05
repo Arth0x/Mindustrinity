@@ -45,16 +45,16 @@
                 "suffix": "-liquid" 
             },
             {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "mindustrinity-acid",
+                "suffix": "-liquid" 
+            },
+            {
                 "type": "DrawRegion",
                 "suffix": "-rotator",
                 "rotateSpeed": -4,
                 "spinSprite": true
             },   
-            {
-                "type": "DrawLiquidRegion",
-                "drawLiquid": "mindustrinity-acid",
-                "suffix": "-liquid" 
-            },
             {
                 "type": "DrawDefault"
             }

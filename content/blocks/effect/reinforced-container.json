@@ -1,11 +1,11 @@
 {
     "name": "Reinforced Container",
     "type": "StorageBlock",
+    "research": "vault",
     "size": 3,
     "researchCostMultiplier": 0.8, 
     "health": 950,
-    "itemCapacity": 3200,
-    "research": "gamma-core",
+    "itemCapacity": 3200, 
     "category": "effect",
     "requirements": [
         "steel/650",
