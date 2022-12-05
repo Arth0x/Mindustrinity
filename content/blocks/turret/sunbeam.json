@@ -31,13 +31,13 @@
 	"rotateSpeed": 4,
     "shootType" : {
         "type": "ContinuousFlameBulletType",
-        "colors": ["FFAF64AA", "FFAF64FF", "FFAF64FF", "FFFFFFFF"],
+        "colors": ["FF9664AA", "FF9664FF", "FF9664FF", "FF9664FF"],
         "damage": 120,
         "width": 7,
         "length": 450,
         "flareWidth": 5,
-        "flareLength": 32,
-        "flareColor": "FFAF64FF"
+        "flareLength": 28,
+        "flareColor": "FF9664FF"
     },
     "requirements": [
         "iron/500",
