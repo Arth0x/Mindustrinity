@@ -39,19 +39,6 @@
             {
                 "type": "ParticleEffect",
                 "particles": 1,
-                "sizeFrom": 10,
-                "sizeTo": 0,
-                "length": 0,
-                "lightColor": "59ABFFFF",
-                "lifetime": 40,
-                "layer": 109,
-                "region": "mindustrinity-star",
-                "colorFrom": "FFFFFFF",
-                "colorTo": "FFFFF80"
-            },
-            {
-                "type": "ParticleEffect",
-                "particles": 1,
                 "sizeFrom": 20,
                 "sizeTo": 0,
                 "length": 0,
@@ -61,6 +48,19 @@
                 "region": "mindustrinity-star",
                 "colorFrom": "007CFFFF",
                 "colorTo": "59ABFF80"
+            },
+            {
+                "type": "ParticleEffect",
+                "particles": 1,
+                "sizeFrom": 10,
+                "sizeTo": 0,
+                "length": 0,
+                "lightColor": "59ABFFFF",
+                "lifetime": 40,
+                "layer": 109,
+                "region": "mindustrinity-star",
+                "colorFrom": "FFFFFFF",
+                "colorTo": "FFFFF80"
             },
             {
                 "type": "WaveEffect",
