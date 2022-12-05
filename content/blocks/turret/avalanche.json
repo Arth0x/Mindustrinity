@@ -70,6 +70,47 @@
                 "hitEffect" : "flakExplosionBig",
                 "despawnEffect": "flakExplosionBig"
 		    }
+        },
+        "graphite": {
+            "speed": 4,
+            "type":"ArtilleryBulletType",
+            "sprite": "shell",
+            "lifetime": 380,
+            "damage": 30,
+            "keepVelocity":	false,
+            "splashDamage" : 350,
+            "splashDamageRadius" : 48,	
+            "statusDuration": 80,
+            "width": 15,
+            "height": 35,
+            "drag": 0.001,
+            "absorbable": true,
+            "trailChance": 0.6,
+            "shootEffect": "shootBig2",
+            "smokeEffect": {
+                "type": "ParticleEffect",
+                "particles": 10,
+                "offset": 11,
+                "sizeFrom": 5,
+                "sizeTo": 0,
+                "length": 70,
+                "lifetime": 28,
+                "cone": 25
+            },
+		    "fragBullet": {
+                "type": "artilleryBulletType",
+                "height" : 10,
+                "width" : 10,
+                "status": "melting",
+                "statusDuration": 40,
+                "lifetime": 10,
+                "drag": 0.02,
+                "speed": 4.5,
+                "splashDamage" : 40,
+                "splashDamageRadius" : 32,	
+                "hitEffect" : "flakExplosionBig",
+                "despawnEffect": "flakExplosionBig"
+		    }
         }
     },
     "requirements": [
