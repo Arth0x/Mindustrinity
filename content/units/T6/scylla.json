@@ -133,9 +133,10 @@
             "shootSound": "beam",
             "chargeSound": "lasercharge2",
             "continuous": true,
-            "colors": ["BF92F8FF", "665C9FFF", "FFFFFF"],
+            
             "bullet": { 
                 "type": "ContinuousLaserBulletType",
+                "colors": ["BF92F8FF", "665C9FFF", "FFFFFF"],
                 "damage": 25,
                 "width": 4,
                 "length": 250,
