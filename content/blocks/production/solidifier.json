@@ -2,6 +2,7 @@
     "type": "GenericCrafter",
     "name": "Solidifier",
     "category": "crafting",
+    "research": "graphite-press",
     "size": 2,
     "health": 650,
     "hasPower": true,
