@@ -1,0 +1,47 @@
+{
+    "name": "Hurricane",
+    "type": "ItemTurret",
+    "category": "turret",
+    "research": "segment",
+    "base": "mindustrinity-reinforced-block-3",
+    "size": 3,
+    "health": 880,
+	"reload": 480,
+	"range": 400,
+    "recoil" : 1.5,
+	"rotateSpeed": 3,
+    "shootCone": 45,
+    "inaccuracy": 5,
+    "shots": 3,
+    "fragBullets": 5,
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 45,
+        "shotDelay": 3
+    },
+    "ammoTypes": {
+        "mindustrinity-iron": {
+            "type":"MissileBulletType",
+            "height": 6,
+            "width": 6,
+            "damage": 35,
+            "lifetime": 360,
+            "weaveScale": 8,
+            "weaveMag": 15,
+            "speed": 2.5,
+            "trailChance": 1,
+            "homingPower": 0.2,
+            "homingRange": 130,
+            "splashDamage" : 40,
+            "splashDamageRadius" : 30,	
+            "hitEffect" : "flakExplosionBig",
+             "despawnEffect": "flakExplosionBig"
+        }
+    },
+    "requirements": [
+		"mindustrinity-steel/550",
+        "thorium/750",
+        "plastanium/650",
+		"surge-alloy/600"
+    ]
+}
