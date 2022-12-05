@@ -3,31 +3,42 @@
     "type": "ItemTurret",
     "category": "turret",
     "research": "segment",
-    "base": "mindustrinity-reinforced-block-3",
+    "base": "reinforced-block-3",
     "size": 3,
-    "health": 880,
+    "health": 1580,
 	"reload": 480,
 	"range": 400,
     "recoil" : 1.5,
+    "hasItems": true,
+    "itemCapacity": 120,
+    "hasLiquids":true,
+    "liquidCapacity": 350,
 	"rotateSpeed": 3,
     "shootCone": 45,
+    "ammoPerShot": 40,
     "inaccuracy": 5,
     "shots": 3,
     "fragBullets": 5,
+    "consumes": {
+        "coolant": {
+            "amount": 0.4,
+            "optional": true 
+        }
+    },
     "shoot": {
         "type": "ShootPattern",
         "shots": 45,
         "shotDelay": 3
     },
     "ammoTypes": {
-        "mindustrinity-iron": {
+        "iron": {
             "type":"MissileBulletType",
             "height": 6,
             "width": 6,
             "damage": 35,
             "lifetime": 360,
-            "weaveScale": 8,
-            "weaveMag": 15,
+            "weaveScale": 6,
+            "weaveMag": 14,
             "speed": 2.5,
             "trailChance": 1,
             "homingPower": 0.2,
@@ -39,7 +50,7 @@
         }
     },
     "requirements": [
-		"mindustrinity-steel/550",
+		"steel/550",
         "thorium/750",
         "plastanium/650",
 		"surge-alloy/600"
