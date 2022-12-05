@@ -37,6 +37,16 @@
         "type": "multiEffect",
         "effects": [
             {
+                "type": "WaveEffect",
+                "lifetime": 60,
+                "sizeFrom": 0,
+                "sizeTo": 20,
+                "strokeFrom": 3.5,
+                "strokeTo": 0,
+                "colorFrom": "007CFFFF",
+                "colorTo": "59ABFF80"
+            },
+            {
                 "type": "ParticleEffect",
                 "particles": 1,
                 "sizeFrom": 20,
@@ -61,16 +71,6 @@
                 "region": "mindustrinity-star",
                 "colorFrom": "FFFFFFF",
                 "colorTo": "FFFFF80"
-            },
-            {
-                "type": "WaveEffect",
-                "lifetime": 60,
-                "sizeFrom": 0,
-                "sizeTo": 20,
-                "strokeFrom": 3.5,
-                "strokeTo": 0,
-                "colorFrom": "007CFFFF",
-                "colorTo": "59ABFF80"
             }
         ]
     },
