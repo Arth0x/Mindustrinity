@@ -45,9 +45,9 @@ Acier-infuser
 
 Couleurs
 
-Aether	: nom -> 007CFF
-	  cla -> 59ABFF
-	  smb -> 0051A6
+Aether	: nom -> 00b4ff
+	  cla -> 59CEFF
+	  smb -> 0075A6
 
 Iridium	: nom -> FFF740
 	  cla -> FFFB99
