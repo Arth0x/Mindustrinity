@@ -6,8 +6,9 @@
 	"size": 5,
 	"health": 2900,
 	"range": 450,
-    "reload": 120,
-    "shootDuration": 300,
+    "reload": 60,
+    "ShootX": -20,
+    "shootDuration": 400,
     "cooldown": 300,
     "heatcolor": "FF0000FF",
     "consumes" : {
