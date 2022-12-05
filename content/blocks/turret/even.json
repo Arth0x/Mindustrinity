@@ -1,4 +1,5 @@
 {
+    "name": "Eventrax",
     "type": "PointDefenseTurret",
     "shootLength": 10,
     "reloadTime": 7,
