@@ -68,7 +68,21 @@
                 "splashDamage" : 40,
                 "splashDamageRadius" : 32,	
                 "hitEffect" : "flakExplosionBig",
-                "despawnEffect": "flakExplosionBig"
+                "despawnEffect": "flakExplosionBig",
+                "fragBullet": {
+                    "type": "artilleryBulletType",
+                    "height" : 7,
+                    "width" : 7,
+                    "status": "melting",
+                    "statusDuration": 40,
+                    "lifetime": 7,
+                    "drag": 0.02,
+                    "speed": 4.5,
+                    "splashDamage" : 10,
+                    "splashDamageRadius" : 12,	
+                    "hitEffect" : "flakExplosionBig",
+                    "despawnEffect": "flakExplosionBig"
+                }
 		    }
         },
         "graphite": {
