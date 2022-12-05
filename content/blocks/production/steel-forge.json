@@ -7,9 +7,11 @@
 	"outputItem": "steel/1",
 	"drawer": {
 	    "type": "DrawMulti",
-        "drawers": [ {
+        "drawers": [ 
+            {
                 "type": "DrawDefault"
-            }, {
+            }, 
+            {
                 "type": "DrawFlame",
                 "flameColor": "FFD27EFF"
 	        }

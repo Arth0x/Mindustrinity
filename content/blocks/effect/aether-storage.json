@@ -1,16 +1,16 @@
 {
     "name": "Aether Compressed Container",
     "type": "StorageBlock",
+    "research": "reinforced-container",
     "size": 4,
     "researchCostMultiplier": 0.8, 
     "health": 2250,
     "itemCapacity": 8500,
-    "research": "reinforced-container",
     "category": "effect",
     "requirements": [
-        "infused-aether/950",
-        "thorium/350",
-        "plastanium/275",
-        "steel/550"
+        "infused-aether/650",
+        "thorium/250",
+        "plastanium/175",
+        "steel/250"
     ]
 }

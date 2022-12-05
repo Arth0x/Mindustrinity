@@ -8,8 +8,8 @@
     "itemCapacity": 3200, 
     "category": "effect",
     "requirements": [
-        "steel/650",
-        "thorium/225",
-        "titanium/350"
+        "steel/350",
+        "thorium/125",
+        "titanium/175"
     ]
 }
