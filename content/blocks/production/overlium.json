@@ -1,0 +1,89 @@
+{
+    "type": "GenericCrafter",
+    "name": "Overlium",
+    "research": "silicon-crucible",
+    "health": 375,
+    "size": 3 ,
+    "category": "crafting",
+    "outputItem": "silicon/15",
+    "hasLiquids":true,
+    "itemCapacity": 35,
+    "hasItems": true,
+    "liquidCapacity": 200,
+    "craftTime": 60,
+    "hasPower": true,
+    "ambientSound": "smelter",
+    "requirements": [
+        "lead/50",
+        "thorium/80",
+        "infused-aether/140",
+        "silicon/100"
+    ],
+    "consumes": {
+        "power": 3.5,
+        "items": {
+            "items": [
+                "iron/5",
+                "coal/2",
+                "sand/2"
+            ]
+        },
+        "liquid": {
+            "liquid": "aether",
+            "amount": 0.3
+        }
+    },
+    "craftEffect": {
+        "type": "multiEffect",
+        "effects": [
+            {
+                "type": "ParticleEffect",
+                "particles": 1,
+                "sizeFrom": 10,
+                "sizeTo": 0,
+                "length": 0,
+                "lightColor": "59ABFFFF",
+                "lifetime": 40,
+                "layer": 109,
+                "region": "mindustrinity-star",
+                "colorFrom": "FFFFFFF",
+                "colorTo": "FFFFF80"
+            },
+            {
+                "type": "ParticleEffect",
+                "particles": 1,
+                "sizeFrom": 20,
+                "sizeTo": 0,
+                "length": 0,
+                "lightColor": "FFFFFFFF",
+                "lifetime": 40,
+                "layer": 109,
+                "region": "mindustrinity-star",
+                "colorFrom": "007CFFFF",
+                "colorTo": "59ABFF80"
+            },
+            {
+                "type": "WaveEffect",
+                "lifetime": 60,
+                "sizeFrom": 0,
+                "sizeTo": 20,
+                "strokeFrom": 3.5,
+                "strokeTo": 0,
+                "colorFrom": "007CFFFF",
+                "colorTo": "59ABFF80"
+            }
+        ]
+    },
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawFlame",
+                "flameColor": "59ABFFFF"
+            }
+        ]
+    }
+}
