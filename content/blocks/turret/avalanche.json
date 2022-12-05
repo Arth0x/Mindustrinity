@@ -118,7 +118,7 @@
                 "statusDuration": 40,
                 "lifetime": 70,
                 "drag": 0.02,
-                "speed": 2.5,
+                "speed": 0.7,
                 "splashDamage" : 40,
                 "splashDamageRadius" : 32,	
                 "hitEffect" : "flakExplosionBig",
