@@ -6,7 +6,7 @@
 	"size": 5,
 	"health": 1900,
 	"range": 450,
-    "reload": 60,
+    "reload": 120,
     "shootDuration": 300,
     "cooldown": 300,
     "heatcolor": "FF0000FF",
@@ -29,7 +29,7 @@
 	"recoil" : 2,
 	"rotateSpeed": 4,
     "shootType" : {
-        "type": "ContinuousLaserBulletType",
+        "type": "ContinuousFlameBulletType",
         "damage": 120,
         "width": 7,
         "length": 450
