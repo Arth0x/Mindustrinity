@@ -7,7 +7,7 @@
     "size": 3,
     "health": 1580,
 	"reload": 480,
-	"range": 400,
+	"range": 350,
     "recoil" : 1.5,
     "hasItems": true,
     "itemCapacity": 240,
@@ -19,6 +19,12 @@
     "inaccuracy": 5,
     "shots": 3,
     "fragBullets": 5,
+    "consumes": {
+        "coolant": {
+            "amount": 0.1,
+            "optional": true 
+        }
+    },
     "shoot": {
         "type": "ShootPattern",
         "shots": 45,
@@ -30,14 +36,13 @@
             "height": 6,
             "width": 6,
             "damage": 35,
-            "lifetime": 360,
+            "lifetime": 260,
             "weaveScale": 6,
             "weaveMag": 14,
             "speed": 2.5,
             "trailChance": 1,
             "homingPower": 0.2,
             "homingRange": 130,
-            "splashDamage" : 40,
             "splashDamageRadius" : 30,	
             "hitEffect" : "flakExplosionBig",
              "despawnEffect": "flakExplosionBig"
