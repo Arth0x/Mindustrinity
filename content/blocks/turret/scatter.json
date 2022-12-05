@@ -13,8 +13,8 @@
     "category": "turret",
     "research": "segment",
     "requirements": [
-        "silicon/450",
-        "thorium/240",
+        "silicon/250",
+        "steel/190",
         "phase-fabric/185",
         "plastanium/265"
     ]
