@@ -5,6 +5,10 @@
     "type": "GenericCrafter",
     "category": "crafting",
 	"outputItem": "steel/1",
+    "hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 20,
+	"craftTime": 40,
 	"drawer": {
 	    "type": "DrawMulti",
         "drawers": [ 
@@ -17,10 +21,6 @@
 	        }
         ]
     },
-	"hasPower": true,
-	"hasItems": true,
-	"itemCapacity": 20,
-	"craftTime": 40,
 	"craftEffect": {
         "type": "ParticleEffect",
         "line": true,

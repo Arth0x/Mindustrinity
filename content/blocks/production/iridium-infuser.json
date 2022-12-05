@@ -2,6 +2,8 @@
     "type": "GenericCrafter",
     "name": "Iridium Infuser",
     "research": "aether-infuser",
+    "envRequired": 0,
+    "category": "crafting",
     "health": 700,
     "size": 3,
     "hasItems": true,
@@ -83,10 +85,5 @@
         "lead/40",
         "infused-aether/140",
         "silicon/80"
-    ],
-    "envRequired": 0,
-    "category": "crafting",
-    "outputItems": [
-        "infused-iridium/1"
     ]
 }
