@@ -85,7 +85,7 @@
                 "type": "FlarePart",
                 "color2": "FFFFFF",
                 "color1": "F3E979FF",
-                "y": -12,
+                "y": -10,
                 "rotation": 6,
                 "progress": "warmup",
                 "stroke": 3,
@@ -94,7 +94,7 @@
             },
             {
                 "type": "HaloPart",
-                "y": -12,
+                "y": -10,
                 "radius": 3,
                 "tri": true,
                 "color": "F3E979FF",
@@ -109,18 +109,18 @@
             },
             {
                 "type": "shapePart",
-                "y": -12,
+                "y": -10,
                 "hollow": true,
                 "circle": true,
                 "color": "F3E979FF",
                 "stroke": 0,
                 "strokeTo": 2.5,
-                "radiusTo": 15,
-                "radius": 15
+                "radiusTo": 5,
+                "radius": 5
             },
             {
                 "type": "HaloPart",
-                "y": -12,
+                "y": -10,
                 "radius": 3,
                 "tri": true,
                 "color": "F3E979FF",
@@ -135,7 +135,7 @@
             },
             {
                 "type": "HaloPart",
-                "y": -12,
+                "y": -10,
                 "radius": 3,
                 "tri": true,
                 "color": "F3E979FF",
