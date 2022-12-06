@@ -19,13 +19,8 @@
     "drawer": {
     "type": "drawTurret",
     "basePrefix": "genesux-",
-         "parts": [
-         {
-        "type": "RegionPart",
-         "suffix": "-ring",    
-         "progress": "warmup"
-     },
- {
+        "parts": [
+            {
         "type": "HaloPart",
         "y": 36.5,
         "x": -24,
@@ -46,8 +41,8 @@
         "strokeTo": 2,
          "shapes": 1,
         "triLengthTo": 10
-         },
-          { 
+            },
+            { 
         "type": "HaloPart",
         "y": 36.5,
         "x": -24,
@@ -68,8 +63,8 @@
         "strokeTo": 2,
          "shapes": 1,
         "triLengthTo": 5
-         },
- {
+            },
+            {
         "type": "HaloPart",
         "y": 29.5,
         "x": -25,
@@ -89,8 +84,8 @@
         "strokeTo": 2,
         "shapes": 1,
         "triLengthTo": 15
-         },
-          { 
+            },
+            { 
         "type": "HaloPart",
         "y": 29.5,
         "x": -25,
@@ -111,8 +106,8 @@
         "strokeTo": 2,
         "shapes": 1,
         "triLengthTo": 5
-       },
- {
+            },
+            {
         "type": "HaloPart",
         "y": 22.5,
         "x": -27,
@@ -132,8 +127,8 @@
         "strokeTo": 2.4,
          "shapes": 1,
         "triLengthTo": 18
-         },
-          { 
+            },
+            { 
         "type": "HaloPart",
         "y": 22.5,
         "x": -27,
@@ -156,7 +151,7 @@
         "shapes": 1,
         "triLengthTo": 5
             },
- {
+            {
         "type": "HaloPart",
         "y": 14.5,
         "x": -30,
@@ -176,8 +171,8 @@
         "strokeTo": 2.4,
          "shapes": 1,
         "triLengthTo": 21
-         },
-          { 
+            },
+            { 
         "type": "HaloPart",
         "y": 14.5,
         "x": -30,
@@ -198,17 +193,8 @@
         "strokeTo": 2.4,
          "shapes": 1,
         "triLengthTo": 5
-        },
-        {
-         "type": "RegionPart",
-         "layer": -1,
-          "colorTo": "66B1FF90",
-          "color": "A9D8FF00",
-         "progress": "warmup",
-         "blending": "additive",
-         "outline": false,
-         "suffix": "-glow"
-         },
+            },
+            
        {
          "type": "FlarePart",
           "color2": "FFFFFF",
@@ -220,186 +206,6 @@
           "radius": 0,
           "radiusTo": 7.5
          },
-          {
-          "type": "RegionPart",
-             "suffix": "-b",
-           "color": "A9D8FFff",
-          "mirror": true,
-         "under": true,
-        "moveY": 8,
-           "moveRot": 4,
-         "heatColor": "A9D8FFff",
-         "heatProgress": {
-          "type": "reload",
-          "op": "delay",
-          "amount": 0.25
-          },
-          "y": -6,
-           "x": 21,
-          "progress": "warmup"
-          },
-          {
-          "type": "RegionPart",
-          "suffix": "-b",
-          "color": "A9D8FFff",
-          "mirror": true,
-          "under": true,
-          "heatColor": "A9D8FFff",
-          "heatProgress": {
-          "type": "reload",
-          "op": "delay",
-          "amount": 0.45
-          },
-           "moveX": 7,
-          "moveY": 4.5,
-           "x": 23,
-          "y": -29,
-         "moveRot": -40,
-          "progress": "warmup"
-         },
-          {
-          "type": "RegionPart",
-          "suffix": "-b",
-          "color": "A9D8FFff",
-          "mirror": true,
-          "under": true,
-          "heatColor": "A9D8FFff",
-           "heatProgress": {
-          "type": "reload",
-          "op": "delay",
-          "amount": 0.65
-          },
-           "x": 23,
-          "y": -29,
-         "moveRot": -60,
-          "progress": "warmup"
-         },
-          {
-          "type": "RegionPart",
-          "suffix": "-c",
-          "color": "A9D8FFff",
-          "mirror": true,
-          "under": true,
-          "heatColor": "A9D8FFff",
-          "heatProgress": {
-          "type": "reload",
-          "op": "delay",
-          "amount": 0.85
-          },
-          "x": 22,
-          "y": -34,
-          "moveRot": -90,
-          "progress": "warmup"
-         },
-          { 
-          "type": "RegionPart",
-          "suffix": "-spike4",
-          "mirror": true,
-          "moveY": -4.4,
-         "progress": {
-          "type": "reload",
-          "op": "delay",
-          "amount": 0.25
-          }
-          },
-          { 
-         "type": "RegionPart",
-          "suffix": "-spike3",
-          "mirror": true,
-         "moveY": -4.5,
-         "progress": {
-           "type": "reload",
-          "op": "delay",
-          "amount": 0.45
-          }
-          },
-          { 
-          "type": "RegionPart",
-          "suffix": "-spike2",
-          "mirror": true,
-          "moveY": -3.5,
-         "progress": {
-          "type": "reload",
-          "op": "delay",
-          "amount": 0.65
-          }
-          },
-          { 
-          "type": "RegionPart",
-          "suffix": "-spike1",
-          "moveY": -2.5,
-          "mirror": true,
-          "progress": {
-           "type": "reload",
-          "op": "delay",
-          "amount": 0.85
-          }
-          },
-          { 
-          "type": "RegionPart",
-          "suffix": "-front",
-          "mirror": true,
-           "children": [
-          {
-          "type": "RegionPart",
-         "layer": -1,
-          "colorTo": "66B1FF90",
-          "color": "A9D8FF00",
-        "mirror": true,
-         "progress": "warmup",
-         "blending": "additive",
-         "outline": false,
-         "suffix": "-front-glow"
-          }
-          ],
-          "moveY": 15.5,
-          "under": true,
-         "progress": "warmup"
-          },
-          {
-          "type": "RegionPart",
-          "suffix": "-wing1",
-          "mirror": true,
-          "children": [
-          {
-         "type": "RegionPart",
-         "layer": -1,
-         "mirror": true,
-          "colorTo": "66B1FF90",
-          "color": "A9D8FF00",
-         "progress": "warmup",
-         "blending": "additive",
-         "outline": false,
-         "suffix": "-wing1-glow"
-          }
-          ],
-          "moveX": 13,
-          "moveY": 7,
-          "under": true,
-          "progress": "warmup"
-          },
-          {
-           "type": "RegionPart",
-          "suffix": "-wing2",
-          "mirror": true,
-           "children": [
-          {
-         "type": "RegionPart",
-         "layer": -1,
-         "mirror": true,
-          "colorTo": "66B1FF90",
-          "color": "A9D8FF00",
-         "progress": "warmup",
-         "blending": "additive",
-         "outline": false,
-         "suffix": "-wing2-glow"
-          }
-          ],
-          "moveX": 7,
-          "moveY": 3,
-          "under": true,
-        "progress": "warmup"
-       },
        {
    "type": "shapePart",
          "y": -19.5,
