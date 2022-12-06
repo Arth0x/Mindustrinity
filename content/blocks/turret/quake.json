@@ -56,6 +56,7 @@
                 "lifetime": 17,
                 "cone": 25
             },
+            "fragBullets": 5,
 		    "fragBullet": {
                 "type": "artilleryBulletType",
                 "height" : 4,
@@ -63,8 +64,8 @@
                 "lifetime": 3,
                 "drag": 0.02,
                 "speed": 4.5,
-                "splashDamage" : 10,
-                "splashDamageRadius" : 8,	
+                "splashDamage" : 25,
+                "splashDamageRadius" : 18,	
                 "hitEffect" : "flakExplosion",
                 "despawnEffect": "flakExplosion"
 		    }

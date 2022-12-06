@@ -55,6 +55,7 @@
                 "lifetime": 28,
                 "cone": 25
             },
+            "fragBullets": 8,
 		    "fragBullet": {
                 "type": "artilleryBulletType",
                 "height" : 10,
@@ -68,6 +69,7 @@
                 "splashDamageRadius" : 32,	
                 "hitEffect" : "flakExplosionBig",
                 "despawnEffect": "flakExplosionBig",
+                "fragBullets": 12,
                 "fragBullet": {
                     "type": "artilleryBulletType",
                     "height" : 7,
@@ -110,6 +112,7 @@
                 "lifetime": 28,
                 "cone": 25
             },
+            "fragBullets": 16,
 		    "fragBullet": {
                 "type": "artilleryBulletType",
                 "height" : 10,
