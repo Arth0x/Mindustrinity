@@ -60,9 +60,9 @@
         "parts": [
             {
                 "type": "HaloPart",
-                "y": 6.5,
+                "y": 7.5,
                 "x": -2,
-                "radius": 3.5,
+                "radius": 3,
                 "mirror": true,
                 "tri": true,
                 "progress": "recoil",
@@ -72,7 +72,7 @@
                 "stroke": 0,
                 "strokeTo": 2.4,
                 "shapes": 1,
-                "triLengthTo": 12
+                "triLengthTo": 10
             }, 
             {
                 "type": "RegionPart",
