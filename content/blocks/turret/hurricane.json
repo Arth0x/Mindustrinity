@@ -61,7 +61,7 @@
         "parts": [
             {
                 "type": "HaloPart",
-                "y": 8.5,
+                "y": 8.2,
                 "x": -2,
                 "radius": 3,
                 "mirror": true,
