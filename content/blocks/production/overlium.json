@@ -2,7 +2,7 @@
     "type": "GenericCrafter",
     "name": "Overlium",
     "research": "silicon-crucible",
-    "health": 375,
+    "health": 475,
     "size": 3 ,
     "category": "crafting",
     "outputItem": "silicon/15",

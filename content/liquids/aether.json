@@ -4,6 +4,6 @@
     "temperature": 0,
     "heatCapacity": 2.5,
     "viscosity": 0.0,
-    "effect": "freezing",
+    "effect": "aethered",
     "color": "00b4ff"
 }
