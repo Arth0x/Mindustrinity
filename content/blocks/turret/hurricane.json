@@ -80,6 +80,77 @@
                 "progress": {
                     "type": "warmup"
                 }
+            },
+            {
+                "type": "FlarePart",
+                "color2": "FFFFFF",
+                "color1": "66B1FFff",
+                "y": -19.5,
+                "rotation": 6,
+                "progress": "warmup",
+                "stroke": 4,
+                "radius": 0,
+                "radiusTo": 7.5
+            },
+            {
+                "type": "HaloPart",
+                "y": -19.5,
+                "radius": 3,
+                "tri": true,
+                "layer": 110,
+                "color": "66B1FFff",
+                "haloRotateSpeed": 0.7,
+                "haloRadius": 15,
+                "haloRadiusTo": 15,
+                "stroke": 0,
+                "strokeTo": 2,
+                "shapes": 2,
+                "triLengthTo": 23,
+                "triLength": 0
+            },
+            {
+                "type": "shapePart",
+                "y": -19.5,
+                "hollow": true,
+                "circle": true,
+                "layer": 110,
+                "color": "66B1FFff",
+                "stroke": 0,
+                "strokeTo": 2.5,
+                "radiusTo": 15,
+                "radius": 15
+            },
+            {
+                "type": "HaloPart",
+                "y": -19.5,
+                "radius": 3,
+                "tri": true,
+                "layer": 110,
+                "color": "66B1FFff",
+                "haloRotateSpeed": -0.7,
+                "haloRadius": 15,
+                "haloRadiusTo": 15,
+                "stroke": 0,
+                "strokeTo": 2,
+                "shapes": 2,
+                "triLengthTo": 19,
+                "triLength": 0
+            },
+            {
+                "type": "HaloPart",
+                "y": -19.5,
+                "radius": 3,
+                "tri": true,
+                "layer": 110,
+                "color": "66B1FFff",
+                "haloRotateSpeed": 1.6,
+                "haloRadius": 15,
+                "haloRadiusTo": 15,
+                "stroke": 0,
+                "strokeTo": 1.5,
+                "shapes": 4,
+                "triLengthTo": 6,
+                "triLength": 0
             }
         ]
     }
