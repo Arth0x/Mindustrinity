@@ -48,6 +48,18 @@
          "triLength": 0
            },
            {
+            "type": "shapePart",
+                  "y": -19.5,
+                 "hollow": true,
+                 "circle": true,
+                 "layer": 110,
+                  "color": "66B1FFff",
+                  "stroke": 0,
+                 "strokeTo": 2.5,
+                 "radiusTo": 15,
+                  "radius": 15
+                 },
+           {
       "type": "HaloPart",
          "y": -19.5,
        "radius": 3,
