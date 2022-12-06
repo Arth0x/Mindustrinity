@@ -26,7 +26,8 @@
         ["eclipse","smaug"],
         ["oct","atlas"],
         ["corvus","impaler"],
-        ["omura","leviathan"]
+        ["omura","leviathan"],
+        ["mono","latum"]
     ],
     "requirements": [
         "silicon/5000",
