@@ -37,7 +37,7 @@
             "height": 6,
             "width": 6,
             "damage": 35,
-            "lifetime": 260,
+            "lifetime": 160,
             "weaveScale": 4,
             "weaveMag": 6,
             "speed": 2.5,
@@ -54,5 +54,33 @@
         "thorium/175",
         "plastanium/150",
 		"surge-alloy/100"
-    ]
+    ],
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [ 
+            {
+                "type": "RegionPart",
+                "suffix": "-main",   
+                "mirror": false,
+                "under": false,
+                "x": 0,
+                "y": 0,
+                "progress": "recoil",
+                "moveY": -1
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-edge",   
+                "mirror": true,
+                "under": false,
+                "x": 0,
+                "y": 0,
+                "moveY": 3.5,
+                "moveX": -1,
+                "progress": {
+                    "type": "warmup"
+                }
+            }
+        ]
+    }
 }
