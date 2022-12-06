@@ -60,19 +60,19 @@
         "parts": [
             {
                 "type": "HaloPart",
-                "y": 22.5,
-                "x": -27,
-                "radius": 3.9,
+                "y": 5,
+                "x": -2,
+                "radius": 3,
                 "mirror": true,
                 "tri": true,
-                "progress": "reload",
+                "progress": "recoil",
                 "color": "F3E979FF",
                 "haloRadius": 1,
-                "haloRotation": 45,
+                "haloRotation": -45,
                 "stroke": 0,
                 "strokeTo": 2.4,
                 "shapes": 1,
-                "triLengthTo": 18
+                "triLengthTo": 12
             }, 
             {
                 "type": "RegionPart",
