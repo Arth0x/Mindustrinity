@@ -3,7 +3,7 @@
     "localizedName": "Aether-river",
     "description": "A lifely river of the life essence.",
     "sector": 214,
-    "captureWave": 80,
+    "captureWave": 60,
     "difficulty": 3,
     "research": {
       "parent": "tarFields"
