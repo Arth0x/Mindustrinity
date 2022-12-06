@@ -18,6 +18,7 @@
     "shootCone": 45,
     "ammoPerShot": 4,
     "inaccuracy": 5,
+    "cooldown": 60,
     "shots": 3,
     "fragBullets": 5,
     "consumes": {
@@ -60,7 +61,7 @@
         "parts": [
             {
                 "type": "HaloPart",
-                "y": 7.5,
+                "y": 8.5,
                 "x": -2,
                 "radius": 3,
                 "mirror": true,
