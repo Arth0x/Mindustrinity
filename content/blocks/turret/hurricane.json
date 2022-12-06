@@ -60,12 +60,12 @@
         "parts": [
             {
                 "type": "HaloPart",
-                "y": 5.8,
+                "y": 6.5,
                 "x": -2,
                 "radius": 3.5,
                 "mirror": true,
                 "tri": true,
-                "progress": "reload",
+                "progress": "recoil",
                 "color": "F3E979FF",
                 "haloRadius": 1,
                 "haloRotation": 135,
