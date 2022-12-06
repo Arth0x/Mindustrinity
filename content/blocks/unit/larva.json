@@ -13,13 +13,6 @@
                 {"item": "coal", "amount": 10}
             ],
             "time": 480
-        },
-        {
-            "unit": "renale",
-                "requirements": [
-                {"item": "silicon", "amount": 25}
-            ],
-            "time": 480
         }
     ],
     "requirements": [
