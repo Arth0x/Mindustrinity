@@ -15,7 +15,7 @@
     "rotateSpeed": 1.4,
     "flying": true,
     "engineColor": "FFD37FFF",
-    "health": 75000,
+    "health": 50000,
     "hitSize": 74,
     "armor": 20,
     "engineOffset": 52,
