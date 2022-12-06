@@ -67,7 +67,7 @@
                 "mirror": true,
                 "tri": true,
                 "progress": {
-                    "type": "reload",
+                    "type": "recoil",
                     "op": "delay",
                     "amount": 0.90
                 },
