@@ -60,9 +60,9 @@
         "parts": [
             {
                 "type": "HaloPart",
-                "y": 5,
+                "y": 5.8,
                 "x": -2,
-                "radius": 3.9,
+                "radius": 3.5,
                 "mirror": true,
                 "tri": true,
                 "progress": "reload",
