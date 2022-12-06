@@ -15,6 +15,7 @@
     "lowAltitude":true,
     "targetAir":true,
     "engineColor":"FFD37FFF",
+    "commandLimit": 3,
     "weapons":
     [
         {

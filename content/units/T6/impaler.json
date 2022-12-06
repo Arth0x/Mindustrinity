@@ -28,6 +28,7 @@
     "faceTarget": true,
     "allowLegStep": true,
     "hovering": true,
+    "commandLimit": 3,
     "weapons": [ 
         {
             "name": "impalor",

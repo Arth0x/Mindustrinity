@@ -14,6 +14,7 @@
     "speed": 0.85,
     "health": 50000,
     "range": 200,
+    "commandLimit": 3,
     "immunities": [
         "burning",
         "melting",

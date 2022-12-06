@@ -34,6 +34,7 @@
 	"hovering": true,
     "lockLegBase": true,
     "legContinuousMove": true,
+    "commandLimit": 3,
     "immunities": [
         "burning",
         "iridiated", 

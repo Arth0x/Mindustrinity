@@ -16,6 +16,7 @@
     "trailScl": 4,
     "trailLength": 75,
     "rotateShooting": false,
+    "commandLimit": 3,
 	"weapons": [
         {
             "name": "leviathan-swarm",

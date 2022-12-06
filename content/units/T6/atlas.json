@@ -22,6 +22,7 @@
     "range": 180,
     "maxRange": 180,
     "engineSize": 6,
+    "commandLimit": 3,
     "abilities": [
         {
             "type": "EnergyFieldAbility",
