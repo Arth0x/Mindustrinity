@@ -1,7 +1,8 @@
 {
     "name": "Nano",
     "type": "flying",
-    "controller": "DefenderAI",
+    "playerControllable": false,
+    "defaultController": "DefenderAI",
     "lowAltitude": true,
     "speed": 5,
     "drag": 0.2,
