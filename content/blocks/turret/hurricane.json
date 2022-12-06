@@ -29,8 +29,8 @@
     },
     "shoot": {
         "type": "ShootPattern",
-        "shots": 45,
-        "shotDelay": 3
+        "shots": 25,
+        "shotDelay": 5
     },
     "ammoTypes": {
         "iron": {
