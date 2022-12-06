@@ -18,7 +18,7 @@
     "shootCone": 45,
     "ammoPerShot": 4,
     "inaccuracy": 5,
-    "cooldown": 60,
+    "cooldown": 160,
     "shots": 3,
     "fragBullets": 5,
     "consumes": {
