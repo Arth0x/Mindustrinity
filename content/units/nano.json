@@ -31,9 +31,6 @@
             "mirror": false,
             "controllable": false,
             "autoTarget": true,
-            "beamWidth": 1,
-            "pulseRadius": 6,
-            "pulseStroke": 4,
             "repairSpeed": 0.2,
             "bullet": {
                 "shootEffect": {
