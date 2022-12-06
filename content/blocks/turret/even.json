@@ -2,7 +2,7 @@
     "name": "Eventrax",
     "type": "PointDefenseTurret",
     "shootLength": 10,
-    "reloadTime": 7,
+    "reloadTime": 1,
     "rotateSpeed": 8,
     "range": 220,
     "size": 3,
