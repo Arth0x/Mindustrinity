@@ -1,0 +1,18 @@
+{
+    "type": "SolarGenerator",
+    "health": 360,
+    "size": 4,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": false,
+    "powerProduction": 10,
+    "requirements": [
+        "silicon/150",
+        "metaglass/80",
+        "titanium/150",
+        "infused-aether/85",
+        "phase-fabric/125"
+    ],
+    "category": "power",
+    "research": "solar-panel-large"
+}
