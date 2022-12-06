@@ -37,7 +37,7 @@
             "type":"MissileBulletType",
             "height": 6,
             "width": 6,
-            "damage": 35,
+            "damage": 45,
             "lifetime": 160,
             "weaveScale": 4,
             "weaveMag": 6,
