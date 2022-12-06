@@ -59,7 +59,7 @@
                 "moveX": 5,
                 "cooldown": 300,
                 "progress": {
-                    "type": "reload",
+                    "type": "recoil",
                     "op": "delay",
                     "amount": 0.90
                 }
@@ -74,7 +74,7 @@
                 "rotation": -35,
                 "moveX": 5,
                 "progress": {
-                    "type": "reload",
+                    "type": "recoil",
                     "op": "delay",
                     "amount": 0.80
                 }
@@ -89,7 +89,7 @@
                 "rotation": -45,
                 "moveX": 5,
                 "progress": {
-                    "type": "reload",
+                    "type": "recoil",
                     "op": "delay",
                     "amount": 0.70
                 }
