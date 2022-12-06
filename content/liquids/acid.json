@@ -5,5 +5,6 @@
     "heatCapacity": 0.5,
     "viscosity": 0.5,
     "effect": "corroded",
-    "color": "D2FF40"
+    "color": "D2FF40",
+    "coolant": false
 }
