@@ -114,8 +114,7 @@
                 "circle": true,
                 "color": "F3E979FF",
                 "stroke": 0,
-                "strokeTo": 2.5,
-                "radiusTo": 5,
+                "strokeTo": 0.5,
                 "radius": 5
             },
             {
