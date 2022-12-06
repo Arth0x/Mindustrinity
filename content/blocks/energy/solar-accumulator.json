@@ -1,6 +1,5 @@
 {
     "type": "SolarGenerator",
-    "health": 360,
     "size": 4,
     "hasPower": true,
     "hasLiquids": false,
