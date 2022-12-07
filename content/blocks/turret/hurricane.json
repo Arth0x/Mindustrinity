@@ -124,7 +124,7 @@
                 "radius": 5
             },
             {
-                "type": "shapePart",
+                "type": "haloPart",
                 "y": -9,
                 "hollow": true,
                 "square": true,
