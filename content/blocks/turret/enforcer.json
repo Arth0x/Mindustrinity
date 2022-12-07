@@ -127,27 +127,20 @@
         "parts": [ 
             {
                 "type": "RegionPart",
-                "suffix": "-back",
+                "progress": "warmup",
+                "moveY": 15,
+                "moveX": 5,
+                "suffix": "-front",    
                 "mirror": true,
-                "under": false,
-                "x": 14,
-                "y": -4,
-                "moveY": -5,
-                "moveRot": -20,
-                "progress": "reload"
+                "x": 0,
+                "y": 0
             },
             {
                 "type": "RegionPart",
                 "progress": "warmup",
-                "moveY": 15,
-                "heatProgress": {
-                    "type": "reload",
-                    "op": "delay",
-                    "amount": 0.25
-                    },
-                "suffix": "-front",    
-                "mirror": false,
-                "under": false,
+                "moveX": 5,
+                "suffix": "-cannon",    
+                "mirror": true,
                 "x": 0,
                 "y": 0
             },
@@ -155,7 +148,6 @@
                 "type": "RegionPart",
                 "suffix": "-main",
                 "mirror": false,
-                "under": false,
                 "x": 0,
                 "y": 0
             }
