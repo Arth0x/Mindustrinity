@@ -1,0 +1,12 @@
+{
+    "type": "Unloader",
+    "research": "unloader",
+    "requirements": [
+        "titanium/15",
+        "silicon/30",
+        "steel/20"
+    ],
+    "category": "effect",
+    "size": 1,
+    "speed": 0.6
+}
