@@ -124,11 +124,11 @@
                 "radius": 5
             },
             {
-                "type": "haloPart",
+                "type": "shapePart",
                 "y": -9,
                 "hollow": true,
                 "square": true,
-                "rotation": 6,
+                "shapeRotateSpeed": 0.7,
                 "color": "F30000FF",
                 "stroke": 0,
                 "strokeTo": 0.5,
