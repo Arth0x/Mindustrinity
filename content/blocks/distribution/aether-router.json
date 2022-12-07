@@ -4,7 +4,6 @@
     "category": "distribution",
     "research": "router",
     "type": "router",
-    "health": 120,
     "itemCapacity": 5,
     "size": 1,
     "speed": 10,
