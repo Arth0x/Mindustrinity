@@ -18,7 +18,7 @@
     "coolantMultiplier": 5,
     "coolantUsage": 0.5,
     "rotateSpeed": 0.3,
-    "shootY": 15.5,
+    "shootY": 0,
     "shootCone": 8,
     "shootSound": "enforcerShoot",
     "consumes": {
@@ -128,7 +128,7 @@
             {
                 "type": "RegionPart",
                 "progress": "warmup",
-                "moveX": 5,
+                "moveX": 2,
                 "suffix": "-cannon",    
                 "mirror": true,
                 "x": 0,
@@ -137,17 +137,10 @@
             {
                 "type": "RegionPart",
                 "progress": "warmup",
-                "moveY": 10.5,
-                "moveX": 5,
+                "moveY": 10.6,
+                "moveX": 2,
                 "suffix": "-front",    
                 "mirror": true,
-                "x": 0,
-                "y": 0
-            },
-            {
-                "type": "RegionPart",
-                "suffix": "-main",
-                "mirror": false,
                 "x": 0,
                 "y": 0
             }
