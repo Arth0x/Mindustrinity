@@ -2,7 +2,7 @@
     "name": "Aether Junction",
     "description": "A better junction",
     "category": "distribution",
-    "research": "rjunction",
+    "research": "aether-router",
     "type": "junction",
     "dumpTime": 0.1,
     "speed": 10,

@@ -6,7 +6,7 @@
     "health": 180,
     "range": 6,
     "transportTime": 0.01,
-    "research": "bridge",
+    "research": "aether-router",
     "requirements": [
         "iron/5",
         "lead/2",
