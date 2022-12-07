@@ -2,7 +2,7 @@
     "displayName": "[orange[]]Mindus[gold[]]Trinity", 
     "name": "mindustrinity",
     "author": "[#009BFF[]]Arth0x",
-    "subtitle":"Rise and shine ! 3 new elements appeared",
+    "subtitle": "Rise and shine ! 3 new elements appeared",
     "description": "
         -Add a lot of vanilla improvement :
 
@@ -15,6 +15,9 @@
 
     
         - [#009BFF[]]Arth0x",
-    "version": "0.8.5",
-    "minGameVersion": "140.4"
+    "version": "0.8.76",
+    "minGameVersion": "140.4",
+    "repo": "Arth0x/MindusTrinity"
+ 
 }
+
