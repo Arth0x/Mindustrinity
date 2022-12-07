@@ -124,6 +124,16 @@
                 "radius": 5
             },
             {
+                "type": "shapePart",
+                "y": 9,
+                "hollow": true,
+                "square": true,
+                "color": "F30000FF",
+                "stroke": 0,
+                "strokeTo": 0.5,
+                "radius": 5
+            },
+            {
                 "type": "HaloPart",
                 "y": -9,
                 "radius": 3,
