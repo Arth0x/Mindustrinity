@@ -3,7 +3,6 @@
     "type": "ItemBridge",
     "description": "A better, faster, and longer bridge conveyer",
     "category": "distribution",
-    "health": 180,
     "range": 6,
     "transportTime": 0.01,
     "research": "aether-router",
