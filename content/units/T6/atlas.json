@@ -38,16 +38,6 @@
             "reload": 100
         },
         {
-            "type": "StatusFieldAbility",
-            "effect": "tank",
-            "range": 300,
-            "reload": 180,
-            "duration": 180,
-            "activeEffect": {
-                "type": "MultiEffect"
-            }
-        },
-        {
             "type": "UnitSpawnAbility",
             "layer": 110,
             "spawnX": 20,

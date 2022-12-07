@@ -171,18 +171,6 @@
             "y": -25,
             "max": 6000,
             "cooldown": 260
-        },
-        {
-            "type": "StatusFieldAbility",
-            "effect": "speed",
-            "range": 165,
-            "reload": 60,
-            "duration": 300,
-            "activeEffect": {
-                "type": "MultiEffect",
-                "effects": [
-                ]
-            }
         }
     ]
 }

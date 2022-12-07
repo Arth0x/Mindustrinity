@@ -179,17 +179,5 @@
         }
     ],
     "abilities": [ 
-        {
-            "type": "StatusFieldAbility",
-            "effect": "reload",
-            "range": 165,
-            "reload": 60,
-            "duration": 300,
-            "activeEffect": {
-                "type": "MultiEffect",
-                "effects": [
-                ]
-            }
-        }
     ]
 }

@@ -1,5 +1,4 @@
 {
-    "name": "Trinity",
     "type": "flying",
     "lowAltitude": true,
     "speed": 3.5,
