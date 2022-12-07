@@ -15,7 +15,9 @@
     "rotateSpeed": 0.3,
     "shootY": 0,
     "shootSound": "enforcerShoot",
-    "firstShotDelay": 120,
+    "shoot": {
+        "firstShotDelay": 120
+    },
     "consumes": {
         "coolant": {
             "amount": 0.05,
