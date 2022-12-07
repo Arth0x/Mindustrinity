@@ -125,9 +125,10 @@
             },
             {
                 "type": "shapePart",
-                "y": 9,
+                "y": -9,
                 "hollow": true,
                 "square": true,
+                "rotation": 6,
                 "color": "F30000FF",
                 "stroke": 0,
                 "strokeTo": 0.5,
