@@ -1,20 +1,20 @@
 {
-    "displayName": "[orange[]]Mindus[#009BFF[]]Trinity[[]]", 
+    "displayName": "[orange[]]Mindus[gold[]]Trinity", 
     "name": "mindustrinity",
-    "author": "[gold[]]Arth0x[[]]",
+    "author": "[#009BFF[]]Arth0x",
     "subtitle":"Rise and shine ! 3 new elements appeared",
     "description": "
-        Add a lot of vanilla improvement :
+        -Add a lot of vanilla improvement :
 
-        Add new turrets / items / liquids and more
-        You can now biuld T6 units
-        Mod compatible with multiplayer and campain
+        -Add new turrets / items / liquids and more
+        -You can now biuld T6 units
+        -Mod compatible with multiplayer and campain
 
-        still in in development so might be bugged or unbalanced for now
-        don't forget to review and drop a star :P
+        Still in in development so might be bugged or unbalanced for now
+        Don't forget to review and drop a star :P
 
     
-        -Arth0x",
+        - [#009BFF[]]Arth0x",
     "version": "0.8.5",
     "minGameVersion": "140.4"
 }
