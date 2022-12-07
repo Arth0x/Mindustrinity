@@ -3,6 +3,7 @@
     "type": "ItemTurret",
     "health": 5000,
     "size": 5,
+    "base": "mindustrinity-block-5",
     "reload": 200,
     "range": 640,
     "category": "turret",
@@ -15,9 +16,6 @@
     "rotateSpeed": 0.3,
     "shootY": 0,
     "shootSound": "enforcerShoot",
-    "shoot": {
-        "firstShotDelay": 120
-    },
     "consumes": {
         "coolant": {
             "amount": 0.05,
