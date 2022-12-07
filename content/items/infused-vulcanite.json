@@ -1,16 +1,9 @@
 {
-    "name": "Infused Vulcanite",
-    "description": "Vulcanite combined with fresh steel",
     "explosiveness": 10,
     "flammability": 10,
     "radioactivity": 0,
     "charge": 0.1,
     "cost": 5,
     "color": "FF1E00",
-    "research": {
-        "parent": "infused-iridium",
-        "requirements": [
-            "infused-iridium/1000"
-        ]
-    }
+    "research": "infused-iridium"
 }

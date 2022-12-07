@@ -1,16 +1,9 @@
 {
-    "name": "Steel",
-    "description": "Just tough",
     "explosiveness": 0,
     "flammability": 0,
     "radioactivity": 0,
     "charge": 0,
     "cost": 5,
     "color": "7B788C",
-    "research": {
-        "parent": "coal",
-        "requirements": [
-            "coal/1000"
-        ]
-    }
+    "research": "coal"
 }

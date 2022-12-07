@@ -1,16 +1,9 @@
 {
-    "name": "Infused Aether",
-    "description": "Aether cobined wirh fresh steel",
     "explosiveness": 0,
     "flammability": 0,
     "radioactivity": 0,
     "charge": 0.1,
     "cost": 5,
     "color": "009BFF",
-    "research": {
-        "parent": "steel",
-        "requirements": [
-            "steel/1000"
-        ]
-    }
+    "research": "steel"
 }
