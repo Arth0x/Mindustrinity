@@ -128,9 +128,8 @@
             {
                 "type": "RegionPart",
                 "progress": "warmup",
-                "moveY": 15,
                 "moveX": 5,
-                "suffix": "-front",    
+                "suffix": "-cannon",    
                 "mirror": true,
                 "x": 0,
                 "y": 0
@@ -138,8 +137,9 @@
             {
                 "type": "RegionPart",
                 "progress": "warmup",
+                "moveY": 9.5,
                 "moveX": 5,
-                "suffix": "-cannon",    
+                "suffix": "-front",    
                 "mirror": true,
                 "x": 0,
                 "y": 0
