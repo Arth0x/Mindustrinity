@@ -120,11 +120,7 @@
         "parts": [ 
             {
                 "type": "RegionPart",
-                "progress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0.90
-                },
+                "progress": "warmup",
                 "moveX": 2,
                 "suffix": "-cannon",    
                 "mirror": true,
@@ -133,11 +129,7 @@
             },
             {
                 "type": "RegionPart",
-                "progress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0.90
-                },
+                "progress": "warmup",
                 "moveY": 10.7,
                 "moveX": 2,
                 "suffix": "-front",    
