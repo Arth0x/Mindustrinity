@@ -1,6 +1,6 @@
 {
-    "name": "Enforcer",
     "type": "ItemTurret",
+    "research": "spectre",
     "health": 5000,
     "size": 5,
     "base": "mindustrinity-block-5",
