@@ -12,8 +12,7 @@
     "ambientSound": "smelter",
     "craftEffect": {
         "type": "multiEffect",
-        "effects": [ 
-            {
+        "effects": [ {
                 "type": "ParticleEffect",
                 "particles": 4,
                 "length": 15,
@@ -25,8 +24,8 @@
                 "colorTo": "FFFB99FF",
                 "sizeFrom": 4.5,
                 "sizeTo": 0
-            },
-            {
+                },
+                {
                 "type": "ParticleEffect",
                 "particles": 3,
                 "length": 20,
@@ -38,8 +37,8 @@
                 "colorTo": "FFFB99FF",
                 "sizeFrom": 3.5,
                 "sizeTo": 0
-            },
-            {
+                },
+                {
                 "type": "ParticleEffect",
                 "particles": 2,
                 "length": 25,
@@ -51,8 +50,8 @@
                 "colorTo": "FFFB99FF",
                 "sizeFrom": 2,
                 "sizeTo": 0
-            }
-        ]
+                }
+            ]
     },
     "drawer": {
         "type": "DrawMulti",

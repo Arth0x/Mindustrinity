@@ -1,4 +1,5 @@
 {
+    "name": "Avenatrax",
     "type": "TractorBeamTurret",
     "category": "turret",
     "research": "segment",

@@ -1,4 +1,5 @@
 {
+    "name": "Enforcer",
     "type": "ItemTurret",
     "health": 5000,
     "size": 5,

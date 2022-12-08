@@ -1,4 +1,5 @@
 {
+    "name": "Hurricane",
     "type": "ItemTurret",
     "category": "turret",
     "research": "cyclone",

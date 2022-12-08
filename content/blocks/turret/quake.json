@@ -1,4 +1,5 @@
 {
+    "name": "Quake",
     "type": "ItemTurret",
     "category": "turret",
     "research": "duo",
