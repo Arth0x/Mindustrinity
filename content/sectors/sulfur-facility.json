@@ -1,8 +1,0 @@
-{
-    "name": "Sulfur Facility",
-    "localizedName": "sulfur-facility",
-    "description": "An area that smells of rotten eggs",
-    "sector": 38,
-    "difficulty": 4,
-    "research": "aether-river"
-}
