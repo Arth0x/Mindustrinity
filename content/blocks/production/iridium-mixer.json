@@ -36,19 +36,24 @@
             },
             {
                 "type": "DrawLiquidRegion",
+                "drawLiquid": "mindustrinity-acid",
+                "suffix": "-liquid" 
+            },
+            {
+                "type": "DrawLiquidRegion",
                 "drawLiquid": "mindustrinity-iridium",
                 "suffix": "-liquid" 
             },
             {
                 "type": "DrawRegion",
                 "suffix": "-rotator1",
-                "rotateSpeed": -4,
+                "rotateSpeed": 5,
                 "spinSprite": true
             },  
             {
                 "type": "DrawRegion",
                 "suffix": "-rotator2",
-                "rotateSpeed": 4,
+                "rotateSpeed": -5,
                 "spinSprite": true
             },  
             {
