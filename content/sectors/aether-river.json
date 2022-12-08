@@ -5,7 +5,5 @@
     "sector": 214,
     "captureWave": 60,
     "difficulty": 3,
-    "research": {
-      "parent": "tarFields"
-    }
+    "research": "frozenforest"
 }
