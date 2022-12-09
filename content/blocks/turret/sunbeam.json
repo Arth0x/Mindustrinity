@@ -8,7 +8,7 @@
     "reload": 60,
     "ShootX": -20,
     "shootDuration": 400,
-    "cooldowntime": 80,
+    "cooldownTime": 80,
     "heatcolor": "FF4040FF",
     "consumes" : {
         "power": 28,
