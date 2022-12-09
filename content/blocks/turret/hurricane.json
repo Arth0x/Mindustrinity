@@ -109,7 +109,7 @@
                 "y": -9,
                 "rotation": 6,
                 "progress": "warmup",
-                "stroke": 3,
+                "stroke": 4,
                 "radius": 0,
                 "radiusTo": 2.5,
                 "layer": 110
