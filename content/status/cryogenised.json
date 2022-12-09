@@ -2,6 +2,7 @@
     "name": "Cryogenised",
     "description": "You are melting to death",
     "speedMultiplier": 0,
+    "reloadMultiplier": 0,
     "opposites": ["tarred", "melting"],
     "transitionDamage": 365,
     "damage": 0.85,
@@ -15,11 +16,10 @@
                 "region": "shape2",
                 "interp": "swing",
                 "lifetime": 60,
+                "cap": true,
                 "length": 25,
-                "sizeFrom": 0,
-                "sizeTo": 6,
                 "colorFrom": "ABD4F5FF",
-                "colorTo": "ABD4F500"
+                "colorTo": "ABD4F5FF"
             }
         ]
     }
