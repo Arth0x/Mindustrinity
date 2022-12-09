@@ -1,6 +1,5 @@
 {	
     "type": "GenericCrafter",
-    "name": "Iridium Mixer",
     "category": "crafting",
     "research": "acidifier",
     "size": 3,
@@ -9,6 +8,7 @@
     "hasItems": true,
     "hasLiquids": true,
     "itemCapacity": 30,
+    "liquidCapacity": 160,
     "craftTime": 120,
     "updateEffect": "none",
     "ambientSound": "flame2",
@@ -47,7 +47,7 @@
             {
                 "type": "DrawRegion",
                 "suffix": "-rotator1",
-                "rotateSpeed": 5,
+                "rotateSpeed": 3,
                 "spinSprite": true
             },  
             {

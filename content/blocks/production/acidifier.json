@@ -1,6 +1,5 @@
 {	
     "type": "GenericCrafter",
-    "name": "Acid Blender",
     "category": "crafting",
     "research": "laser-drill",
     "size": 3,

@@ -1,5 +1,4 @@
-{	
-    "name": "Steel Forge",
+{
     "size": 2,
     "research": "solidifier",
     "type": "GenericCrafter",

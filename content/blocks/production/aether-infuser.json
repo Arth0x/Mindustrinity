@@ -1,6 +1,5 @@
 {
     "type": "GenericCrafter",
-    "name": "Aether Compressor",
     "category": "crafting",
     "research": "steel-forge",
     "size": 3,

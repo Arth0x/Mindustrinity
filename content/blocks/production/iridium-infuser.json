@@ -1,6 +1,5 @@
 {
     "type": "GenericCrafter",
-    "name": "Iridium Infuser",
     "category": "crafting",
     "research": "aether-infuser",
     "size": 3,

@@ -1,6 +1,5 @@
 {
     "type": "GenericCrafter",
-    "name": "Overlium",
     "research": "silicon-crucible",
     "health": 475,
     "size": 3 ,
