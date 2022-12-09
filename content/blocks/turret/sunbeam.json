@@ -206,6 +206,27 @@
                 "shapes": 2,
                 "triLengthTo": 12,
                 "triLength": 0
+            },
+            {
+                "type": "HaloPart",
+                "y": 29.5,
+                "x": -25,
+                "radius": 3.7,
+                "mirror": true,
+                "tri": true,
+                "layer": 110,
+                "progress": {
+                    "type": "reload",
+                    "op": "delay",
+                    "amount": 0.65
+                },
+                "color": "66B1FFff",
+                "haloRadius": 1,
+                "haloRotation": 45,
+                "stroke": 0,
+                "strokeTo": 2,
+                "shapes": 1,
+                "triLengthTo": 15
             }
         ]   
     }
