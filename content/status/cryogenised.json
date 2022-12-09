@@ -11,15 +11,16 @@
             {
                 "type": "ParticleEffect",
                 "particles": 1,
+                "interval": 60,
                 "region": "shape2",
                 "interp": "swing",
-                "lifetime": 14,
+                "lifetime": 60,
                 "length": 0,
                 "sizeFrom": 0,
                 "sizeTo": 6,
-                "colorFrom": "44A5F5FF",
-                "colorTo": "44A5F5FF"
+                "colorFrom": "ABD4F5FF",
+                "colorTo": "ABD4F500"
             }
-            ]
-        }
+        ]
+    }
 }
