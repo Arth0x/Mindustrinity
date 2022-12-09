@@ -142,10 +142,10 @@
                 "color": "FF1E00FF",
                 "haloRotateSpeed": 0.8,
                 "haloRadius": 0,
-                "haloRadiusTo": 5,
+                "haloRadiusTo": 0,
                 "radius": 5,
                 "stroke": 0,
-                "strokeTo": 2
+                "strokeTo": 20
             },
             {
                 "type": "HaloPart",
