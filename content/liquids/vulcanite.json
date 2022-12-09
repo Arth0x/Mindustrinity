@@ -3,6 +3,6 @@
     "description": "Hot Hot HOOOOOOOOOOOOOOT !",
     "temperature": 1,
     "viscosity": 0.95,
-    "effect": "melting",
+    "effect": "vulcanise",
     "color": "FF5000"
 }

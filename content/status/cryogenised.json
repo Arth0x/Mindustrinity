@@ -1,0 +1,8 @@
+{
+    "name": "Cryogenised",
+    "description": "You are melting to death",
+    "speedMultiplier": 0,
+    "opposites": ["tarred", "melting"],
+    "transitionDamage": 365,
+    "damage": 0.85
+}
