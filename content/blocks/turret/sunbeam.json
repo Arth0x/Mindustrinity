@@ -137,6 +137,19 @@
             {
                 "type": "HaloPart",
                 "y": -9,
+                "tri": true,
+                "circle": true,
+                "color": "F3E979FF",
+                "haloRotateSpeed": 0.7,
+                "haloRadius": 5,
+                "haloRadiusTo": 5,
+                "radius": 5,
+                "stroke": 0,
+                "strokeTo": 2
+            },
+            {
+                "type": "HaloPart",
+                "y": -9,
                 "radius": 3,
                 "tri": true,
                 "color": "F3E979FF",
