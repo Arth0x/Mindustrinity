@@ -9,7 +9,7 @@
     "ShootX": -20,
     "shootDuration": 400,
     "cooldowntime": 80,
-    "heatcolor": "FF1E00FF",
+    "heatcolor": "FF4040FF",
     "consumes" : {
         "power": 28,
         "liquid": {
@@ -30,13 +30,13 @@
 	"rotateSpeed": 4,
     "shootType" : {
         "type": "ContinuousFlameBulletType",
-        "colors": ["FF1E00AA", "FF1E00FF", "FF1E00FF", "FF1E00FF"],
+        "colors": ["FF4040AA", "FF4040FF", "FF4040FF", "FFFFFFFF"],
         "damage": 120,
         "width": 7,
         "length": 450,
         "flareWidth": 5,
         "flareLength": 28,
-        "flareColor": "FF9664FF"
+        "flareColor": "FF4040FF"
     },
     "requirements": [
         "iron/500",
@@ -116,7 +116,7 @@
             {
                 "type": "FlarePart",
                 "color2": "FFFFFF",
-                "color1": "FF1E00FF",
+                "color1": "FF4040FF",
                 "x": 0,
                 "y": -9,
                 "rotation": 6,
@@ -133,7 +133,7 @@
                 "y": -9,
                 "hollow": true,
                 "circle": true,
-                "color": "FF1E00FF",
+                "color": "FF4040FF",
                 "stroke": 0,
                 "strokeTo": 0.7,
                 "radius": 8,     
@@ -145,7 +145,7 @@
                 "x": 0,
                 "y": -9,
                 "square": true,
-                "color": "FF1E00FF",
+                "color": "FF4040FF",
                 "hollow": true,
                 "shapes": 1,
                 "haloRotateSpeed": -0.8,
@@ -162,7 +162,7 @@
                 "x": 0,
                 "y": -9,
                 "square": true,
-                "color": "FF1E00FF",
+                "color": "FF4040FF",
                 "hollow": true,
                 "shapes": 1,
                 "haloRotateSpeed": 0.8,
@@ -180,7 +180,7 @@
                 "x": 0,
                 "radius": 3,
                 "tri": true,
-                "color": "FF1E00FF",
+                "color": "FF4040FF",
                 "haloRotateSpeed": 1.6,
                 "haloRadius": 8,
                 "haloRadiusTo": 8,
@@ -198,7 +198,7 @@
                 "y": -9,
                 "radius": 3,
                 "tri": true,
-                "color": "FF1E00FF",
+                "color": "FF4040FF",
                 "haloRotation": 90,
                 "haloRadius": 8,
                 "stroke": 0,
