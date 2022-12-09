@@ -139,6 +139,7 @@
                 "y": -9,
                 "square": true,
                 "color": "FF1E00FF",
+                "hollow": true,
                 "haloRotateSpeed": 0.8,
                 "haloRadius": 0,
                 "haloRadiusTo": 0,
