@@ -30,7 +30,7 @@
 	"rotateSpeed": 4,
     "shootType" : {
         "type": "ContinuousFlameBulletType",
-        "colors": ["FF4040AA", "FF4040FF", "FF4040FF", "FF4040FF"],
+        "colors": ["FF4040AA", "FF4040FF", "FF4040FF", "FFBBBBFF"],
         "damage": 120,
         "width": 7,
         "length": 450,
