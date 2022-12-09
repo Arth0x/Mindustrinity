@@ -140,6 +140,7 @@
                 "square": true,
                 "color": "FF1E00FF",
                 "hollow": true,
+                "shapes": 1,
                 "haloRotateSpeed": 0.8,
                 "haloRadius": 0,
                 "haloRadiusTo": 5,
