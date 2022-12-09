@@ -76,8 +76,10 @@
                 "stroke": 0,
                 "strokeTo": 2.4,
                 "shapes": 1,
+                "triLength": 0,
                 "triLengthTo": 10,
                 "layer": 110
+                
             }, 
             {
                 "type": "RegionPart",
