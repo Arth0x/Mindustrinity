@@ -12,6 +12,7 @@
     "liquidCapacity": 3500,
     "hasLiquids": true,
     "update": true,
+    "cooldownTime": 140,
     "rotateSpeed": 0.3,
     "shootY": 0,
     "shootSound": "enforcerShoot",
