@@ -183,12 +183,13 @@
                 "radius": 3,
                 "tri": true,
                 "color": "FF1E00FF",
+                "haloRotation": 90,
                 "haloRadius": 8,
                 "haloRadiusTo": 8,
                 "stroke": 0,
                 "strokeTo": 1.7,
                 "shapes": 2,
-                "triLengthTo": 8,
+                "triLengthTo": 12,
                 "triLength": 0
             }
         ]   
