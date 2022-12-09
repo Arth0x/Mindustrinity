@@ -5,10 +5,10 @@
 	"size": 5,
 	"health": 2900,
 	"range": 450,
-    "reload": 60,
+    "reload": 160,
     "ShootX": -20,
     "shootDuration": 400,
-    "cooldownTime": 80,
+    "cooldownTime": 240,
     "heatcolor": "FF4040FF",
     "consumes" : {
         "power": 28,
@@ -30,7 +30,7 @@
 	"rotateSpeed": 4,
     "shootType" : {
         "type": "ContinuousFlameBulletType",
-        "colors": ["FF4040AA", "FF4040FF", "FF4040FF", "FFFFFFFF"],
+        "colors": ["FF4040AA", "FF4040FF", "FF4040FF", "FF4040FF"],
         "damage": 120,
         "width": 7,
         "length": 450,
