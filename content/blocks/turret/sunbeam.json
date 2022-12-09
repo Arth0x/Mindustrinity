@@ -189,7 +189,10 @@
                 "strokeTo": 1.7,
                 "shapes": 2,
                 "triLengthTo": 12,
-                "triLength": 0
+                "triLength": 0,
+                "x": 0,
+                "mirror": false,
+                "layer": 110
             },
             {
                 "type": "HaloPart",
