@@ -9,7 +9,7 @@
     "ShootX": -20,
     "shootDuration": 400,
     "cooldowntime": 80,
-    "heatcolor": "FF0000FF",
+    "heatcolor": "FF1E00FF",
     "consumes" : {
         "power": 28,
         "liquid": {
@@ -30,7 +30,7 @@
 	"rotateSpeed": 4,
     "shootType" : {
         "type": "ContinuousFlameBulletType",
-        "colors": ["FF9664AA", "FF9664FF", "FF9664FF", "FF9664FF"],
+        "colors": ["FF1E00AA", "FF1E00FF", "FF1E00FF", "FF1E00FF"],
         "damage": 120,
         "width": 7,
         "length": 450,
