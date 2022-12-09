@@ -124,8 +124,8 @@
                 "stroke": 3,
                 "radius": 0,
                 "radiusTo": 4,
-                
-                "mirror": false
+                "mirror": false,
+                "layer": 110
             },
             {
                 "type": "shapePart",
@@ -136,9 +136,9 @@
                 "color": "FF4040FF",
                 "stroke": 0,
                 "strokeTo": 0.7,
-                "radius": 8,
-                
-                "mirror": false
+                "radius": 8,     
+                "mirror": false,
+                "layer": 110
             },
             {
                 "type": "HaloPart",
@@ -154,8 +154,8 @@
                 "stroke": 0,
                 "strokeTo": 0.7,
                 "radius": 8,
-                
-                "mirror": false
+                "mirror": false,
+                "layer": 110
             },
             {
                 "type": "HaloPart",
@@ -171,8 +171,8 @@
                 "stroke": 0,
                 "strokeTo": 0.7,
                 "radius": 8,
-                
-                "mirror": false
+                "mirror": false,
+                "layer": 110
             },
             {
                 "type": "HaloPart",
@@ -189,8 +189,8 @@
                 "shapes": 4,
                 "triLengthTo": 4,
                 "triLength": 0,
-                
-                "mirror": false
+                "mirror": false,
+                "layer": 110
             },
             {
                 "type": "HaloPart",
@@ -206,7 +206,8 @@
                 "shapes": 2,
                 "triLengthTo": 12,
                 "triLength": 0,
-                "mirror": false
+                "mirror": false,
+                "layer": 110
             }
         ]   
     }
