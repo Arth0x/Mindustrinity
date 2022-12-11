@@ -3,6 +3,7 @@
     "localizedName": "sulfur-facility",
     "description": "An old factory whitch store sulfur",
     "sector": 38,
+    "captureWave": 60,
     "difficulty": 3,
     "research": "aether-river"
 }
