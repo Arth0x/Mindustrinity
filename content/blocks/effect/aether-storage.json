@@ -1,7 +1,7 @@
 {
     "name": "Aether Compressed Container",
     "type": "StorageBlock",
-    "research": "reinforced-container",
+    "research": "steel-container",
     "size": 4,
     "researchCostMultiplier": 0.8, 
     "health": 2250,

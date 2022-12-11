@@ -1,10 +1,9 @@
 {
-    "name": "Dragonstone",
-    "description": "Artuv was one of the first",
     "explosiveness": 0,
     "flammability": 2,
     "radioactivity": 0,
     "charge": 0,
     "cost": 5,
-    "color": "8C0900"
+    "color": "8C0900",
+    "research": "sulfur"
 }

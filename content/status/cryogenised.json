@@ -1,0 +1,26 @@
+{
+    "name": "Cryogenised",
+    "description": "You are melting to death",
+    "speedMultiplier": 0,
+    "reloadMultiplier": 0,
+    "opposites": ["tarred", "melting"],
+    "transitionDamage": 365,
+    "damage": 0.85,
+    "effect": {
+        "type": "multiEffect",
+        "effects": [
+            {
+                "type": "ParticleEffect",
+                "particles": 1,
+                "interval": 60,
+                "region": "shape2",
+                "interp": "swing",
+                "lifetime": 60,
+                "cap": true,
+                "length": 25,
+                "colorFrom": "ABD4F5FF",
+                "colorTo": "ABD4F5FF"
+            }
+        ]
+    }
+}

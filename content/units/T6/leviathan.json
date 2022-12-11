@@ -1,5 +1,4 @@
 {
-    "name": "Leviathan",
     "research": "omura",
     "type": "naval",
     "armor": 30,
@@ -147,18 +146,6 @@
         }
     ],
     "abilities": [ 
-        {
-            "type": "StatusFieldAbility",
-            "effect": "regen",
-            "range": 165,
-            "reload": 60,
-            "duration": 300,
-            "activeEffect": {
-                "type": "MultiEffect",
-                "effects": [
-                ]
-            }
-        },
         {
             "type": "UnitSpawnAbility",
             "spawnX": 0,

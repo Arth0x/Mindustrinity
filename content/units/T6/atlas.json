@@ -1,8 +1,7 @@
 {
-    "name": "Atlas",
+    "research": "oct",
     "controller": "DefenderAI",
     "type": "payload",
-    "research": "oct",
     "singleTarget": true,
     "faceTarget": false,
     "buildSpeed": 5,
@@ -20,7 +19,6 @@
     "armor": 20,
     "engineOffset": 52,
     "range": 180,
-    "maxRange": 180,
     "engineSize": 6,
     "commandLimit": 3,
     "abilities": [
@@ -40,27 +38,21 @@
             "reload": 100
         },
         {
-            "type": "StatusFieldAbility",
-            "effect": "tank",
-            "range": 300,
-            "reload": 180,
-            "duration": 180,
-            "activeEffect": {
-                "type": "MultiEffect"
-            }
-        },
-        {
             "type": "UnitSpawnAbility",
+            "layer": 110,
             "spawnX": 20,
             "spawnY": -25,
             "unit": "nano",
-            "spawnTime": 500},
+            "spawnTime": 500
+        },
         {
             "type": "UnitSpawnAbility",
+            "layer": 110,
             "spawnX": -20,
             "spawnY": -25,
             "unit": "nano",
-            "spawnTime": 500},
+            "spawnTime": 500
+        },
         {
             "type": "mindustry.entities.abilities.RepairFieldAbility",
             "healEffect": {

@@ -1,5 +1,4 @@
 {
-    "name": "Nano",
     "type": "flying",
     "playerControllable": false,
     "defaultController": "DefenderAI",

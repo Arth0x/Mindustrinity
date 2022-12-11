@@ -4,7 +4,7 @@
     "speedMultiplier": 0.7,
     "opposites": [ "freezing", "wet"],
     "affinities": ["tarred", "melting"],
-    "transitionDamage": 5,
-    "damage": 0.8,
+    "transitionDamage": 365,
+    "damage": 2,
     "healthMultiplier": 0.7
 }

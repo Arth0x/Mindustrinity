@@ -1,5 +1,4 @@
 {
-    "name": "Quake",
     "type": "ItemTurret",
     "category": "turret",
     "research": "duo",
@@ -20,11 +19,6 @@
     "knockback": 0.8,
     "hitSize": 16,
 	"fragBullets": 4,
-    "shoot": {
-        "type": "shootAlternate",
-        "spread": 7,
-        "shots": 2
-	},
     "consumes": {
         "coolant": {
             "amount": 0.6,
@@ -82,7 +76,8 @@
             {
                 "type": "RegionPart",
                 "suffix": "-cannon",   
-                "mirror": false,
+                "mirror": true,
+                "alternate": true,
                 "under": false,
                 "x": 0,
                 "y": 0,

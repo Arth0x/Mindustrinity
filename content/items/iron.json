@@ -1,16 +1,9 @@
 {
-    "name": "Iron",
-    "description": "A new age !!",
     "explosiveness": 0,
     "flammability": 0,
     "radioactivity": 0,
     "charge": 0,
     "cost": 5,
     "color": "555555",
-    "research": {
-        "parent": "copper",
-        "requirements": [
-            "copper/1000"
-        ]
-    }
+    "research": "copper"
 }

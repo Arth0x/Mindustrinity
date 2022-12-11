@@ -12,8 +12,8 @@
             "silicon/5000",
             "titanium/5000",
             "infused-aether/1500",
-            "infused-vulcanite/1500",
-            "infused-iridium/1500"
+            "infused-iridium/1500",
+            "infused-vulcanite/1500"
         ], 
         "liquid": {
             "liquid": "acid",

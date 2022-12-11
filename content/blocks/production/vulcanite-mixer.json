@@ -1,6 +1,5 @@
 {	
     "type": "GenericCrafter",
-    "name": "Vulcanite Mixer",
     "category": "crafting",
     "research": "disassembler",
     "size": 3,

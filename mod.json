@@ -1,9 +1,23 @@
 {
-    "displayName": "[blue]MindusTrinity ", 
+    "displayName": "[orange[]]Mindus[gold[]]Trinity", 
     "name": "mindustrinity",
-    "author": "[cyan]Arth0x",
-    "description":"Rise and shine 3 new elements appeared",
-    "version": "0.8.5",
-    "minGameVersion": "140.4"
+    "author": "[#009BFF[]]Wolflab Studio",
+    "subtitle": "Rise and shine ! 3 new elements appeared",
+    "description": "
+Add a lot of vanilla improvement :
+
+    -Add new turrets / items / liquids and more
+    -You can now biuld T6 units
+    -Mod compatible with multiplayer and campain
+
+Still in in development so might be bugged or unbalanced for now
+Don't forget to review and drop a star :P
+
+        
+    - Arth0x",
+    "version": "0.8.76",
+    "minGameVersion": "140.4",
+    "repo": "Arth0x/MindusTrinity"
 }
-    
+
+
