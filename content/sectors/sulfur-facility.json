@@ -1,0 +1,8 @@
+{
+    "name": "Sulfur Facility",
+    "localizedName": "sulfur-facility",
+    "description": "An old factory whitch store sulfur",
+    "sector": 38,
+    "difficulty": 3,
+    "research": "aether-river"
+}
