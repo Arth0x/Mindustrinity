@@ -147,9 +147,9 @@
             {
                 "type": "RegionPart",
                 "progress": "warmup",
-                "moveX": 2,
-                "moveY": 1,
-                "moveRot": -15,
+                "moveX": 3,
+                "moveY": 2,
+                "moveRot": -25,
                 "suffix": "-edge",    
                 "mirror": true,
                 "x": 0,
