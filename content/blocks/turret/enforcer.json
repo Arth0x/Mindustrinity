@@ -261,8 +261,9 @@
                 "stroke": 0,
                 "strokeTo": 1.7,
                 "shapes": 2,
+                "shapeRotation": 180,
                 "triLengthTo": 0,
-                "triLength": 6,
+                "triLength": 5,
                 "mirror": false,
                 "layer": 110
             }
