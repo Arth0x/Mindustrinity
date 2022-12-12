@@ -4,15 +4,15 @@
     "range": 640,
     "smoothReloadSpeed": 0.15,
     "shootWarmupSpeed": 0.05,
-    "minWarmup": 0.1,
+    "minWarmup": 0.9,
     "liquidConsumed": 0.6,
-    "consumes" : {
-        "power": 74
-    },
     "outlineColor": "0F0F0F",
     "cooldownTime": 240,
     "shootY": 3,
     "hasPower": true,
+    "consumes" : {
+        "power": 74
+    },
     "shootEffect": {
         "type": "multiEffect",
         "effects": [
@@ -71,6 +71,7 @@
             "type": "PointLaserBulletType",
             "colors": "FF0000",
             "status": "death",
+            "beamEffectSize": 1,
             "statusDuration": 666,
             "buildingDamageMultiplier": 0,
             "hitEffect": {
