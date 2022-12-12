@@ -15,7 +15,7 @@
     "update": true,
     "cooldownTime": 220,
     "rotateSpeed": 0.3,
-    "shootY": 0,
+    "shootY": -4,
     "shootSound": "enforcerShoot",
     "consumes": {
         "coolant": {
