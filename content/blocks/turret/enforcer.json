@@ -8,6 +8,7 @@
     "category": "turret",
     "recoil": 4,
     "targetAir": false,
+    "minWarmup": 0.9,
     "shake": 5,
     "liquidCapacity": 3500,
     "hasLiquids": true,
@@ -120,6 +121,12 @@
         "parts": [ 
             {
                 "type": "RegionPart",
+                "suffix": "-main",
+                "x": 0,
+                "y": 0
+            },
+            {
+                "type": "RegionPart",
                 "progress": "warmup",
                 "moveX": 2,
                 "suffix": "-cannon",    
@@ -133,6 +140,15 @@
                 "moveY": 10.7,
                 "moveX": 2,
                 "suffix": "-front",    
+                "mirror": true,
+                "x": 0,
+                "y": 0
+            },
+            {
+                "type": "RegionPart",
+                "progress": "warmup",
+                "moveX": 2,
+                "suffix": "-edge",    
                 "mirror": true,
                 "x": 0,
                 "y": 0
