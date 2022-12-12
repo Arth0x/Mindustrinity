@@ -1,7 +1,7 @@
 {
 	"type": "ContinuousLiquidTurret",
     "size": 6,
-    "range": 200,
+    "range": 640,
     "smoothReloadSpeed": 0.15,
     "shootWarmupSpeed": 0.05,
     "minWarmup": 0.8,
@@ -69,19 +69,14 @@
     "ammoTypes": {
     "hydrogen": {
             "type": "PointLaserBulletType",
-            "colors": ["FF000090", "FF0000aa", "FF0000", "FF0000", "FF0000"],
+            "colors": "FF0000",
             "status": "death",
             "statusDuration": 666,
-            "buildingDamageMultiplier": 0.24,
-            "width": 10.5,
-            "drawFlare": false,
-            "lifetime": 60,
+            "buildingDamageMultiplier": 0,
             "hitEffect": {
             "type": "ParticleEffect",
             "line": true,
             "particles": 7,
-            "lifetime": 15,
-            "length": 65,
             "cone": -360,
             "strokeFrom": 2.5,
             "strokeTo": 0,
@@ -90,7 +85,7 @@
             "colorFrom": "8ca9e8",
             "colorTo": "6a8ef6"
             },
-            "length": 200,
+            "length": 640,
             "drawSize": 350
         }
     },
