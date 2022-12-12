@@ -148,6 +148,8 @@
                 "type": "RegionPart",
                 "progress": "warmup",
                 "moveX": 2,
+                "moveY": 1,
+                "moveRot": 15,
                 "suffix": "-edge",    
                 "mirror": true,
                 "x": 0,
