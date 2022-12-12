@@ -4,7 +4,7 @@
     "range": 640,
     "smoothReloadSpeed": 0.15,
     "shootWarmupSpeed": 0.05,
-    "minWarmup": 3.8,
+    "minWarmup": 0.1,
     "liquidConsumed": 0.6,
     "consumes" : {
         "power": 74
