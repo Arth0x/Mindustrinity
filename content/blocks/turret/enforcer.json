@@ -111,10 +111,10 @@
         }
     },
     "requirements": [
-        "lead/650",
-        "plastanium/500",
+        "iron/250",
+        "steel/300",
         "surge-alloy/550",
-        "infused-aether/700"
+        "infused-aether/250"
     ],
     "drawer": {
         "type": "DrawTurret",

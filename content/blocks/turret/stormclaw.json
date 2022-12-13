@@ -118,8 +118,11 @@
         }
 	},
 	"requirements": [
-        "silicon/2000"
-	],
+        "sulfur/250",
+        "steel/300",
+        "surge-alloy/550",
+        "infused-iridium/250"
+    ],
 	"category": "turret",
     "drawer": {
         "type": "DrawTurret",

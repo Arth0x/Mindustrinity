@@ -39,11 +39,12 @@
         "flareColor": "FF4040FF"
     },
     "requirements": [
-        "iron/500",
-        "plastanium/150",
-        "surge-alloy/250",
-        "infused-aether/350"
+        "dragonstone/250",
+        "steel/300",
+        "surge-alloy/550",
+        "infused-vulcanite/250"
     ],
+    
     "drawer": {
         "type": "DrawTurret",
         "parts": [ 
