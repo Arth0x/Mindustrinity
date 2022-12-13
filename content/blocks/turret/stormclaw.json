@@ -13,8 +13,8 @@
 	"shootShake" : 10,
 	"shootSound": "bigLaserShoot",
 	"hasPower": true,
-        "consumes": {
-	"power": 160
+    "consumes": {
+	    "power": 160
 	},
 	
 	"shootType": {
