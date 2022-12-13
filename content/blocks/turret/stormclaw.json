@@ -15,7 +15,7 @@
     "hasLiquids": true,
     "cooldownTime": 60,
     "heatColor": "FFFFFFFF",
-	"rotateSpeed": 1.0,
+	"rotateSpeed": 0.6,
 	"shootShake" : 10,
 	"shootSound": "bigLaserShoot",
 	"hasPower": true,
