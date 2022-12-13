@@ -1,5 +1,7 @@
 {
     "type": "PointDefenseTurret",
+    "category": "turret",
+    "research": "10-avenatrax",
     "shootLength": 10,
     "reload": 6,
     "rotateSpeed": 8,
@@ -10,8 +12,7 @@
     "consumes": {
         "power": 10.2
     },
-    "category": "turret",
-    "research": "segment",
+    
     "requirements": [
         "silicon/250",
         "steel/240",

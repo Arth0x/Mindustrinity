@@ -1,7 +1,9 @@
 {
 	"type": "PowerTurret",
+    "category": "turret",
+    "research": "20-avalanche",
 	"size": 5,
-	"health": 8660,
+	"health": 2660,
 	"range": 500,
 	"reload": 600,
 	"inaccuracy": 0,
@@ -100,7 +102,7 @@
         "surge-alloy/550",
         "infused-iridium/250"
     ],
-	"category": "turret",
+	
     "drawer": {
         "type": "DrawTurret",
         "parts": [ 
