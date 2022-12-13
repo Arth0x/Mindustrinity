@@ -93,7 +93,8 @@
     },
     "requirements": [
         "silicon/850",
-        "surge-alloy/400"
+        "surge-alloy/400000000",
+        "wolframite/1"
     ],
     "category": "turret",
     "research": "meltdown"
