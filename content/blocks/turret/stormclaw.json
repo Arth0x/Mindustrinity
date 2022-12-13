@@ -28,9 +28,9 @@
         "type": "ArtilleryBulletType",
         "speed": 6,
         "hitSound": "plasmaboom",
-        "damage": 500,
+        "damage": 120,
         "scaleVelocity": true,
-        "splashDamage": 500,
+        "splashDamage": 120,
         "splashDamageRadius": 80,
         "height": 0,
         "width": 0,
@@ -87,9 +87,9 @@
                 "damage": 0,
                 "lifetime": 600,
                 "lightning": 1,
-                "lightningDamage": 120,
-                "lightningLength": 4,
-                "lightningLengthRand": 8,
+                "lightningDamage": 60,
+                "lightningLength": 2,
+                "lightningLengthRand": 4,
                 "lightningColor": "FFF740FF"
             }
         }
