@@ -83,7 +83,7 @@
                 "type": "RegionPart",
                 "progress": "warmup",
                 "moveX": 2,
-                "moveY": 14,
+                "moveY": 13.9,
                "suffix": "-front",    
                 "mirror": true,
                 "x": 0,
@@ -108,7 +108,7 @@
             {
                 "type": "shapePart",
                 "x": 0,
-                "y": -5,
+                "y": -1,
                 "hollow": true,
                 "circle": true,
                 "color": "FFF740FF",
