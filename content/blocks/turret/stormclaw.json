@@ -43,55 +43,17 @@
             "effects": [
                 {
                     "type": "ParticleEffect",
-                    "region": "star",
+                    "region": "mindustrinity-star",
                     "particles": 1,
-                    "sizeFrom": 12,
+                    "sizeFrom": 70,
                     "sizeTo": 0,
-                    "length": 120,
+                    "length": 0,
+                    "interp": "swingIn",
                     "lifetime": 600,
-                    "colorFrom": "000000FF",
-                    "colorTo": "FFF740FF" 
-                },
-                    {
-                        "type": "ParticleEffect",
-                        "particles": 10,
-                        "offset": 100,
-                        "sizeFrom": 1,
-                        "sizeTo": 3,
-                        "length": 300,
-                        "baseLength": -300,
-                        "interp": "pow3In",
-                        "sizeInterp": "pow5Out",
-                        "lifetime": 80,
-                        "colorFrom": "0000FF00",
-                    "colorTo": "0000FFFF"
-                        },
-                        {
-                        "type": "ParticleEffect",
-                        "particles": 45,
-                        "offset": 100,
-                        "sizeFrom": 1,
-                        "sizeTo": 3,
-                        "length": 350,
-                        "baseLength": -350,
-                        "interp": "pow3In",
-                        "sizeInterp": "pow5Out",
-                        "lifetime": 90,
-                        "colorFrom": "00FF0000",
-                    "colorTo": "FF00FF00"
-                        },
-                        {
-                        "type": "ParticleEffect",
-                        "particles": 1,
-                        "sizeFrom": 30,
-                        "sizeTo": 0,
-                        "length": 0,
-                        "interp": "swingIn",
-                        "lifetime": 90,
-                        "layer": 109,
-                        "colorFrom": "FF000000",
-                    "colorTo": "FF0000FF"
-                        }
+                    "layer": 110,
+                    "colorFrom": "FF0000FF",
+                    "colorTo": "FF000000"
+                }
             ]
         },
         "lightning": 1,
