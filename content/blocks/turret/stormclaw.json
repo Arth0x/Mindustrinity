@@ -82,9 +82,9 @@
             {
                 "type": "RegionPart",
                 "progress": "warmup",
-                "moveY": 18,
-                "moveX": 1,
-                "suffix": "-front",    
+                "moveX": 2,
+                "moveY": 12,
+               "suffix": "-front",    
                 "mirror": true,
                 "x": 0,
                 "y": 0
@@ -96,9 +96,14 @@
                 "y": 0
             },
             {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "mindustrinity-iridium",
+                "suffix": "-liquid" 
+            },
+            {
                 "type": "RegionPart",
                 "progress": "warmup",
-                "moveX": 4,
+                "moveX": 1,
                 "moveY": 0,
                 "suffix": "-edge",    
                 "mirror": true,
@@ -106,23 +111,9 @@
                 "y": 0
             },
             {
-                "type": "FlarePart",
-                "color2": "FFFFFF",
-                "color1": "FFF740FF",
-                "x": 0,
-                "y": -10,
-                "rotation": 6,
-                "progress": "warmup",
-                "stroke": 3,
-                "radius": 0,
-                "radiusTo": 4,
-                "mirror": false,
-                "layer": 110
-            },
-            {
                 "type": "shapePart",
                 "x": 0,
-                "y": -10,
+                "y": -7,
                 "hollow": true,
                 "circle": true,
                 "color": "FFF740FF",
@@ -133,19 +124,16 @@
                 "layer": 110
             },
             {
-                "type": "HaloPart",
+                "type": "FlarePart",
+                "color2": "FFFFFF",
+                "color1": "FFF740FF",
                 "x": 0,
                 "y": 10,
-                "square": true,
-                "color": "FFF740FF",
-                "hollow": true,
-                "shapes": 1,
-                "haloRotateSpeed": -0.8,
-                "haloRadius": 0,
-                "haloRadiusTo": 0,
-                "stroke": 0,
-                "strokeTo": 0.7,
-                "radius": 8,
+                "rotation": 6,
+                "progress": "warmup",
+                "stroke": 3,
+                "radius": 0,
+                "radiusTo": 4,
                 "mirror": false,
                 "layer": 110
             },
@@ -157,13 +145,13 @@
                 "color": "FFF740FF",
                 "hollow": true,
                 "shapes": 1,
-                "haloRotateSpeed": 0.8,
+                "haloRotateSpeed": -2.8,
                 "haloRadius": 0,
                 "haloRadiusTo": 0,
                 "stroke": 0,
                 "strokeTo": 0.7,
-                "radius": 8,
-                "mirror": false,
+                "radius": 6,
+                "mirror": true,
                 "layer": 110
             },
             {
@@ -217,24 +205,6 @@
                 "triLengthTo": 4,
                 "triLength": 0,
                 "mirror": false,
-                "layer": 110
-            },
-            {
-                "type": "HaloPart",
-                "x": 0,
-                "y": 10,
-                "radius": 3,
-                "tri": true,
-                "color": "FFF740FF",
-                "haloRotation": 150,
-                "haloRadius": 12,
-                "stroke": 0,
-                "strokeTo": 1.7,
-                "shapes": 1,
-                "shapeRotation": 180,
-                "triLengthTo": 4,
-                "triLength": 0,
-                "mirror": true,
                 "layer": 110
             }
         ]   
