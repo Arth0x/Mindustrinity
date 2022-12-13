@@ -45,14 +45,15 @@
                     "type": "ParticleEffect",
                     "region": "mindustrinity-star",
                     "particles": 1,
-                    "sizeFrom": 70,
+                    "sizeFrom": 30,
                     "sizeTo": 0,
                     "length": 0,
+                    "rotatespeed": 3,
                     "interp": "swingIn",
                     "lifetime": 600,
                     "layer": 110,
-                    "colorFrom": "FF0000FF",
-                    "colorTo": "FF000000"
+                    "colorFrom": "FFF740FF",
+                    "colorTo": "FFF74000"
                 }
             ]
         },
