@@ -1,0 +1,101 @@
+{
+	"type": "ContinuousLiquidTurret",
+    "size": 6,
+    "range": 640,
+    "smoothReloadSpeed": 0.15,
+    "shootWarmupSpeed": 0.05,
+    "minWarmup": 0.9,
+    "liquidConsumed": 0.6,
+    "outlineColor": "0F0F0F",
+    "cooldownTime": 240,
+    "shootY": 3,
+    "hasPower": true,
+    "loopSound": "torch",
+    "loopSoundVolume": 2.5,
+    "shake": 7,
+    "shootSound": "shockBlast",
+    "recoil": 1,
+    "rotateSpeed": 0.4,
+    "consumes" : {
+        "power": 74
+    },
+    "shootEffect": {
+        "type": "multiEffect",
+        "effects": [
+            {
+                "type": "ParticleEffect",
+                "particles": 12,
+                "length": 100,
+                "lifetime": 55,
+                "line": true,
+                "cone": 40,
+                "lenFrom": 8,
+                "lenTo": 2,
+                "strokeFrom": 3,
+                "strokeTo": 0.5,
+                "colorFrom": "8ca9e8",
+                "colorTo": "6a72f6"
+            },
+            {
+                "type": "ParticleEffect",
+                "particles": 21,
+                "length": 100,
+                "lifetime": 35,
+                "line": true,
+                "cone": 70,
+                "lenFrom": 8,
+                "lenTo": 5,
+                "strokeFrom": 3,
+                "strokeTo": 0.5,
+                "colorFrom": "8ca9e8",
+                "colorTo": "6a72f6"
+            },
+            {
+                "type": "ParticleEffect",
+                "particles": 24,
+                "length": 140,
+                "lifetime": 25,
+                "line": true,
+                "cone": 40,
+                "lenFrom": 10,
+                "lenTo": 10,
+                "strokeFrom": 3,
+                "strokeTo": 0.5,
+                "colorFrom": "8ca9e8",
+                "colorTo": "6a72f6"
+            }
+        ]
+    },
+    "ammoTypes": {
+        "hydrogen": {
+            "type": "PointLaserBulletType",
+            "colors": "FF0000",
+            "status": "death",
+            "beamEffectSize": 1,
+            "oscScl": 4,
+            "length": 640,
+            "drawSize": 350,
+            "statusDuration": 540,
+            "buildingDamageMultiplier": 0,
+            "hitEffect": {
+                "type": "ParticleEffect",
+                "line": true,
+                "particles": 7,
+                "cone": -360,
+                "strokeFrom": 2.5,
+                "strokeTo": 0,
+                "lenFrom": 8,
+                "lenTo": 0,
+                "colorFrom": "FF0000",
+                "colorTo": "FF0000"
+            } 
+        }
+    },
+    "requirements": [
+        "silicon/850",
+        "surge-alloy/400000000",
+        "wolframite/1"
+    ],
+    "category": "turret",
+    "research": "meltdown"
+}

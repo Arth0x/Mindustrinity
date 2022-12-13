@@ -1,0 +1,215 @@
+{
+    "type": "LaserTurret",
+    "category": "turret",
+    "research": "20-avalanche",
+	"size": 5,
+	"health": 2900,
+	"range": 450,
+    "reload": 160,
+    "ShootX": -20,
+    "shootDuration": 400,
+    "cooldownTime": 240,
+    "heatcolor": "FF4040FF",
+    "consumes" : {
+        "power": 28,
+        "liquid": {
+            "liquid": "slag",
+            "optional": false,
+            "update": false,
+            "amount": 0.5
+        }
+    },
+    "update": true,
+    "hasPower": true,
+    "shake": 10,
+    "shootSound": "laserbig",
+    "loopSound": "beam",
+	"recoil" : 2,
+	"rotateSpeed": 4,
+    "shootType" : {
+        "type": "ContinuousFlameBulletType",
+        "colors": ["FF9664AA", "FF9664FF", "FF9664FF", "FFBBBBFF"],
+        "damage": 120,
+        "width": 7,
+        "status": "vulcanise",
+    "statusDuration": 120,
+        "length": 450,
+        "flareWidth": 5,
+        "flareLength": 28,
+        "flareColor": "FF4040FF"
+    },
+    "requirements": [
+        "dragonstone/250",
+        "steel/300",
+        "surge-alloy/550",
+        "infused-vulcanite/250"
+    ],
+    
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [ 
+            {
+                "type": "RegionPart",
+                "suffix": "-blade",   
+                "mirror": true,
+                "under": true,
+                "x": 11,
+                "y": -1,
+                "rotation": -25,
+                "moveX": 5,
+                "cooldown": 300,
+                "progress": {
+                    "type": "recoil",
+                    "op": "delay",
+                    "amount": 0.90
+                }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-blade",   
+                "mirror": true,
+                "under": true,
+                "x": 13,
+                "y": -8,
+                "rotation": -35,
+                "moveX": 5,
+                "progress": {
+                    "type": "recoil",
+                    "op": "delay",
+                    "amount": 0.80
+                }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-blade",   
+                "mirror": true,
+                "under": true,
+                "x": 11,
+                "y": -14,
+                "rotation": -45,
+                "moveX": 5,
+                "progress": {
+                    "type": "recoil",
+                    "op": "delay",
+                    "amount": 0.70
+                }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-edge",   
+                "mirror": true,
+                "under": false,
+                "x": 0,
+                "y": 0,
+                "progress": "recoil",
+                "moveX": 5
+                
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-main",   
+                "mirror": false,
+                "under": false,
+                "cooldown": 300,
+                "x": 0,
+                "y": 0
+            },
+            {
+                "type": "FlarePart",
+                "color2": "FFFFFF",
+                "color1": "FF4040FF",
+                "x": 0,
+                "y": -9,
+                "rotation": 6,
+                "progress": "warmup",
+                "stroke": 3,
+                "radius": 0,
+                "radiusTo": 4,
+                "mirror": false,
+                "layer": 110
+            },
+            {
+                "type": "shapePart",
+                "x": 0,
+                "y": -9,
+                "hollow": true,
+                "circle": true,
+                "color": "FF4040FF",
+                "stroke": 0,
+                "strokeTo": 0.7,
+                "radius": 8,     
+                "mirror": false,
+                "layer": 110
+            },
+            {
+                "type": "HaloPart",
+                "x": 0,
+                "y": -9,
+                "square": true,
+                "color": "FF4040FF",
+                "hollow": true,
+                "shapes": 1,
+                "haloRotateSpeed": -0.8,
+                "haloRadius": 0,
+                "haloRadiusTo": 0,
+                "stroke": 0,
+                "strokeTo": 0.7,
+                "radius": 8,
+                "mirror": false,
+                "layer": 110
+            },
+            {
+                "type": "HaloPart",
+                "x": 0,
+                "y": -9,
+                "square": true,
+                "color": "FF4040FF",
+                "hollow": true,
+                "shapes": 1,
+                "haloRotateSpeed": 0.8,
+                "haloRadius": 0,
+                "haloRadiusTo": 0,
+                "stroke": 0,
+                "strokeTo": 0.7,
+                "radius": 8,
+                "mirror": false,
+                "layer": 110
+            },
+            {
+                "type": "HaloPart",
+                "y": -9,
+                "x": 0,
+                "radius": 3,
+                "tri": true,
+                "color": "FF4040FF",
+                "haloRotateSpeed": 1.6,
+                "haloRadius": 8,
+                "haloRadiusTo": 8,
+                "stroke": 0,
+                "strokeTo": 1.7,
+                "shapes": 4,
+                "triLengthTo": 4,
+                "triLength": 0,
+                "mirror": false,
+                "layer": 110
+            },
+            {
+                "type": "HaloPart",
+                "x": 0,
+                "y": -9,
+                "radius": 3,
+                "tri": true,
+                "color": "FF4040FF",
+                "haloRotation": 90,
+                "haloRadius": 8,
+                "stroke": 0,
+                "strokeTo": 1.7,
+                "shapes": 2,
+                "triLengthTo": 12,
+                "triLength": 0,
+                "mirror": false,
+                "layer": 110
+            }
+        ]   
+    }
+}
