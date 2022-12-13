@@ -24,8 +24,6 @@
     "shake": 10,
     "shootSound": "laserbig",
     "loopSound": "beam",
-    "status": "vulcanise",
-    "statusDuration": 120,
 	"recoil" : 2,
 	"rotateSpeed": 4,
     "shootType" : {
@@ -33,6 +31,8 @@
         "colors": ["FF9664AA", "FF9664FF", "FF9664FF", "FFBBBBFF"],
         "damage": 120,
         "width": 7,
+        "status": "vulcanise",
+    "statusDuration": 120,
         "length": 450,
         "flareWidth": 5,
         "flareLength": 28,
