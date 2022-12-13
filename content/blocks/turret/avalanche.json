@@ -5,7 +5,7 @@
     "health": 2800,
     "targetAir": false,
     "size": 4,
-    "reload": 450,
+    "reload": 650,
     "maxAmmo": "60",
     "range": 1200,
     "recoilAmount": 3,
