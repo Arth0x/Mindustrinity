@@ -12,6 +12,8 @@
 	"targetGround" : true,
     "hasItems": true,
     "hasLiquids": true,
+    "cooldownTime": 600,
+    "heatColor": "FFFFFFFF",
 	"rotateSpeed": 1.0,
 	"shootShake" : 10,
 	"shootSound": "bigLaserShoot",
