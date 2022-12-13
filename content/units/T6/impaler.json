@@ -43,7 +43,7 @@
             "shake": 25,
             "recoil": 0,
             "shootStatus": "unmoving",
-            "shootSound": "laserblast",
+            "shootSound": "impalor",
             "chargeSound": "lasercharge",
             "rotate": false,
             "cooldownTime": 390,
