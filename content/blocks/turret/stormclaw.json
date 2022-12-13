@@ -96,11 +96,6 @@
                 "y": 0
             },
             {
-                "type": "DrawLiquidRegion",
-                "drawLiquid": "mindustrinity-iridium",
-                "suffix": "-liquid" 
-            },
-            {
                 "type": "RegionPart",
                 "progress": "warmup",
                 "moveX": 1,
