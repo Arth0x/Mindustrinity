@@ -43,14 +43,28 @@
             "effects": [
                 {
                     "type": "ParticleEffect",
-                    "region": "mindustrinity-star",
+                    "region": "mindustrinity-starlong",
                     "particles": 1,
-                    "sizeFrom": 30,
+                    "sizeFrom": 20,
                     "sizeTo": 0,
                     "length": 0,
                     "rotatespeed": 3,
                     "interp": "swingIn",
-                    "lifetime": 600,
+                    "lifetime": 660,
+                    "layer": 110,
+                    "colorFrom": "FFF740FF",
+                    "colorTo": "FFF74000"
+                },
+                {
+                    "type": "ParticleEffect",
+                    "region": "mindustrinity-starlarg",
+                    "particles": 1,
+                    "sizeFrom": 20,
+                    "sizeTo": 0,
+                    "length": 0,
+                    "rotatespeed": 3,
+                    "interp": "swingIn",
+                    "lifetime": 660,
                     "layer": 110,
                     "colorFrom": "FFF740FF",
                     "colorTo": "FFF74000"
