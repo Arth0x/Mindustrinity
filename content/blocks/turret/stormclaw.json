@@ -8,13 +8,16 @@
 	"shots" : 1,
     "targetAir" : true, 
 	"targetGround" : true,
+    "hasItems": true,
+    "hasLiquids": true,
 	"recoilAmount" : 6,
 	"rotateSpeed": 1.0,
 	"shootShake" : 10,
 	"shootSound": "bigLaserShoot",
 	"hasPower": true,
     "consumes": {
-	    "power": 160
+	    "power": 160,
+        "liquid": "iridium/0.8"
 	},
 	
 	"shootType": {
