@@ -2,7 +2,7 @@
     "type": "tank",
     "hitSize": 15,
     "squareShape": true,
-    "omniMovement": true,
+    "omniMovement": false,
     "rotateSpeed": 2,
     "speed": 1.2,
     "flying": false,
