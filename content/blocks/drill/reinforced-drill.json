@@ -25,7 +25,7 @@
 	"requirements": [
         "steel/45",
         "titanium/30",
-        "meta-glass/25"
+        "metaglass/25"
 	],
 	"drawer": {
         "type": "DrawMulti",
