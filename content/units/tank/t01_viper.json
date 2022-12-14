@@ -1,5 +1,16 @@
 {
-    "type": "tank",
+  
+"armor": 8,
+"treadPullOffset": 8,
+"treadRects": [
+{
+"x": 24,
+"width": 10,
+"height": 24
+}
+],
+"singleTarget": false,
+  "type": "tank",
     "hitSize": 15,
     "squareShape": true,
     "omniMovement": false,
