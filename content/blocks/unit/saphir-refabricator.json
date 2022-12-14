@@ -1,0 +1,27 @@
+{
+    "name": "[red]BETA",
+    "type": "UnitRefabricator",
+    "health": 615,
+    "size": 3,
+    "configurable": false,
+    "consumes": {
+        "power": 2
+    },
+    "plans": [
+        {
+            "unit": "mono",
+            "time": 720,
+            "requirements": [
+                "silicon/60",
+                "iron/75"
+            ]
+        }
+    ],
+    "category": "units",
+    "requirements": [
+        "graphite/200",
+        "silicon/260",
+        "beryllium/320"
+    ],
+    "research": "copper-wall"
+}

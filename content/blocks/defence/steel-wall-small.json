@@ -1,11 +1,11 @@
 { 
     "type": "Wall",
-    "health": 3400,
-    "size": 2,
+    "health": 800,
+    "size": 1,
     "placeableLiquid": "true",
     "requirements": [
-        "steel/35"
+        "steel/10"
     ],
     "category": "defense",
-    "research": "titanium-wall"
+    "research": "steel-wall"
 }
