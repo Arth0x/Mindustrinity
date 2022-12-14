@@ -12,14 +12,14 @@
             "unit": "mono",
             "time": 720,
             "requirements": [
-                "silicon/60",
-                "iron/75"
+                "copper-wall/6",
+                "copper-wall-large/5"
             ]
         }
     ],
     "category": "units",
     "requirements": [
-        "graphite/200",
+        "copper-wall/200",
         "silicon/260"
     ],
     "research": "copper-wall"
