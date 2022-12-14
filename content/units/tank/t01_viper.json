@@ -38,9 +38,7 @@
         "status": "blasted",
         "statusDuration": 50,
         "width": 12,
-        "height": 16,
-        "backColor": "009BFFFF",
-        "frontColor": "009BFFFF"
+        "height": 16
          }
       }
     ]
