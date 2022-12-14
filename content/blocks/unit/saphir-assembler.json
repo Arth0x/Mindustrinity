@@ -19,7 +19,7 @@
     ],
     "category": "units",
     "requirements": [
-        "copper-wall/200",
+        "copper/200",
         "silicon/260"
     ],
     "research": "copper-wall"
