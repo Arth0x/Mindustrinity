@@ -1,6 +1,5 @@
 { 
     "type": "Wall",
-    "chanceDeflect": 30.0,
     "health": 800,
     "size": 1,
     "placeableLiquid": "true",
@@ -8,5 +7,5 @@
         "steel/10"
     ],
     "category": "defense",
-    "research": "titanium-wall"
+    "research": "steel-wall"
 }
