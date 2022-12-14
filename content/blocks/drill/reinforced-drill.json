@@ -25,25 +25,5 @@
         "steel/45",
         "titanium/30",
         "metaglass/25"
-	],
-	"drawer": {
-        "type": "DrawMulti",
-        "drawers": [
-			{
-                "type": "DrawDefault"
-            },
-            {
-                "type": "DrawRegion",
-                "suffix": "-rotor1",
-                "rotateSpeed": 3,
-                "spinSprite": true
-            },  
-            {
-                "type": "DrawRegion",
-                "suffix": "-rotor2",
-                "rotateSpeed": -3,
-                "spinSprite": true
-            }
-        ]
-    }
+	]
 }
