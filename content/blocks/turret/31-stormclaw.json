@@ -22,7 +22,7 @@
 	"shootSound": "bigLaserShoot",
 	"hasPower": true,
     "consumes": {
-	    "power": 160,
+	    "power": 16,
         "liquid": "iridium/0.8"
 	},
 	
