@@ -1,0 +1,83 @@
+{
+    "type": "flying",
+    "playerControllable": false,
+    "defaultController": "DefenderAI",
+    "lowAltitude": true,
+    "speed": 5,
+    "accel": 0.02,
+    "drag": 0.002,
+    "flying": true,
+    "buildSpeed": 1,
+    "buildPower": 10,
+    "unitType": "BuilderDrone",
+    "itemcapacity": 15,
+    "health": 30,
+    "hitSize": 7,
+    "armor": 5,
+    "engineOffset": 6,
+    "engineColor": "FFD37FFF",
+    "targetAir": true,
+    "faceTarget": true,
+    "weapons": [
+        {
+            "type": "RepairBeamWeapon",  
+            "alternate": false,
+            "name": "repairer",
+            "repairRadius": 20,
+            "x": 0,
+            "y": 0,
+            "shootY": 1,
+            "mirror": false,
+            "controllable": false,
+            "autoTarget": true,
+            "repairSpeed": 0.2,
+            "bullet": {
+                "shootEffect": {
+                    "type": "ParticleEffect",
+                    "line": true,
+                    "particles": 20,
+                    "offset": 35,
+                    "lifetime": 2,
+                    "length": 35,
+                    "cone": -360,
+                    "lenFrom": 5,
+                    "lenTo": 0,
+                    "colorFrom": "73FFAEFF",
+                    "colorTo": "57D993FF"   
+                }
+            }
+        },
+        {
+            "controllable": false,
+            "autoTarget": true,
+            "rotateSpeed": 0,
+            "alternate": false,
+            "mirror": false,
+            "top": true,
+            "x": 0,
+            "y": 0,
+            "reload": 45,
+            "recoil": 0,
+            "rotate":true,
+            "inaccuracy":7,
+            "shootSound":"missile",
+            "bullet": {
+                "type":"MissileBulletType",
+                "shootEffect":"shootHealYellow",
+                "damage":10,
+                "speed":4,
+                "keepVelocity":false,
+                "frontColor":"FFFFFFF",
+                "backColor":"84F491FF",
+                "trailColor":"84F491FF",
+                "lifetime":50,
+                "homingPower":4,
+                "homingRange":60,
+                "weaveScale":5,
+                "weaveMag":10,
+                "height":8,
+                "width":8
+            }  
+        }
+    ]
+}
