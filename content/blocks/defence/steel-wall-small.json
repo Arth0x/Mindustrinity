@@ -1,0 +1,11 @@
+{ 
+    "type": "Wall",
+    "health": 800,
+    "size": 1,
+    "placeableLiquid": "true",
+    "requirements": [
+        "steel/10"
+    ],
+    "category": "defense",
+    "research": "steel-wall"
+}

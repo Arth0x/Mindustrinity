@@ -6,6 +6,7 @@
 	"liquidCapacity": 50,
 	"result": "aether",
 	"size": 3,
+	"attribute": "water",
 	"hasPower": true,
 	"hasLiquids": true,
 	"consumes": {
@@ -16,9 +17,9 @@
 		}
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 70 },
-		{ "item": "silicon", "amount": 40},
-		{ "item": "titanium", "amount":120}
+		"lead/70",
+		"silicon/40",
+		"titanium/120"
 	],
 	"category": "production"
 }

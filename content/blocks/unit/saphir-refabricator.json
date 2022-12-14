@@ -1,0 +1,19 @@
+{
+    "name": "[red]BETA",
+    "type": "Reconstructor",
+    "health": 615,
+    "size": 3,
+    "configurable": false,
+    "consumes": {
+        "power": 2
+    },
+    "upgrades": [
+        ["mono","latum"]
+    ],
+    "category": "units",
+    "requirements": [
+        "graphite/200",
+        "silicon/260"
+    ],
+    "research": "copper-wall"
+}
