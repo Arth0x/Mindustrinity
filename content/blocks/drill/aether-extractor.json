@@ -7,7 +7,6 @@
 	"result": "aether",
 	"size": 3,
 	"attribute": "water",
-	"envEnabled": 0,
 	"hasPower": true,
 	"hasLiquids": true,
 	"consumes": {

@@ -1,6 +1,6 @@
 {
     "name": "[red]BETA",
-    "type": "UnitRefabricator",
+    "type": "Reconstructor",
     "health": 615,
     "size": 3,
     "configurable": false,
