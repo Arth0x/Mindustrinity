@@ -44,7 +44,7 @@
             "recoil": 0,
             "shootStatus": "unmoving",
             "shootSound": "impalor",
-            "shootSoundVolume": 4,
+            "shootSoundVolume": 8,
             "chargeSound": "lasercharge",
             "rotate": false,
             "cooldownTime": 390,
