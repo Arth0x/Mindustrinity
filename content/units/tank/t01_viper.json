@@ -20,7 +20,7 @@
     "range": 120,
     "weapons": [
       {
-      "name": "01-viper-weapon",
+      "name": "t01_viper-canon",
         "mirror": false,
         "x": 0,
         "y": 0,
