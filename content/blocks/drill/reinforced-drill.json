@@ -14,7 +14,6 @@
     "itemCapacity": 10,
 	"warmupSpeed": 0.04,
 	"consumes": {
-		"power": 7,
 		"liquid": {
 			"liquid": "water",
 			"amount": 0.31,
