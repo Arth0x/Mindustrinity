@@ -32,79 +32,15 @@
         "bullet": {
         "type": "basicBulletType",
         "shootEffect": "shootBig2",
-        "hitEffect": {
-        "type": "multiEffect",
-        "effects": [
-        {
-        "type": "ParticleEffect",
-        "line": true,
-        "particles": 8,
-        "lifetime": 20,
-        "offset": 30,
-        "length": 80,
-        "lightColor": "FF5845FF",
-        "strokeFrom": 2,
-        "strokeTo": 0,
-        "lenFrom": 5,
-        "lenTo": 0,
-        "colorFrom": "FF5845FF",
-        "colorTo": "FF5845FF"
-        },
-        {
-        "type": "ParticleEffect",
-        "lightOpacity": 0,
-        "particles": 13,
-        "length": 30,
-        "baseLength": 10,
-        "lifetime": 20,
-        "sizeFrom": 6,
-        "sizeTo": 2,
-        "colorFrom": "787878",
-        "colorTo": "78787810"
-        }
-        ]
-        },
-        "despawnEffect": {
-        "type": "multiEffect",
-        "effects": [
-        {
-        "type": "ParticleEffect",
-        "line": true,
-        "particles": 8,
-        "lifetime": 20,
-        "offset": 30,
-        "length": 80,
-        "lightColor": "FF5845FF",
-        "strokeFrom": 2,
-        "strokeTo": 0,
-        "lenFrom": 5,
-        "lenTo": 0,
-        "colorFrom": "FF5845FF",
-        "colorTo": "FF5845FF"
-        },
-        {
-        "type": "ParticleEffect",
-        "lightOpacity": 0,
-        "particles": 13,
-        "length": 30,
-        "baseLength": 10,
-        "lifetime": 20,
-        "sizeFrom": 6,
-        "sizeTo": 2,
-        "colorFrom": "787878",
-        "colorTo": "78787810"
-        }
-        ]
-        },
         "lifetime": 50,
         "damage": 20,
-        "speed": 6,
+        "speed": 4,
         "status": "blasted",
         "statusDuration": 50,
         "width": 12,
         "height": 16,
-        "backColor": "FF5845FF",
-        "frontColor": "FFC1BBFF"
+        "backColor": "009BFFFF",
+        "frontColor": "009BFFFF"
          }
       }
     ]
