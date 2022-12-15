@@ -9,6 +9,7 @@
 	"inaccuracy": 0,
 	"shots" : 1,
     "recoil": 0,
+    "heatProgress": "heatp",
     "minWarmup": 0.999,
     "warmupHeat": true,
     "targetAir" : true, 
@@ -25,11 +26,11 @@
 	    "power": 16,
         "liquid": "iridium/0.8"
 	},
-	
 	"shootType": {
         "type": "ArtilleryBulletType",
         "speed": 6,
         "hitSound": "plasmaboom",
+        "heatProgress": "heatp",
         "damage": 120,
         "scaleVelocity": true,
         "splashDamage": 120,

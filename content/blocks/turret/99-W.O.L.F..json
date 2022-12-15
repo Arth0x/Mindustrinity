@@ -15,6 +15,7 @@
     "shootY": 0,
     "laserColor": "FF4040",
     "Color": "FF4040",
+    "aimChangeSpeed": 0.4,
     "rotateSpeed": 0.4,
     "consumes" : {
         "power": 74
