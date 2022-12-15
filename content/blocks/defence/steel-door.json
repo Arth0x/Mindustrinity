@@ -1,11 +1,11 @@
 { 
-    "type": "Wall",
-    "health": 3400,
+    "type": "AutoDoor",
+    "health": 1800,
     "size": 2,
     "armor": 25,
     "placeableLiquid": "true",
     "requirements": [
-        "steel/35"
+        "steel/25"
     ],
     "category": "defense",
     "research": "titanium-wall"

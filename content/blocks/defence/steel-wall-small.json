@@ -2,6 +2,7 @@
     "type": "Wall",
     "health": 800,
     "size": 1,
+    "armor": 25,
     "placeableLiquid": "true",
     "requirements": [
         "steel/10"
