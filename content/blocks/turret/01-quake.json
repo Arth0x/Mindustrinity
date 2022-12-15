@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "category": "turret",
-    "research": "duo",
+    "research": "hail",
     "health": 600,
     "targetAir": false,
     "size": 2,
