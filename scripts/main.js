@@ -8,3 +8,4 @@ Events.on(UnitDestroyEvent, event => {
         Vars.ui.hudfrag.showToast("Death. Is this the ultimate gift?");
     }
 })
+
