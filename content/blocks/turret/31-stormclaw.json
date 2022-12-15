@@ -9,7 +9,6 @@
 	"inaccuracy": 0,
 	"shots" : 1,
     "recoil": 0,
-    "heatProgress": "heatp",
     "minWarmup": 0.999,
     "warmupHeat": true,
     "targetAir" : true, 
@@ -30,7 +29,6 @@
         "type": "ArtilleryBulletType",
         "speed": 6,
         "hitSound": "plasmaboom",
-        "heatProgress": "heatp",
         "damage": 120,
         "scaleVelocity": true,
         "splashDamage": 120,
@@ -110,6 +108,7 @@
             {
                 "type": "RegionPart",
                 "progress": "warmup",
+                "heatProgress": "heatp",
                 "moveX": 2,
                 "moveY": 13.9,
                "suffix": "-front",    
