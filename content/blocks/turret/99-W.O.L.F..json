@@ -69,7 +69,7 @@
     "ammoTypes": {
         "water": {
             "type": "PointLaserBulletType",
-            "colors": "FF0000",
+            "laserColors": "FF0000",
             "status": "death",
             "beamEffectSize": 8,
             "oscScl": 4,
