@@ -1,7 +1,7 @@
 {
     "research": "oct",
-    "controller": "DefenderAI",
     "type": "payload",
+    "controller": "DefenderAI",
     "singleTarget": true,
     "faceTarget": false,
     "buildSpeed": 5,

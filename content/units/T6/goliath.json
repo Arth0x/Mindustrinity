@@ -3,7 +3,6 @@
     "type": "mech",
     "armor": 19,
     "rotateSpeed": 1.5,
-    "canDrown": false,
     "hitSize": 42,
     "mechFrontSway": 1.6,
     "mechSideSway": 0.6,
