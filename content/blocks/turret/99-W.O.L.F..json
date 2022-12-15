@@ -33,8 +33,8 @@
                 "lenTo": 2,
                 "strokeFrom": 3,
                 "strokeTo": 0.5,
-                "colorFrom": "FF0000",
-                "colorTo": "FF0000"
+                "colorFrom": "FF4040",
+                "colorTo": "FF4040"
             },
             {
                 "type": "ParticleEffect",
@@ -47,8 +47,8 @@
                 "lenTo": 5,
                 "strokeFrom": 3,
                 "strokeTo": 0.5,
-                "colorFrom": "FF0000",
-                "colorTo": "FF0000"
+                "colorFrom": "FF4040",
+                "colorTo": "FF4040"
             },
             {
                 "type": "ParticleEffect",
@@ -61,8 +61,8 @@
                 "lenTo": 10,
                 "strokeFrom": 3,
                 "strokeTo": 0.5,
-                "colorFrom": "FF0000",
-                "colorTo": "FF0000"
+                "colorFrom": "FF4040",
+                "colorTo": "FF4040"
             }
         ]
     },
@@ -72,7 +72,7 @@
             "laserColor": "FF4040",
             "Color": "FF4040",
             "status": "death",
-            "beamEffectSize": 8,
+            "beamEffectSize": 15,
             "oscScl": 4,
             "length": 640,
             "drawSize": 350,
