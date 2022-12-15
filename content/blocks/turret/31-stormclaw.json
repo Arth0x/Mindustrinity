@@ -108,7 +108,7 @@
             {
                 "type": "RegionPart",
                 "progress": "warmup",
-                "heatProgress": "heatp",
+                "heatProgress": "warmup",
                 "moveX": 2,
                 "moveY": 13.9,
                "suffix": "-front",    
@@ -125,6 +125,7 @@
             {
                 "type": "RegionPart",
                 "progress": "warmup",
+                "heatProgress": "warmup",
                 "moveX": 1,
                 "moveY": 0,
                 "suffix": "-edge",    
