@@ -71,8 +71,6 @@
             "type": "PointLaserBulletType",
             "colors": "FF0000",
             "status": "death",
-            "laser": "mindustrinity-deathlaser",
-            "laserEnd":"mindustrinity-deathlaser-end",
             "beamEffectSize": 8,
             "oscScl": 4,
             "shootY": 0,
