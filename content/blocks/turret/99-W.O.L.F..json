@@ -94,5 +94,19 @@
         "wolframite/1"
     ],
     "category": "turret",
-    "research": "meltdown"
+    "research": "meltdown",
+    "abilities": [
+        {
+            "type": "StatusFieldAbility",
+            "effect": "mindustrinity-omen",
+            "range": 900000,
+            "reload": 200,
+            "duration": 300,
+            "activeEffect": {
+                "type": "MultiEffect",
+                "effects": [
+                ]
+            }
+        }
+    ]
 }
