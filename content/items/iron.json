@@ -3,7 +3,7 @@
     "flammability": 0,
     "radioactivity": 0,
     "charge": 0,
-    "cost": 5,
+    "cost": 1,
     "color": "555555",
     "research": "copper"
 }

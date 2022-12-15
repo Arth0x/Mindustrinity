@@ -1,7 +1,7 @@
 {
     "type": "TractorBeamTurret",
     "category": "turret",
-    "research": "segment",
+    "research": "parallax",
     "targetGround": false,
     "shootLength": 15,
     "rotateSpeed": 8,

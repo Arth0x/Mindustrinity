@@ -25,7 +25,6 @@
 	    "power": 16,
         "liquid": "iridium/0.8"
 	},
-	
 	"shootType": {
         "type": "ArtilleryBulletType",
         "speed": 6,
@@ -109,9 +108,11 @@
             {
                 "type": "RegionPart",
                 "progress": "warmup",
+                "heatProgress": "warmup",
+                "heatColor": "E0DA3A80",
                 "moveX": 2,
                 "moveY": 13.9,
-               "suffix": "-front",    
+                "suffix": "-front",    
                 "mirror": true,
                 "x": 0,
                 "y": 0
@@ -119,31 +120,22 @@
             {
                 "type": "RegionPart",
                 "suffix": "-main",
+                "heatProgress": "warmup",
+                "heatColor": "E0DA3A80",
                 "x": 0,
                 "y": 0
             },
             {
                 "type": "RegionPart",
                 "progress": "warmup",
+                "heatProgress": "warmup",
+                "heatColor": "E0DA3A80",
                 "moveX": 1,
                 "moveY": 0,
                 "suffix": "-edge",    
                 "mirror": true,
                 "x": 0,
                 "y": 0
-            },
-            {
-                "type": "shapePart",
-                "x": 0,
-                "y": -2.1,
-                "hollow": true,
-                "circle": true,
-                "color": "FFF740FF",
-                "stroke": 0,
-                "strokeTo": 0.7,
-                "radius": 8,     
-                "mirror": false,
-                "layer": 110
             },
             {
                 "type": "FlarePart",
