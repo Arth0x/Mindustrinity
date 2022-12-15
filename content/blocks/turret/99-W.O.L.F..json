@@ -119,8 +119,8 @@
                 "heatProgress": "warmup",
                 "mirror":true,
                 "under":true,
-                "moveY": 0,
-                "moveX": 0,
+                "moveY": -4,
+                "moveX": 10,
                 "moveRot": 170,
                 "color": "FF4040",
                 "heatColor": "FF4040"
