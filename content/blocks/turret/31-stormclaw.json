@@ -119,6 +119,7 @@
             {
                 "type": "RegionPart",
                 "suffix": "-main",
+                "heatProgress": "warmup",
                 "x": 0,
                 "y": 0
             },
