@@ -117,14 +117,22 @@
                 "outline" : false,
                 "suffix": "-reap",
                 "heatProgress": "warmup",
-                "mirror":true,
-                "under":true,
+                "mirror": true,
+                "under": true,
                 "moveY": -4,
                 "moveX": -10,
                 "moveRot": 180,
                 "color": "FF4040",
                 "heatColor": "FF4040"
-            }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-main",
+                "heatProgress": "warmup",
+                "heatColor": "FF404080",
+                "x": 0,
+                "y": 0
+            },
         ]
     }
 }
