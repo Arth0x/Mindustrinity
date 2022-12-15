@@ -13,8 +13,8 @@
     "shootSound": "shockBlast",
     "recoil": 1,
     "shootY": 0,
-    "laserColor": "FF0000",
-    "Color": "FF0000",
+    "laserColor": "FF4040",
+    "Color": "FF4040",
     "rotateSpeed": 0.4,
     "consumes" : {
         "power": 74
@@ -69,8 +69,8 @@
     "ammoTypes": {
         "water": {
             "type": "PointLaserBulletType",
-            "laserColor": "FF0000",
-            "Color": "FF0000",
+            "laserColor": "FF4040",
+            "Color": "FF4040",
             "status": "death",
             "beamEffectSize": 8,
             "oscScl": 4,
