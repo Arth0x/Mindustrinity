@@ -109,6 +109,7 @@
                 "type": "RegionPart",
                 "progress": "warmup",
                 "heatProgress": "warmup",
+                "heatColor": "FFFFFFFF",
                 "moveX": 2,
                 "moveY": 13.9,
                "suffix": "-front",    
@@ -120,6 +121,7 @@
                 "type": "RegionPart",
                 "suffix": "-main",
                 "heatProgress": "warmup",
+                "heatColor": "FFFFFFFF",
                 "x": 0,
                 "y": 0
             },
@@ -127,6 +129,7 @@
                 "type": "RegionPart",
                 "progress": "warmup",
                 "heatProgress": "warmup",
+                "heatColor": "FFFFFFFF",
                 "moveX": 1,
                 "moveY": 0,
                 "suffix": "-edge",    
