@@ -109,5 +109,22 @@
                 ]
             }
         }
-    ]
+    ],
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [ 
+            {
+                "outline" : false,
+                "suffix": "-reap",
+                "heatProgress": "warmup",
+                "mirror":true,
+                "under":true,
+                "moveY": 9,
+                "moveX": 1,
+                "moveRot": 130,
+                "color": "bb68c3",
+                "heatColor": "FF4040"
+            }
+        ]
+    }
 }
