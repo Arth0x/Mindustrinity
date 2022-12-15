@@ -95,7 +95,7 @@
     ],
     "category": "turret",
     "research": "meltdown",
-    "abilities": [
+    "idleEffect": [
         {
             "type": "StatusFieldAbility",
             "effect": "mindustrinity-omen",
