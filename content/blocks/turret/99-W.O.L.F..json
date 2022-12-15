@@ -12,6 +12,7 @@
     "shake": 7,
     "shootSound": "shockBlast",
     "recoil": 1,
+    "shootY": 0,
     "rotateSpeed": 0.4,
     "consumes" : {
         "power": 74
@@ -70,7 +71,6 @@
             "status": "death",
             "beamEffectSize": 8,
             "oscScl": 4,
-            "shootY": 0,
             "length": 640,
             "drawSize": 350,
             "statusDuration": 540,
