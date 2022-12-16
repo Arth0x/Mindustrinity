@@ -1,5 +1,4 @@
 {
-    "name": "Larva Factory",
     "type": "UnitFactory",
     "health": 615,
     "size": 3,
