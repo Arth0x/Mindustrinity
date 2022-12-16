@@ -17,7 +17,7 @@
             "time": 720,
             "requirements": [
                 "renale/6",
-                "steel-wall/16",
+                "mindustrinity-steel-wall/16",
                 "phase-wall/12"
             ]
         }
