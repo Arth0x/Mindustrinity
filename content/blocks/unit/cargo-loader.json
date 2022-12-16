@@ -13,10 +13,10 @@
 		}
 	},
 	"requirements": [
-        "lead/75",
-        "infused-aether/70",    
-        "silicon/50",
-        "plastanium/60"
+        "steel/75",
+        "infused-iridium/80",    
+        "silicon/75",
+        "phase-fabric/45"
 	]
 }
 

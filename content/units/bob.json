@@ -12,7 +12,7 @@
     "speed": 3.5,
     "rotateSpeed": 9,
     "accel": 0.1,
-    "itemCapacity": 100,
+    "itemCapacity": 250,
     "health": 200,
     "hitSize": 11,
     "engineSize": 2.3,
