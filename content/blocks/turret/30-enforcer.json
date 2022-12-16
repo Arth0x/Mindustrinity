@@ -139,9 +139,32 @@
             {
                 "type": "RegionPart",
                 "progress": "warmup",
+                "heatProgress": "warmup",
+                "heatColor": "007DFF80",
+                "moveX": 2,
+                "suffix": "-cannonh",    
+                "mirror": true,
+                "x": 0,
+                "y": 0
+            },
+            {
+                "type": "RegionPart",
+                "progress": "warmup",
                 "moveY": 10.7,
                 "moveX": 2,
                 "suffix": "-front",    
+                "mirror": true,
+                "x": 0,
+                "y": 0
+            },
+            {
+                "type": "RegionPart",
+                "progress": "warmup",
+                "heatProgress": "warmup",
+                "heatColor": "007DFF80",
+                "moveY": 10.7,
+                "moveX": 2,
+                "suffix": "-fronth",    
                 "mirror": true,
                 "x": 0,
                 "y": 0
