@@ -1,6 +1,7 @@
 {
     "type": "PayloadMassDriver",
     "category": "units",
+    "research": "constructor",
     "size": 3,
     "reload": 130,
     "chargeTime": 90,

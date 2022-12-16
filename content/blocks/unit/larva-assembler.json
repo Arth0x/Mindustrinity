@@ -25,8 +25,10 @@
     ],
     "category": "units",
     "requirements": [
-        "copper/200",
-        "silicon/260"
+        "steel/500",
+        "thorium/150",
+        "surge-alloy/80",
+        "silicon/500"
     ],
-    "research": "copper-wall"
+    "research": "larva-fabricator"
 }

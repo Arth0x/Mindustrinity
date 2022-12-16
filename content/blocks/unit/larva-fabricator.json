@@ -20,8 +20,8 @@
     ],
     "category": "units",
     "requirements": [
-        "graphite/200",
-        "silicon/260"
+        "silicon/200", 
+        "steel/150"
     ],
-    "research": "copper-wall"
+    "research": "groundFactory"
 }
