@@ -1,0 +1,12 @@
+{
+    "type": "UnitCargoUnloadPoint",
+    "size": 2,
+    "itemCapacity": 175,
+
+    "requirements": [
+        "lead/75",
+        "infused-aether/70",    
+        "silicon/50",
+        "plastanium/60"
+	]
+}

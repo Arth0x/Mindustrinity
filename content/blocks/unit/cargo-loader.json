@@ -1,0 +1,21 @@
+{
+    "type": "UnitCargoLoader",
+    "size": 3,
+    "itemCapacity": 200,
+    "research": "massDriver",
+    "consumes": {
+		"power": 3,
+		"liquids": {
+			"liquids": [
+                "aether/2"         
+ 			]
+		}
+	},
+	"requirements": [
+        "lead/75",
+        "infused-aether/70",    
+        "silicon/50",
+        "plastanium/60"
+	]
+}
+
