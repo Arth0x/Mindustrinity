@@ -5,6 +5,7 @@
     "research": "aether-router",
     "type": "router",
     "itemCapacity": 1,
+    "dumpTime": 0.5,
     "size": 2,
     "speed": 15,
     "requirements": [
