@@ -9,6 +9,6 @@
     ],
     "category": "distribution",
     "speed": 0.15,
-    "displayedSpeed": 3.75,
+    "displayedSpeed": 20,
     "research": "armored-conveyor"
 }
