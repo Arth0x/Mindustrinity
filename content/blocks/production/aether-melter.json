@@ -1,0 +1,43 @@
+{	
+    "type": "GenericCrafter",
+    "size": 3,
+    "category": "crafting",
+    "research": "melting-furnace",
+	"outputLiquid": "slag/1.8",
+    "hasPower": true,
+	"hasItems": true,
+    "liquidCapacity": 40,
+	"itemCapacity": 30,
+	"craftTime": 90,
+    "drawer": {
+    "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "drawRegion",
+                "suffix": "-bottom"    
+            },
+            {
+                "type": "DrawLiquidTile",
+                "drawLiquid": "slag"
+            },
+            {
+                "type": "DrawDefault"
+            }
+        ]
+    },
+	"consumes": {
+		"power": 1.8,
+		"items": {
+			"items": [
+                "pyratite/3",
+                "scrap/10"            
+ 			]
+		}
+	},
+	"requirements": [
+        "lead/75",
+        "infused-aether/70",    
+        "silicon/50",
+        "plastanium/60"
+	]
+}
