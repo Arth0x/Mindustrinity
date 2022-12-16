@@ -4,10 +4,10 @@
     "category": "distribution",
     "research": "aether-router",
     "type": "router",
-    "itemCapacity": 1,
-    "dumpTime": 0.5,
+    "itemCapacity": 25,
+    "dumpTime": 1,
     "size": 2,
-    "speed": 15,
+    "speed": 0.1,
     "requirements": [
         "iron/10",
         "infused-aether/15"
