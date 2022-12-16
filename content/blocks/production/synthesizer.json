@@ -1,0 +1,56 @@
+{
+	"type": "Separator",
+    "category": "crafting",
+    "research": "disassembler",
+	"size": 4,
+    "hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 75,
+    "liquidCapacity": 150,
+	"craftTime": 4,
+	"consumes": {
+		"power": 2.4,
+        "liquid": {
+			"liquid": "slag",
+			"amount": 1.2
+		}
+	},
+    "results": [
+        "sulfur/15",
+        "dragonstone/10"
+    ],
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "drawRegion",
+                "suffix": "-bottom"    
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "slag"
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-spinner-1",
+                "rotateSpeed": 3,
+                "spinSprite": true
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-spinner-2",
+                "rotateSpeed": -2,
+                "spinSprite": true
+            },
+            {
+                "type": "DrawDefault"
+            }
+        ]
+    },
+    "requirements": [
+        "infused-aether/250",
+        "silicon/350",
+        "plastanium/200",
+        "surge-alloy/80"
+	]
+}

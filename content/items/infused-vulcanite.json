@@ -3,7 +3,7 @@
     "flammability": 10,
     "radioactivity": 0,
     "charge": 0.1,
-    "cost": 3,
+    "cost": 2,
     "color": "FF1E00",
     "research": "infused-iridium"
 }
