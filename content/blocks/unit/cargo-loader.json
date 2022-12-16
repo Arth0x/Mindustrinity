@@ -1,6 +1,7 @@
 {
     "type": "UnitCargoLoader",
     "size": 3,
+    "unit": "bob",
     "itemCapacity": 750,
     "research": "massDriver",
     "consumes": {
