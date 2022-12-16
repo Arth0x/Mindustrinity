@@ -3,7 +3,7 @@
     "size": 3,
     "unit": "bob",
     "itemCapacity": 750,
-    "research": "massDriver",
+    "research": "mass-driver",
     "consumes": {
 		"power": 3,
 		"liquids": {
