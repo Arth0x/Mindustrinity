@@ -2,7 +2,7 @@
     "type": "UnitCargoUnloadPoint",
     "size": 2,
     "itemCapacity": 175,
-
+    "research": "cargo-loader",
     "requirements": [
         "iron/75",
         "steel/120",    

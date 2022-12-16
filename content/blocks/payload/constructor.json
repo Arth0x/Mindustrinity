@@ -1,7 +1,7 @@
 {
     "type": "Constructor",
     "category": "units",
-    "research": "payloadConveyor",
+    "research": "payload-conveyor",
     "hasPower": true,
     "buildSpeed": 1.2,
     "consumes": {
