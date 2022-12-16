@@ -6,7 +6,7 @@
     "type": "router",
     "itemCapacity": 25,
     "size": 2,
-    "speed": 120,
+    "speed": 15,
     "requirements": [
         "iron/10",
         "infused-aether/15"
