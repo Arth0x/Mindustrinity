@@ -17,5 +17,5 @@
     "hitSize": 11,
     "engineSize": 2.3,
     "engineOffset": 6.5,
-    "hidden": true
+    "hidden": false
 }
