@@ -8,6 +8,7 @@
     "cooldownTime": 240,
     "hasPower": true,
     "loopSound": "torch",
+    "targetBuilding": false,
     "shake": 7,
     "shootSound": "shockBlast",
     "recoil": 0,
