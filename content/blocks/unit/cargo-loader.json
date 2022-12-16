@@ -1,7 +1,7 @@
 {
     "type": "UnitCargoLoader",
     "size": 3,
-    "itemCapacity": 200,
+    "itemCapacity": 750,
     "research": "massDriver",
     "consumes": {
 		"power": 3,
