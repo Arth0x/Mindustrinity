@@ -1,0 +1,32 @@
+{
+    "name": "Larva Assembler",
+    "type": "UnitAssembler",
+    "health": 1215,
+    "size": 5,
+    "configurable": false,
+    "consumes": {
+        "power": 4.6,
+        "liquids": {
+			"liquids": [
+                "vulcanite/2.4"         
+ 			]
+		}
+    },
+    "plans": [
+        {
+            "unit": "latum",
+            "time": 720,
+            "requirements": [
+                "renale/6",
+                "steel-wall/16",
+                "phase-wall/12"
+            ]
+        }
+    ],
+    "category": "units",
+    "requirements": [
+        "copper/200",
+        "silicon/260"
+    ],
+    "research": "copper-wall"
+}

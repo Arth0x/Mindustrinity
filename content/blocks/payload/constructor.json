@@ -1,0 +1,15 @@
+{
+    "type": "Constructor",
+    "category": "units",
+    "hasPower": true,
+    "buildSpeed": 1.2,
+    "consumes": {
+        "power": 1.8
+    },
+    "size": 3,
+    "requirements": [
+        "silicon/100", 
+        "steel/150", 
+        "plastanium/80"
+    ]
+}

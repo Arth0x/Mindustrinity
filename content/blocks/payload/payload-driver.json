@@ -1,0 +1,17 @@
+{
+    "type": "PayloadMassDriver",
+    "size": 3,
+    "reload": 130,
+    "chargeTime": 90,
+    "range": 700,
+    "maxPayloadSize": 2.5,
+    "fogRadius": 5,
+    "consumes": {
+        "power": 0.5
+    },
+    "requirements": [
+        "steel/120",
+        "silicon/120",
+        "graphite/50"
+    ]
+}
