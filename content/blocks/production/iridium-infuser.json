@@ -1,7 +1,7 @@
 {
     "type": "GenericCrafter",
     "category": "crafting",
-    "research": "aether-infuser",
+    "research": "steel-forge",
     "size": 3,
     "hasItems": true,
     "itemCapacity": 80,
