@@ -7,9 +7,9 @@
     "category": "power",
     "research": "power-node-large",
     "requirements": [
-        {"item": "infused-iridium", "amount": 35},
-        {"item": "silicon", "amount": 20},
-        {"item": "titanium", "amount": 10}
+        {"item": "infused-iridium", "amount":85},
+        {"item": "silicon", "amount": 10},
+        {"item": "titanium", "amount": 5}
     ],
     "maxNodes": 30,
     "laserRange": 20

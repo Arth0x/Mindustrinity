@@ -8,7 +8,7 @@
 	"unitCapModifier": 35,
     "unitType": "trinity",
 	"requirements": [
-		"silicon/12000",
+		"silicon/8000",
 		"surge-alloy/2500",
 		"infused-aether/2000",
 		"infused-iridium/2000",

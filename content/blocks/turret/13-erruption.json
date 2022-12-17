@@ -1,6 +1,7 @@
 {
     "category": "turret",
     "type": "LiquidTurret",
+    "research": "tsunami",
     "size": 3,
     "range": 200,
     "health": 1100,
@@ -112,7 +113,7 @@
     },
     "requirements": [
         "metaglass/80",
-        "graphite/300",
-        "lead/500"
+        "graphite/120",
+        "steel/180"
     ]
 }
