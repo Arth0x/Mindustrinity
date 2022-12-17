@@ -5,6 +5,7 @@
     "size": 3,
     "range": 200,
     "health": 1100,
+    "liquidCapacity": 250,
     "reload": 1,
     "inaccuracy": 5,
     "velocityRnd": 0.4,

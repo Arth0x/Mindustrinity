@@ -7,7 +7,7 @@
     "category": "power",
     "research": "power-node-large",
     "requirements": [
-        {"item": "infused-iridium", "amount":85},
+        {"item": "infused-iridium", "amount":8},
         {"item": "silicon", "amount": 10},
         {"item": "titanium", "amount": 5}
     ],

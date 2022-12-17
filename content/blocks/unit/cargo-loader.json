@@ -8,7 +8,7 @@
 		"power": 3,
 		"liquids": {
 			"liquids": [
-                "aether/2"         
+                "aether/0.35"         
  			]
 		}
 	},

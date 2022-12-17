@@ -8,9 +8,9 @@
     "itemCapacity": 8500,
     "category": "effect",
     "requirements": [
-        "infused-aether/650",
-        "thorium/250",
-        "plastanium/175",
+        "infused-aether/350",
+        "thorium/185",
+        "plastanium/125",
         "steel/250"
     ]
 }
