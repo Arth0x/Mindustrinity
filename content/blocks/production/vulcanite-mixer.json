@@ -26,16 +26,16 @@
         "power": 5,
         "items": {
             "items": [ 
-                "dragonstone/10"
+                "dragonstone/5"
             ]
         },
-        "liquid": "slag/1"
+        "liquid": "slag/0.3"
 	},
     "requirements": [
-        "silicon/250", 
-        "plastanium/100", 
+        "silicon/75", 
+        "plastanium/40", 
         "titanium/150", 
-        "infused-iridium/200"
+        "infused-iridium/80"
     ],
     "drawer": {
         "type": "DrawMulti",
@@ -55,6 +55,6 @@
     },
     "outputLiquid": {
 		"liquid": "vulcanite",
-		"amount": 0.4
+		"amount": 0.8
 	}
 }

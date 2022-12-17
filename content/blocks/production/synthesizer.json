@@ -16,8 +16,8 @@
 		}
 	},
     "results": [
-        "sulfur/15",
-        "dragonstone/10"
+        "sulfur/45",
+        "dragonstone/30"
     ],
     "drawer": {
         "type": "DrawMulti",
@@ -48,9 +48,9 @@
         ]
     },
     "requirements": [
-        "infused-aether/250",
-        "silicon/350",
-        "plastanium/200",
-        "surge-alloy/80"
+        "infused-aether/150",
+        "silicon/250",
+        "plastanium/140",
+        "surge-alloy/90"
 	]
 }
