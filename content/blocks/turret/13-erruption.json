@@ -113,8 +113,8 @@
         },
         "water": {
             "type": "LiquidBulletType",
-            "liquid": "cryoaether",
-            "knockback": 10,
+            "liquid": "water",
+            "knockBack": 100,
             "damage": 0,
             "speed": 9,
             "puddleSize": 25,
