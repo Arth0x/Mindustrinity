@@ -23,7 +23,7 @@
     "legPairOffset": 2,
     "legContinuousMove": true,
     "health": 20000,
-    "hitSize": 24,
+    "hitSize": 65,
     "armor": 3,
     "range": 80,
     "faceTarget": true,
