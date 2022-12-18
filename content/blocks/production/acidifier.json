@@ -19,7 +19,7 @@
                 "sulfur/6"
             ]
         },
-        "liquid": "water/0.8"
+        "liquid": "water/0.2"
 	},
     "requirements": [
         "silicon/75", 
@@ -29,7 +29,7 @@
     ],
     "outputLiquid": {
 		"liquid": "acid",
-		"amount": 0.8
+		"amount": 0.2
 	},
     "drawer": {
         "type": "DrawMulti",
