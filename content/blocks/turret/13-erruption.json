@@ -114,7 +114,7 @@
         "water": {
             "type": "LiquidBulletType",
             "liquid": "water",
-            "knockBack": 100,
+            "knockBack": 12,
             "damage": 0,
             "speed": 9,
             "puddleSize": 25,
