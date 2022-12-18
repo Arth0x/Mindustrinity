@@ -7,7 +7,7 @@
     "hasPower": true,
 	"hasItems": true,
     "liquidCapacity": 40,
-	"itemCapacity": 30,
+	"itemCapacity": 55,
 	"craftTime": 90,
     "drawer": {
     "type": "DrawMulti",
