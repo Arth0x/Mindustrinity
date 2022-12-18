@@ -19,7 +19,7 @@
                 "pyratite/2"
             ]
         },
-        "liquid": "acid/0.8"
+        "liquid": "acid/0.2"
 	},
     "requirements": [
         "silicon/250", 
@@ -63,6 +63,6 @@
     },
     "outputLiquid": {
 		"liquid": "iridium",
-		"amount": 0.8
+		"amount": 0.4
 	}
 }
