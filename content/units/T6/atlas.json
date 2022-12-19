@@ -77,14 +77,14 @@
         {
             "type": "UnitSpawnAbility",
             "spawnX": -20,
-            "spawnY": -40,
+            "spawnY": -30,
             "unit": "nano-healer",
             "spawnTime": 800
         },
         {
             "type": "UnitSpawnAbility",
             "spawnX": 20,
-            "spawnY": -40,
+            "spawnY": -30,
             "unit": "nano-driller",
             "spawnTime": 800
         }
