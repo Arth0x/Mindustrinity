@@ -3,7 +3,7 @@
     "flammability": 0,
     "radioactivity": 10,
     "charge": 0.1,
-    "cost": 3,
+    "cost": 2,
     "color": "FFF740",
     "research": "infused-aether"
 }
