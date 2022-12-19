@@ -2,6 +2,7 @@
     "type": "flying",
     "playerControllable": false,
     "Controller": "DefenderAI",
+    "defaultController": "DefenderAI",
     "unitType": "BuilderDrone",
     "lowAltitude": false,
     "speed": 5,
