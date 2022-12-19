@@ -10,6 +10,7 @@
     "reload": 0.5,
     "inaccuracy": 8,
     "velocityRnd": 0.6,
+    "shootEffect": "shootLiquid",
     "ammoTypes": {
         "slag": {
             "type": "LiquidBulletType",
@@ -114,7 +115,7 @@
         "water": {
             "type": "LiquidBulletType",
             "liquid": "water",
-            "knockBack": 12,
+            "knockback": 12,
             "damage": 0,
             "speed": 9,
             "puddleSize": 25,
