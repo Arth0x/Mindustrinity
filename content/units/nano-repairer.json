@@ -3,34 +3,42 @@
     "playerControllable": false,
     "defaultCommand": "repair",
     "unitType": "mega",
-    "lowAltitude": true,
-    "speed": 5,
-    "accel": 0.02,
-    "drag": 0.002,
-    "flying": true,
-    "buildSpeed": 1,
     "buildPower": 10,
-    "health": 30,
-    "hitSize": 6,
-    "armor": 5,
-    "engineOffset": 6,
     "targetAir": true,
-    "faceTarget": true,
+    "UnitType": "mega",
+    "Controller": "DefenderAI",
+    "mineTier": 3,
+    "mineSpeed": 4,
+    "health": 460,
+    "armor": 3,
+    "speed": 2.5,
+    "accel": 0.06,
+    "drag": 0.017,
+    "lowAltitude": true,
+    "flying": true,
+    "engineOffset": 10.5,
+    "faceTarget": false,
+    "hitSize": 16.05,
+    "engineSize": 3,
+    "payloadCapacity": 4,
+    "buildSpeed": 2.6,
+    "isEnemy": false,
     "weapons": [
         {
             "name": "heal-weapon-mount",
             "shootSound": "lasershoot",
-            "reload": 24,
-            "x": 8,
-            "y": -6,
+            "reload": 15,
+            "x": 0,
+            "y": -0,
             "rotate": true,
-            "bullet": {
-                "lifetime": 35,
-                "healPercent": 4,
+            "bullet": { 
+                "type": "LaserBoltBulletType",
+                "lifetime": 55,
+                "healPercent": 5.5,
                 "collidesTeam": true,
                 "backColor": "84F491FF",
-                "frontColor":  "FFFFFFFF"
+                "frontColor":  "FFFFFFFF" 
             }
         }
-    ]
+    ]   
 }
