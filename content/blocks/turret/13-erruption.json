@@ -5,6 +5,7 @@
     "size": 3,
     "range": 250,
     "health": 1100,
+    "rotateSpeed": 2,
     "liquidCapacity": 450,
     "reload": 0.5,
     "inaccuracy": 8,

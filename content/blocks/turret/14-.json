@@ -1,0 +1,53 @@
+{
+    "type": "ItemTurret",
+    "recoil": 0,
+    "reload": 6,
+    "coolantMultiplier": 1.5,
+    "range": 60,
+    "shootCone": 50,
+    "targetAir": false,
+    "ammoUseEffect": "none",
+    "health": 400,
+    "shootSound": "flame",
+    "consumes": {
+        "coolant": {
+            "amount": 0.05,
+            "optional": true
+        }
+    },
+    "ammoTypes": {
+        "coal": {
+            "ammoMultiplier": 3,
+            "hitSize": 7,
+            "lifetime": 18,
+            "pierce": true,
+            "collidesAir": false,
+            "statusDuration": 60,
+            "shootEffect": "shootSmallFlame",
+            "hitEffect": "hitFlameSmall",
+            "despawnEffect": "none",
+            "status": "burning",
+            "keepVelocity": false,
+            "hittable": false
+        },
+        "pyratite": {
+            "ammoMultiplier": 6,
+            "hitSize": 7,
+            "lifetime": 18,
+            "pierce": true,
+            "collidesAir": false,
+            "statusDuration": 600,
+            "shootEffect": "shootPyraFlame",
+            "hitEffect": "hitFlameSmall",
+            "despawnEffect": "none",
+            "status": "burning",
+            "hittable": false
+        }
+    },
+    "requirements": [
+        "iron/25",
+        "steel/30",
+        "titanium/50",
+        "infused-aether/20"
+    ]
+}
