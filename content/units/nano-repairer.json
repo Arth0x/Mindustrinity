@@ -3,7 +3,7 @@
     "playerControllable": false,
     "defaultController": "rebuildCommand",
     "unitType": "BuilderDrone",
-    "lowAltitude": true,
+    "lowAltitude": false,
     "speed": 5,
     "accel": 0.02,
     "drag": 0.002,
