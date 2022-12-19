@@ -1,22 +1,19 @@
 {
-    "type": "flying",
+    
     "playerControllable": false,
     "defaultCommand": "repair",
     "unitType": "mega",
-    "buildPower": 10,
-    "targetAir": true,
-    "UnitType": "mega",
     "Controller": "DefenderAI",
     "mineTier": 3,
     "mineSpeed": 4,
-    "health": 460,
+    "health": 30,
     "armor": 3,
     "speed": 2.5,
     "accel": 0.06,
     "drag": 0.017,
     "lowAltitude": true,
     "flying": true,
-    "engineOffset": 10.5,
+    "engineOffset": 3,
     "faceTarget": false,
     "hitSize": 16.05,
     "engineSize": 3,
@@ -40,5 +37,5 @@
                 "frontColor":  "FFFFFFFF" 
             }
         }
-    ]   
+    ]
 }
