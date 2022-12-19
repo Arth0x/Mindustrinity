@@ -1,7 +1,7 @@
 {
-    "name": "Aether River",
+    "localizedName": "Aether River",
     "description": "A lifely river of the life essence.",
     "sector": 214,
     "difficulty": 5,
-    "research": "aether-river"
+    "research": "frozenForest"
 }
