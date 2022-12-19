@@ -1,5 +1,6 @@
 {
     "UnitType": "mega",
+    "Controller": "DefenderAI",
     "defaultCommand": "repair",
     "mineTier": 3,
     "mineSpeed": 4,
@@ -30,7 +31,8 @@
                 "lifetime": 55,
                 "healPercent": 5.5,
                 "collidesTeam": true,
-                "color": "green"
+                "backColor": "84F491FF",
+                "frontColor":  "FFFFFFFF" 
             }
         }
     ]   
