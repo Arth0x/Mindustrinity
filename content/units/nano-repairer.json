@@ -3,7 +3,7 @@
     "playerControllable": false,
     "Controller": "DefenderAI",
     "defaultCommand": "repair",
-    "unitType": "RepairDrone",
+    "unitType": "mega",
     "lowAltitude": true,
     "speed": 5,
     "accel": 0.02,
