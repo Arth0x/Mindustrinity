@@ -1,5 +1,6 @@
 {
     "type": "flying",
+    "controller": "BuilderAI",
     "defaultCommand": "rebuild",
     "lowAltitude": true,
     "speed": 5,

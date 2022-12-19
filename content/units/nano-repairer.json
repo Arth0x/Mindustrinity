@@ -1,5 +1,6 @@
 {
     "type": "flying",
+    "controller": "RepairAI",
     "defaultCommand": "repair",
     "Controller": "DefenderAI",
     "health": 30,
