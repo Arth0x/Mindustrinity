@@ -1,6 +1,6 @@
 {
     "type": "flying",
-    "Controller": "DefenderAI",
+    "Controller": "FlyingFollowAI",
     "playerControllable": false,
     "unitType": "BuilderDrone",
     "lowAltitude": true,
