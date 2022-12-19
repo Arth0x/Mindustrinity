@@ -1,6 +1,7 @@
 {
     "type": "flying",
     "playerControllable": false,
+    "controllable": false,
     "controller": "RepairAI",
     "defaultCommand": "repair",
     "speed": 5,
