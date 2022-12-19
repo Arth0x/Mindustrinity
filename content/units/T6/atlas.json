@@ -4,7 +4,7 @@
     "controller": "DefenderAI",
     "singleTarget": true,
     "faceTarget": false,
-    "buildSpeed": 5,
+    "buildSpeed": 15,
     "drawShields": false,
     "payloadCapacity": 5000,
     "crashDamageMultiplier": 20,
@@ -14,7 +14,7 @@
     "rotateSpeed": 1.4,
     "flying": true,
     "health": 50000,
-    "hitSize": 74,
+    "hitSize": 75,
     "armor": 45,
     "engineOffset": 52,
     "range": 180,
@@ -35,27 +35,6 @@
             "sectorRad": 0.64,
             "effectRadius": 10,
             "reload": 100
-        },
-        {
-            "type": "UnitSpawnAbility",
-            "spawnX": 20,
-            "spawnY": -25,
-            "unit": "nano-builder",
-            "spawnTime": 800
-        },
-        {
-            "type": "UnitSpawnAbility",
-            "spawnX": 20,
-            "spawnY": -25,
-            "unit": "nano-repairer",
-            "spawnTime": 800
-        },
-        {
-            "type": "UnitSpawnAbility",
-            "spawnX": 0,
-            "spawnY": -25,
-            "unit": "nano-healer",
-            "spawnTime": 800
         },
         {
             "type": "mindustry.entities.abilities.RepairFieldAbility",
@@ -80,6 +59,34 @@
             "regen": 15,
             "max": 10000,
             "cooldown": 500 
-        } 
+        },
+        {
+            "type": "UnitSpawnAbility",
+            "spawnX": 20,
+            "spawnY": -25,
+            "unit": "nano-builder",
+            "spawnTime": 800
+        },
+        {
+            "type": "UnitSpawnAbility",
+            "spawnX": -20,
+            "spawnY": -25,
+            "unit": "nano-repairer",
+            "spawnTime": 800
+        },
+        {
+            "type": "UnitSpawnAbility",
+            "spawnX": -25,
+            "spawnY": -20,
+            "unit": "nano-healer",
+            "spawnTime": 800
+        },
+        {
+            "type": "UnitSpawnAbility",
+            "spawnX": 25,
+            "spawnY": -20,
+            "unit": "mono",
+            "spawnTime": 800
+        }
     ]      
 }

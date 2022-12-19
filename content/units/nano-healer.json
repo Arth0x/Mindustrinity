@@ -11,7 +11,7 @@
     "buildSpeed": 1,
     "buildPower": 10,
     "health": 30,
-    "hitSize": 7,
+    "hitSize": 5,
     "armor": 5,
     "engineOffset": 6,
     "targetAir": true,

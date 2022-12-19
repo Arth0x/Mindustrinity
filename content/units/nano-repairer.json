@@ -13,7 +13,7 @@
     "flying": true,
     "engineOffset": 5,
     "faceTarget": false,
-    "hitSize": 16.05,
+    "hitSize": 5,
     "engineSize": 2.5,
     "payloadCapacity": 4,
     "buildSpeed": 2.6,
