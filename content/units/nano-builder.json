@@ -1,7 +1,6 @@
 {
     "type": "flying",
     "playerControllable": false,
-    "Controller": "DefenderAI",
     "defaultCommand": "rebuild",
     "unitType": "poly",
     "lowAltitude": true,
