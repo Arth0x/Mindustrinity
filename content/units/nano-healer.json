@@ -7,14 +7,13 @@
     "accel": 0.02,
     "drag": 0.002,
     "flying": true,
-    "buildSpeed": 1,
-    "buildPower": 10,
     "health": 30,
     "hitSize": 5,
     "armor": 5,
     "engineOffset": 6,
     "targetAir": true,
     "faceTarget": true,
+    "isEnemy": false,
     "weapons": [
         {
             "type": "RepairBeamWeapon",  

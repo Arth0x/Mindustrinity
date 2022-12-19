@@ -14,6 +14,7 @@
     "engineOffset": 6,
     "targetAir": true,
     "faceTarget": true,
+    "isEnemy": false,
     "weapons": [
         {
             "controllable": false,
