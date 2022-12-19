@@ -38,7 +38,6 @@
         },
         {
             "type": "UnitSpawnAbility",
-            "layer": 120,
             "spawnX": 20,
             "spawnY": -25,
             "unit": "nano-builder",
@@ -46,7 +45,6 @@
         },
         {
             "type": "UnitSpawnAbility",
-            "layer": 120,
             "spawnX": 20,
             "spawnY": -25,
             "unit": "nano-repairer",
@@ -54,7 +52,6 @@
         },
         {
             "type": "UnitSpawnAbility",
-            "layer": 120,
             "spawnX": 0,
             "spawnY": -25,
             "unit": "nano-healer",
