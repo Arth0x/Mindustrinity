@@ -1,5 +1,6 @@
 {
     "type": "flying",
+    "playerControllable": false,
     "controller": "BuilderAI",
     "defaultCommand": "rebuild",
     "lowAltitude": true,

@@ -1,5 +1,6 @@
 {
     "type": "flying",
+    "playerControllable": false,
     "defaultCommand": "mine",
     "Controller": "MinerAI",
     "speed": 5,
