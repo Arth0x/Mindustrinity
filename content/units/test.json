@@ -1,6 +1,5 @@
 {
     "UnitType": "mega",
-    "Controller": "DefenderAI",
     "defaultController": "repairCommand",
     "mineTier": 3,
     "mineSpeed": 4,
