@@ -4,7 +4,7 @@
     "research": "20-avalanche",
 	"size": 5,
 	"health": 2900,
-	"range": 375,
+	"range": 325,
     "reload": 160,
     "ShootX": -20,
     "shootDuration": 400,
@@ -33,7 +33,7 @@
         "width": 7,
         "status": "vulcanise",
     "statusDuration": 120,
-        "length": 375,
+        "length": 325,
         "flareWidth": 5,
         "flareLength": 28,
         "flareColor": "FF4040FF"
