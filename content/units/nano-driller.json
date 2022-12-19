@@ -1,6 +1,6 @@
 {
     "type": "flying",
-    "defaultCommand": "miner",
+    "defaultCommand": "mine",
     "Controller": "MinerAI",
     "itemCapacity": 75,
     "mineTier": 6,
