@@ -10,7 +10,7 @@
     "drag": 0.017,
     "lowAltitude": true,
     "flying": true,
-    "engineOffset": 3,
+    "engineOffset": 4.5,
     "faceTarget": false,
     "hitSize": 16.05,
     "engineSize": 3,
