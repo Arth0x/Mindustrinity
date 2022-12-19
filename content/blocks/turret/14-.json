@@ -1,17 +1,17 @@
 {
     "type": "ItemTurret",
     "recoil": 0,
-    "reload": 6,
+    "reload": 3,
     "coolantMultiplier": 1.5,
-    "range": 60,
-    "shootCone": 50,
+    "range": 160,
+    "shootCone": 150,
     "targetAir": false,
     "ammoUseEffect": "none",
     "health": 400,
     "shootSound": "flame",
     "consumes": {
         "coolant": {
-            "amount": 0.05,
+            "amount": 1,
             "optional": true
         }
     },
@@ -19,7 +19,7 @@
         "coal": {
             "ammoMultiplier": 3,
             "hitSize": 7,
-            "lifetime": 18,
+            "lifetime": 38,
             "pierce": true,
             "collidesAir": false,
             "statusDuration": 60,
@@ -33,7 +33,7 @@
         "pyratite": {
             "ammoMultiplier": 6,
             "hitSize": 7,
-            "lifetime": 18,
+            "lifetime": 38,
             "pierce": true,
             "collidesAir": false,
             "statusDuration": 600,
