@@ -2,7 +2,7 @@
     "type": "flying",
     "playerControllable": false,
     "Controller": "DefenderAI",
-    "defaultController": "repair",
+    "defaultCommand": "repair",
     "unitType": "RepairDrone",
     "lowAltitude": true,
     "speed": 5,
