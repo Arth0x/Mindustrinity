@@ -1,7 +1,5 @@
 {
     "UnitType": "mega",
-    "Controller": "minerIA",
-    "defaultController": "repairCommand",
     "mineTier": 3,
     "mineSpeed": 4,
     "health": 460,
