@@ -62,29 +62,29 @@
         },
         {
             "type": "UnitSpawnAbility",
-            "spawnX": 20,
-            "spawnY": -40,
+            "spawnX": 40,
+            "spawnY": -5,
             "unit": "nano-builder",
             "spawnTime": 800
         },
         {
             "type": "UnitSpawnAbility",
-            "spawnX": -20,
-            "spawnY": -40,
+            "spawnX": -40,
+            "spawnY": -5,
             "unit": "nano-repairer",
             "spawnTime": 800
         },
         {
             "type": "UnitSpawnAbility",
             "spawnX": -20,
-            "spawnY": -30,
+            "spawnY": -20,
             "unit": "nano-healer",
             "spawnTime": 800
         },
         {
             "type": "UnitSpawnAbility",
             "spawnX": 20,
-            "spawnY": -30,
+            "spawnY": -20,
             "unit": "nano-driller",
             "spawnTime": 800
         }
