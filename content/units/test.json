@@ -1,0 +1,38 @@
+{
+    "type": "flying",
+    "playerControllable": false,
+    "Controller": "DefenderAI",
+    "defaultController": "repairCommand",
+    "unitType": "mega",
+    "lowAltitude": true,
+    "speed": 5,
+    "accel": 0.02,
+    "drag": 0.002,
+    "flying": true,
+    "buildSpeed": 1,
+    "buildPower": 10,
+    "health": 30,
+    "hitSize": 6,
+    "armor": 5,
+    "isEnemy": false,
+    "engineOffset": 6,
+    "targetAir": true,
+    "faceTarget": true,
+    "weapons": [
+        {
+            "name": "heal-weapon-mount",
+            "shootSound": "lasershoot",
+            "reload": 24,
+            "x": 8,
+            "y": -6,
+            "rotate": true,
+            "bullet": {
+                "lifetime": 35,
+                "healPercent": 4,
+                "collidesTeam": true
+            }
+        }
+    ]
+}   
+
+        
