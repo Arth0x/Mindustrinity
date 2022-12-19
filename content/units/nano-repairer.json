@@ -1,4 +1,5 @@
 {
+    "playerControllable": false,
     "defaultCommand": "repair",
     "Controller": "DefenderAI",
     "mineTier": 3,
@@ -10,10 +11,10 @@
     "drag": 0.017,
     "lowAltitude": true,
     "flying": true,
-    "engineOffset": 4.5,
+    "engineOffset": 5,
     "faceTarget": false,
     "hitSize": 16.05,
-    "engineSize": 3,
+    "engineSize": 2.5,
     "payloadCapacity": 4,
     "buildSpeed": 2.6,
     "isEnemy": false,
