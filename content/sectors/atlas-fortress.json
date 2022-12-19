@@ -1,9 +1,0 @@
-{
-    "name": "Atlas's Forterss",
-    "localizedName": "atlas-fortress",
-    "description": "A lifely river of the life essence.",
-    "sector": 19,
-    "captureWave": 60,
-    "difficulty": 3,
-    "research": "frozenForest"
-}
