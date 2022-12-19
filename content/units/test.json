@@ -1,23 +1,22 @@
 {
-    "type": "flying",
-    "playerControllable": false,
-    "Controller": "DefenderAI",
-    "defaultController": "repairCommand",
-    "unitType": "mega",
+    "UnitType": "mega",
+    "defaultCommand": "repairCommand",
+    "mineTier": 3,
+    "mineSpeed": 4,
+    "health": 460,
+    "armor": 3,
+    "speed": 2.5,
+    "accel": 0.06,
+    "drag": 0.017,
     "lowAltitude": true,
-    "speed": 5,
-    "accel": 0.02,
-    "drag": 0.002,
     "flying": true,
-    "buildSpeed": 1,
-    "buildPower": 10,
-    "health": 30,
-    "hitSize": 6,
-    "armor": 5,
+    "engineOffset": 10.5,
+    "faceTarget": false,
+    "hitSize": 16.05,
+    "engineSize": 3,
+    "payloadCapacity": 4,
+    "buildSpeed": 2.6,
     "isEnemy": false,
-    "engineOffset": 6,
-    "targetAir": true,
-    "faceTarget": true,
     "weapons": [
         {
             "name": "heal-weapon-mount",
@@ -26,13 +25,14 @@
             "x": 8,
             "y": -6,
             "rotate": true,
-            "bullet": {
+            "bullet": { 
+                "type": "LaserBoltBulletType",
                 "lifetime": 35,
-                "healPercent": 4,
+                "healPercent": 5.5,
                 "collidesTeam": true
             }
         }
-    ]
-}   
+    ]   
+}
 
         
