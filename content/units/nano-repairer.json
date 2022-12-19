@@ -1,8 +1,5 @@
 {
-    
-    "playerControllable": false,
     "defaultCommand": "repair",
-    "unitType": "mega",
     "Controller": "DefenderAI",
     "mineTier": 3,
     "mineSpeed": 4,
