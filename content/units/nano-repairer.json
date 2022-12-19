@@ -2,7 +2,7 @@
     "type": "flying",
     "playerControllable": false,
     "Controller": "DefenderAI",
-    "defaultController": "repairCommand",
+    "defaultController": "repair",
     "unitType": "RepairDrone",
     "lowAltitude": true,
     "speed": 5,
@@ -28,7 +28,9 @@
             "bullet": {
                 "lifetime": 35,
                 "healPercent": 4,
-                "collidesTeam": true
+                "collidesTeam": true,
+                "backColor": "84F491FF",
+                "frontColor":  "FFFFFFFF"
             }
         }
     ]

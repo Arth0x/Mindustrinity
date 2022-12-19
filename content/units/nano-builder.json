@@ -2,7 +2,7 @@
     "type": "flying",
     "playerControllable": false,
     "Controller": "DefenderAI",
-    "defaultController": "rebuildCommand",
+    "defaultController": "rebuild",
     "unitType": "BuilderDrone",
     "lowAltitude": true,
     "speed": 5,
