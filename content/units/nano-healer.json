@@ -4,7 +4,7 @@
     "Controller": "DefenderAI",
     "defaultController": "DefenderAI",
     "unitType": "BuilderDrone",
-    "lowAltitude": false,
+    "lowAltitude": true,
     "speed": 5,
     "accel": 0.02,
     "drag": 0.002,
