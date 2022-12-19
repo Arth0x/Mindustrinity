@@ -3,7 +3,6 @@
     "localizedName": "aether-river",
     "description": "A lifely river of the life essence.",
     "sector": 214,
-    "captureWave": 60,
-    "difficulty": 3,
-    "research": "frozenForest"
+    "difficulty": 5,
+    "research": "aether-river"
 }
