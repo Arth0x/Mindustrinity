@@ -2,7 +2,6 @@
     "type": "flying",
     "playerControllable": false,
     "defaultCommand": "rebuild",
-    "unitType": "poly",
     "lowAltitude": true,
     "speed": 5,
     "accel": 0.02,
