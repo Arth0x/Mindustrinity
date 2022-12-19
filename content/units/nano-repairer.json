@@ -1,5 +1,4 @@
 {
-    "playerControllable": false,
     "defaultCommand": "repair",
     "Controller": "DefenderAI",
     "mineTier": 3,
