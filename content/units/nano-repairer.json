@@ -1,8 +1,8 @@
 {
     "type": "flying",
     "playerControllable": false,
-    "defaultController": "rebuildCommand",
-    "unitType": "BuilderDrone",
+    "defaultController": "repairCommand",
+    "unitType": "RepaierDrone",
     "lowAltitude": false,
     "speed": 5,
     "accel": 0.02,
@@ -18,36 +18,17 @@
     "faceTarget": true,
     "weapons": [
         {
-            "controllable": false,
-            "autoTarget": true,
-            "rotateSpeed": 0,
-            "alternate": false,
-            "mirror": false,
-            "top": true,
-            "x": 0,
-            "y": 0,
-            "reload": 45,
-            "recoil": 0,
-            "rotate":true,
-            "inaccuracy":7,
-            "shootSound":"missile",
+            "name": "heal-weapon-mount",
+            "shootSound": "lasershoot",
+            "reload": 24,
+            "x": 8,
+            "y": -6,
+            "rotate": true,
             "bullet": {
-                "type":"MissileBulletType",
-                "shootEffect":"shootHealYellow",
-                "damage":10,
-                "speed":4,
-                "keepVelocity":false,
-                "frontColor":"FFFFFFF",
-                "backColor":"84F491FF",
-                "trailColor":"84F491FF",
-                "lifetime":50,
-                "homingPower":4,
-                "homingRange":60,
-                "weaveScale":5,
-                "weaveMag":10,
-                "height":8,
-                "width":8
-            }  
+                "lifetime": 35,
+                "healPercent": 4,
+                "collidesTeam": true
+            }
         }
     ]
 }
