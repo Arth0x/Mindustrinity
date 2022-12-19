@@ -1,6 +1,6 @@
 {
     "UnitType": "mega",
-    "defaultCommand": "repairCommand",
+    "defaultCommand": "UnitCommand.repairCommand",
     "mineTier": 3,
     "mineSpeed": 4,
     "health": 460,
