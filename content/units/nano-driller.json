@@ -18,21 +18,5 @@
     "engineSize": 2.5,
     "isEnemy": false,
     "weapons": [
-        {
-            "name": "heal-weapon-mount",
-            "shootSound": "lasershoot",
-            "reload": 15,
-            "x": 0,
-            "y": -0,
-            "rotate": true,
-            "bullet": { 
-                "type": "LaserBoltBulletType",
-                "lifetime": 55,
-                "healPercent": 5.5,
-                "collidesTeam": true,
-                "backColor": "84F491FF",
-                "frontColor":  "FFFFFFFF" 
-            }
-        }
     ]
 }
