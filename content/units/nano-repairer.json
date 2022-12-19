@@ -3,7 +3,6 @@
     "playerControllable": false,
     "controller": "RepairAI",
     "defaultCommand": "repair",
-    "Controller": "DefenderAI",
     "speed": 5,
     "health": 30,
     "armor": 3,
