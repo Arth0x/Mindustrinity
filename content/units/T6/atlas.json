@@ -2,6 +2,7 @@
     "research": "oct",
     "type": "payload",
     "controller": "DefenderAI",
+    "aiController": "DefenderAI",
     "singleTarget": true,
     "faceTarget": false,
     "buildSpeed": 5,
