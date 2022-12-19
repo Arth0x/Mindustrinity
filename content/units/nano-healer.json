@@ -1,7 +1,8 @@
 {
     "type": "flying",
     "playerControllable": false,
-    "defaultController": "DefenderAI",
+    "Controller": "DefenderAI",
+    "unitType": "BuilderDrone",
     "lowAltitude": false,
     "speed": 5,
     "accel": 0.02,
@@ -9,13 +10,10 @@
     "flying": true,
     "buildSpeed": 1,
     "buildPower": 10,
-    "unitType": "BuilderDrone",
-    "itemcapacity": 15,
     "health": 30,
     "hitSize": 7,
     "armor": 5,
     "engineOffset": 6,
-    "engineColor": "FFD37FFF",
     "targetAir": true,
     "faceTarget": true,
     "weapons": [
