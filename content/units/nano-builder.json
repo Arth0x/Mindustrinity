@@ -5,7 +5,7 @@
     "lowAltitude": true,
     "speed": 5,
     "accel": 0.02,
-    "drag": 0.003,
+    "drag": 0.007,
     "flying": true,
     "buildSpeed": 1,
     "buildPower": 10,

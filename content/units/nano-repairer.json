@@ -7,7 +7,7 @@
     "health": 30,
     "armor": 3,
     "accel": 0.02,
-    "drag": 0.003,
+    "drag": 0.007,
     "lowAltitude": true,
     "flying": true,
     "engineOffset": 5,
