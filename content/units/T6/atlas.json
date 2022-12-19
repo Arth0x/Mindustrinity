@@ -62,15 +62,15 @@
         },
         {
             "type": "UnitSpawnAbility",
-            "spawnX": 40,
-            "spawnY": -5,
+            "spawnX": 30,
+            "spawnY": -10,
             "unit": "nano-builder",
             "spawnTime": 800
         },
         {
             "type": "UnitSpawnAbility",
-            "spawnX": -40,
-            "spawnY": -5,
+            "spawnX": -30,
+            "spawnY": -10,
             "unit": "nano-repairer",
             "spawnTime": 800
         },
