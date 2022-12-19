@@ -39,19 +39,27 @@
         },
         {
             "type": "UnitSpawnAbility",
-            "layer": 110,
+            "layer": 120,
             "spawnX": 20,
             "spawnY": -25,
-            "unit": "nano",
-            "spawnTime": 500
+            "unit": "nano-builder",
+            "spawnTime": 800
         },
         {
             "type": "UnitSpawnAbility",
-            "layer": 110,
-            "spawnX": -20,
+            "layer": 120,
+            "spawnX": 20,
             "spawnY": -25,
-            "unit": "nano",
-            "spawnTime": 500
+            "unit": "nano-repairer",
+            "spawnTime": 800
+        },
+        {
+            "type": "UnitSpawnAbility",
+            "layer": 120,
+            "spawnX": 0,
+            "spawnY": -25,
+            "unit": "nano-healer",
+            "spawnTime": 800
         },
         {
             "type": "mindustry.entities.abilities.RepairFieldAbility",

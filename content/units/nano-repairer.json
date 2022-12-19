@@ -1,7 +1,8 @@
 {
     "type": "flying",
     "playerControllable": false,
-    "defaultController": "DefenderAI",
+    "defaultController": "rebuildCommand",
+    "unitType": "BuilderDrone",
     "lowAltitude": true,
     "speed": 5,
     "accel": 0.02,
@@ -9,45 +10,13 @@
     "flying": true,
     "buildSpeed": 1,
     "buildPower": 10,
-    "unitType": "BuilderDrone",
-    "itemcapacity": 15,
     "health": 30,
-    "hitSize": 7,
+    "hitSize": 6,
     "armor": 5,
     "engineOffset": 6,
-    "engineColor": "FFD37FFF",
     "targetAir": true,
     "faceTarget": true,
     "weapons": [
-        {
-            "type": "RepairBeamWeapon",  
-            "alternate": false,
-            "name": "repairer",
-            "repairRadius": 20,
-            "x": 0,
-            "y": 0,
-            "shootY": 1,
-            "mirror": false,
-            "controllable": false,
-            "autoTarget": true,
-            "repairSpeed": 0.2,
-            "hidden": true,
-            "bullet": {
-                "shootEffect": {
-                    "type": "ParticleEffect",
-                    "line": true,
-                    "particles": 20,
-                    "offset": 35,
-                    "lifetime": 2,
-                    "length": 35,
-                    "cone": -360,
-                    "lenFrom": 5,
-                    "lenTo": 0,
-                    "colorFrom": "73FFAEFF",
-                    "colorTo": "57D993FF"   
-                }
-            }
-        },
         {
             "controllable": false,
             "autoTarget": true,
