@@ -9,8 +9,8 @@
     "liquidCapacity": 450,
     "reload": 0.5,
     "inaccuracy": 8,
-    "velocityRnd": 0.6,
-    "shootEffect": "shootLiquid",
+    "velocityRnd": 0.55,
+    "shootEffect": "hitMeltdown",
     "ammoTypes": {
         "slag": {
             "type": "LiquidBulletType",
