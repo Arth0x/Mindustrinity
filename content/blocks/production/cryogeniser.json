@@ -1,0 +1,72 @@
+{	
+    "type": "GenericCrafter",
+    "category": "crafting",
+    "research": "acidifier",
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 15,
+    "liquidCapacity": 750,
+    "craftTime": 120,
+    "updateEffect": "none",
+    "ambientSound": "flame2",
+    "consumes": {
+        "power": 5,
+        "items": {
+            "items": [ 
+                "sulfur/3"
+            ]
+        },
+        "liquid": "water/0.2"
+	},
+    "requirements": [
+        "silicon/75", 
+        "plastanium/10", 
+        "titanium/15", 
+        "thorium/20"
+    ],
+    "outputLiquid": {
+		"liquid": "acid",
+		"amount": 0.2
+	},
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "drawRegion",
+                "suffix": "-bottom"    
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "cryofluid",
+                "rotateSpeed": -4,
+                "spinSprite": true,
+                "suffix": "-liquid1" 
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "mindustrinity-aether",
+                "rotateSpeed": -4,
+                "spinSprite": true,
+                "suffix": "-liquid2" 
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "mindustrinity-cryoaether",
+                "rotateSpeed": -4,
+                "spinSprite": true,
+                "suffix": "-liquid3" 
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-rotator",
+                "rotateSpeed": -4,
+                "spinSprite": true
+            },   
+            {
+                "type": "DrawDefault"
+            }
+        ]
+    }
+}
