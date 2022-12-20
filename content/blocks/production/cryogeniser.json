@@ -7,18 +7,19 @@
     "hasItems": true,
     "hasLiquids": true,
     "itemCapacity": 15,
-    "liquidCapacity": 750,
+    "liquidCapacity": 150,
     "craftTime": 120,
     "updateEffect": "none",
     "ambientSound": "flame2",
     "consumes": {
         "power": 5,
-        "items": {
-            "items": [ 
-                "sulfur/3"
+        "liquid": {
+            "liquid": [ 
+                "aether/0.4",
+                "cryofluid/0.4"
             ]
         },
-        "liquid": "water/0.2"
+        "item": "titanium/2"
 	},
     "requirements": [
         "silicon/75", 
@@ -27,8 +28,8 @@
         "thorium/20"
     ],
     "outputLiquid": {
-		"liquid": "acid",
-		"amount": 0.2
+		"liquid": "cryoaether",
+		"amount": 0.6
 	},
     "drawer": {
         "type": "DrawMulti",
