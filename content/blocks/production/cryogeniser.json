@@ -19,7 +19,11 @@
                 "cryofluid/0.4"
             ]
         },
-        "item": "titanium/2"
+        "items": {
+            "items": [ 
+                "titanium/2"
+            ]
+        }
 	},
     "requirements": [
         "silicon/75", 
