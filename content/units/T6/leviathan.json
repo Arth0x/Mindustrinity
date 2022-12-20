@@ -152,7 +152,7 @@
             "spawnY": -35,
             "unit": "risso",
             "spawnTime": 3000
-        }
+        },
         {
             "type": "UnitSpawnAbility",
             "spawnX": 20,

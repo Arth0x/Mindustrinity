@@ -68,10 +68,11 @@
             "type": "mindustry.entities.abilities.RepairFieldAbility",
             "healEffect": {
                 "type": "WaveEffect",
-                "lifetime": 150,
-                "sizeFrom": 7,
-                "strokeFrom": 4,
-                "strokeTo": 0,
+                "line": true,
+                "particles": 1,
+                "lifetime": 40,
+                "sizeFrom": 12,
+                "sizeTo": 0,
                 "colorFrom": "84F491FF",
                 "colorTo": "84F491FF" 
             },
