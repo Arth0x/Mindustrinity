@@ -15,8 +15,9 @@
         "power": 5,
         "liquids": {
             "liquids": [ 
-                "aether/0.4",
-                "cryofluid/0.4"
+                "cryofluid/0.4",
+                "aether/0.4"
+                
             ]
         },
         "items": {
@@ -45,23 +46,24 @@
             {
                 "type": "DrawLiquidRegion",
                 "drawLiquid": "cryofluid",
+                "suffix": "-liquid1",
                 "rotateSpeed": -4,
-                "spinSprite": true,
-                "suffix": "-liquid1" 
+                "spinSprite": true
             },
             {
                 "type": "DrawLiquidRegion",
                 "drawLiquid": "mindustrinity-aether",
+                "suffix": "-liquid2",
                 "rotateSpeed": -4,
-                "spinSprite": true,
-                "suffix": "-liquid2" 
+                "spinSprite": true
             },
             {
                 "type": "DrawLiquidRegion",
                 "drawLiquid": "mindustrinity-cryoaether",
+                "suffix": "-liquid3",
                 "rotateSpeed": -4,
-                "spinSprite": true,
-                "suffix": "-liquid3" 
+                "spinSprite": true
+                
             },
             {
                 "type": "DrawRegion",
