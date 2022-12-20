@@ -13,8 +13,8 @@
     "ambientSound": "flame2",
     "consumes": {
         "power": 5,
-        "liquid": {
-            "liquid": [ 
+        "liquids": {
+            "liquids": [ 
                 "aether/0.4",
                 "cryofluid/0.4"
             ]
