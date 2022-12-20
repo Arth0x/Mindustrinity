@@ -22,45 +22,6 @@
     "commandLimit": 3,
     "abilities": [
         {
-            "type": "EnergyFieldAbility",
-            "statusDuration": 300,
-            "status": "electrified",
-            "maxTargets": 10,
-            "damage": 100,
-            "healPercent": 0.6,
-            "range": 300,
-            "sectors": 4,
-            "rotateSpeed": 3,
-            "hitBuildings": true,
-            "sectorRad": 0.64,
-            "effectRadius": 10,
-            "reload": 100
-        },
-        {
-            "type": "mindustry.entities.abilities.RepairFieldAbility",
-            "healEffect": {
-                "type": "WaveEffect",
-                "lifetime": 150,
-                "sizeFrom": 30,
-                "strokeFrom": 4,
-                "strokeTo": 0,
-                "colorFrom": "84F491FF",
-                "colorTo": "84F491FF" 
-            },
-            "range": 300,
-            "amount": 3500,
-            "reload": 300 
-        },
-        {
-            "type": "ShieldArcAbility",
-            "region": "mindustrinity-atlas-shield",
-            "drawArc": false,
-            "whenShooting": false,
-            "regen": 15,
-            "max": 10000,
-            "cooldown": 500 
-        },
-        {
             "type": "UnitSpawnAbility",
             "spawnX": 30,
             "spawnY": -10,
@@ -87,6 +48,45 @@
             "spawnY": -20,
             "unit": "nano-driller",
             "spawnTime": 800
+        },
+        {
+            "type": "EnergyFieldAbility",
+            "statusDuration": 300,
+            "status": "electrified",
+            "maxTargets": 10,
+            "damage": 100,
+            "healPercent": 0.6,
+            "range": 300,
+            "sectors": 4,
+            "rotateSpeed": 3,
+            "hitBuildings": true,
+            "sectorRad": 0.64,
+            "effectRadius": 10,
+            "reload": 100
+        },
+        {
+            "type": "mindustry.entities.abilities.RepairFieldAbility",
+            "healEffect": {
+                "type": "WaveEffect",
+                "lifetime": 150,
+                "sizeFrom": 7,
+                "strokeFrom": 4,
+                "strokeTo": 0,
+                "colorFrom": "84F491FF",
+                "colorTo": "84F491FF" 
+            },
+            "range": 300,
+            "amount": 3500,
+            "reload": 300 
+        },
+        {
+            "type": "ShieldArcAbility",
+            "region": "mindustrinity-atlas-shield",
+            "drawArc": false,
+            "whenShooting": false,
+            "regen": 15,
+            "max": 10000,
+            "cooldown": 500 
         }
     ]      
 }
