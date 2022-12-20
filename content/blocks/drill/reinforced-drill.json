@@ -1,12 +1,12 @@
 {
 	"type": "Drill",
 	"size": 2,
-	"tier": 6,
+	"tier": 3,
 	"hasLiquids": true,
     "heatColor": "FFFFFFFF",
     "category": "production",
 	"research": "pneumatic-drill",
-    "hardnessDrillMultiplier": 6,
+    "hardnessDrillMultiplier": 5,
 	"liquidCapacity": 25,
 	"rotateSpeed": 3,
 	"drillTime": 72,
@@ -16,14 +16,14 @@
 	"consumes": {
 		"liquid": {
 			"liquid": "water",
-			"amount": 0.31,
+			"amount": 0.2,
 			"booster": true,
 			"optional": true
 		}
 	},
 	"requirements": [
-        "steel/45",
-        "titanium/30",
+        "steel/35",
+        "titanium/20",
         "metaglass/25"
 	]
 }
