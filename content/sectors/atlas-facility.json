@@ -2,7 +2,6 @@
     "localizedName": "Atlas's Forterss",
     "description": "You will never defeat him XD.",
     "sector": 19,
-    "captureWave": 60,
     "difficulty": 3,
     "research": "frozenForest"
 }
