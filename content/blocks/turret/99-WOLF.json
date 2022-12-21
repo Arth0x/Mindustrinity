@@ -214,7 +214,6 @@
             {
                 "type": "HaloPart",
                 "progress": "warmup",
-                "rotateSpeed": 1,
                 "color": "FF4040",
                 "mirror": true,
                 "stroke": 0,
@@ -223,10 +222,10 @@
                 "y": -32,
                 "x": 15,
                 "tri": true,
-                "haloRadius": 8,
-                "haloRadiusTo": 8,
-                "shapes": 4,
-                "triLengthTo": 4,
+                "haloRadius": 0,
+                "haloRadiusTo": 0,
+                "shapes": 2,
+                "triLengthTo": 7,
                 "triLength": 0
             }
         ]
