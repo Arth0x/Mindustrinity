@@ -123,37 +123,12 @@
                 "progress": "warmup",
                 "heatProgress": "warmup",
                 "mirror": true,
+                "under": true,
                 "moveY": -18,
                 "moveX": -18,
                 "moveRot": 170,
-                "color": "FF4040",
+                "color": "FF404000",
                 "heatColor": "FF4040FF"
-            },
-            {
-                "type": "RegionPart",
-                "suffix": "-poone",
-                "progress": "warmup",
-                "mirror": true,
-                "under": true,
-                "moveY": -6,
-                "moveX": -34,
-                "moveRot": 170
-            },
-            {
-                "type": "RegionPart",
-                "outline": false,
-                "suffix": "-blade",   
-                "mirror": true,
-                "under": true,
-                "x": 45,
-                "y": -8,
-                "rotation": -35,
-                "moveX": 5,
-                "progress": {
-                    "type": "recoil",
-                    "op": "delay",
-                    "amount": 0.80
-                }
             },
             {
                 "type": "RegionPart",
