@@ -218,7 +218,7 @@
                 "mirror": true,
                 "stroke": 0,
                 "strokeTo": 1,
-                "haloRotation": 40,
+                "haloRotation": 50,
                 "radius": 5.5,
                 "y": -32,
                 "x": 15,
@@ -228,6 +228,19 @@
                 "shapes": 2,
                 "triLengthTo": 7,
                 "triLength": 0
+            },
+            {
+                "type": "HaloPart",
+                "y": -32,
+                "x": 15,
+                "circle": true,
+                "color": "FFFFFFFF",
+                "hollow": true,
+                "shapes": 1,
+                "stroke": 0,
+                "strokeTo": 0.7,
+                "radius": 2,
+                "mirror": true
             }
         ]
     }
