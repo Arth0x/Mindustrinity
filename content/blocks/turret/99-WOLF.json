@@ -126,7 +126,7 @@
                 "mirror": true,
                 "under": true,
                 "layerOffset":  -0.3,
-                "turretHeatLayer": -0.2,
+                "turretHeatLayer": -0.1,
                 "moveY": -22,
                 "moveX": -18,
                 "moveRot": 170,
@@ -219,8 +219,8 @@
                 "stroke": 0,
                 "strokeTo": 1,
                 "radius": 5.5,
-                "y": -45,
-                "X": 45
+                "y": -25,
+                "x": 25
             }
         ]
     }
