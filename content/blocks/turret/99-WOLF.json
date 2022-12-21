@@ -153,8 +153,7 @@
                 "y": 0,
                 "progress": {
                     "type": "warmup",
-                    "op": "delay",
-                    "amount": 1
+                    "delay": 1
                 }
             },
             {
@@ -171,8 +170,7 @@
                 "y": 0,
                 "progress": {
                     "type": "warmup",
-                    "op": "delay",
-                    "amount": 0.5
+                    "delay": 0.5
                 }
             },
             {
@@ -190,8 +188,7 @@
                 "y": 0,
                 "progress": {
                     "type": "warmup",
-                    "op": "delay",
-                    "amount": 0
+                    "delay": 0
                 }
             }
         ]
