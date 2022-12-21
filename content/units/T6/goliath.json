@@ -9,15 +9,10 @@
     "mechStepParticles": true,
     "mechLandShake": 3,
     "singleTarget": true,
-    "speed": 0.85,
+    "speed": 0.65,
     "health": 50000,
     "range": 200,
     "commandLimit": 3,
-    "immunities": [
-        "burning",
-        "melting",
-        "blasted"
-    ],
     "weapons": [
         {
             "name": "goliath-fusion",

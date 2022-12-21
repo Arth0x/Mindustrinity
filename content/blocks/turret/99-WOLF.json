@@ -1,0 +1,262 @@
+{
+	"type": "ContinuousLiquidTurret",
+    "heath": 85000000,
+    "size": 6,
+    "range": 640,
+    "liquidConsumed": 0.6,
+    "minWarmup": 0.9999,
+    "haloProgress ": "warmup",
+    "outlineColor": "0F0F0F",
+    "cooldownTime": 180,
+    "hasPower": true,
+    "loopSound": "torch",
+    "shake": 10,
+    "shootSound": "shockBlast",
+    "recoil": 0,
+    "shootY": 0,
+    "shootCone": 360,
+    "aimChangeSpeed": 0.8,
+    "rotateSpeed": 0.6,
+    "consumes" : {
+        "power": 74
+    },
+    "shootEffect": {
+        "type": "multiEffect",
+        "effects": [
+            {
+                "type": "ParticleEffect",
+                "particles": 12,
+                "length": 50,
+                "lifetime": 55,
+                "line": true,
+                "cone": 40,
+                "lenFrom": 8,
+                "lenTo": 2,
+                "strokeFrom": 3,
+                "strokeTo": 0.5,
+                "sizeTo": 60,
+                "colorFrom": "FF4040",
+                "colorTo": "FF4040"
+            },
+            {
+                "type": "ParticleEffect",
+                "particles": 21,
+                "length": 50,
+                "lifetime": 35,
+                "line": true,
+                "cone": 70,
+                "lenFrom": 8,
+                "lenTo": 5,
+                "strokeFrom": 3,
+                "strokeTo": 0.5,
+                "sizeFrom": 0,
+                "sizeTo": 60,
+                "colorFrom": "FF4040",
+                "colorTo": "FF4040"
+            },
+            {
+                "type": "ParticleEffect",
+                "particles": 24,
+                "length": 70,
+                "lifetime": 25,
+                "line": true,
+                "cone": 40,
+                "lenFrom": 10,
+                "lenTo": 10,
+                "strokeFrom": 3,
+                "strokeTo": 0.5,
+                "sizeTo": 60,
+                "colorFrom": "FF4040",
+                "colorTo": "FF4040"
+            }
+        ]
+    },
+    "ammoTypes": {
+        "water": {
+            "type": "PointLaserBulletType",
+            "color": "FF4040",
+            "status": "death",
+            "beamEffectSize": 3,
+            "oscScl": 4,
+            "length": 640,
+            "drawSize": 350,
+            "statusDuration": 540,
+            "hitEffect": {
+                "type": "ParticleEffect",
+                "line": true,
+                "particles": 7,
+                "cone": -360,
+                "strokeFrom": 2.5,
+                "strokeTo": 0,
+                "lenFrom": 8,
+                "lenTo": 0,
+                "colorFrom": "FF0000",
+                "colorTo": "FF0000"
+            } 
+        }
+    },
+    "requirements": [
+        "silicon/850",
+        "surge-alloy/85000000",
+        "wolframite/1"
+    ],
+    "category": "turret",
+    "research": "meltdown",
+    "effect": [
+        {
+            "type": "StatusFieldAbility",
+            "effect": "mindustrinity-omen",
+            "range": 900000,
+            "reload": 200,
+            "duration": 300,
+            "activeEffect": {
+                "type": "MultiEffect",
+                "effects": [
+                ]
+            }
+        }
+    ],
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [ 
+            {
+                "type": "RegionPart",
+                "suffix": "-main",
+                "heatProgress": "warmup",
+                "heatColor": "FFFFFFFF",
+                "x": 0,
+                "y": 0
+            },
+            {
+                "type": "RegionPart",
+                "mirror": true,
+                "delai": 100,
+                "suffix": "-edge1",
+                "heatProgress": "warmup",
+                "heatColor": "FFFFFFFF",
+                "cooldownTime": 180,
+                "moveX": 3,
+                "moveY": 6,
+                "moveRot": -25,
+                "x": 0,
+                "y": 0,
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.999
+                }
+            },
+            {
+                "type": "RegionPart",
+                "mirror": true,
+                "delai": 20,
+                "suffix": "-edge2",
+                "heatProgress": "warmup",
+                "heatColor": "FFFFFFFF",
+                "cooldownTime": 180,
+                "moveX": 5,
+                "moveY": 5.5,
+                "moveRot": -30,
+                "x": 0,
+                "y": 0,
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.99
+                }
+            },
+            {
+                "type": "RegionPart",
+                "mirror": true,
+                "delai": 1,
+                "suffix": "-edge3",
+                "heatProgress": "warmup",
+                "heatColor": "FFFFFFFF",
+                "cooldownTime": 180,
+                "moveRot": -35,
+                "moveX": 10,
+                "moveY": 6,
+                "x": 0,
+                "y": 0,
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.9
+                }
+            },
+            {
+                "type": "ShapePart",
+                "progress": "warmup",
+                "rotateSpeed": 1,
+                "color": "FF4040",
+                "sides": 5,
+                "mirror": true,
+                "hollow": true,
+                "stroke": 0,
+                "strokeTo": 1,
+                "radius": 5.5,
+                "y": 0
+            },
+            {
+                "type": "HaloPart",
+                "progress": "warmup",
+                "color": "808080FF",
+                "mirror": true,
+                "stroke": 0,
+                "strokeTo": 1,
+                "haloRotation": 55,
+                "radius": 5.5,
+                "y": -19.5,
+                "x": 7.5,
+                "tri": true,
+                "haloRadius": 0,
+                "haloRadiusTo": 0,
+                "shapes": 2,
+                "triLengthTo": 9,
+                "triLength": 0
+            },
+            {
+                "type": "HaloPart",
+                "progress": "warmup",
+                "color": "000000FF",
+                "mirror": true,
+                "stroke": 0,
+                "strokeTo": 1,
+                "haloRotation": 55,
+                "radius": 5.5,
+                "y": -19.5,
+                "x": 7.5,
+                "tri": true,
+                "haloRadius": 0,
+                "haloRadiusTo": 0,
+                "shapes": 2,
+                "triLengthTo": 7,
+                "triLength": 0
+            },
+            {
+                "type": "shapePart",
+                "y": -19.5,
+                "x": 7.5,
+                "circle": true,
+                "color": "FF4040FF",
+                "stroke": 0,
+                "strokeTo": 0.7,
+                "radius": 0,
+                "radiusTo": 2.6,
+                "mirror": true
+            },
+            {
+                "type": "shapePart",
+                "y": -19.5,
+                "x": 7.5,
+                "circle": true,
+                "color": "FFFFFFFF",
+                "stroke": 0,
+                "strokeTo": 0.7,
+                "radius": 0,
+                "radiusTo": 0.8,
+                "mirror": true
+            }
+        ]
+    }
+}
