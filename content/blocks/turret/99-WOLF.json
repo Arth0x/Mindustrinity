@@ -129,8 +129,7 @@
                 "moveY": -18,
                 "moveX": -18,
                 "moveRot": 170,
-                "colorFrom": "FF404000",
-                "colorTo": "FFFFFFFF",
+                "color": "FFFFFFFF",
                 "heatColor": "FF4040FF"
             },
             {
