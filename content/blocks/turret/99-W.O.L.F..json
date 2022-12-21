@@ -124,7 +124,7 @@
                 "mirror": true,
                 "under": true,
                 "moveY": -6,
-                "moveX": -13,
+                "moveX": -34,
                 "moveRot": 170,
                 "color": "FF4040",
                 "heatColor": "FF4040"
