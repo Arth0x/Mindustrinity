@@ -125,7 +125,7 @@
                 "mirror": true,
                 "under": true,
                 "layerOffset":  -0.3,
-                "moveY": -18,
+                "moveY": -22,
                 "moveX": -18,
                 "moveRot": 170,
                 "color": "FF4040FF",
