@@ -150,7 +150,12 @@
                 "moveY": 6,
                 "moveRot": -35,
                 "x": 0,
-                "y": 0
+                "y": 0,
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 1
+                }
             },
             {
                 "type": "RegionPart",
@@ -160,23 +165,34 @@
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
                 "moveX": 5,
-                "moveY": 4,
+                "moveY": 6,
                 "moveRot": -35,
                 "x": 0,
-                "y": 0
+                "y": 0,
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.5
+                }
             },
             {
                 "type": "RegionPart",
+                
                 "mirror": true,
                 "delai": 1,
                 "suffix": "-edge3",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
                 "moveRot": -35,
-                "moveX": 8.2,
+                "moveX": 10,
                 "moveY": 6,
                 "x": 0,
-                "y": 0
+                "y": 0,
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0
+                }
             }
         ]
     }
