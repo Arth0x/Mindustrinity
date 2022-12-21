@@ -128,6 +128,19 @@
                 "moveRot": 170,
                 "color": "FF4040",
                 "heatColor": "FF4040"
+            },{
+                "outline" : false,
+                "layerOffset": 0,
+                "turretHeatLayer": 0,
+                "suffix": "-pine",
+                "heatProgress": "warmup",
+                "mirror": true,
+                "under": true,
+                "moveY": -6,
+                "moveX": -34,
+                "moveRot": 170,
+                "color": "FF4040",
+                "heatColor": "FF4040"
             },
             {
                 "type": "RegionPart",
