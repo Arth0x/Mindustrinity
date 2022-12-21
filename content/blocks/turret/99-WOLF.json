@@ -198,11 +198,12 @@
                 "progress": "warmup",
                 "rotateSpeed": 2,
                 "color": "FF4040",
-                "sides": 4,
+                "sides": 5,
+                "mirror": true,
                 "hollow": true,
                 "stroke": 0,
                 "strokeTo": 2,
-                "radius": 3,
+                "radius": 6,
                 "y": 0
             }
         ]
