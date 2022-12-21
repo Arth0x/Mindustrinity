@@ -120,6 +120,7 @@
                 "type": "RegionPart",
                 "outline" : false,
                 "suffix": "-reap",
+                "progress": "warmup",
                 "heatProgress": "warmup",
                 "mirror": true,
                 "moveY": -18,
@@ -131,30 +132,14 @@
             {
                 "type": "RegionPart",
                 "outline" : true,
-                "layerOffset": 1,
-                "turretHeatLayer": 1,
                 "suffix": "-poone",
+                "progress": "warmup",
                 "heatProgress": "warmup",
                 "mirror": true,
+                "under": true,
                 "moveY": -6,
                 "moveX": -34,
-                "moveRot": 170,
-                "color": "00FFFF",
-                "heatColor": "FF4040"
-            },
-            {
-                "type": "RegionPart",
-                "outline" : false,
-                "layerOffset": 1,
-                "turretHeatLayer": 1,
-                "suffix": "-poone",
-                "heatProgress": "warmup",
-                "mirror": true,
-                "moveY": -65,
-                "moveX": -34,
-                "moveRot": 170,
-                "color": "00FFFF",
-                "heatColor": "FF4040"
+                "moveRot": 170
             },
             {
                 "type": "RegionPart",
