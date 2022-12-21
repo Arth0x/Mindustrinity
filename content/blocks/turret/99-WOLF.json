@@ -127,10 +127,10 @@
                 "under": true,
                 "layerOffset":  -0.3,
                 "turretHeatLayer": 0,
-                "moveY": -22,
+                "moveY": -24,
                 "moveX": -18,
                 "moveRot": 170,
-                "color": "FF4040FF",
+                "color": "FFFFFFFF",
                 "heatColor": "FF4040FF"
             },
             {
@@ -219,8 +219,8 @@
                 "stroke": 0,
                 "strokeTo": 1,
                 "radius": 5.5,
-                "y": -25,
-                "x": 18
+                "y": -27,
+                "x": 15
             }
         ]
     }
