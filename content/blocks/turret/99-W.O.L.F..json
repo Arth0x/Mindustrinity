@@ -3,6 +3,7 @@
     "size": 6,
     "range": 640,
     "liquidConsumed": 0.6,
+    "warmupMaintainTime": 30,
     "shootWarmupSpeed": 0.08,
     "outlineColor": "0F0F0F",
     "cooldownTime": 240,
@@ -116,6 +117,8 @@
         "parts": [ 
             {
                 "outline" : false,
+                "layerOffset": -0.3,
+                "turretHeatLayer": -0.2,
                 "suffix": "-reap",
                 "heatProgress": "warmup",
                 "mirror": true,
