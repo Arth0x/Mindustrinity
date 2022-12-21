@@ -154,8 +154,7 @@
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
-                    "amount": 0.990,
-                    "sustain": 0.4
+                    "amount": 0.999
                 }
             },
             {
@@ -173,13 +172,11 @@
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
-                    "amount": 0.9,
-                    "sustain": 0.4
+                    "amount": 0.99
                 }
             },
             {
                 "type": "RegionPart",
-                
                 "mirror": true,
                 "delai": 1,
                 "suffix": "-edge3",
@@ -193,9 +190,20 @@
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
-                    "amount": 0.1,
-                    "sustain": 0.4
+                    "amount": 0.9
                 }
+            },
+            {
+                "type": "ShapePart",
+                "progress": "warmup",
+                "rotateSpeed": 2,
+                "color": "FF4040",
+                "sides": 4,
+                "hollow": true,
+                "stroke": 0,
+                "strokeTo": 2,
+                "radius": 3,
+                "y": 0
             }
         ]
     }
