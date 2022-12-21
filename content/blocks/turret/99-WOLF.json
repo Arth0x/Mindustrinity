@@ -147,14 +147,15 @@
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
                 "moveX": 3,
-                "moveY": 5,
+                "moveY": 6,
                 "moveRot": -35,
                 "x": 0,
                 "y": 0,
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
-                    "amount": 0.990
+                    "amount": 0.990,
+                    "sustain": 0.4
                 }
             },
             {
@@ -172,7 +173,8 @@
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
-                    "amount": 0.9
+                    "amount": 0.9,
+                    "sustain": 0.4
                 }
             },
             {
@@ -191,7 +193,8 @@
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
-                    "amount": 0.1
+                    "amount": 0.1,
+                    "sustain": 0.4
                 }
             }
         ]
