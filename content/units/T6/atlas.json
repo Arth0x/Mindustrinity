@@ -77,7 +77,7 @@
                 "colorTo": "84F491FF" 
             },
             "range": 300,
-            "amount": 3500,
+            "amount": 200,
             "reload": 300 
         },
         {

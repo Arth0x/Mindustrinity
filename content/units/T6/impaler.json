@@ -3,7 +3,7 @@
         "parent": "corvus"
     },
     "type": "legs",
-    "speed": 0.5,
+    "speed": 0.3,
     "rotateSpeed": 0.6,
     "mineSpeed": 10,
     "groundLayer": 75,
