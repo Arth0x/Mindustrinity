@@ -146,6 +146,7 @@
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
                 "moveX": 5,
+                "moveY": 5,
                 "moveRot": -35,
                 "x": 0,
                 "y": 0
@@ -157,6 +158,7 @@
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
                 "moveX": 5,
+                "moveY": 5,
                 "moveRot": -35,
                 "x": 0,
                 "y": 0
@@ -169,6 +171,7 @@
                 "heatColor": "FFFFFFFF",
                 "moveRot": -35,
                 "moveX": 5,
+                "moveY": 5,
                 "x": 0,
                 "y": 0
             }
