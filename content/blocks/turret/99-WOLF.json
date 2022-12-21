@@ -159,16 +159,7 @@
             },
             {
                 "type": "RegionPart",
-                "suffix": "-ff",
-                "heatProgress": "warmup",
-                "heatColor": "FFFFFFFF",
-                "moveRot": -35,
-                "x": 0,
-                "y": 0
-            },
-            {
-                "type": "RegionPart",
-                "suffix": "blade",
+                "suffix": "-blade",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
                 "moveRot": -35,
