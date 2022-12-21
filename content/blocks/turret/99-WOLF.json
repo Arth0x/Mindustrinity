@@ -213,7 +213,7 @@
             {
                 "type": "HaloPart",
                 "progress": "warmup",
-                "color": "FF4040",
+                "color": "FF4040FF",
                 "mirror": true,
                 "stroke": 0,
                 "strokeTo": 1,
@@ -233,7 +233,7 @@
                 "y": -32,
                 "x": 15,
                 "circle": true,
-                "color": "000000FF",
+                "color": "FF4040FF",
                 "stroke": 0,
                 "strokeTo": 0.7,
                 "radius": 2,
