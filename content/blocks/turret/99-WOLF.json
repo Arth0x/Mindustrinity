@@ -147,14 +147,14 @@
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
                 "moveX": 3,
-                "moveY": 6,
+                "moveY": 5,
                 "moveRot": -35,
                 "x": 0,
                 "y": 0,
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
-                    "amount": 0.9999
+                    "amount": 0.999
                 }
             },
             {
@@ -172,7 +172,7 @@
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
-                    "amount": 0.5
+                    "amount": 0.9
                 }
             },
             {
