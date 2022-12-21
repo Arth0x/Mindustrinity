@@ -154,7 +154,7 @@
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
-                    "amount": 0.999
+                    "amount": 0.990
                 }
             },
             {
@@ -191,7 +191,7 @@
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
-                    "amount": 0
+                    "amount": 0.1
                 }
             }
         ]
