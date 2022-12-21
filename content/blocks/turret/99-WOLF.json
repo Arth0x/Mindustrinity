@@ -125,6 +125,7 @@
                 "mirror": true,
                 "under": true,
                 "layerOffset":  -0.3,
+                "turretHeatLayer": -0.2,
                 "moveY": -18,
                 "moveX": -18,
                 "moveRot": 170,
@@ -135,6 +136,30 @@
             {
                 "type": "RegionPart",
                 "suffix": "-main",
+                "heatProgress": "warmup",
+                "heatColor": "FFFFFFFF",
+                "x": 0,
+                "y": 0
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-edge1",
+                "heatProgress": "warmup",
+                "heatColor": "FFFFFFFF",
+                "x": 0,
+                "y": 0
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-edge2",
+                "heatProgress": "warmup",
+                "heatColor": "FFFFFFFF",
+                "x": 0,
+                "y": 0
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-edge3",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
                 "x": 0,
