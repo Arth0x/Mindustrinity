@@ -143,6 +143,21 @@
             },
             {
                 "type": "RegionPart",
+                "suffix": "-blade",   
+                "mirror": true,
+                "under": true,
+                "x": 13,
+                "y": -8,
+                "rotation": -35,
+                "moveX": 5,
+                "progress": {
+                    "type": "recoil",
+                    "op": "delay",
+                    "amount": 0.80
+                }
+            },
+            {
+                "type": "RegionPart",
                 "suffix": "-main",
                 "heatProgress": "warmup",
                 "heatColor": "FF404080",
