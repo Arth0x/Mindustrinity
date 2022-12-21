@@ -225,7 +225,6 @@
                 "y": -32,
                 "x": 15,
                 "tri": true,
-                "haloRotateSpeed": 1.6,
                 "haloRadius": 8,
                 "haloRadiusTo": 8,
                 "shapes": 4,
