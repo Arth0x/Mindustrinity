@@ -5,6 +5,7 @@
     "liquidConsumed": 0.6,
     "warmupMaintainTime": 30,
     "shootWarmupSpeed": 0.08,
+    "haloProgress ": "warmup",
     "outlineColor": "0F0F0F",
     "cooldownTime": 240,
     "hasPower": true,
@@ -117,8 +118,6 @@
         "parts": [ 
             {
                 "outline" : false,
-                "layerOffset": 12,
-                "turretHeatLayer": 12,
                 "suffix": "-reap",
                 "heatProgress": "warmup",
                 "mirror": true,
@@ -129,29 +128,7 @@
                 "heatColor": "FF4040"
             },
             {
-                "outline" : false,
-                "suffix": "-reap",
-                "heatProgress": "warmup",
-                "mirror": true,
-                "moveY": -18,
-                "moveX": -18,
-                "moveRot": 170,
-                "color": "00FFFF",
-                "heatColor": "FF4040"
-            },
-            {
-                "outline" : false,
-                "suffix": "-reap",
-                "heatProgress": "warmup",
-                "mirror": true,
-                "moveY": -18,
-                "moveX": -18,
-                "moveRot": 170,
-                "color": "00FFFF",
-                "heatColor": "FF4040"
-            },
-            {
-                "outline" : false,
+                "outline" : true,
                 "layerOffset": 1,
                 "turretHeatLayer": 1,
                 "suffix": "-pine",
