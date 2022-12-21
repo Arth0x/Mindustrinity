@@ -127,7 +127,7 @@
                 "moveX": -18,
                 "moveRot": 170,
                 "color": "FF4040",
-                "heatColor": "FF4040"
+                "heatColor": "FFFFFF"
             },
             {
                 "type": "RegionPart",
@@ -160,7 +160,7 @@
                 "type": "RegionPart",
                 "suffix": "-main",
                 "heatProgress": "warmup",
-                "heatColor": "FF404080",
+                "heatColor": "FFFFFFFF",
                 "x": 0,
                 "y": 0
             }
