@@ -125,12 +125,10 @@
                 "mirror": true,
                 "under": true,
                 "layerOffset":  -0.3,
-                "turretHeatLayer": -0.2,
                 "moveY": -18,
                 "moveX": -18,
                 "moveRot": 170,
-                "colorFrom": "FF000000",
-                "colorTo": "FF4040FF",
+                "color": "FF4040FF",
                 "heatColor": "FF4040FF"
             },
             {
@@ -146,6 +144,7 @@
                 "suffix": "-edge1",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
+                "moveRot": 35,
                 "x": 0,
                 "y": 0
             },
@@ -154,6 +153,7 @@
                 "suffix": "-edge2",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
+                "moveRot": 35,
                 "x": 0,
                 "y": 0
             },
@@ -162,6 +162,7 @@
                 "suffix": "-edge3",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
+                "moveRot": 35,
                 "x": 0,
                 "y": 0
             }
