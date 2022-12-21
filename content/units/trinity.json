@@ -58,6 +58,7 @@
                 "type": "basicBulletType",
                 "sprite": "mindustrinity-heavy-bullet",
                 "damage": 175,
+                "buildingDamageMultiplier": 0.01,
                 "shrinkY": 0,
                 "shrinkX": 0,
                 "width": 15,
