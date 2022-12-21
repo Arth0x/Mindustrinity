@@ -217,7 +217,7 @@
                 "mirror": true,
                 "stroke": 0,
                 "strokeTo": 1,
-                "haloRotation": 50,
+                "haloRotation": 55,
                 "radius": 5.5,
                 "y": -32,
                 "x": 15,
@@ -234,10 +234,9 @@
                 "x": 15,
                 "circle": true,
                 "color": "FFFFFFFF",
-                "hollow": true,
                 "stroke": 0,
                 "strokeTo": 0.7,
-                "radius": 2,
+                "radius": 1,
                 "mirror": true
             }
         ]
