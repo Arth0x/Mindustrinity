@@ -145,6 +145,7 @@
                 "suffix": "-edge1",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
+                "moveX": 5,
                 "moveRot": -35,
                 "x": 0,
                 "y": 0
@@ -155,6 +156,7 @@
                 "suffix": "-edge2",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
+                "moveX": 5,
                 "moveRot": -35,
                 "x": 0,
                 "y": 0
@@ -162,12 +164,13 @@
             {
                 "type": "RegionPart",
                 "mirror": true,
-                "suffix": "-blade",
+                "suffix": "-edge3",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
                 "moveRot": -35,
+                "moveX": 5,
                 "x": 0,
-                "y": 49
+                "y": 0
             }
         ]
     }
