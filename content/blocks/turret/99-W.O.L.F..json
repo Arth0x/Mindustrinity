@@ -129,6 +129,7 @@
                 "heatColor": "FF4040"
             },
             {
+                "type": "RegionPart",
                 "outline" : true,
                 "layerOffset": 1,
                 "turretHeatLayer": 1,
@@ -142,6 +143,7 @@
                 "heatColor": "FF4040"
             },
             {
+                "type": "RegionPart",
                 "outline" : false,
                 "layerOffset": 1,
                 "turretHeatLayer": 1,
