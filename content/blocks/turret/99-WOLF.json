@@ -124,10 +124,12 @@
                 "heatProgress": "warmup",
                 "mirror": true,
                 "under": true,
+                "turretHeatLayer": "under",
                 "moveY": -18,
                 "moveX": -18,
                 "moveRot": 170,
-                "color": "FF404000",
+                "colorFrom": "FF404000",
+                "colorTo": "FF404000",
                 "heatColor": "FF4040FF"
             },
             {
