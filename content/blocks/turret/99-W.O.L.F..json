@@ -117,8 +117,8 @@
         "parts": [ 
             {
                 "outline" : false,
-                "layerOffset": 1,
-                "turretHeatLayer": 1,
+                "layerOffset": 10,
+                "turretHeatLayer": 10,
                 "suffix": "-reap",
                 "heatProgress": "warmup",
                 "mirror": true,
