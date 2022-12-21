@@ -126,7 +126,7 @@
                 "mirror": true,
                 "under": true,
                 "layerOffset":  -0.3,
-                "turretHeatLayer": -0.3,
+                "turretHeatLayer": -0.2,
                 "moveY": -22,
                 "moveX": -18,
                 "moveRot": 170,
@@ -207,6 +207,20 @@
                 "strokeTo": 1,
                 "radius": 5.5,
                 "y": 0
+            },
+            {
+                "type": "ShapePart",
+                "progress": "warmup",
+                "rotateSpeed": 1,
+                "color": "FF4040",
+                "sides": 5,
+                "mirror": true,
+                "hollow": true,
+                "stroke": 0,
+                "strokeTo": 1,
+                "radius": 5.5,
+                "y": -45,
+                "X": 45
             }
         ]
     }
