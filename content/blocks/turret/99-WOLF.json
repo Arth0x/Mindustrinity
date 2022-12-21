@@ -1,5 +1,6 @@
 {
 	"type": "ContinuousLiquidTurret",
+    "heath": 85000000,
     "size": 6,
     "range": 640,
     "liquidConsumed": 0.6,
