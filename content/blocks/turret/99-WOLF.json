@@ -144,7 +144,7 @@
                 "suffix": "-edge1",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
-                "moveRot": 35,
+                "moveRot": -35,
                 "x": 0,
                 "y": 0
             },
@@ -153,7 +153,7 @@
                 "suffix": "-edge2",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
-                "moveRot": 35,
+                "moveRot": -35,
                 "x": 0,
                 "y": 0
             },
@@ -162,7 +162,7 @@
                 "suffix": "-edge3",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
-                "moveRot": 35,
+                "moveRot": -35,
                 "x": 0,
                 "y": 0
             }
