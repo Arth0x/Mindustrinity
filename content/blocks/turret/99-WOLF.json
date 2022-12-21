@@ -217,7 +217,6 @@
                 "rotateSpeed": 1,
                 "color": "FF4040",
                 "mirror": true,
-                "hollow": true,
                 "stroke": 0,
                 "strokeTo": 1,
                 "radius": 5.5,
