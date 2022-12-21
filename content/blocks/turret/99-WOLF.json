@@ -141,6 +141,7 @@
             },
             {
                 "type": "RegionPart",
+                "mirror": true,
                 "suffix": "-edge1",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
@@ -150,6 +151,7 @@
             },
             {
                 "type": "RegionPart",
+                "mirror": true,
                 "suffix": "-edge2",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
@@ -159,6 +161,7 @@
             },
             {
                 "type": "RegionPart",
+                "mirror": true,
                 "suffix": "-blade",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
