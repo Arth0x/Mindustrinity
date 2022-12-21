@@ -230,8 +230,8 @@
             },
             {
                 "type": "shapePart",
-                "y": -32,
-                "x": 15,
+                "y": -22,
+                "x": 5,
                 "circle": true,
                 "color": "FF4040FF",
                 "stroke": 0,
@@ -242,8 +242,8 @@
             },
             {
                 "type": "shapePart",
-                "y": -32,
-                "x": 15,
+                "y": -22,
+                "x": 5,
                 "circle": true,
                 "color": "FFFFFFFF",
                 "stroke": 0,
