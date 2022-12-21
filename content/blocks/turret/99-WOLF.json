@@ -141,6 +141,7 @@
             },
             {
                 "type": "RegionPart",
+                "outline": false,
                 "suffix": "-blade",   
                 "mirror": true,
                 "under": true,
