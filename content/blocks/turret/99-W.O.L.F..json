@@ -117,21 +117,21 @@
         "parts": [ 
             {
                 "outline" : false,
-                "layerOffset": 0,
-                "turretHeatLayer": 0,
+                "layerOffset": 1,
+                "turretHeatLayer": 1,
                 "suffix": "-reap",
                 "heatProgress": "warmup",
                 "mirror": true,
                 "under": true,
-                "moveY": -6,
-                "moveX": -34,
+                "moveY": -18,
+                "moveX": -24,
                 "moveRot": 170,
                 "color": "FF4040",
                 "heatColor": "FF4040"
             },{
                 "outline" : false,
-                "layerOffset": 40,
-                "turretHeatLayer": 40,
+                "layerOffset": 1,
+                "turretHeatLayer": 1,
                 "suffix": "-pine",
                 "heatProgress": "warmup",
                 "mirror": true,
