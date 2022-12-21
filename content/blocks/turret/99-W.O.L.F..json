@@ -130,8 +130,8 @@
                 "heatColor": "FF4040"
             },{
                 "outline" : false,
-                "layerOffset": 0,
-                "turretHeatLayer": 0,
+                "layerOffset": 40,
+                "turretHeatLayer": 40,
                 "suffix": "-pine",
                 "heatProgress": "warmup",
                 "mirror": true,
