@@ -3,7 +3,7 @@
     "size": 6,
     "range": 640,
     "liquidConsumed": 0.6,
-    "minWarmup": 0.9992,
+    "minWarmup": 0.9999,
     "haloProgress ": "warmup",
     "outlineColor": "0F0F0F",
     "cooldownTime": 240,
@@ -25,7 +25,7 @@
             {
                 "type": "ParticleEffect",
                 "particles": 12,
-                "length": 100,
+                "length": 50,
                 "lifetime": 55,
                 "line": true,
                 "cone": 40,
@@ -33,13 +33,14 @@
                 "lenTo": 2,
                 "strokeFrom": 3,
                 "strokeTo": 0.5,
+                "sizeTo": 60,
                 "colorFrom": "FF4040",
                 "colorTo": "FF4040"
             },
             {
                 "type": "ParticleEffect",
                 "particles": 21,
-                "length": 100,
+                "length": 50,
                 "lifetime": 35,
                 "line": true,
                 "cone": 70,
@@ -47,13 +48,15 @@
                 "lenTo": 5,
                 "strokeFrom": 3,
                 "strokeTo": 0.5,
+                "sizeFrom": 0,
+                "sizeTo": 60,
                 "colorFrom": "FF4040",
                 "colorTo": "FF4040"
             },
             {
                 "type": "ParticleEffect",
                 "particles": 24,
-                "length": 140,
+                "length": 70,
                 "lifetime": 25,
                 "line": true,
                 "cone": 40,
@@ -61,6 +64,7 @@
                 "lenTo": 10,
                 "strokeFrom": 3,
                 "strokeTo": 0.5,
+                "sizeTo": 60,
                 "colorFrom": "FF4040",
                 "colorTo": "FF4040"
             }
@@ -122,7 +126,7 @@
                 "mirror": true,
                 "under": true,
                 "layerOffset":  -0.3,
-                "turretHeatLayer": -0.4,
+                "turretHeatLayer": -0.3,
                 "moveY": -22,
                 "moveX": -18,
                 "moveRot": 170,
