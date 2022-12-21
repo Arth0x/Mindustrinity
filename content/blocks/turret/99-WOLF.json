@@ -125,7 +125,7 @@
                 "mirror": true,
                 "under": true,
                 "layerOffset":  -0.3,
-                "heatLayer": -1,
+                "turretHeatLayer": -1,
                 "moveY": -22,
                 "moveX": -18,
                 "moveRot": 170,
@@ -149,7 +149,7 @@
                 "heatColor": "FFFFFFFF",
                 "moveX": 3,
                 "moveY": 6,
-                "moveRot": -29,
+                "moveRot": -25,
                 "x": 0,
                 "y": 0,
                 "progress": {
@@ -167,7 +167,7 @@
                 "heatColor": "FFFFFFFF",
                 "moveX": 5,
                 "moveY": 5.5,
-                "moveRot": -32,
+                "moveRot": -30,
                 "x": 0,
                 "y": 0,
                 "progress": {
