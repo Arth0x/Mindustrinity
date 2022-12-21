@@ -122,7 +122,7 @@
                 "mirror": true,
                 "under": true,
                 "layerOffset":  -0.3,
-                "turretHeatLayer": -0.9,
+                "turretHeatLayer": -0.4,
                 "moveY": -22,
                 "moveX": -18,
                 "moveRot": 170,
