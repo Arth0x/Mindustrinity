@@ -125,7 +125,7 @@
                 "heatProgress": "warmup",
                 "mirror": true,
                 "under": true,
-                "layerOffset":  -0.3,
+                "layer":  1,
                 "moveY": -24,
                 "moveX": -18,
                 "moveRot": 170,
@@ -229,13 +229,12 @@
                 "triLength": 0
             },
             {
-                "type": "HaloPart",
+                "type": "shapePart",
                 "y": -32,
                 "x": 15,
                 "circle": true,
                 "color": "FFFFFFFF",
                 "hollow": true,
-                "shapes": 1,
                 "stroke": 0,
                 "strokeTo": 0.7,
                 "radius": 2,
