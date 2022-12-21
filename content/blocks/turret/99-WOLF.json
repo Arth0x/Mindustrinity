@@ -218,6 +218,7 @@
                 "mirror": true,
                 "stroke": 0,
                 "strokeTo": 1,
+                "haloRotation": 40,
                 "radius": 5.5,
                 "y": -32,
                 "x": 15,
