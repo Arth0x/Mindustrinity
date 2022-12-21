@@ -124,7 +124,7 @@
                 "heatProgress": "warmup",
                 "mirror": true,
                 "under": true,
-                "turretHeatLayer": "under",
+                "turretHeatLayer": 110,
                 "moveY": -18,
                 "moveX": -18,
                 "moveRot": 170,
