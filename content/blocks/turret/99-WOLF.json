@@ -236,7 +236,8 @@
                 "color": "FF4040FF",
                 "stroke": 0,
                 "strokeTo": 0.7,
-                "radius": 2.6,
+                "radius": 0,
+                "radiusTo": 2.6,
                 "mirror": true
             },
             {
