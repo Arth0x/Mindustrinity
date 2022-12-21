@@ -96,6 +96,7 @@
     },
     "requirements": [
         "silicon/850",
+        "surge-alloy/850000000000",
         "wolframite/1"
     ],
     "category": "turret",
