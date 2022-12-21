@@ -196,14 +196,14 @@
             {
                 "type": "ShapePart",
                 "progress": "warmup",
-                "rotateSpeed": 2,
+                "rotateSpeed": 1,
                 "color": "FF4040",
                 "sides": 5,
                 "mirror": true,
                 "hollow": true,
                 "stroke": 0,
-                "strokeTo": 2,
-                "radius": 6,
+                "strokeTo": 1,
+                "radius": 5.5,
                 "y": 0
             }
         ]
