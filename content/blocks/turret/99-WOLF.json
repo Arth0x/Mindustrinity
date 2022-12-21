@@ -212,11 +212,10 @@
                 "y": 0
             },
             {
-                "type": "ShapePart",
+                "type": "HaloPart",
                 "progress": "warmup",
                 "rotateSpeed": 1,
                 "color": "FF4040",
-                "sides": 5,
                 "mirror": true,
                 "hollow": true,
                 "stroke": 0,
