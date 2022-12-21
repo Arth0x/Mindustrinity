@@ -14,7 +14,7 @@
     "recoil": 0,
     "shootY": 0,
     "shootCone": 360,
-    "aimChangeSpeed": 0.6,
+    "aimChangeSpeed": 0.8,
     "rotateSpeed": 0.6,
     "consumes" : {
         "power": 74
