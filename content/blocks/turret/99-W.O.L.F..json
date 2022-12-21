@@ -117,6 +117,7 @@
         "type": "DrawTurret",
         "parts": [ 
             {
+                "type": "RegionPart",
                 "outline" : false,
                 "suffix": "-reap",
                 "heatProgress": "warmup",
@@ -124,7 +125,7 @@
                 "moveY": -18,
                 "moveX": -18,
                 "moveRot": 170,
-                "color": "00FFFF",
+                "color": "FF4040",
                 "heatColor": "FF4040"
             },
             {
@@ -141,7 +142,7 @@
                 "heatColor": "FF4040"
             },
             {
-                "outline" : falsee,
+                "outline" : false,
                 "layerOffset": 1,
                 "turretHeatLayer": 1,
                 "suffix": "-poone",
