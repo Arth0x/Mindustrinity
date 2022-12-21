@@ -122,11 +122,10 @@
                 "suffix": "-reap",
                 "heatProgress": "warmup",
                 "mirror": true,
-                "under": true,
                 "moveY": -18,
                 "moveX": -18,
                 "moveRot": 170,
-                "color": "FF4040",
+                "color": "00FFFF",
                 "heatColor": "FF4040"
             },{
                 "outline" : false,
@@ -135,11 +134,10 @@
                 "suffix": "-pine",
                 "heatProgress": "warmup",
                 "mirror": true,
-                "under": true,
                 "moveY": -6,
                 "moveX": -34,
                 "moveRot": 170,
-                "color": "FF4040",
+                "color": "00FFFF",
                 "heatColor": "FF4040"
             },
             {
