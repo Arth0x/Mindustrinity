@@ -153,7 +153,8 @@
                 "y": 0,
                 "progress": {
                     "type": "warmup",
-                    "delay": 1
+                    "op": "delay",
+                    "amount": 0.9999
                 }
             },
             {
@@ -163,14 +164,15 @@
                 "suffix": "-edge2",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
-                "moveX": 6,
+                "moveX": 5,
                 "moveY": 6,
                 "moveRot": -35,
                 "x": 0,
                 "y": 0,
                 "progress": {
                     "type": "warmup",
-                    "delay": 0.5
+                    "op": "delay",
+                    "amount": 0.5
                 }
             },
             {
@@ -183,12 +185,13 @@
                 "heatColor": "FFFFFFFF",
                 "moveRot": -35,
                 "moveX": 10,
-                "moveY": 10,
+                "moveY": 6,
                 "x": 0,
                 "y": 0,
                 "progress": {
                     "type": "warmup",
-                    "delay": 0
+                    "op": "delay",
+                    "amount": 0
                 }
             }
         ]
