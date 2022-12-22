@@ -4,7 +4,6 @@
     "type": "GenericCrafter",
     "category": "crafting",
 	"outputItem": "elementium/1",
-	
 	"hasPower": true,
 	"hasItems": true,
     "hasLiquids": true,
@@ -28,12 +27,12 @@
 		"power": 2,
 		"items": {
 			"items": [
-               "infused-aether/5",
-               "infused-iridium/5",
-               "infused-vulcanite/5"
+               "infused-aether/25",
+               "infused-iridium/25",
+               "infused-vulcanite/25"
 			]
 		},
-        "liquid": "cryoaether/2"
+        "liquid": "cryoaether/1.2"
 	},
     "drawer": {
         "type": "DrawMulti",
