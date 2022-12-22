@@ -21,7 +21,7 @@
     "legMaxLength": 1.6,
     "legPairOffset": 2,
     "legContinuousMove": true,
-    "legMoveSpace": 1.5,
+    "legMoveSpace": 1,
     "legForwardScl": 0.58,
     "health": 20000,
     "hitSize": 45,
