@@ -47,7 +47,79 @@
     
     "drawer": {
         "type": "DrawTurret",
-        "parts": [ 
+        "parts": [
+            {
+                "type": "RegionPart",
+                "heatcolor": "FF4040FF",
+                "moveY": 2.5,
+                "suffix": "-1",
+                "x": 0,
+                "y": 0,
+                "heatProgress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0
+                },
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0
+                }
+            },
+            {
+                "type": "RegionPart",
+                "heatcolor": "FF4040FF",
+                "moveY": 2.5,
+                "suffix": "-2",
+                "x": 0,
+                "y": 0,
+                "heatProgress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.9
+                },
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.9
+                }
+            },
+            {
+                "type": "RegionPart",
+                "heatcolor": "FF4040FF",
+                "moveY": 2.5,
+                "suffix": "-3",
+                "x": 0,
+                "y": 0,
+                "heatProgress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.99
+                },
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.99
+                }
+            },
+            {
+                "type": "RegionPart",
+                "heatcolor": "FF4040FF",
+                "moveY": 2.5,
+                "suffix": "-4",
+                "x": 0,
+                "y": 0,
+                "heatProgress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.999
+                },
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.999
+                }
+            },
             {
                 "type": "RegionPart",
                 "suffix": "-blade",  
@@ -120,79 +192,6 @@
                 "cooldown": 300,
                 "x": 0,
                 "y": 0
-            },
-            {
-                "type": "RegionPart",
-                "heatcolor": "FF4040FF",
-                "moveY": 2.5,
-                "suffix": "-1",
-                "x": 0,
-                "y": 0,
-                "heatProgress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0
-                },
-                "progress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0
-                }
-            },
-            {
-                "type": "RegionPart",
-                "heatcolor": "FF4040FF",
-                "moveY": 2.5,
-                "suffix": "-2",
-                "x": 0,
-                "y": 0,
-                "heatProgress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0.9
-                },
-                "progress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0.9
-                }
-            },
-            {
-                "type": "RegionPart",
-                "heatcolor": "FF4040FF",
-                "moveY": 2.5,
-                "suffix": "-3",
-                "x": 0,
-                "y": 0,
-                "heatProgress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0.99
-                },
-                "progress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0.99
-                }
-            },
-            {
-                "type": "RegionPart",
-                "heatcolor": "FF4040FF",
-                "moveY": 2.5,
-                "suffix": "-4",    
-                "mirror": true,
-                "x": 0,
-                "y": 0,
-                "heatProgress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0.999
-                },
-                "progress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0.999
-                }
             },
             {
                 "type": "FlarePart",
