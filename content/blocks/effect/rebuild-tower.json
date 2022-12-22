@@ -1,5 +1,6 @@
 {
     "type": "BuildTurret",
+    "category": "effect",
     "range": 350,
     "size": 5,
     "buildSpeed": 2.5,

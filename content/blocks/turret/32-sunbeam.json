@@ -9,7 +9,7 @@
     "reload": 120,
     "ShootX": -20,
     "shootDuration": 400,
-    "cooldownTime": 240,
+    "cooldownTime": 90,
     "consumes" : {
         "power": 28,
         "liquid": {
@@ -32,7 +32,7 @@
         "damage": 120,
         "width": 7,
         "status": "vulcanise",
-    "statusDuration": 120,
+        "statusDuration": 120,
         "length": 325,
         "flareWidth": 5,
         "flareLength": 28,
