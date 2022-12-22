@@ -9,7 +9,7 @@
 	},
     "requirements": [
         "silicon/375",
-        "infused-iridiu/550",
+        "infused-iridium/550",
         "elementium/125",
         "surge-alloy/250"
 	]

@@ -61,7 +61,7 @@
     },
 	"requirements": [
         "infused-aether/330",
-        "infused-iridiu/330",
+        "infused-iridium/330",
         "infused-vulcanite/330",
         "surge-alloy/250"
 	]
