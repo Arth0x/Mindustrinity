@@ -19,37 +19,5 @@
     "faceTarget": true,
     "isEnemy": false,
     "weapons": [
-        {
-            "controllable": false,
-            "autoTarget": true,
-            "rotateSpeed": 0,
-            "alternate": false,
-            "mirror": false,
-            "top": true,
-            "x": 0,
-            "y": 0,
-            "reload": 45,
-            "recoil": 0,
-            "rotate":true,
-            "inaccuracy":7,
-            "shootSound":"missile",
-            "bullet": {
-                "type":"MissileBulletType",
-                "shootEffect":"shootHealYellow",
-                "damage":10,
-                "speed":4,
-                "keepVelocity":false,
-                "frontColor":"FFFFFFF",
-                "backColor":"84F491FF",
-                "trailColor":"84F491FF",
-                "lifetime":50,
-                "homingPower":4,
-                "homingRange":60,
-                "weaveScale":5,
-                "weaveMag":10,
-                "height":8,
-                "width":8
-            }  
-        }
     ]
 }
