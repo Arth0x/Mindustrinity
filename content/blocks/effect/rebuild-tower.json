@@ -1,0 +1,16 @@
+{
+    "type": "BuildTurret",
+    "range": 200,
+    "size": 3,
+    "buildSpeed": 1.5,
+    "consumes": {
+		"power": 5,
+        "liquid": "cryoaether/3"
+	},
+    "requirements": [
+        "silicon/375",
+        "infused-iridiu/550",
+        "elementium/125",
+        "surge-alloy/250"
+	]
+}
