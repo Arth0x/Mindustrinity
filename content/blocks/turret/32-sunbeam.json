@@ -4,12 +4,12 @@
     "research": "20-avalanche",
 	"size": 5,
 	"health": 2900,
+    "minWarmup": 0.99999,
 	"range": 325,
     "reload": 160,
     "ShootX": -20,
     "shootDuration": 400,
     "cooldownTime": 240,
-    "heatcolor": "FF4040FF",
     "consumes" : {
         "power": 28,
         "liquid": {
@@ -101,6 +101,7 @@
                 "type": "RegionPart",
                 "suffix": "-edge", 
                 "heatProgress": "warmup",  
+                "heatcolor": "FF4040FF",
                 "mirror": true,
                 "under": false,
                 "x": 0,
@@ -121,13 +122,63 @@
             },
             {
                 "type": "RegionPart",
-                "progress": "warmup",
                 "heatProgress": "warmup",
-                "moveY": 2.1,
-                "suffix": "-mainh",    
+                "heatcolor": "FF4040FF",
+                "moveY": 2.5,
+                "suffix": "-main1",    
                 "mirror": true,
                 "x": 0,
-                "y": 0
+                "y": 0,
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0
+                }
+            },
+            {
+                "type": "RegionPart",
+                "heatProgress": "warmup",
+                "heatcolor": "FF4040FF",
+                "moveY": 2.5,
+                "suffix": "-main2",    
+                "mirror": true,
+                "x": 0,
+                "y": 0,
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.9
+                }
+            },
+            {
+                "type": "RegionPart",
+                "heatProgress": "warmup",
+                "heatcolor": "FF4040FF",
+                "moveY": 2.5,
+                "suffix": "-main3",    
+                "mirror": true,
+                "x": 0,
+                "y": 0,
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.99
+                }
+            },
+            {
+                "type": "RegionPart",
+                "heatProgress": "warmup",
+                "heatcolor": "FF4040FF",
+                "moveY": 2.5,
+                "suffix": "-main4",    
+                "mirror": true,
+                "x": 0,
+                "y": 0,
+                "progress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.999
+                }
             },
             {
                 "type": "FlarePart",
