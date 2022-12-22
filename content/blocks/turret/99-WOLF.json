@@ -149,7 +149,6 @@
             {
                 "type": "RegionPart",
                 "mirror": true,
-                "delai": 20,
                 "suffix": "-edge2",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
@@ -168,7 +167,6 @@
             {
                 "type": "RegionPart",
                 "mirror": true,
-                "delai": 1,
                 "suffix": "-edge3",
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",

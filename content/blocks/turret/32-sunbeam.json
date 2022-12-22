@@ -125,8 +125,7 @@
                 "type": "RegionPart",
                 "heatcolor": "FF4040FF",
                 "moveY": 2.5,
-                "suffix": "-1",    
-                "mirror": true,
+                "suffix": "-1",
                 "x": 0,
                 "y": 0,
                 "heatProgress": {
@@ -144,8 +143,7 @@
                 "type": "RegionPart",
                 "heatcolor": "FF4040FF",
                 "moveY": 2.5,
-                "suffix": "-2",    
-                "mirror": true,
+                "suffix": "-2",
                 "x": 0,
                 "y": 0,
                 "heatProgress": {
@@ -163,8 +161,7 @@
                 "type": "RegionPart",
                 "heatcolor": "FF4040FF",
                 "moveY": 2.5,
-                "suffix": "-3",    
-                "mirror": true,
+                "suffix": "-3",
                 "x": 0,
                 "y": 0,
                 "heatProgress": {
