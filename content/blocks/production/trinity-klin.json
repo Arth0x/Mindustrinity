@@ -27,9 +27,9 @@
 		"power": 2,
 		"items": {
 			"items": [
-               "infused-aether/25",
-               "infused-iridium/25",
-               "infused-vulcanite/25"
+               "infused-aether/50",
+               "infused-iridium/50",
+               "infused-vulcanite/50"
 			]
 		},
         "liquid": "cryoaether/1.2"
