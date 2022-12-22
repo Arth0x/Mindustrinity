@@ -189,7 +189,7 @@
                 "heatProgress": {
                     "type": "warmup",
                     "op": "delay",
-                    "amount": 0.99
+                    "amount": 0.999
                 },
                 "progress": {
                     "type": "warmup",
