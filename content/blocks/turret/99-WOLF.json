@@ -196,66 +196,6 @@
                 "strokeTo": 1,
                 "radius": 5.5,
                 "y": 0
-            },
-            {
-                "type": "HaloPart",
-                "progress": "warmup",
-                "color": "808080FF",
-                "mirror": true,
-                "stroke": 0,
-                "strokeTo": 1,
-                "haloRotation": 55,
-                "radius": 5.5,
-                "y": -19.5,
-                "x": 7.5,
-                "tri": true,
-                "haloRadius": 0,
-                "haloRadiusTo": 0,
-                "shapes": 2,
-                "triLengthTo": 9,
-                "triLength": 0
-            },
-            {
-                "type": "HaloPart",
-                "progress": "warmup",
-                "color": "000000FF",
-                "mirror": true,
-                "stroke": 0,
-                "strokeTo": 1,
-                "haloRotation": 55,
-                "radius": 5.5,
-                "y": -19.5,
-                "x": 7.5,
-                "tri": true,
-                "haloRadius": 0,
-                "haloRadiusTo": 0,
-                "shapes": 2,
-                "triLengthTo": 7,
-                "triLength": 0
-            },
-            {
-                "type": "shapePart",
-                "y": -19.5,
-                "x": 7.5,
-                "circle": true,
-                "color": "FF4040FF",
-                "stroke": 0,
-                "strokeTo": 0.7,
-                "radius": 0,
-                "radiusTo": 2.6,
-                "mirror": true
-            },
-            {
-                "type": "shapePart",
-                "y": -19.5,
-                "x": 7.5,
-                "circle": true,
-                "color": "FFFFFFFF",
-                "stroke": 0,
-                "strokeTo": 0.7,
-                "radius": 0,
-                "radiusTo": 0.8,
-                "mirror": true
             }
         ]
     }
