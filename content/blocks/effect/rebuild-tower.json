@@ -7,6 +7,9 @@
 		"power": 5,
         "liquid": "cryoaether/3"
 	},
+    "drawer": {
+        "type": "DrawTurret"
+    },
     "requirements": [
         "silicon/375",
         "infused-iridium/550",
