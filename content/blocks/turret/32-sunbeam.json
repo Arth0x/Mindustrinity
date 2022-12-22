@@ -123,13 +123,17 @@
             },
             {
                 "type": "RegionPart",
-                "heatProgress": "warmup",
                 "heatcolor": "FF4040FF",
                 "moveY": 2.5,
-                "suffix": "-main1",    
+                "suffix": "-1",    
                 "mirror": true,
                 "x": 0,
                 "y": 0,
+                "heatProgress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0
+                },
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
@@ -138,13 +142,17 @@
             },
             {
                 "type": "RegionPart",
-                "heatProgress": "warmup",
                 "heatcolor": "FF4040FF",
                 "moveY": 2.5,
-                "suffix": "-main2",    
+                "suffix": "-2",    
                 "mirror": true,
                 "x": 0,
                 "y": 0,
+                "heatProgress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.9
+                },
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
@@ -153,13 +161,17 @@
             },
             {
                 "type": "RegionPart",
-                "heatProgress": "warmup",
                 "heatcolor": "FF4040FF",
                 "moveY": 2.5,
-                "suffix": "-main3",    
+                "suffix": "-3",    
                 "mirror": true,
                 "x": 0,
                 "y": 0,
+                "heatProgress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.99
+                },
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
@@ -168,13 +180,17 @@
             },
             {
                 "type": "RegionPart",
-                "heatProgress": "warmup",
                 "heatcolor": "FF4040FF",
                 "moveY": 2.5,
-                "suffix": "-main4",    
+                "suffix": "-4",    
                 "mirror": true,
                 "x": 0,
                 "y": 0,
+                "heatProgress": {
+                    "type": "warmup",
+                    "op": "delay",
+                    "amount": 0.99
+                },
                 "progress": {
                     "type": "warmup",
                     "op": "delay",
