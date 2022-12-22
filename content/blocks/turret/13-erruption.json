@@ -10,7 +10,6 @@
     "reload": 0.5,
     "inaccuracy": 8,
     "velocityRnd": 0.55,
-    "shootEffect": "hitMeltdown",
     "ammoTypes": {
         "slag": {
             "type": "LiquidBulletType",
