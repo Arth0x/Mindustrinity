@@ -5,7 +5,7 @@
     "buildSpeed": 2.5,
     "consumes": {
 		"power": 5,
-        "liquid": "cryoaether/3"
+        "liquid": "cryoaether/1.9"
 	},
     "drawer": {
         "type": "DrawTurret"
