@@ -84,7 +84,7 @@
             "speed": 9,
             "puddleSize": 25,
             "lifetime": 80,
-            "status": "vulcanised",
+            "status": "vulcanise",
             "statusDuration": 60,
             "drag": 0.02,
             "orbSize": 3,
