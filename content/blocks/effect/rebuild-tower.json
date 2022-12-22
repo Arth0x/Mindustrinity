@@ -1,8 +1,8 @@
 {
     "type": "BuildTurret",
-    "range": 200,
-    "size": 3,
-    "buildSpeed": 1.5,
+    "range": 350,
+    "size": 5,
+    "buildSpeed": 2.5,
     "consumes": {
 		"power": 5,
         "liquid": "cryoaether/3"
