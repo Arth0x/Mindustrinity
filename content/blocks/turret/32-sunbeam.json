@@ -6,7 +6,7 @@
 	"health": 2900,
     "minWarmup": 0.99999,
 	"range": 325,
-    "reload": 160,
+    "reload": 120,
     "ShootX": -20,
     "shootDuration": 400,
     "cooldownTime": 240,
