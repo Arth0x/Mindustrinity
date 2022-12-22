@@ -113,7 +113,8 @@
             {
                 "type": "RegionPart",
                 "suffix": "-main", 
-                "heatProgress": "warmup",  
+                "heatProgress": "warmup",
+                "heatcolor": "FF4040FF",  
                 "mirror": false,
                 "under": false,
                 "cooldown": 300,
