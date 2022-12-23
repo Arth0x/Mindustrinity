@@ -135,7 +135,7 @@
                 "heatProgress": "warmup",
                 "heatColor": "FFFFFFFF",
                 "cooldownTime": 180,
-                "moveX": 3,
+                "moveX": 1,
                 "moveY": 5,
                 "moveRot": -20,
                 "x": 0,
