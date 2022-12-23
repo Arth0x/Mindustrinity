@@ -136,8 +136,8 @@
                 "heatColor": "FFFFFFFF",
                 "cooldownTime": 180,
                 "moveX": 3,
-                "moveY": 6,
-                "moveRot": -25,
+                "moveY": 5,
+                "moveRot": -20,
                 "x": 0,
                 "y": 0,
                 "progress": {
