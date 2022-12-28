@@ -2,6 +2,7 @@
     "name": "Trinity Klin",
     "size": 5,
     "type": "GenericCrafter",
+    "research": "vulcanite-infuser",
     "category": "crafting",
 	"outputItem": "elementium/1",
 	"hasPower": true,
