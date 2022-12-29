@@ -1,5 +1,6 @@
 {
 	"type": "Drill",
+	"health": 280,
 	"size": 2,
 	"tier": 3,
 	"hasLiquids": true,
