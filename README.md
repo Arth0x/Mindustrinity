@@ -6,10 +6,10 @@
 
 <h2>This is not a full release and might be bugged, unbalanced or not textured so keep it up to date.<h2>
 
-<h2>Warning !s
+<h2>
+! Warning !
 
-
-I Personally use other mod sprites, but TEMPORARLY I will change them when the mod will be in full release (just the time i make my own).
+I Personally use other mod sprites, but TEMPORARLY I will replace them when the mod will be in full release (just the time i make my own).
 
 If you don't want to see your sprites in my mod (even temporary), ask me and i will remove them. No offences.<h2> 
 
