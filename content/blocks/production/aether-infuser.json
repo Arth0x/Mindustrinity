@@ -60,7 +60,7 @@
             },
             {
                 "type": "DrawFlame",
-                "flameColor": "FF0000"  
+                "flameColor": "00000000"  
             }
         ]
     },
