@@ -57,6 +57,10 @@
         "drawers": [
             {
                 "type": "DrawDefault"
+            },
+            {
+                "type": "DrawFlame",
+                "flameColor": "FF0000"  
             }
         ]
     },
