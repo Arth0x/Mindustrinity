@@ -53,6 +53,10 @@
             },
             {
                 "type": "DrawDefault" 
+            },
+            {
+                "type": "DrawFlame",
+                "flameColor": "59ABFFFF"  
             }
         ]
     },
