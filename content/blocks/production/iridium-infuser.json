@@ -40,7 +40,7 @@
                 {
                 "type": "ParticleEffect",
                 "particles": 6,
-                "length": 25,
+                "length": 20,
                 "lifetime": 60,
                 "interp": "circleOut",
                 "sizeInterp": "pow5In",

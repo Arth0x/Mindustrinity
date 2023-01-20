@@ -14,7 +14,7 @@
         "effects": [ {
                 "type": "ParticleEffect",
                 "particles": 8,
-                "length": 15,
+                "length": 10,
                 "lifetime": 30,
                 "interp": "circleOut",
                 "sizeInterp": "pow5In",
@@ -27,7 +27,7 @@
             {
                 "type": "ParticleEffect",
                 "particles": 7,
-                "length": 20,
+                "length": 15,
                 "lifetime": 40,
                 "interp": "circleOut",
                 "sizeInterp": "pow5In",
@@ -40,7 +40,7 @@
             {
                 "type": "ParticleEffect",
                 "particles": 6,
-                "length": 25,
+                "length": 20,
                 "lifetime": 60,
                 "interp": "circleOut",
                 "sizeInterp": "pow5In",
