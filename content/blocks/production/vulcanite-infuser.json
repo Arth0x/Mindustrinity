@@ -16,34 +16,8 @@
         "type": "multiEffect",
         "effects": [ {
                 "type": "ParticleEffect",
-                "particles": 4,
-                "length": 15,
-                "lifetime": 15,
-                "interp": "circleOut",
-                "sizeInterp": "pow5In",
-                "lightColor": "FF6D59FF",
-                "colorFrom": "787878",
-                "colorTo": "FF6D59FF",
-                "sizeFrom": 4.5,
-                "sizeTo": 0
-                },
-                {
-                "type": "ParticleEffect",
-                "particles": 3,
-                "length": 20,
-                "lifetime": 20,
-                "interp": "circleOut",
-                "sizeInterp": "pow5In",
-                "lightColor": "FF6D59FF",
-                "colorFrom": "787878",
-                "colorTo": "FF6D59FF",
-                "sizeFrom": 3.5,
-                "sizeTo": 0
-                },
-                {
-                "type": "ParticleEffect",
-                "particles": 2,
-                "length": 25,
+                "particles": 8,
+                "length": 10,
                 "lifetime": 30,
                 "interp": "circleOut",
                 "sizeInterp": "pow5In",
@@ -51,6 +25,32 @@
                 "colorFrom": "787878",
                 "colorTo": "FF6D59FF",
                 "sizeFrom": 2,
+                "sizeTo": 0
+                },
+                {
+                "type": "ParticleEffect",
+                "particles": 7,
+                "length": 15,
+                "lifetime": 40,
+                "interp": "circleOut",
+                "sizeInterp": "pow5In",
+                "lightColor": "FF6D59FF",
+                "colorFrom": "787878",
+                "colorTo": "FF6D59FF",
+                "sizeFrom": 1.5,
+                "sizeTo": 0
+                },
+                {
+                "type": "ParticleEffect",
+                "particles": 6,
+                "length": 20,
+                "lifetime": 60,
+                "interp": "circleOut",
+                "sizeInterp": "pow5In",
+                "lightColor": "FF6D59FF",
+                "colorFrom": "787878",
+                "colorTo": "FF6D59FF",
+                "sizeFrom": 0.5,
                 "sizeTo": 0
                 }
             ]
