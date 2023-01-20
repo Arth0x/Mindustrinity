@@ -13,22 +13,9 @@
         "type": "multiEffect",
         "effects": [ {
                 "type": "ParticleEffect",
-                "particles": 4,
+                "particles": 9,
                 "length": 15,
-                "lifetime": 15,
-                "interp": "circleOut",
-                "sizeInterp": "pow5In",
-                "lightColor": "59ABFFFF",
-                "colorFrom": "787878",
-                "colorTo": "59ABFFFF",
-                "sizeFrom": 4.5,
-                "sizeTo": 0
-            },
-            {
-                "type": "ParticleEffect",
-                "particles": 3,
-                "length": 20,
-                "lifetime": 20,
+                "lifetime": 30,
                 "interp": "circleOut",
                 "sizeInterp": "pow5In",
                 "lightColor": "59ABFFFF",
@@ -39,15 +26,28 @@
             },
             {
                 "type": "ParticleEffect",
-                "particles": 2,
-                "length": 25,
-                "lifetime": 30,
+                "particles": 8,
+                "length": 20,
+                "lifetime": 40,
                 "interp": "circleOut",
                 "sizeInterp": "pow5In",
                 "lightColor": "59ABFFFF",
                 "colorFrom": "787878",
                 "colorTo": "59ABFFFF",
-                "sizeFrom": 2,
+                "sizeFrom": 2.5,
+                "sizeTo": 0
+            },
+            {
+                "type": "ParticleEffect",
+                "particles": 7,
+                "length": 25,
+                "lifetime": 60,
+                "interp": "circleOut",
+                "sizeInterp": "pow5In",
+                "lightColor": "59ABFFFF",
+                "colorFrom": "787878",
+                "colorTo": "59ABFFFF",
+                "sizeFrom": 1,
                 "sizeTo": 0
             }
         ]
