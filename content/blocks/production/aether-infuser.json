@@ -59,8 +59,9 @@
                 "type": "DrawDefault"
             },
             {
-                "type": "DrawFlame",
-                "flameColor": "59ABFFFF"  
+                "type": "DrawGlowRegion",
+                "suffix": "-glow",
+                "color": "66B1FFFF"
             }
         ]
     },
