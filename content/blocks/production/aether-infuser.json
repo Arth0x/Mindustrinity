@@ -7,7 +7,7 @@
     "itemCapacity": 80,
     "hasLiquids": true,
     "liquidCapacity": 180,
-    "craftTime": 40,
+    "craftTime": 80,
     "ambientSound": "smelter",
     "craftEffect": {
         "type": "multiEffect",
@@ -69,10 +69,10 @@
         "power": 3,
         "items": {
             "items": [
-                "steel/1"
+                "steel/2"
             ]
         },
-        "liquid": "aether/0.4"
+        "liquid": "aether/0.8"
     },
     "requirements": [
         "graphite/70",
@@ -81,6 +81,6 @@
         "silicon/80"
     ],
     "outputItems": [
-        "infused-aether/1"
+        "infused-aether/2"
     ]
 }
