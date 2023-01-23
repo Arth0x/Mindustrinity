@@ -46,6 +46,11 @@
             },
             {
                 "type": "DrawDefault"
+            },
+            {
+                "type": "DrawGlowRegion",
+                "suffix": "-glow",
+                "color": "66B1FFFF"
             }
         ]
     },
