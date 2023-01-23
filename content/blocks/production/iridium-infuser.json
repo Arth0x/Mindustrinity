@@ -7,7 +7,7 @@
     "itemCapacity": 80,
     "hasLiquids": true,
     "liquidCapacity": 180,
-    "craftTime": 40,
+    "craftTime": 80,
     "ambientSound": "smelter",
     "craftEffect": {
         "type": "multiEffect",
@@ -59,8 +59,9 @@
                     "type": "DrawDefault"
                 },
                 {
-                    "type": "DrawFlame",
-                    "flameColor": "FFFB99FF"  
+                    "type": "DrawGlowRegion",
+                    "suffix": "-glow",
+                    "color": "FFFFFFFF"
                 }
             ]
     },  
@@ -68,13 +69,10 @@
         "power": 3,
         "items": {
             "items": [
-                "steel/1"
+                "steel/2"
             ]
         },
-        "liquid": {
-            "liquid": "iridium",
-            "amount": 0.4
-        }
+        "liquid": "iridium/0.4"
     },
     "requirements": [
         "graphite/70",
@@ -83,6 +81,6 @@
         "silicon/80"
     ],
     "outputItems": [
-        "infused-iridium/1"
+        "infused-iridium/2"
     ]
 }

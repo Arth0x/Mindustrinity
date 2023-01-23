@@ -72,7 +72,7 @@
                 "steel/2"
             ]
         },
-        "liquid": "aether/0.8"
+        "liquid": "aether/0.4"
     },
     "requirements": [
         "graphite/70",

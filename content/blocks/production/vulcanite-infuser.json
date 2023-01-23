@@ -8,7 +8,7 @@
     "hasItems": true,
     "hasLiquids": false,
     "itemCapacity": 80,
-    "craftTime": 40,
+    "craftTime": 80,
     "ambientSound": "smelter",
     "ambientSoundVolume": 0.07,
     "updateEffect": "none",
@@ -59,7 +59,7 @@
         "power": 3,
         "items": {
             "items": [
-                "steel/1"
+                "steel/2"
             ]
         },
         "liquid": "vulcanite/0.4"
@@ -77,12 +77,13 @@
                 "type": "DrawDefault"
             },
             {
-                "type": "DrawFlame",
-                "flameColor": "FF6D59FF"  
+                "type": "DrawGlowRegion",
+                "suffix": "-glow",
+                "color": "FFFFFFFF"
             }
         ]
     },
     "outputItems": [
-        "infused-vulcanite/1"
+        "infused-vulcanite/2"
     ]
 }
