@@ -34,14 +34,8 @@
             },
             {
                 "type": "DrawRegion",
-                "suffix": "-spinner-1",
+                "suffix": "-srotor",
                 "rotateSpeed": 3,
-                "spinSprite": true
-            },
-            {
-                "type": "DrawRegion",
-                "suffix": "-spinner-2",
-                "rotateSpeed": -2,
                 "spinSprite": true
             },
             {
