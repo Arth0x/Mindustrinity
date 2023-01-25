@@ -56,7 +56,7 @@
             "maxTargets": 10,
             "damage": 100,
             "healPercent": 0.6,
-            "range": 300,
+            "range": 200,
             "sectors": 4,
             "rotateSpeed": 3,
             "hitBuildings": true,

@@ -163,7 +163,7 @@
         {
             "type": "ShieldArcAbility",
             "radius": 60,
-            "region": "mindustrinity-scylla-shield",
+            "region": "mindustrinity-atlas-shield",
             "regen": 11,
             "drawArc": false,
             "whenShooting": false,
