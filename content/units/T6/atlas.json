@@ -87,7 +87,7 @@
             "drawArc": false,
             "whenShooting": false,
             "regen": 15,
-            "width": 25,
+            "width": 11,
             "max": 12000,
             "cooldown": 500 
         }
