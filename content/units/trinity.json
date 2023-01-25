@@ -1,7 +1,7 @@
 {
     "type": "flying",
     "lowAltitude": true,
-    "speed": 3.5,
+    "speed": 4.25,
     "accel": 0.5,
     "buildPower": 5,
     "buildSpeed": 5,
