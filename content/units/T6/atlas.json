@@ -56,7 +56,7 @@
             "maxTargets": 10,
             "damage": 100,
             "healPercent": 0.6,
-            "range": 250,
+            "range": 300,
             "sectors": 4,
             "rotateSpeed": 3,
             "hitBuildings": true,
@@ -82,7 +82,7 @@
         },
         {
             "type": "ShieldArcAbility",
-            "radius": 275,
+            "radius": 300,
             "region": "mindustrinity-atlas-shield",
             "drawArc": false,
             "whenShooting": false,
