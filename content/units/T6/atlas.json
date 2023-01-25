@@ -82,11 +82,13 @@
         },
         {
             "type": "ShieldArcAbility",
+            "radius": 300,
             "region": "mindustrinity-atlas-shield",
             "drawArc": false,
             "whenShooting": false,
             "regen": 15,
-            "max": 10000,
+            "width": 25,
+            "max": 12000,
             "cooldown": 500 
         }
     ]      
