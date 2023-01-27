@@ -11,7 +11,7 @@
     "type": "GenericCrafter",
     "craftTime": 155,
     "consumes": {
-        "power": 2
+        "power": 0.2
     },
     "drawer": {
 	    "type": "DrawMulti",
