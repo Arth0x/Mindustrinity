@@ -1,8 +1,8 @@
 {
     "name": "Radio",
     "category": "effect",
-    "description": "[#9F0001][Might be haunted]
-    []You can chill with everytype music.mp3 Even custome one! Go in the mod folder -> /sounds and replace music.mp3 by your own (must be in .mp3)",
+    "description": "[]You can chill with everytype music.mp3 Even custome one! Go in the mod folder -> /sounds and replace music.mp3 by your own (must be in .mp3)
+[#9F0001][Might be haunted]",
     "size": 2,
     "health": 250,
     "ambientSound": "music",
