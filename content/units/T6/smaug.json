@@ -83,7 +83,7 @@
             "rotate": true,
             "bullet": {
                 "type": "laserBulletType",
-                "damage": 150,
+                "damage": 250,
                 "sideAngle": 20,
                 "sideWidth": 1.5,
                 "sideLength": 80,
