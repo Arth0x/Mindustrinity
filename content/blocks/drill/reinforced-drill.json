@@ -10,7 +10,7 @@
     "hardnessDrillMultiplier": 5,
 	"liquidCapacity": 25,
 	"rotateSpeed": 3,
-	"drillTime": 72,
+	"drillTime": 175,
 	"liquidBoostIntensity": 1.8,
     "itemCapacity": 10,
 	"warmupSpeed": 0.04,
