@@ -1,7 +1,7 @@
 {
     "type": "PointDefenseTurret",
     "category": "turret",
-    "research": "10-avenatrax",
+    "research": "segment",
     "shootLength": 10,
     "reload": 6,
     "rotateSpeed": 8,
