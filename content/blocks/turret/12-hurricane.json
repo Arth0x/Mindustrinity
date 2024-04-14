@@ -28,7 +28,7 @@
     },
     "shoot": {
         "type": "ShootPattern",
-        "shots": 25,
+        "shots": 15,
         "shotDelay": 5
     },
     "ammoTypes": {
@@ -44,6 +44,8 @@
             "trailChance": 1,
             "homingPower": 0.2,
             "homingRange": 130,
+            "homingGround": false,
+            "targetGround": false,
             "splashDamageRadius" : 30,	
             "hitEffect" : "flakExplosionBig",
              "despawnEffect": "flakExplosionBig"

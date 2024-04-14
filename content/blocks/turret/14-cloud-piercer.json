@@ -1,0 +1,59 @@
+{
+    "type": "ItemTurret",
+    "category": "turret",
+    "base": "reinforced-block-4",
+    "size": 3,
+    "health": 1580,
+	"reload": 480,
+	"range": 350,
+    "recoil" : 1.5,
+    "targetGround": false,
+    "hasItems": true,
+    "itemCapacity": 240,
+    "hasLiquids":true,
+    "liquidCapacity": 350,
+	"rotateSpeed": 3,
+    "shootCone": 45,
+    "ammoPerShot": 4,
+    "inaccuracy": 5,
+    "cooldown": 160,
+    "shots": 3,
+    "fragBullets": 5,
+    "consumes": {
+        "coolant": {
+            "amount": 0.1,
+            "optional": true 
+        }
+    },
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 25,
+        "shotDelay": 5
+    },
+    "ammoTypes": {
+        "iron": {
+            "type":"MissileBulletType",
+            "height": 6,
+            "width": 6,
+            "damage": 45,
+            "lifetime": 160,
+            "weaveScale": 4,
+            "weaveMag": 6,
+            "speed": 2.5,
+            "trailChance": 1,
+            "homingPower": 0.2,
+            "homingRange": 130,
+            "homingGround": false,
+            "targetGround": false,
+            "splashDamageRadius" : 30,	
+            "hitEffect" : "flakExplosionBig",
+            "despawnEffect": "flakExplosionBig"
+        }
+    },
+    "requirements": [
+		"steel/325",
+        "thorium/175",
+        "plastanium/150",
+		"surge-alloy/100"
+    ]
+}
