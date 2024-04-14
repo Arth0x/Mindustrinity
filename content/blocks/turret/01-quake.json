@@ -5,7 +5,7 @@
     "health": 600,
     "targetAir": false,
     "size": 2,
-    "reload": 50,
+    "reload": 120,
     "range": 180,
     "shootShake": 2,
     "inaccuracy": 5,
@@ -18,14 +18,17 @@
     "hitEffect": "flakExplosionBig",
     "knockback": 0.8,
     "hitSize": 16,
-    "bullet": 4,
-    "shot": 4,
 	"fragBullets": 4,
     "consumes": {
         "coolant": {
             "amount": 0.6,
             "optional": true 
         }
+    },
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 5,
+        "shotDelay": 1
     },
 	"ammoTypes": {
         "graphite": {
