@@ -32,11 +32,11 @@
         "shotDelay": 5
     },
     "ammoTypes": {
-        "iron": {
+        "silicon": {
             "type":"MissileBulletType",
             "height": 6,
             "width": 6,
-            "damage": 45,
+            "damage": 75,
             "lifetime": 160,
             "weaveScale": 4,
             "weaveMag": 6,
@@ -46,9 +46,27 @@
             "homingRange": 130,
             "homingGround": false,
             "targetGround": false,
-            "splashDamageRadius" : 30,	
             "hitEffect" : "flakExplosionBig",
              "despawnEffect": "flakExplosionBig"
+        },
+        "steel": {
+            "type":"MissileBulletType",
+            "height": 6,
+            "width": 6,
+            "damage": 15,
+            "lifetime": 160,
+            "weaveScale": 4,
+            "weaveMag": 6,
+            "speed": 2.5,
+            "trailChance": 1,
+            "homingPower": 0.2,
+            "homingRange": 130,
+            "homingGround": false,
+            "targetGround": false,
+            "splashDamage": 10,
+            "splashDamageRadius" : 120,		
+            "hitEffect" : "flakExplosionBig",
+            "despawnEffect": "flakExplosionBig"
         }
     },
     "requirements": [

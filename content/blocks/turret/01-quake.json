@@ -5,11 +5,11 @@
     "health": 600,
     "targetAir": false,
     "size": 2,
-    "reload": 60,
+    "reload": 50,
     "range": 180,
     "shootShake": 2,
     "inaccuracy": 5,
-    "ammoPerShot": 3,
+    "ammoPerShot": 2,
     "recoil": 0.1,
     "spread": 0,
     "restitution": 0.2,
@@ -18,6 +18,8 @@
     "hitEffect": "flakExplosionBig",
     "knockback": 0.8,
     "hitSize": 16,
+    "bullet": 4,
+    "shot": 4,
 	"fragBullets": 4,
     "consumes": {
         "coolant": {
@@ -27,7 +29,7 @@
     },
 	"ammoTypes": {
         "graphite": {
-            "speed": 4,
+            "speed": 5,
             "type":"ArtilleryBulletType",
             "sprite": "shell",
             "lifetime": 180,
