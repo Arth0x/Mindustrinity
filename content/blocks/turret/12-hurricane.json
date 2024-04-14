@@ -18,7 +18,6 @@
     "ammoPerShot": 4,
     "inaccuracy": 5,
     "cooldown": 160,
-    "shots": 3,
     "fragBullets": 5,
     "consumes": {
         "coolant": {
@@ -45,10 +44,11 @@
             "homingPower": 0.5,
             "homingRange": 50,
             "hitEffect" : "flakExplosionBig",
-             "despawnEffect": "flakExplosionBig"
+            "despawnEffect": "flakExplosionBig"
         },
         "steel": {
-            "type":"MissileBulletType",
+            "type":"BasicBulletType",
+            "sprite": "MissileBullet",
             "height": 6,
             "width": 6,
             "damage": 15,
