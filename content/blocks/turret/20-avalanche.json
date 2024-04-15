@@ -10,7 +10,7 @@
     "range": 1200,
     "recoilAmount": 3,
     "shootShake": 4,
-    "inaccuracy": 0,
+    "inaccuracy": 2,
     "ammoPerShot": 2,
     "recoil": 1,
     "spread": 0,
