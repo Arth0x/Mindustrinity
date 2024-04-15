@@ -170,7 +170,7 @@
             "width": 11,
             "y": -25,
             "max": 6000,
-            "cooldown": 260
+            "cooldown": 750
         }
     ]
 }
