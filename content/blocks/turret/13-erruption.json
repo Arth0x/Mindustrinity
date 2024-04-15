@@ -27,8 +27,8 @@
                 "type": "LiquidBulletType",
                 "liquid": "slag",
                 "lifetime": 20,
-                "puddleSize": 8,
-                "orbSize": 1.5,
+                "puddleSize": 25,
+                "orbSize": 5,
                 "speed": 3,
                 "damage" : 2
             }
@@ -49,8 +49,8 @@
                 "type": "LiquidBulletType",
                 "liquid": "oil",
                 "lifetime": 20,
-                "puddleSize": 8,
-                "orbSize": 1.5,
+                "puddleSize": 25,
+                "orbSize": 5,
                 "speed": 4,
                 "damage" : 2
             }
@@ -71,8 +71,8 @@
                 "type": "LiquidBulletType",
                 "liquid": "acid",
                 "lifetime": 20,
-                "puddleSize": 8,
-                "orbSize": 1.5,
+                "puddleSize": 25,
+                "orbSize": 5,
                 "speed": 4,
                 "damage" : 2
             }
@@ -93,8 +93,8 @@
                 "type": "LiquidBulletType",
                 "liquid": "vulcanite",
                 "lifetime": 20,
-                "puddleSize": 8,
-                "orbSize": 1.5,
+                "puddleSize": 25,
+                "orbSize": 5,
                 "speed": 4,
                 "damage" : 2
             }
@@ -116,8 +116,8 @@
                 "type": "LiquidBulletType",
                 "liquid": "cryoaether",
                 "lifetime": 20,
-                "puddleSize": 8,
-                "orbSize": 1.5,
+                "puddleSize": 25,
+                "orbSize": 5,
                 "speed": 4,
                 "damage" : 2
             }
@@ -139,8 +139,8 @@
                 "type": "LiquidBulletType",
                 "liquid": "water",
                 "lifetime": 20,
-                "puddleSize": 8,
-                "orbSize": 1.5,
+                "puddleSize": 25,
+                "orbSize": 5,
                 "speed": 4,
                 "damage" : 0
             }
