@@ -1387,7 +1387,6 @@
               "lightningLength": 15,
               "lightningLengthRand": 46,
               "lightningColor": "66B1FFFF",
-              "status": "exogenesis-high-energy-blast",
               "statusDuration": 200,
               "splashDamage": 60,
               "splashDamageRadius": 250,
