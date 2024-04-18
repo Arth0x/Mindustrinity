@@ -137,7 +137,7 @@
                 "colors": ["BF92F8FF", "665C9FFF", "FFFFFF"],
                 "damage": 25,
                 "width": 4,
-                "length": 250,
+                "length": 150,
                 "drawSize": 470,
                 "lifetime": 210,
                 "shake": 0.5,
