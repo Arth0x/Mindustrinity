@@ -137,7 +137,6 @@
       "burning",
       "wet",
       "slow",
-      "exogenesis-high-energy-blast",
       "sapped",
       "shocked",
       "freezing",
@@ -166,7 +165,7 @@
         "shootCone": 180,
         "bullet": {
           "type": "basicBulletType",
-          "spawnUnit": "exogenesis-heavy-gen-missile"
+          "spawnUnit": "dagger"
         }
       },
       {
@@ -183,7 +182,7 @@
         "shootCone": 180,
         "bullet": {
           "type": "basicBulletType",
-          "spawnUnit": "exogenesis-heavy-gen-missile"
+          "spawnUnit": "dagger"
         }
       },
       {
@@ -199,7 +198,7 @@
         "shootCone": 180,
         "bullet": {
           "type": "basicBulletType",
-          "spawnUnit": "exogenesis-heavy-gen-missile"
+          "spawnUnit": "dagger"
         }
       },
       {
@@ -222,7 +221,7 @@
           "type": "BasicBulletType",
           "width": 10,
           "height": 17,
-          "sprite": "exogenesis-pointy-bullet",
+          "sprite": "dagger",
           "frontColor": "FFFFFF",
           "backColor": "66B1FFFF",
           "lifetime": 80,
