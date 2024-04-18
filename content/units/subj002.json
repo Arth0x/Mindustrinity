@@ -22,27 +22,11 @@
             "hollow": true,
             "circle": true,
             "layer": 110,
-            "color": "FFF9B7ff",
+            "color": "E1B38Bff",
             "stroke": 9.5,
             "strokeTo": 9.5,
             "radiusTo": 51,
             "radius": 51
-        },
-        {
-            "type": "HaloPart",
-            "y": -8,
-            "radius": 20,
-            "tri": true,
-            "layer": 110,
-            "color": "FFF9B7ff",
-            "haloRotateSpeed": -1.15,
-            "haloRadius": 50,
-            "haloRadiusTo": 50,
-            "stroke": 0,
-            "strokeTo": 2,
-            "shapes": 3,
-            "triLengthTo": 12,
-            "triLength": 12
         },
         {
             "type": "shapePart",
