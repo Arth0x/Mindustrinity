@@ -1,42 +1,124 @@
 {
 	"type": "itemTurret",
-    "heath": 21474.83647,
-    "size": 6,
-    "range": 420,
-    "hasPower": true,
-    "loopSound": "torch",
-    "shake": 10,
-    "shootSound": "shockBlast",
-    "recoil": 0,
-    "shootY": 0,
-    "shootCone": 360,
-    "aimChangeSpeed": 0.8,
-    "rotateSpeed": 0.6,
-    "consumes" : {
-        "power": 74
-    },
-    "requirements": [
-        "silicon/850",
-        "surge-alloy/850",
-        "elementium/420"
-    ],
-    "category": "turret",
-    "research": "meltdown",
-    "drawer": {
-        "type": "DrawTurret",
-        "parts": [ 
-            {
-                "type": "RegionPart",
-                "suffix": "-main",
-                "heatProgress": "warmup",
-                "heatColor": "FFFFFFFF",
-                "x": 0,
-                "y": 0
+  "heath": 21474.83647,
+  "size": 6,
+  "range": 420,
+  "loopSound": "torch",
+  "shake": 10,
+	"health": 2660,
+	"reload": 600,
+	"inaccuracy": 0,
+  "targetAir" : true, 
+	"targetGround" : true,
+  "hasLiquids": true,
+  "cooldownTime": 60,
+  "heatColor": "FFFFFFFF",
+	"rotateSpeed": 0.6,
+	"shootShake" : 10,
+	"shootSound": "bigLaserShoot",
+	"hasPower": true,
+    "consumes": {
+	    "power": 16,
+      "liquid": "water/0.8"
+	},
+	"shootType": {
+        "type": "ArtilleryBulletType",
+        "speed": 6,
+        "hitSound": "plasmaboom",
+        "damage": 120,
+        "scaleVelocity": true,
+        "splashDamage": 120,
+        "splashDamageRadius": 80,
+        "height": 0,
+        "width": 0,
+        "ammoMultiplier": 4,
+        "shootEffect": "none",
+        "trailEffect": "none",
+        "despawnEffect": "none",
+        "hitEffect": {
+            "type": "multiEffect",
+            "effects": [
+                {
+                    "type": "ParticleEffect",
+                    "region": "mindustrinity-starlong",
+                    "particles": 1,
+                    "sizeFrom": 20,
+                    "spin": 1,
+                    "sizeTo": 0,
+                    "length": 0,
+                    "rotatespeed": 3,
+                    "interp": "swingIn",
+                    "lifetime": 720,
+                    "layer": 110,
+                    "colorFrom": "FFF740FF",
+                    "colorTo": "FFF74000"
+                },
+                {
+                    "type": "ParticleEffect",
+                    "region": "mindustrinity-starlarg",
+                    "particles": 1,
+                    "spin": -0.7,
+                    "sizeFrom": 20,
+                    "sizeTo": 0,
+                    "length": 0,
+                    "rotatespeed": 3,
+                    "interp": "swingIn",
+                    "lifetime": 720,
+                    "layer": 110,
+                    "colorFrom": "FFF740FF",
+                    "colorTo": "FFF74000"
+                },
+                {
+                  "type": "shapePart",
+                  "y": -8,
+                  "hollow": true,
+                  "circle": true,
+                  "layer": 110,
+                  "color": "DD814Eff",
+                  "stroke": 9.5,
+                  "strokeTo": 9.5,
+                  "radiusTo": 51,
+                  "radius": 51
+              },
+              {
+                  "type": "shapePart",
+                  "y": -8,
+                  "circle": true,
+                  "layer": 115,
+                  "color": "000000ff",
+                  "radiusTo": 50,
+                  "radius": 50
+              }
+            ]
+        },
+        "lightning": 1,
+        "lightningLength": 2,
+        "lightningType": {
+            "type": "BulletType",
+            "lifetime": 1,
+            "hitEffect": "none",
+            "fragBullets": 600,
+            "fragLifeMin": 0.01,
+            "fragBullet": {
+                "type": "BulletType",
+                "speed": 0,
+                "damage": 0,
+                "lifetime": 600,
+                "lightning": 1,
+                "lightningDamage": 60,
+                "lightningLength": 3,
+                "lightningLengthRand": 6,
+                "lightningColor": "FFF740FF"
             }
-        ]
-    }
+        }
+	},
+	"requirements": [
+        "sulfur/250",
+        "steel/300",
+        "surge-alloy/550",
+        "infused-iridium/250"
+    ]
 }
-
 
 
 
