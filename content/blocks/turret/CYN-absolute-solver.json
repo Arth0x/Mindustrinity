@@ -1,25 +1,30 @@
+
 {
-	"type": "powerTurret",
-  "heath": 21474.83647,
-  "size": 6,
-  "range": 420,
-  "loopSound": "torch",
-  "shake": 10,
+	"type": "PowerTurret",
+    "category": "turret",
+    "research": "20-avalanche",
+	"size": 5,
 	"health": 2660,
+	"range": 500,
 	"reload": 600,
 	"inaccuracy": 0,
-  "targetAir" : true, 
+	"shots" : 1,
+    "recoil": 0,
+    "minWarmup": 0.999,
+    "warmupHeat": true,
+    "targetAir" : true, 
 	"targetGround" : true,
-  "hasLiquids": true,
-  "cooldownTime": 60,
-  "heatColor": "FFFFFFFF",
+    "hasItems": true,
+    "hasLiquids": true,
+    "cooldownTime": 60,
+    "heatColor": "FFFFFFFF",
 	"rotateSpeed": 0.6,
 	"shootShake" : 10,
 	"shootSound": "bigLaserShoot",
 	"hasPower": true,
     "consumes": {
 	    "power": 16,
-      "liquid": "water/0.8"
+        "liquid": "iridium/0.8"
 	},
 	"shootType": {
         "type": "ArtilleryBulletType",
@@ -119,6 +124,4 @@
         "infused-iridium/250"
     ]
 }
-
-
 
