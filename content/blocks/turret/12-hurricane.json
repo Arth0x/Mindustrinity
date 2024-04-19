@@ -2,7 +2,6 @@
     "type": "ItemTurret",
     "category": "turret",
     "research": "cyclone",
-    "base": "reinforced-block-3",
     "size": 3,
     "health": 1580,
 	"reload": 480,
@@ -17,8 +16,6 @@
     "shootCone": 45,
     "ammoPerShot": 4,
     "inaccuracy": 5,
-    "cooldown": 160,
-    "fragBullets": 5,
     "consumes": {
         "coolant": {
             "amount": 0.1,

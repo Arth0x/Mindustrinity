@@ -8,18 +8,11 @@
     "reload": 1000,
     "maxAmmo": "60",
     "range": 1200,
-    "recoilAmount": 3,
-    "shootShake": 4,
     "inaccuracy": 2,
     "ammoPerShot": 2,
     "recoil": 1,
-    "spread": 0,
-    "restitution": 0.2,
     "rotateSpeed": 1.4,
     "shootSound": "artillery",
-    "hitEffect": "flakExplosionBig",
-    "knockback": 0.8,
-    "hitSize": 16,
     "consumes": {
         "coolant": {
             "amount": 0.1,
