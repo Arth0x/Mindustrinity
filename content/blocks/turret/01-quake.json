@@ -26,9 +26,9 @@
         }
     },
     "shoot": {
-        "type": "ShootPattern",
-        "shots": 5,
-        "shotDelay": 1
+        "type": "shootAlternate",
+        "shots": 4,
+        "shotDelay": 5
     },
 	"ammoTypes": {
         "graphite": {
