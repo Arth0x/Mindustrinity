@@ -1,5 +1,5 @@
 {
-	"type": "itemTurret",
+	"type": "powerTurret",
   "heath": 21474.83647,
   "size": 6,
   "range": 420,
