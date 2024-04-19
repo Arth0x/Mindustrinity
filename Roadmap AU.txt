@@ -87,7 +87,6 @@ acid	-> D2FF40
 
 
 anti air
-corroder-exogenesis
 
 
 
