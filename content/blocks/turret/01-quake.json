@@ -10,7 +10,7 @@
     "shootShake": 2,
     "inaccuracy": 5,
     "ammoPerShot": 2,
-    "recoil": 0.1,
+    "recoil": 1,
     "spread": 0,
     "restitution": 0.2,
     "rotateSpeed": 1.4,
