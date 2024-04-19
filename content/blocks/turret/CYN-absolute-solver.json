@@ -55,8 +55,8 @@
                     "interp": "swingIn",
                     "lifetime": 720,
                     "layer": 110,
-                    "colorFrom": "FFF740FF",
-                    "colorTo": "FFF74000"
+                    "colorFrom": "DD814Eff",
+                    "colorTo": "DD814Eff"
                 },
                 {
                     "type": "ParticleEffect",
@@ -70,30 +70,9 @@
                     "interp": "swingIn",
                     "lifetime": 720,
                     "layer": 110,
-                    "colorFrom": "FFF740FF",
-                    "colorTo": "FFF74000"
-                },
-                {
-                  "type": "shapePart",
-                  "y": -8,
-                  "hollow": true,
-                  "circle": true,
-                  "layer": 110,
-                  "color": "DD814Eff",
-                  "stroke": 9.5,
-                  "strokeTo": 9.5,
-                  "radiusTo": 51,
-                  "radius": 51
-              },
-              {
-                  "type": "shapePart",
-                  "y": -8,
-                  "circle": true,
-                  "layer": 115,
-                  "color": "000000ff",
-                  "radiusTo": 50,
-                  "radius": 50
-              }
+                    "colorFrom": "DD814Eff",
+                    "colorTo": "DD814Eff"
+                }
             ]
         },
         "lightning": 1,
@@ -125,3 +104,25 @@
     ]
 }
 
+
+              //   {
+              //     "type": "shapePart",
+              //     "y": -8,
+              //     "hollow": true,
+              //     "circle": true,
+              //     "layer": 110,
+              //     "color": "DD814Eff",
+              //     "stroke": 9.5,
+              //     "strokeTo": 9.5,
+              //     "radiusTo": 51,
+              //     "radius": 51
+              // },
+              // {
+              //     "type": "shapePart",
+              //     "y": -8,
+              //     "circle": true,
+              //     "layer": 115,
+              //     "color": "000000ff",
+              //     "radiusTo": 50,
+              //     "radius": 50
+              // }
