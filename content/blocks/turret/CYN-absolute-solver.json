@@ -6,7 +6,7 @@
 	"size": 5,
 	"health": 2660,
 	"range": 500,
-	"reload": 600,
+	"reload": 60,
 	"inaccuracy": 0,
 	"shots" : 1,
     "recoil": 0,
@@ -45,7 +45,6 @@
             "effects": [
                 {
                     "type": "ParticleEffect",
-                    "region": "mindustrinity-starlong",
                     "particles": 1,
                     "sizeFrom": 20,
                     "spin": 1,
@@ -55,12 +54,17 @@
                     "interp": "swingIn",
                     "lifetime": 720,
                     "layer": 110,
-                    "colorFrom": "DD814Eff",
-                    "colorTo": "DD814Eff"
+                    "y": -8,
+                    "hollow": true,
+                    "circle": true,
+                    "color": "DD814Eff",
+                    "stroke": 9.5,
+                    "strokeTo": 9.5,
+                    "radiusTo": 51,
+                    "radius": 51
                 },
                 {
                     "type": "ParticleEffect",
-                    "region": "mindustrinity-starlarg",
                     "particles": 1,
                     "spin": -0.7,
                     "sizeFrom": 20,
