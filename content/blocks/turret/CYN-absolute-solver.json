@@ -54,7 +54,6 @@
                     "interp": "swingIn",
                     "lifetime": 720,
                     "layer": 110,
-                    "y": -8,
                     "hollow": true,
                     "circle": true,
                     "color": "DD814Eff",
@@ -73,31 +72,13 @@
                     "rotatespeed": 3,
                     "interp": "swingIn",
                     "lifetime": 720,
-                    "layer": 110,
-                    "colorFrom": "DD814Eff",
-                    "colorTo": "DD814Eff"
+                   "circle": true,
+                   "layer": 115,
+                   "color": "000000ff",
+                   "radiusTo": 50,
+                   "radius": 50
                 }
             ]
-        },
-        "lightning": 1,
-        "lightningLength": 2,
-        "lightningType": {
-            "type": "BulletType",
-            "lifetime": 1,
-            "hitEffect": "none",
-            "fragBullets": 600,
-            "fragLifeMin": 0.01,
-            "fragBullet": {
-                "type": "BulletType",
-                "speed": 0,
-                "damage": 0,
-                "lifetime": 600,
-                "lightning": 1,
-                "lightningDamage": 60,
-                "lightningLength": 3,
-                "lightningLengthRand": 6,
-                "lightningColor": "FFF740FF"
-            }
         }
 	},
 	"requirements": [
