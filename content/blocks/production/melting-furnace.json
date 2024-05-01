@@ -2,7 +2,7 @@
     "type": "GenericCrafter",
     "category": "crafting",
 	"research": "melter",
-	"outputLiquid": "slag/0.8",
+	"outputLiquid": "slag/1.6",
     "size": 2,
 	"hasPower": true,
 	"hasItems": true,
