@@ -187,13 +187,30 @@
                 "progress": "warmup",
                 "rotateSpeed": 0,
                 "color": "FFFFFF",
-                "sides": 4,
+                "sides": 6,
                 "mirror": false,
                 "hollow": false,
                 "stroke": 0,
                 "strokeTo": 1,
                 "radius": 5.5,
                 "y": 0
+            },
+            {
+                "type": "HaloPart",
+                "x": 0,
+                "y": -9,
+                "radius": 3,
+                "tri": true,
+                "color": "FF4040FF",
+                "haloRotation": 90,
+                "haloRadius": 8,
+                "stroke": 0,
+                "strokeTo": 1.7,
+                "shapes": 2,
+                "triLengthTo": 12,
+                "triLength": 0,
+                "mirror": false,
+                "layer": 110
             }
         ]
     }
