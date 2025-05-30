@@ -17,6 +17,41 @@
     "aimDst": 180,
     "targetAir": true,
     "faceTarget": true,
+    "parts": [
+    {
+      "type": "region",
+      "suffix": "-core",
+      "x": 0,
+      "y": 5,
+      "layer": "flying"
+    },
+    {
+      "type": "region",
+      "suffix": "-left",
+      "x": -8,
+      "y": -5,
+      
+      "layer": "flying",
+      "recoil": {
+        "x": -1,
+        "y": 1,
+        "in": 0.1,
+        "out": 0.2
+      }
+    },
+    {
+      "type": "region",
+      "suffix": "-right",
+      "x": 8,
+      "y": -5,
+      "layer": "flying",
+      "recoil": {
+        "x": -1,
+        "y": 1,
+        "in": 0.1,
+        "out": 0.2
+      }
+    }],
 	"weapons": [ {
             "name": "trinity-piercer",
             "x": 0,
@@ -83,4 +118,5 @@
             }
         }
     ]
+
 }
