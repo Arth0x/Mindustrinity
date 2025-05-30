@@ -23,7 +23,7 @@
             "suffix": "-left",
             "x": 0,
             "y": 0,
-            "layer": -1,
+            "under": true,
             "moveY": -2,
             "moveX": -1,
             "progress": {
@@ -35,7 +35,7 @@
             "suffix": "-right",
             "x": 0,
             "y": 0,
-            "layer": -1,
+            "under": true,
             "moveY": -2,
             "moveX": 1,
             "progress": {
