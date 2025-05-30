@@ -70,7 +70,7 @@
             {
                 "type": "RegionPart",
                 "mirror": false,
-                "suffix": "-rght",
+                "suffix": "-right",
                 "under": true,
                 "x": 0,
                 "y": 0,
