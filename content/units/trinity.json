@@ -17,6 +17,36 @@
     "aimDst": 180,
     "targetAir": true,
     "faceTarget": true,
+    "parts": [
+        {
+            "type": "region",
+            "suffix": "-base",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "type": "region",
+            "suffix": "-left",
+            "x": 0,
+            "y": 0,
+            "moveY": -2,
+            "moveX": -1,
+            "progress": {
+                "type": "recoil"
+            }
+        },
+        {
+            "type": "region",
+            "suffix": "-right",
+            "x": 0,
+            "y": 0,
+            "moveY": -2,
+            "moveX": 1,
+            "progress": {
+                "type": "recoil"
+            }
+        }
+    ],
     "weapons": [ 
         {
         "name": "trinity-piercer",
@@ -25,30 +55,6 @@
         "mirror": false,
         "shootSound": "laser",
         "reload": 40,
-        "parts": [
-            {
-                "type": "RegionPart",
-                "mirror": false,
-                "suffix": "-left",
-                "layer": -1,
-                "x": 0,
-                "y": 0,
-                "moveX": -2,
-                "moveY": -2,
-                "progress": "heat"
-            },
-            {
-                "type": "RegionPart",
-                "mirror": false,
-                "suffix": "-right",
-                "layer": -1,
-                "x": 0,
-                "y": 0,
-                "moveX": -2,
-                "moveY": -2,
-                "progress": "heat"
-            }
-        ],
         "bullet": {
             "hitEffect": {
                 "type": "ParticleEffect",
