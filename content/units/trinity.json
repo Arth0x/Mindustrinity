@@ -22,16 +22,13 @@
       "type": "region",
       "suffix": "-core",
       "x": 0,
-      "y": 5,
-      "layer": "flying"
+      "y": 5
     },
     {
       "type": "region",
       "suffix": "-left",
       "x": -8,
       "y": -5,
-      
-      "layer": "flying",
       "recoil": {
         "x": -1,
         "y": 1,
@@ -44,7 +41,6 @@
       "suffix": "-right",
       "x": 8,
       "y": -5,
-      "layer": "flying",
       "recoil": {
         "x": -1,
         "y": 1,
