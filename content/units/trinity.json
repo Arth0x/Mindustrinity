@@ -20,7 +20,7 @@
     "parts": [
     {
       "type": "region",
-      "suffix": "-core",
+      "suffix": "-base",
       "x": 0,
       "y": 0
     },
