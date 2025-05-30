@@ -22,13 +22,13 @@
       "type": "region",
       "suffix": "-core",
       "x": 0,
-      "y": 5
+      "y": 0
     },
     {
       "type": "region",
       "suffix": "-left",
-      "x": -8,
-      "y": -5,
+      "x": 0,
+      "y": 0,
       "recoil": {
         "x": -1,
         "y": 1,
@@ -39,8 +39,8 @@
     {
       "type": "region",
       "suffix": "-right",
-      "x": 8,
-      "y": -5,
+      "x": 0,
+      "y": 0,
       "recoil": {
         "x": -1,
         "y": 1,
