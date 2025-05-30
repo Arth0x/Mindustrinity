@@ -1,7 +1,7 @@
 {
     "localizedName": "Aether River",
     "description": "A lifely river of the life essence.",
-    "sector": 214,
+    "sector": 104,
     "captureWave": 60,
     "difficulty": 5,
     "research": "windsweptIslands"
