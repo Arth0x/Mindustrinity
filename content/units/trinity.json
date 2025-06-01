@@ -83,7 +83,7 @@
             "pierceCap": 3,
             "pierceBuilding": true,
             "type": "basicBulletType",
-            "sprite": "mindustrinity-heavy-bullet",
+            "sprite": "missile",
             "damage": 175,
             "buildingDamageMultiplier": 0.01,
             "shrinkY": 0,
