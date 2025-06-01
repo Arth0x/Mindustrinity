@@ -69,7 +69,7 @@
                 "sprite": "mindustrinity-heavy-bullet",
                 "frontColor": "FFFFFF",
                 "backColor": "BF92F8FF",
-                "lifetime": 25,
+                "lifetime": 10,
                 "speed": 15,
                 "damage": 165,
                 "pierceArmor": true,
