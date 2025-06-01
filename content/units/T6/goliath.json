@@ -15,7 +15,6 @@
     "commandLimit": 3,
     "immunities": [
         "burning",
-        "iridiated", 
         "melting",
         "freezing"
     ],
