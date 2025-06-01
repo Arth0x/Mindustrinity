@@ -145,7 +145,7 @@
                 "trailWidth": 3,
                 "trailColor": "6CE6FF",
                 "damage": 245,
-                "status": "freeze",
+                "status": "frozen",
                 "statusDuration": 180,
                 "hitEffect": {
                     "type": "ParticleEffect",
