@@ -202,12 +202,12 @@
             "bullet": {
                 "type": "SapBulletType",
                 "sapStrength": 1.6,
-                "length": 150,
-                "width": 0.45,
+                "length": 250,
+                "width": 2,
                 "lifetime": 10,
-                "damage": 100,
-                "hitColor": "#a1b1d0", 
-                "color": "#d0d8e8",
+                "damage": 135,
+                "hitColor": "#FF0000", 
+                "color": "#00FF00",
                 "shootEffect": {
                     "type": "ParticleEffect", 
                     "colorFrom": "#d0d8e8",
