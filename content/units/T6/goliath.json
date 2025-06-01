@@ -53,7 +53,7 @@
                 "sideAngle": 25,
                 "sideLength": 1,
                 "sideWidth": 1,
-                "status": "melting",
+                "status": "vulcanised",
                 "statusDuration": 50,
                 "hitEffect": {
                     "type": "ParticleEffect",
@@ -153,7 +153,7 @@
                 "trailWidth": 3,
                 "trailColor": "6CE6FF",
                 "damage": 245,
-                "status": "freezing",
+                "status": "cryogenised",
                 "statusDuration": 180,
                 "hitEffect": {
                     "type": "ParticleEffect",
@@ -193,7 +193,7 @@
             }
         },
         {
-            "name": "Goliath-alt",
+            "name": "goliath-fusion-left",
             "x": 15.5,
             "y": -5,
             "reload": 45,
