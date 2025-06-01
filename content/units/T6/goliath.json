@@ -19,7 +19,7 @@
         "freezing"
     ],
     "weapons": [ 
-        {   "name": "goliath-fusion-left",
+        {   "name": "goliath-fusion-right",
             "shootY": 22,
             "x": -29,
             "y": -0.5,
@@ -40,14 +40,14 @@
             "bullet": 
             {
                 "type": "ContinuousFlameBulletType",
-                "colors": ["a61400AA", "ff1e00", "ff6d59", "fcd6d1"],
+                "colors": ["#a61400AA", "#ff1e00", "#ff6d59", "#fcd6d1"],
                 "flareWidth": 0,
                 "length": 80,
                 "range": 80,
                 "width": 8,
                 "damage": 45,
                 "lifetime": 75,
-                "lightColor": "ff6d59",
+                "lightColor": "#ff6d59",
                 "sideAngle": 25,
                 "sideLength": 1,
                 "sideWidth": 1,
@@ -63,8 +63,8 @@
                     "cone": -360,
                     "lenFrom": 5,
                     "lenTo": 0,
-                    "colorFrom": "FFFFFFFF",
-                    "colorTo": "ff6d59FF"
+                    "colorFrom": "#FFFFFFFF",
+                    "colorTo": "#ff6d59FF"
                 },
                 "Effect": 
                 {
@@ -80,8 +80,8 @@
                             "lifetime": 25,
                             "layer": 109,
                             "region": "mindustrinity-star",
-                            "colorFrom": "FFFFFFFF",
-                            "colorTo": "FFA664FF"
+                            "colorFrom": "#FFFFFFFF",
+                            "colorTo": "#FFA664FF"
                         },
                         {
                             "type": "ParticleEffect",
@@ -90,8 +90,8 @@
                             "sizeTo": 0,
                             "length": 0,
                             "lifetime": 25,
-                            "colorFrom": "FFFFFF",
-                            "colorTo": "FFA664FF"
+                            "colorFrom": "#FFFFFF",
+                            "colorTo": "#FFA664FF"
                         },
                         {
                             "type": "ParticleEffect",
@@ -101,8 +101,8 @@
                             "length": 0,
                             "layer": 109,
                             "lifetime": 25,
-                            "colorFrom": "FFFFFFFF",
-                            "colorTo": "FFA664FF"
+                            "colorFrom": "#FFFFFFFF",
+                            "colorTo": "#FFA664FF"
                         }
                     ]
                 },
@@ -111,7 +111,7 @@
                 "incendAmount": 1
             }
         },
-        {   "name": "goliath-fusion-right",
+        {   "name": "goliath-fusion-left",
             "shootY": 22,
             "x": 29,
             "y": -0.5,
