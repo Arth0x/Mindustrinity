@@ -116,6 +116,7 @@
             "shootSound": "shockBlast",
             "mirror": false,
             "rotate": true,
+            "pierce": true,
             "rotationLimit": 45,
             "reload": 60,
             "shake": 2,
@@ -186,10 +187,10 @@
             }
         },
         {
-            "name": "anti-air",
+            "name": "Goliath-alt",
             "x": 15.5,
             "y": -5,
-            "reload": 28,
+            "reload": 45,
             "alternate": true,
             "top": true,
             "rotate": true,
