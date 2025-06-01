@@ -17,7 +17,7 @@
         {
             "name": "goliath-fusion-left",
             "shootY": 22,
-            "x": 29,
+            "x": -29,
             "y": -0.5,
             "rotate": true,
             "rotateSpeed": 0.5,
@@ -36,18 +36,18 @@
             "bullet": 
             {
                 "type": "ContinuousFlameBulletType",
-                "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
+                "colors": ["a61400AA", "ff1e00", "ff6d59", "fcd6d1"],
                 "flareWidth": 0,
-                "length": 100,
-                "range": 100,
-                "width": 10,
-                "damage": 50,
+                "length": 80,
+                "range": 80,
+                "width": 8,
+                "damage": 45,
                 "lifetime": 75,
-                "lightColor": "4587FFFF",
+                "lightColor": "ff6d59",
                 "sideAngle": 25,
                 "sideLength": 1,
                 "sideWidth": 1,
-                "status": "aethered",
+                "status": "burn",
                 "statusDuration": 50,
                 "hitEffect": {
                     "type": "ParticleEffect",
@@ -110,7 +110,7 @@
         {
             "name": "goliath-fusion-right",
             "shootY": 22,
-            "x": -29,
+            "x": 29,
             "y": -0.5,
             "layerOffset": -0.001,
             "shootSound": "shockBlast",
@@ -136,7 +136,7 @@
             },
             "bullet": {
                 "type": "BasicBulletType",
-                "lifetime": 40,
+                "lifetime": 20,
                 "speed": 10,
                 "width": 25,
                 "height": 25,
