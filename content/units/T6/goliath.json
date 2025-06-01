@@ -1,7 +1,7 @@
 {
     "research": "reign",
     "type": "mech",
-    "armor": 19,
+    "armor": 35,
     "rotateSpeed": 1.5,
     "hitSize": 42,
     "mechFrontSway": 1.6,
@@ -10,7 +10,7 @@
     "mechLandShake": 3,
     "singleTarget": true,
     "speed": 0.65,
-    "health": 50000,
+    "health": 41500,
     "range": 200,
     "commandLimit": 3,
     "immunities": [
@@ -207,7 +207,7 @@
                 "sideAngle": 0,
                 "sideWidth": 1.5,
                 "sideLength": 80,
-                "width": 45,
+                "width": 25,
                 "colors":["#fff740aa", "#fffb99FF", "#FFFFFF"],
                 "length": 120
             }
