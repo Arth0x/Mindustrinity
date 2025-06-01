@@ -208,7 +208,7 @@
                 "sideWidth": 1.5,
                 "sideLength": 80,
                 "width": 45,
-                "colors":["#CF6A53AA", "#FFA566FF", "#FFFFFF"],
+                "colors":["#fff740aa", "#fffb99FF", "#FFFFFF"],
                 "length": 120
             }
         }
