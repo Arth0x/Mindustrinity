@@ -15,7 +15,7 @@
     "commandLimit": 3,
     "weapons": [
         {
-            "name": "goliath-fusion_left",
+            "name": "goliath-fusion-left",
             "shootY": 22,
             "x": 29,
             "y": -0.5,
@@ -38,8 +38,8 @@
                 "type": "ContinuousFlameBulletType",
                 "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
                 "flareWidth": 0,
-                "length": 200,
-                "range": 200,
+                "length": 100,
+                "range": 100,
                 "width": 10,
                 "damage": 50,
                 "lifetime": 75,
@@ -136,7 +136,7 @@
             },
             "bullet": {
                 "type": "BasicBulletType",
-                "lifetime": 60,
+                "lifetime": 40,
                 "speed": 10,
                 "width": 25,
                 "height": 25,
