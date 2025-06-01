@@ -53,7 +53,7 @@
                 "sideAngle": 25,
                 "sideLength": 1,
                 "sideWidth": 1,
-                "status": "vulcanised",
+                "status": "vulcanise",
                 "statusDuration": 50,
                 "hitEffect": {
                     "type": "ParticleEffect",
