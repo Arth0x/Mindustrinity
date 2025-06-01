@@ -47,7 +47,7 @@
                 "sideAngle": 25,
                 "sideLength": 1,
                 "sideWidth": 1,
-                "status": "burn",
+                "status": "melting",
                 "statusDuration": 50,
                 "hitEffect": {
                     "type": "ParticleEffect",
