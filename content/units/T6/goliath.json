@@ -19,8 +19,7 @@
         "freezing"
     ],
     "weapons": [ 
-        {
-            "name": "goliath-fusion-left",
+        {   "name": "goliath-fusion-left",
             "shootY": 22,
             "x": -29,
             "y": -0.5,
@@ -112,13 +111,12 @@
                 "incendAmount": 1
             }
         },
-        {
-            "name": "goliath-fusion-right",
+        {   "name": "goliath-fusion-right",
             "shootY": 22,
             "x": 29,
             "y": -0.5,
             "layerOffset": -0.001,
-            "shootSound": "shockBlast",
+            "shootSound": "mechshoot",
             "mirror": false,
             "rotate": true,
             "pierce": true,
@@ -191,8 +189,7 @@
                 }
             }
         },
-        {
-            "name": "goliath-alt",
+        {   "name": "goliath-alt",
             "x": 15.5,
             "y": -5,
             "reload": 45,
