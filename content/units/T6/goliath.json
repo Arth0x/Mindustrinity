@@ -16,16 +16,17 @@
     "weapons": [
         {
             "name": "goliath-fusion_left",
+            "shootY": 22,
             "x": 29,
             "y": -0.5,
             "rotate": true,
             "rotateSpeed": 0.5,
             "alternate": false,
             "top": false,
+            "mirror": false,
             "layerOffset": -0.001,
             "recoil": 3,
             "shake": 2,
-            "shootY": 22,
             "ejectEffect": "casing1",
             "cooldownTime": 120,
             "rotationLimit": 45,
