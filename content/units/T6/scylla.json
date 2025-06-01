@@ -5,7 +5,7 @@
     "drawShields": false,
     "faceTarget": true,
     "speed": 0.5,
-    "heatColor": "FF9b59FF",
+    "heatColor": "#FF9b59FF",
     "hitSize": 45,
     "rotateSpeed": 0.8,
     "health": 30000,
@@ -54,8 +54,9 @@
             "minWarmup": 0.9,
             "shootCone": 25,
             "inaccuracy": 10,
-            "heatColor": "FF9b59FF",
+            "heatColor": "#FF9b59FF",
             "shootSound": "shotgun",
+            "shootSoundVolume": 0.5,
             "shoot": {
                 "type": "ShootPattern",
                 "shots": 12,
@@ -66,35 +67,22 @@
                 "width": 10,
                 "height": 10,
                 "sprite": "mindustrinity-heavy-bullet",
-                "frontColor": "FFFFFF",
-                "backColor": "BF92F8FF",
+                "frontColor": "#FFFFFF",
+                "backColor": "#BF92F8FF",
                 "lifetime": 10,
                 "speed": 15,
                 "damage": 165,
                 "pierceArmor": true,
                 "radius": 60,
-                "hitColor": "A9D8FFFF",
+                "hitColor": "#A9D8FFFF",
                 "shootEffect": "lightningShoot",
-                "trailColor": "BF92F8FF",
+                "trailColor": "#BF92F8FF",
                 "pierce": true,
                 "pierceCap": 30,
                 "trailParam": 6,
                 "trailLength": 10,
                 "trailWidth": 3.5,
                 "trailChance": 1,
-                "despawnEffect": {
-                    "type": "ParticleEffect",
-                    "line": true,
-                    "particles": 7,
-                    "lifetime": 20,
-                    "offset": 50,
-                    "length": 85,
-                    "cone": -360,
-                    "lenFrom": 6,
-                    "lenTo": 0,
-                    "colorFrom": "BF92F8FF",
-                    "colorTo": "BF92F8FF"
-                },
                 "trailEffect": {
                     "type": "ParticleEffect",
                     "line": true,
@@ -105,8 +93,8 @@
                     "cone": -30,
                     "lenFrom": 6,
                     "lenTo": 0,
-                    "colorFrom": "BF92F8FF",
-                    "colorTo": "665C9FFF"
+                    "colorFrom": "#BF92F8",
+                    "colorTo": "#665C9F"
                 }
             }
         },
@@ -125,14 +113,14 @@
             "recoil": 2,
             "shake": 0.1,
             "cooldownTime": 145,
-            "heatColor": "FF9b59FF",
+            "heatColor": "#FF9b59FF",
             "shootSound": "beam",
             "chargeSound": "lasercharge2",
             "continuous": true,
             
             "bullet": { 
                 "type": "ContinuousLaserBulletType",
-                "colors": ["BF92F8FF", "665C9FFF", "FFFFFF"],
+                "colors": ["#BF92F8FF", "#665C9FFF", "#FFFFFF"],
                 "damage": 15,
                 "width": 4,
                 "length": 150,
@@ -151,8 +139,8 @@
                     "cone": -30,
                     "lenFrom": 10,
                     "lenTo": 0,
-                    "colorFrom": "FFFFFF",
-                    "colorTo": "BF92F8FF"
+                    "colorFrom": "#FFFFFF",
+                    "colorTo": "#BF92F8FF"
                 }
             }
         }
