@@ -13,6 +13,12 @@
     "health": 50000,
     "range": 200,
     "commandLimit": 3,
+    "immunities": [
+        "burning",
+        "iridiated", 
+        "melting",
+        "freezing"
+    ],
     "weapons": [ 
         {
             "name": "goliath-fusion-left",
