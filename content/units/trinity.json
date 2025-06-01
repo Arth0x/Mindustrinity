@@ -88,7 +88,7 @@
             "buildingDamageMultiplier": 0.01,
             "shrinkY": 0,
             "shrinkX": 0,
-            "width": 15,
+            "width": 8,
             "height": 18,
             "speed": 5.5,
             "frontColor": "FFCCA6FF",

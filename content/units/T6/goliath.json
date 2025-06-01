@@ -192,7 +192,7 @@
         {   "name": "goliath-alt",
             "x": 15.5,
             "y": -5,
-            "reload": 45,
+            "reload": 25,
             "alternate": true,
             "controllable": false,
             "autoTarget": true,
@@ -202,29 +202,14 @@
             "recoil": 2,
             "shootSound": "sap",
             "bullet": {
-                "type": "SapBulletType",
-                "sapStrength": 1.6,
-                "length": 250,
-                "width": 2,
-                "lifetime": 10,
+                "type": "laserBulletType",
                 "damage": 135,
-                "hitColor": "#fff740", 
-                "color": "#fff740",
-                "shootEffect": {
-                    "type": "ParticleEffect", 
-                    "colorFrom": "#fff740",
-                    "colorTo": "#ffffff",
-                    "particles": 5,
-                    "cone": 4,
-                    "length": 8,
-                    "baseLength": 5,
-                    "lightScl": 3,
-                    "lightOpacity": 2,
-                    "spin": 0,
-                    "sizeFrom": 1.5,
-                    "sizeTo": 0, 
-                    "offset": 1
-                }
+                "sideAngle": 0,
+                "sideWidth": 1.5,
+                "sideLength": 80,
+                "width": 45,
+                "colors":["#CF6A53AA", "#FFA566FF", "#FFFFFF"],
+                "length": 120
             }
         }
     ]

@@ -13,12 +13,9 @@
     "engineSize":7.8,
     "lowAltitude":true,
     "targetAir":true,
-    "engineColor":"FFD37FFF",
     "commandLimit": 3,
-    "weapons":
-    [
-        {
-            "name":"smaug-rocketeer",
+    "weapons":[
+        {   "name":"smaug-rocketeer",
             "controllable": false,
             "autoTarget": true,
             "rotateSpeed":4,
@@ -68,8 +65,7 @@
                 "lightningLengthRand":8
             }
         },
-        {
-            "name":"smaug-laser",
+        {   "name":"smaug-laser",
             "mirror":true,
             "alternate":true,
             "x":35,
@@ -88,11 +84,9 @@
                 "sideWidth": 1.5,
                 "sideLength": 80,
                 "width": 45,
-                "colors":["CF6A53AA", "FFA566FF", "FFFFFF"],
+                "colors":["#CF6A53AA", "#FFA566FF", "#FFFFFF"],
                 "length": 320
             }
         }
-    ],
-    "abilities": [
     ]
 }
