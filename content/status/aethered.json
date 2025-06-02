@@ -3,7 +3,7 @@
     "description": "You are powered by a mystical essence.",
     "affinities": ["wet"],
     "transitionDamage": -5,
-    "speedMultiplier": 0.80,
+    "speedMultiplier": 0.90,
     "healthMultiplier": 1.05,
     "damage": -1.5
 }
