@@ -21,7 +21,7 @@
     "weapons": [ 
         {   "name": "goliath-fusion-right",
             "shootY": 22,
-            "x": -29,
+            "x": 29,
             "y": -0.5,
             "rotate": true,
             "rotateSpeed": 0.5,
@@ -113,7 +113,7 @@
         },
         {   "name": "goliath-fusion-left",
             "shootY": 22,
-            "x": 29,
+            "x": -29,
             "y": -0.5,
             "layerOffset": -0.001,
             "shootSound": "mechshoot",
