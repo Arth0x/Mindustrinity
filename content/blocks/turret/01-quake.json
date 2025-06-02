@@ -19,7 +19,7 @@
         }
     },
     "shoot": {
-        "type": "shootAlternate",
+        "type": "ShootBarrel",
         "shots": 4,
         "shotDelay": 5
     },
@@ -75,7 +75,7 @@
                 "type": "RegionPart",
                 "suffix": "-cannon",   
                 "mirror": true,
-                "under": false,
+                "under": true,
                 "x": 0,
                 "y": 0,
                 "moveY": -2,
