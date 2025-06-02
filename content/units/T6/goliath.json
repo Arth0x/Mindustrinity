@@ -19,7 +19,7 @@
         "freezing"
     ],
     "weapons": [ 
-        {   "name": "goliath-fusion-right",
+        {   "name": "goliath-vulcanite-weapon",
             "shootY": 22,
             "x": 29,
             "y": -0.5,
@@ -111,7 +111,7 @@
                 "incendAmount": 1
             }
         },
-        {   "name": "goliath-fusion-left",
+        {   "name": "goliath-aether-weapon",
             "shootY": 22,
             "x": -29,
             "y": -0.5,
@@ -144,11 +144,11 @@
                 "speed": 10,
                 "width": 25,
                 "height": 25,
-                "frontColor": "EFFDFF",
-                "backColor": "6CE6FF",
+                "frontColor": "#EFFDFF",
+                "backColor": "#6CE6FF",
                 "trailLength": 10,
                 "trailWidth": 3,
-                "trailColor": "6CE6FF",
+                "trailColor": "#6CE6FF",
                 "damage": 245,
                 "status": "cryogenised",
                 "statusDuration": 180,
@@ -181,8 +181,8 @@
                     "sizeFrom": 2,
                     "sizeTo": 0 ,
                     "lifetime": 15,
-                    "colorFrom": "6CE6FF",
-                    "colorTo": "6CE6FF00",
+                    "colorFrom": "#6CE6FF",
+                    "colorTo": "#6CE6FF00",
                     "length": -2,
                     "baseLength": 2,
                     "cone": 35
