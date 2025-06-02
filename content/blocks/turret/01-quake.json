@@ -73,7 +73,7 @@
         "parts": [ 
             {
                 "type": "RegionPart",
-                "suffix": "-cannon",   
+                "suffix": "-cannon-l",   
                 "mirror": true,
                 "under": true,
                 "x": 0,
