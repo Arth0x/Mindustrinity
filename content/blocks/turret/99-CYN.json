@@ -35,8 +35,8 @@
                 "strokeFrom": 3,
                 "strokeTo": 0.5,
                 "sizeTo": 60,
-                "colorFrom": "FF4040",
-                "colorTo": "FF4040"
+                "colorFrom": "#FF4040",
+                "colorTo": "#FF4040"
             },
             {
                 "type": "ParticleEffect",
@@ -51,8 +51,8 @@
                 "strokeTo": 0.5,
                 "sizeFrom": 0,
                 "sizeTo": 60,
-                "colorFrom": "FF4040",
-                "colorTo": "FF4040"
+                "colorFrom": "#FF4040",
+                "colorTo": "#FF4040"
             },
             {
                 "type": "ParticleEffect",
@@ -66,16 +66,16 @@
                 "strokeFrom": 3,
                 "strokeTo": 0.5,
                 "sizeTo": 60,
-                "colorFrom": "FF4040",
-                "colorTo": "FF4040"
+                "colorFrom": "#FF4040",
+                "colorTo": "#FF4040"
             }
         ]
     },
     "ammoTypes": {
         "water": {
             "type": "PointLaserBulletType",
-            "color": "FF4040",
-            "status": "death",
+            "color": "#FF4040",
+            "status": "solved",
             "beamEffectSize": 3,
             "oscScl": 4,
             "length": 640,
@@ -90,8 +90,8 @@
                 "strokeTo": 0,
                 "lenFrom": 8,
                 "lenTo": 0,
-                "colorFrom": "FF0000",
-                "colorTo": "FF0000"
+                "colorFrom": "#FF0000",
+                "colorTo": "#FF0000"
             } 
         }
     },
@@ -123,7 +123,7 @@
                 "type": "RegionPart",
                 "suffix": "-main",
                 "heatProgress": "warmup",
-                "heatColor": "FFFFFFFF",
+                "heatColor": "#FFFFFFFF",
                 "x": 0,
                 "y": 0
             },
@@ -133,7 +133,7 @@
                 "delai": 100,
                 "suffix": "-edge1",
                 "heatProgress": "warmup",
-                "heatColor": "FFFFFFFF",
+                "heatColor": "#FFFFFFFF",
                 "cooldownTime": 180,
                 "moveX": 1,
                 "moveY": 5,
@@ -151,7 +151,7 @@
                 "mirror": true,
                 "suffix": "-edge2",
                 "heatProgress": "warmup",
-                "heatColor": "FFFFFFFF",
+                "heatColor": "#FFFFFFFF",
                 "cooldownTime": 180,
                 "moveX": 5,
                 "moveY": 5.5,
@@ -169,7 +169,7 @@
                 "mirror": true,
                 "suffix": "-edge3",
                 "heatProgress": "warmup",
-                "heatColor": "FFFFFFFF",
+                "heatColor": "#FFFFFFFF",
                 "cooldownTime": 180,
                 "moveRot": -35,
                 "moveX": 10,
@@ -186,7 +186,7 @@
                 "type": "ShapePart",
                 "progress": "warmup",
                 "rotateSpeed": 0,
-                "color": "FFFFFF",
+                "color": "#FFFFFF",
                 "sides": 6,
                 "mirror": false,
                 "hollow": false,
@@ -201,7 +201,7 @@
                 "y": -9,
                 "radius": 3,
                 "tri": true,
-                "color": "FF4040FF",
+                "color": "#FF4040FF",
                 "haloRotation": 90,
                 "haloRadius": 8,
                 "stroke": 0,
