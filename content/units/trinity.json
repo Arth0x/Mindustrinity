@@ -89,12 +89,14 @@
             "shrinkY": 0,
             "shrinkX": 0,
             "width": 8,
-            "height": 18,
+            "height": 14,
             "speed": 5.5,
             "frontColor": "#FFCCA6FF",
             "backColor": "#FFA664FF",
             "trailRotation": true,
             "trailInterval": 1,
+            "trailLength": 10,
+            "trailWidth": 3,
             "trailEffect": {
                 "type": "ParticleEffect",
                 "particles": 15,
@@ -107,7 +109,7 @@
             },
             "lifetime": 80,
             "homingRange": 80,
-            "homingPower": 0.1
+            "homingPower": 1
             }
         }
     ]
