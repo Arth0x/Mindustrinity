@@ -2,7 +2,7 @@
     "type": "ItemTurret",
     "category": "turret",
     "research": "hail",
-    "health": 600,
+    "health": 640,
     "targetAir": false,
     "size": 2,
     "reload": 120,
