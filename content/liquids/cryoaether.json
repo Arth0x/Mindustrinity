@@ -1,6 +1,6 @@
 {
     "temperature": 0,
-    "heatCapacity": 2.8,
+    "heatCapacity": 1.5,
     "viscosity": 0.76,
     "effect": "cryogenised",
     "color": "44A5F5"
