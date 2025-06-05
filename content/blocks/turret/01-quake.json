@@ -30,6 +30,7 @@
                 "type": "RegionPart",
                 "suffix": "-barrel-2",
                 "progress": "recoil",
+                "recoilIndex": 1,
                 "under": true,
                 "moveY": -2.0
             },
@@ -37,6 +38,7 @@
                 "type": "RegionPart",
                 "suffix": "-barrel-1",
                 "progress": "recoil",
+                "recoilIndex": 2,
                 "under": true,
                 "moveY": -2.0
             }
