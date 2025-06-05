@@ -20,8 +20,8 @@
     },
     "shoot": {
         "type": "ShootBarrel",
-        "shots": 2,
-        "shotDelay": 4,
+        "shots": 4,
+        "shotDelay": 10,
         "barrels": [-3.0, 0.0, 0.0, 3.0, 0.0, 0.0]
     },
     "recoils": 2,
