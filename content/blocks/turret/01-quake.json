@@ -59,7 +59,11 @@
                 "splashDamageRadius" : 18,	
                 "hitEffect" : "flakExplosion",
                 "despawnEffect": "flakExplosion"
-		    }
+		    },
+            "hitColor": "#7d89d8",
+            "backColor": "#7d89d8",
+            "trailColor": "#7d89d8",
+            "frontColor": "#7d89d8"
         },
         "silicon": {
             "speed": 5,
