@@ -37,7 +37,7 @@
         },
         {
             "type": "RegionPart",
-            "name": "-barrel_1",
+            "name": "-barrel-1",
             "progress": "recoil",
             "under": true,
             "moveY": -2.0
