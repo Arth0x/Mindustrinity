@@ -8,7 +8,7 @@
     "reload": 120,
     "range": 180,
     "inaccuracy": 5,
-    "ammoPerShot": 2,
+    "ammoPerShot": 4,
     "recoil": 1,
     "rotateSpeed": 1.4,
     "shootSound": "shoot",
@@ -97,7 +97,11 @@
                 "splashDamageRadius" : 18,	
                 "hitEffect" : "flakExplosion",
                 "despawnEffect": "flakExplosion"
-		    }
+		    },
+            "hitColor": "FF0000",
+            "backColor": "FF0000",
+            "trailColor": "FF0000",
+            "frontColor": "FF0000"
         }
     },
     "requirements": [
