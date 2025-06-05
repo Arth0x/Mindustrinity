@@ -150,7 +150,8 @@
             "trailColor": "#f8ad42",
             "frontColor": "#f6e096",
             "status": "burning",
-            "statusDuration": 4
+            "statusDuration": 4,
+            "trailEffect": "incendTrail"
         }
     },
     "requirements": [
