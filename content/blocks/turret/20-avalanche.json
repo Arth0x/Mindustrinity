@@ -6,7 +6,7 @@
     "targetAir": false,
     "size": 4,
     "reload": 600,
-    "maxAmmo": "60",
+    "maxAmmo": "10",
     "range": 750,
     "inaccuracy": 2,
     "ammoPerShot": 2,
