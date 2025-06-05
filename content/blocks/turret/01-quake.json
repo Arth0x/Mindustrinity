@@ -32,9 +32,7 @@
                 "type": "RegionPart",
                 "suffix": "-barrel-2",
                 "progress": {
-                    "type": "reload",
-                    "op": "delay",
-                    "amount": 0.85
+                    "type": "recoil"
                 },
                 "recoilIndex": 0.5,
                 "under": true,
@@ -44,9 +42,7 @@
                 "type": "RegionPart",
                 "suffix": "-barrel-1",
                 "progress": {
-                    "type": "reload",
-                    "op": "delay",
-                    "amount": 0.85
+                    "type": "recoil"
                 },
                 "recoilIndex": 1,
                 "under": true,
