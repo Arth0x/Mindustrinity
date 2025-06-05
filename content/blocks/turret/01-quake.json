@@ -25,14 +25,14 @@
         "parts": [
             {
                 "type": "RegionPart",
-                "name": "-barrel-2",
+                "suffix": "-barrel-2",
                 "progress": "recoil",
                 "under": true,
                 "moveY": -2.0
             },
             {
                 "type": "RegionPart",
-                "name": "-barrel-1",
+                "suffix": "-barrel-1",
                 "progress": "recoil",
                 "under": true,
                 "moveY": -2.0
