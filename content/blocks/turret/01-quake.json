@@ -63,7 +63,7 @@
             "hitColor": "#7d89d8",
             "backColor": "#7d89d8",
             "trailColor": "#7d89d8",
-            "frontColor": "#7d89d8"
+            "frontColor": "#dae1ee"
         },
         "silicon": {
             "speed": 5,
@@ -105,7 +105,7 @@
             "hitColor": "#707594",
             "backColor": "#707594",
             "trailColor": "#707594",
-            "frontColor": "#707594"
+            "frontColor": "#999ba0"
         }
     },
     "requirements": [
