@@ -10,7 +10,6 @@
     "inaccuracy": 5,
     "ammoPerShot": 4,
     "recoil": 1,
-    "recoilTime": 0.1,
     "rotateSpeed": 1.4,
     "shootSound": "shoot",
     "consumes": {
@@ -41,7 +40,7 @@
                 "type": "RegionPart",
                 "suffix": "-barrel-1",
                 "progress": {
-                    "type": "recoil",
+                    "type": "reload",
                     "op": "delay",
                     "amount": 0.85
                 },
