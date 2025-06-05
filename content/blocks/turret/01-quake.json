@@ -33,14 +33,14 @@
                 "suffix": "-barrel-2",
                 "progress": "recoil",
                 "under": true,
-                "moveY": -2.0
+                "moveY": -4.0
             },
             {
                 "type": "RegionPart",
                 "suffix": "-barrel-1",
                 "progress": "recoil",
                 "under": true,
-                "moveY": -2.0
+                "moveY": -4.0
             }
         ]
     },
