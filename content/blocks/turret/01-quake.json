@@ -21,7 +21,46 @@
     "shoot": {
         "type": "ShootBarrel",
         "shots": 4,
-        "shotDelay": 5
+        "shotDelay": 5,
+        "barrels": [0.0, 1.0, 0.0, 3.0, 0.0, 0.0, -3.0, 0.0, 0.0]
+    },
+    "recoils": 3,
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [
+        {
+            "type": "RegionPart",
+            "name": "-barrel-3",
+            "progress": "recoil",
+            "recoilIndex": 2,
+            "under": true,
+            "moveY": -2.0
+        },
+        {
+            "type": "RegionPart",
+            "name": "-barrel-2",
+            "progress": "recoil",
+            "recoilIndex": 1,
+            "under": true,
+            "moveY": -2.0
+        },
+        {
+            "type": "RegionPart",
+            "name": "-barrel-1",
+            "progress": "recoil",
+            "recoilIndex": 0,
+            "under": true,
+            "moveY": -2.0
+        },
+        {
+            "type": "RegionPart",
+            "suffix": "-top",   
+            "mirror": false,
+            "under": false,
+            "x": 0,
+            "y": 0
+        }
+        ]
     },
 	"ammoTypes": {
         "graphite": {
@@ -161,7 +200,7 @@
         "lead/75",
         "metaglass/35"
     ],
-    "drawer": {
+    "drawerdfgd": {
         "type": "DrawTurret",
         "parts": [ 
             {
@@ -175,14 +214,6 @@
                 "progress": {
                     "type": "recoil"
                 }
-            },
-            {
-                "type": "RegionPart",
-                "suffix": "-top",   
-                "mirror": false,
-                "under": false,
-                "x": 0,
-                "y": 0
             }
         ]
     }
