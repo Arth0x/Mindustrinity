@@ -32,7 +32,6 @@
             "type": "RegionPart",
             "name": "-cannon",
             "progress": "recoil",
-            "recoilIndex": 2,
             "under": true,
             "moveY": -2.0
         },
@@ -40,7 +39,6 @@
             "type": "RegionPart",
             "name": "-barrel_1",
             "progress": "recoil",
-            "recoilIndex": 1,
             "under": true,
             "moveY": -2.0
         },
