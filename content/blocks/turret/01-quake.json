@@ -34,7 +34,8 @@
                 "progress": "recoil",
                 "recoilIndex": 0.5,
                 "under": true,
-                "moveY": -2.0
+                "moveY": -2.0,
+                "recover": 5
             },
             {
                 "type": "RegionPart",

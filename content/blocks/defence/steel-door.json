@@ -1,6 +1,6 @@
 { 
     "type": "AutoDoor",
-    "health": 1800,
+    "health": 2400,
     "size": 2,
     "armor": 25,
     "placeableLiquid": "true",
