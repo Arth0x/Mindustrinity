@@ -98,10 +98,10 @@
                 "hitEffect" : "flakExplosion",
                 "despawnEffect": "flakExplosion"
 		    },
-            "hitColor": "FF0000",
-            "backColor": "FF0000",
-            "trailColor": "FF0000",
-            "frontColor": "FF0000"
+            "hitColor": "#707594",
+            "backColor": "#707594",
+            "trailColor": "#707594",
+            "frontColor": "#707594"
         }
     },
     "requirements": [
