@@ -18,12 +18,7 @@
             "optional": true 
         }
     },
-    "shoot": {
-        "type": "ShootBarrel",
-        "shots": 4,
-        "shotDelay": 5,
-        "barrels": [-2.0, 0.0, 0.0, 2.0, 0.0, 0.0]
-    },
+    
     "recoils": 2,
     "drawer": {
         "type": "DrawTurret",
