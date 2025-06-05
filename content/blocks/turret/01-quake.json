@@ -10,6 +10,7 @@
     "inaccuracy": 5,
     "ammoPerShot": 4,
     "recoil": 1,
+    "recoilTime": 0.1,
     "rotateSpeed": 1.4,
     "shootSound": "shoot",
     "consumes": {
@@ -34,8 +35,7 @@
                 "progress": "recoil",
                 "recoilIndex": 0.5,
                 "under": true,
-                "moveY": -2.0,
-                "recoilTime": 0.1
+                "moveY": -2.0
             },
             {
                 "type": "RegionPart",
@@ -43,8 +43,7 @@
                 "progress": "recoil",
                 "recoilIndex": 1,
                 "under": true,
-                "moveY": -2.0,
-                "recoilTime": 10
+                "moveY": -2.0
             }
         ]
     },
