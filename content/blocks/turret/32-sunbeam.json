@@ -28,7 +28,7 @@
 	"rotateSpeed": 4,
     "shootType" : {
         "type": "ContinuousFlameBulletType",
-        "colors": ["FF9664AA", "FF9664FF", "FF9664FF", "FFBBBBFF"],
+        "colors": ["#FF9664AA", "#FF9664FF", "#FF9664FF", "#FFBBBBFF"],
         "damage": 120,
         "width": 7,
         "status": "vulcanise",

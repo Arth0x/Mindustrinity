@@ -20,8 +20,6 @@
     },
     "shoot": {
         "type": "ShootBarrel",
-        "shots": 4,
-        "shotDelay": 5,
         "barrels": [-2.0, 0.0, 0.0, 2.0, 0.0, 0.0]
     },
     "recoils": 2,
@@ -33,14 +31,14 @@
                 "suffix": "-barrel-2",
                 "progress": "recoil",
                 "under": true,
-                "moveY": -4.0
+                "moveY": -2.0
             },
             {
                 "type": "RegionPart",
                 "suffix": "-barrel-1",
                 "progress": "recoil",
                 "under": true,
-                "moveY": -4.0
+                "moveY": -2.0
             }
         ]
     },
