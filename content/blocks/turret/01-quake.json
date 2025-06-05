@@ -24,7 +24,7 @@
         "shotDelay": 5,
         "barrels": [-2.0, 0.0, 0.0, 2.0, 0.0, 0.0]
     },
-    "recoils": 3,
+    "recoils": 2,
     "drawer": {
         "type": "DrawTurret",
         "parts": [
