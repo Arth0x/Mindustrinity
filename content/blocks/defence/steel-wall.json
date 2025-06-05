@@ -1,6 +1,6 @@
 { 
     "type": "Wall",
-    "health": 3400,
+    "health": 2800,
     "size": 2,
     "armor": 25,
     "placeableLiquid": "true",
