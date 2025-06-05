@@ -22,7 +22,7 @@
         "type": "ShootBarrel",
         "shots": 4,
         "shotDelay": 5,
-        "barrels": [0.0, 1.0, 0.0, 3.0, 0.0, 0.0, -3.0, 0.0, 0.0]
+        "barrels": [-2.0, 0.0, 0.0, 2.0, 0.0, 0.0]
     },
     "recoils": 3,
     "drawer": {
@@ -30,7 +30,7 @@
         "parts": [
         {
             "type": "RegionPart",
-            "name": "-barrel-3",
+            "name": "-barrel-2",
             "progress": "recoil",
             "recoilIndex": 2,
             "under": true,
@@ -38,17 +38,9 @@
         },
         {
             "type": "RegionPart",
-            "name": "-barrel-2",
-            "progress": "recoil",
-            "recoilIndex": 1,
-            "under": true,
-            "moveY": -2.0
-        },
-        {
-            "type": "RegionPart",
             "name": "-barrel-1",
             "progress": "recoil",
-            "recoilIndex": 0,
+            "recoilIndex": 1,
             "under": true,
             "moveY": -2.0
         },
@@ -199,22 +191,5 @@
 		"titanium/50",
         "lead/75",
         "metaglass/35"
-    ],
-    "drawerdfgd": {
-        "type": "DrawTurret",
-        "parts": [ 
-            {
-                "type": "RegionPart",
-                "suffix": "-cannon-l",   
-                "mirror": true,
-                "under": true,
-                "x": 0,
-                "y": 0,
-                "moveY": -2,
-                "progress": {
-                    "type": "recoil"
-                }
-            }
-        ]
-    }
+    ]
 }
