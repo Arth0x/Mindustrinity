@@ -30,7 +30,7 @@
         "parts": [
         {
             "type": "RegionPart",
-            "name": "-barrel-2",
+            "name": "-barrel_2",
             "progress": "recoil",
             "recoilIndex": 2,
             "under": true,
@@ -38,7 +38,7 @@
         },
         {
             "type": "RegionPart",
-            "name": "-barrel-1",
+            "name": "-barrel_1",
             "progress": "recoil",
             "recoilIndex": 1,
             "under": true,
