@@ -65,7 +65,7 @@
             "height": 10 ,
             "drag": 0.001,
             "shootEffect": "shootBig",
-            "fragBullets": 5,
+            "fragBullets": 2,
 		    "fragBullet": {
                 "type": "artilleryBulletType",
                 "height" : 4,
@@ -81,15 +81,14 @@
             "hitColor": "#7d89d8",
             "backColor": "#7d89d8",
             "trailColor": "#7d89d8",
-            "frontColor": "#dae1ee",
-            "despawnEffect": "hitBulletColor"
+            "frontColor": "#dae1ee"
         },
         "silicon": {
             "speed": 5,
             "type":"ArtilleryBulletType",
             "sprite": "shell",
             "lifetime": 180,
-            "damage": 12,
+            "damage": 28,
             "color": "#95abd8",
             "keepVelocity":	false,
             "splashDamage" : 5,
@@ -98,29 +97,6 @@
             "height": 10 ,
             "drag": 0.001,
             "shootEffect": "shootBig",
-            "smokeEffect": {
-                "type": "ParticleEffect",
-                "particles": 4,
-                "offset": 11,
-                "sizeFrom": 2,
-                "sizeTo": 0,
-                "length": 40,
-                "lifetime": 17,
-                "cone": 25
-            },
-            "fragBullets": 5,
-		    "fragBullet": {
-                "type": "artilleryBulletType",
-                "height" : 4,
-                "width" : 4,
-                "lifetime": 3,
-                "drag": 0.02,
-                "speed": 4.5,
-                "splashDamage" : 25,
-                "splashDamageRadius" : 18,	
-                "hitEffect" : "flakExplosion",
-                "despawnEffect": "flakExplosion"
-		    },
             "hitColor": "#707594",
             "backColor": "#707594",
             "trailColor": "#707594",
@@ -135,7 +111,7 @@
             "type":"ArtilleryBulletType",
             "sprite": "shell",
             "lifetime": 180,
-            "damage": 12,
+            "damage": 5,
             "keepVelocity":	false,
             "splashDamage" : 5,
             "splashDamageRadius" : 20,
@@ -143,16 +119,6 @@
             "height": 10 ,
             "drag": 0.001,
             "shootEffect": "shootBig",
-            "smokeEffect": {
-                "type": "ParticleEffect",
-                "particles": 4,
-                "offset": 11,
-                "sizeFrom": 2,
-                "sizeTo": 0,
-                "length": 40,
-                "lifetime": 17,
-                "cone": 25
-            },
             "fragBullets": 5,
             "fragBullet": {
                 "type": "artilleryBulletType",
@@ -161,8 +127,8 @@
                 "lifetime": 3,
                 "drag": 0.02,
                 "speed": 4.5,
-                "splashDamage" : 25,
-                "splashDamageRadius" : 18,	
+                "splashDamage" : 16,
+                "splashDamageRadius" : 24,	
                 "hitEffect" : "flakExplosion",
                 "despawnEffect": "flakExplosion"
             },
@@ -171,7 +137,7 @@
             "trailColor": "#f8ad42",
             "frontColor": "#f6e096",
             "status": "burning",
-            "statusDuration": 4,
+            "statusDuration": 60,
             "trailEffect": "incendTrail"
         }
     },
