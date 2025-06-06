@@ -14,6 +14,7 @@
     "recoil": 2,
     "recoilTime": 10,
     "rotateSpeed": 1.4,
+    "ammoEjectBack": 5,
     "shootSound": "shoot",
     "consumes": {
         "coolant": {
