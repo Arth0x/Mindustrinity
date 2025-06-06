@@ -185,7 +185,7 @@
     },
     "requirements": [
 		"titanium/50",
-        "lead/75",
+        "graphite/100",
         "metaglass/35"
     ]
 }
