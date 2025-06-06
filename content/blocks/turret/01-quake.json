@@ -103,10 +103,10 @@
             "drag": 0.001,
             "rangeChange": 60,
             "shootEffect": "shootBig",
+            "frontColor": "#999ba0",
             "hitColor": "#707594",
             "backColor": "#707594",
             "trailColor": "#707594",
-            "frontColor": "#999ba0",
             "trailLength": 8,
             "trailWidth": 2,
             "homingPower": 0.08,
@@ -139,10 +139,10 @@
                 "hitEffect" : "flakExplosion",
                 "despawnEffect": "flakExplosion"
             },
+            "frontColor": "#f6e096",
             "hitColor": "#f8ad42",
             "backColor": "#f8ad42",
             "trailColor": "#f8ad42",
-            "frontColor": "#f6e096",
             "status": "burning",
             "statusDuration": 180,
             "trailEffect": "incendTrail"
