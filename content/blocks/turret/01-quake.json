@@ -9,7 +9,7 @@
     "range": 180,
     "inaccuracy": 5,
     "ammoPerShot": 4,
-    "recoil": 3,
+    "recoil": 2,
     "recoilTime": 10,
     "rotateSpeed": 1.4,
     "shootSound": "shoot",
@@ -22,7 +22,7 @@
     "shoot": {
         "type": "ShootBarrel",
         "shots": 4,
-        "shotDelay": 10,
+        "shotDelay": 8,
         "barrels": [-3.0, 0.0, 0.0, 3.0, 0.0, 0.0]
     },
     "recoils": 2,
