@@ -147,7 +147,7 @@
             "statusDuration": 180,
             "trailEffect": "incendTrail"
         },
-        "mindustrinity-steel": {
+        "steel": {
             "speed": 5,
             "type":"ArtilleryBulletType",
             "sprite": "shell",
