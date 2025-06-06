@@ -6,7 +6,7 @@
     "targetAir": false,
     "size": 2,
     "reload": 120,
-    "range": 180,
+    "range": 220,
     "inaccuracy": 5,
     "ammoPerShot": 4,
     "recoil": 2,
@@ -22,7 +22,7 @@
     "shoot": {
         "type": "ShootBarrel",
         "shots": 4,
-        "shotDelay": 8,
+        "shotDelay": 6,
         "barrels": [-3.0, 0.0, 0.0, 3.0, 0.0, 0.0]
     },
     "recoils": 2,
