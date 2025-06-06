@@ -166,7 +166,7 @@
                 "lifetime": 3,
                 "drag": 0.02,
                 "speed": 4.5,
-                "splashDamage" : 4,
+                "splashDamage" : 6,
                 "splashDamageRadius" : 32,	
                 "hitEffect" : "flakExplosion",
                 "despawnEffect": "flakExplosion"
