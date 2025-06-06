@@ -15,6 +15,7 @@
     "recoilTime": 10,
     "rotateSpeed": 1.4,
     "ammoEjectBack": 5,
+    "ammoUseEffect": "casing3",
     "shootSound": "shoot",
     "consumes": {
         "coolant": {
