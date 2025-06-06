@@ -27,7 +27,6 @@
         "infused-aether": {
             "type":"BasicBulletType",
             "trailColor": "79A4F3FF",
-            "trailParam": 5,
             "trailLength": 6,
             "trailWidth": 1.5,
             "sprite": "mindustrinity-heavy-bullet",
@@ -35,8 +34,8 @@
             "lifetime": 80,
             "buildingDamageMultiplier": 0.75,
             "damage": 800,
-            "width": 13,
-            "height": 19,
+            "width": 10,
+            "height": 24,
             "reflectable": false,
             "shootEffect": "explosion",
             "hitEffect": "flakExplosionBig",

@@ -12,6 +12,7 @@
     "ammoPerShot": 2,
     "recoil": 1,
     "rotateSpeed": 1.4,
+    "cooldownTime": 300,
     "shootSound": "artillery",
     "consumes": {
         "coolant": {
