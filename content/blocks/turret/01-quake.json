@@ -183,7 +183,7 @@
     },
     "requirements": [
 		"titanium/50",
-        "graphite/100",
+        "graphite/75",
         "metaglass/35"
     ]
 }
