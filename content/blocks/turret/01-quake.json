@@ -9,6 +9,8 @@
     "range": 240,
     "inaccuracy": 5,
     "ammoPerShot": 4,
+    "itemCapacity": 12,
+    "ammoCapacity": 24,
     "recoil": 2,
     "recoilTime": 10,
     "rotateSpeed": 1.4,
