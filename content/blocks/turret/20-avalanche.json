@@ -13,7 +13,7 @@
     "recoil": 1,
     "rotateSpeed": 1.4,
     "cooldownTime": 300,
-    "ammoEjectBack": 10,
+    "ammoEjectBack": -5,
     "ammoUseEffect": "casing4",
     "shootSound": "artillery",
     "consumes": {
