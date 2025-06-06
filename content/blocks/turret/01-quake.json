@@ -5,7 +5,7 @@
     "health": 640,
     "targetAir": false,
     "size": 2,
-    "reload": 95,
+    "reload": 120,
     "range": 240,
     "inaccuracy": 5,
     "ammoPerShot": 4,
