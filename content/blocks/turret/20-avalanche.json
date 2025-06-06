@@ -14,7 +14,7 @@
     "rotateSpeed": 1.4,
     "cooldownTime": 300,
     "ammoEjectBack": 10,
-    "ammoUseEffect": "casing6",
+    "ammoUseEffect": "casing4",
     "shootSound": "artillery",
     "consumes": {
         "coolant": {
