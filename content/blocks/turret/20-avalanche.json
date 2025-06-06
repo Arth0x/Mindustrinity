@@ -64,7 +64,7 @@
             "makeFire": true,
             "trailEffect": "incendTrail"
         },
-        "blastcompound": {
+        "blast-compound": {
             "speed": 8,
             "type":"ArtilleryBulletType",
             "hitEffect": "blastExplosion",
