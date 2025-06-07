@@ -1,5 +1,5 @@
 {
-    "type": "TankUnitType",
+    "type": "Tank",
     "hitSize": 12,
     "treadPullOffset": 3,
     "speed": 1.2,

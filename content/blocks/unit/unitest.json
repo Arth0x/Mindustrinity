@@ -1,0 +1,23 @@
+{
+    "type": "UnitFactory",
+    "size": 3,
+    "configurable": true,
+    "fogRadius": 3,
+    "category": "units",
+    "consumes": {
+        "power": 2
+    },
+    "plans": [
+        {
+            "unit": "unitesti",
+            "requirements": [
+                "silicon/60",
+                "graphite/30"
+            ],
+            "time": 2400
+        }
+    ],
+    "requirements": [
+        "silicon/80"
+    ]
+}
