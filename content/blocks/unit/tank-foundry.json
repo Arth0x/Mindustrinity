@@ -1,5 +1,5 @@
-{
-    "type": "UnitAssembler",
+ {
+    "type": "UnitFactory",
     "size": 3,
     "consumePower": 1.2,
     "researchCostMultiplier": 0.5,
@@ -19,4 +19,5 @@
         "steel/35",
         "silicon/100"
     ]
+
 }
