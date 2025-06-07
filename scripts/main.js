@@ -1,5 +1,5 @@
 
-require("t01_viper")
+//require("t01_viper")
 
 // listen for the event where a unit is destroyed
 Events.on(UnitDestroyEvent, event => {
