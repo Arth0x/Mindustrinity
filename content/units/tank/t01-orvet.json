@@ -1,5 +1,5 @@
 {
-    "type": "Tank",
+    "type": "tank",
     "template": "ErekirUnitType",
     "hitSize": 12,
     "treadPullOffset": 3,
