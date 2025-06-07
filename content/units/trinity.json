@@ -52,32 +52,6 @@
         "shootSound": "laser",
         "reload": 40,
         "bullet": {
-            "hitEffect": {
-                "type": "ParticleEffect",
-                "line": true,
-                "offset": 30,
-                "particles": 13,
-                "lifetime": 33,
-                "length": 35,
-                "cone": -360,
-                "lenFrom": 6,
-                "lenTo": 0,
-                "colorFrom": "FFFFFF",
-                "colorTo": "FFA664FF"
-            },
-            "despawnEffect": {
-                "type": "ParticleEffect",
-                "line": true,
-                "offset": 30,
-                "particles": 13,
-                "lifetime": 33,
-                "length": 35,
-                "cone": -360,
-                "lenFrom": 6,
-                "lenTo": 0,
-                "colorFrom": "FFFFFF",
-                "colorTo": "FFA664FF"
-            },
             "keepVelocity": false,
             "pierce": true,
             "pierceCap": 3,
