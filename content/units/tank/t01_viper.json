@@ -1,0 +1,46 @@
+{
+  "armor": 8,
+  "type": "tankUnitType",
+  "hitSize": 15,
+  "squareShape": true,
+  "omniMovement": false,
+  "rotateSpeed": 2,
+  "speed": 1.2,
+  "flying": false,
+  "health": 300,
+  "treadPullOffset": 8,
+  "range": 120,
+  "treadRects": [
+    {
+      "x": 24,
+      "width": 10,
+      "height": 24
+    }
+  ],
+  "weapons": [
+      {
+      "name": "t01_viper-canon",
+        "mirror": false,
+        "x": 0,
+        "y": 0,
+        "rotate": true,
+        "rotateSpeed": 5,
+        "reload": 30,
+        "recoil": 3,
+        "shootSound": "bang",
+        "bullet": {
+        "type": "basicBulletType",
+        "shootEffect": "shootBig2",
+        "lifetime": 50,
+        "damage": 20,
+        "speed": 4,
+        "status": "blasted",
+        "statusDuration": 50,
+        "width": 12,
+        "height": 16
+         }
+      }
+    ]
+    }
+     
+    
