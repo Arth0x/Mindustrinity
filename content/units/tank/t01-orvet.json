@@ -24,7 +24,6 @@
             "mirror": false,
             "x": 0,
             "y": -0.75,
-            "heatColor": "#9350f",
             "cooldownTime": 30,
             "bullet":{
                 "type": "BasicBulletType",
