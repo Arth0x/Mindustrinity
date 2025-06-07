@@ -13,7 +13,7 @@
     "engineOffset": 10.5,
     "range": 180,
     "maxRange": 180,
-    "engineColor": "FFD37FFF",
+    "engineColor": "#FFD37FFF",
     "aimDst": 180,
     "targetAir": true,
     "faceTarget": true,

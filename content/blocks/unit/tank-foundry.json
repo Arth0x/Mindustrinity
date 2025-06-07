@@ -1,0 +1,21 @@
+ {
+    "type": "UnitFactory",
+    "size": 3,
+    "consumePower": 1.2,
+    "researchCostMultiplier": 0.5,
+    "plans": [ {
+            "unit": "t01-orvet",
+            "requirements": [
+                "silicon/25",
+                "iron/30",
+                "graphite/10"
+            ],
+            "time": 480
+        }
+    ],
+    "requirements": [
+        "copper/60",
+        "steel/35",
+        "silicon/100"
+    ]
+}
