@@ -31,7 +31,7 @@
     "requirements": [
         "silicon/5000",
         "plastanium/1500",
-         "titanium/2500",
+        "titanium/2500",
         "infused-aether/5000",
         "surge-alloy/1000"
     ]

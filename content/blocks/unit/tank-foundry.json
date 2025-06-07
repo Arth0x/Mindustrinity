@@ -1,9 +1,10 @@
 {
-    "type": "UnitFactory",
+    "type": "UnitAssembler",
     "size": 3,
     "consumePower": 1.2,
     "researchCostMultiplier": 0.5,
     "plans": [ {
+            "power": 1.2,
             "unit": "t01-orvet",
             "requirements": [
                 "silicon/25",
