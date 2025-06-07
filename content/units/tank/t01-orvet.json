@@ -24,7 +24,6 @@
             "mirror": false,
             "x": 0,
             "y": -0.75,
-            "cooldownTime": 30,
             "bullet":{
                 "type": "BasicBulletType",
                 "sprite": "missile-large",
