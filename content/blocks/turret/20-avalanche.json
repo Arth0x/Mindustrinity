@@ -200,7 +200,7 @@
 		"steel/550",
         "thorium/750",
         "plastanium/650",
-		"surge-alloy/600"
+		"surge-alloy/550"
     ],
     "drawer": {
         "type": "DrawTurret",
