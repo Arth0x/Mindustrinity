@@ -9,10 +9,9 @@
     "armor": 4,
     "range": 120,
     "treadRects": [ {
-            "x": 0,
-            "y": 0,
-            "width": 20,
-            "height": 30
+            "x": 24,
+            "width": 10,
+            "height": 24
         }
     ],
     "weapons": [ {
@@ -25,7 +24,7 @@
             "rotateSpeed": 2,
             "mirror": false,
             "x": 0,
-            "y": -4,
+            "y": -2,
             "bullet":{
                 "type": "BasicBulletType",
                 "sprite": "missile-large",
