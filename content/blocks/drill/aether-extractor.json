@@ -3,7 +3,7 @@
 	"name": "Aether Extrator",
 	"description": "Aether Extrator",
 	"research": {
-		"parent": "sawater-extractorltFlats",
+		"parent": "water-extractor",
 		"objectives": [
 			{
 				"type": "SectorComplete",
