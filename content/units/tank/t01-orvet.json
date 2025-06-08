@@ -1,7 +1,7 @@
 {
     "type": "tank",
     "hitSize": 12,
-    "treadPullOffset": 3,
+    "treadPullOffset": 0,
     "speed": 1.2,
     "rotateSpeed": 4,
     "omniMovement": false,
@@ -10,7 +10,7 @@
     "range": 120,
     "treadRects": [ {
             "x": 3,
-            "width": 30,
+            "width": 17,
             "height": 76
         }
     ],
@@ -25,7 +25,7 @@
             "mirror": false,
             "x": 0,
             "y": -2,
-            "shootX": 5,
+            "shootY": 5,
             "bullet":{
                 "type": "BasicBulletType",
                 "sprite": "missile-large",
