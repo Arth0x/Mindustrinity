@@ -2,7 +2,15 @@
 	"type": "Fracker",
 	"name": "Aether Extrator",
 	"description": "Aether Extrator",
-	"research": "water-extractor",
+	"research": {
+		"parent": "sawater-extractorltFlats",
+		"objectives": [
+			{
+				"type": "SectorComplete",
+				"preset": "aether-river"
+			}
+		]
+	},
 	"liquidCapacity": 50,
 	"result": "aether",
 	"size": 3,
