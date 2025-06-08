@@ -8,13 +8,13 @@
     "health": 280,
     "armor": 4,
     "range": 120,
-    "treadFrames": 10,
+    "treadFrames": 76,
     "treadPullOffset": 8,
     "treadRects": [ {
-            "x": 0,
+            "x": 3,
             "y": 0,
             "width": 8,
-            "height": 80
+            "height": 76
         }
     ],
     "weapons": [ {
