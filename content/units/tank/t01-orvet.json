@@ -10,7 +10,7 @@
     "range": 120,
     "treadRects": [ {
             "x": 3,
-            "width": 17,
+            "width": 30,
             "height": 76
         }
     ],
@@ -24,7 +24,7 @@
             "rotateSpeed": 2,
             "mirror": false,
             "x": 0,
-            "y": -2,
+            "y": -4,
             "shootY": 5,
             "bullet":{
                 "type": "BasicBulletType",
