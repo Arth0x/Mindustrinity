@@ -2,7 +2,7 @@
     "type": "tank",
     "hitSize": 12,
     "squareShape": true,
-    "speed": 1.2,
+    "speed": 1,
     "rotateSpeed": 4,
     "omniMovement": false,
     "health": 280,
@@ -12,7 +12,7 @@
     "treadPullOffset": 8,
     "treadRects": [ {
             "x": 3,
-            "y": 10,
+            "y": 0,
             "width": 18,
             "height": 76
         }
@@ -20,6 +20,7 @@
     "weapons": [ {
             "name": "t01-orvet-weapon",
             "shootSound": "bang",
+            "damage": 12,
             "layerOffset": 0.0001,
             "reload": 30,
             "recoil": 1,
