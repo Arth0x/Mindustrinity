@@ -1,13 +1,14 @@
 {
     "type": "tank",
     "hitSize": 12,
-    "treadPullOffset": 76,
     "speed": 1.2,
     "rotateSpeed": 4,
     "omniMovement": false,
     "health": 280,
     "armor": 4,
     "range": 120,
+    "treadFrames": 18,
+    "treadPullOffset": 2,
     "treadRects": [ {
             "x": 3,
             "width": 12,
