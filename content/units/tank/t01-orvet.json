@@ -9,7 +9,7 @@
     "armor": 4,
     "range": 120,
     "treadRects": [ {
-            "x": 0,
+            "x": 3,
             "width": 30,
             "height": 76
         }
