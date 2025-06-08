@@ -10,7 +10,7 @@
     "range": 120,
     "treadRects": [ {
             "x": 24,
-            "width": 10,
+            "width": 30,
             "height": 24
         }
     ],
