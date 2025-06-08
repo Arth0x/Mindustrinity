@@ -5,5 +5,13 @@
     "sector": 104,
     "captureWave": 50,
     "difficulty": 5,
-    "research": "saltFlats"
+    "research": {
+        "parent": "saltFlats",
+        "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "saltFlats"
+            }
+        ]
+    }
 }
