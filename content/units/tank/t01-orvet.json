@@ -8,8 +8,7 @@
     "health": 280,
     "armor": 4,
     "range": 120,
-    "treadFrames": 76,
-    "treadPullOffset": 8,
+    "treadPullOffset": 5,
     "treadRects": [ 
             "17 - 96/2", 
             "10 - 96/2",
