@@ -8,11 +8,10 @@
     "health": 280,
     "armor": 4,
     "range": 120,
-    "treadFrames": 1,
-    "treadPullOffset": 2,
+    "treadFrames": 10,
+    "treadPullOffset": 8,
     "treadRects": [ {
             "x": 3,
-            "y": 10,
             "width": 17,
             "height": 76
         }
