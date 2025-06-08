@@ -2,7 +2,7 @@
 	"type": "Fracker",
 	"name": "Aether Extrator",
 	"description": "Aether Extrator",
-	"research": "reinforced-drill",
+	"research": "water-extractor",
 	"liquidCapacity": 50,
 	"result": "aether",
 	"size": 3,
