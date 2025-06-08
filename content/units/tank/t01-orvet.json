@@ -33,7 +33,7 @@
                 "sprite": "missile-large",
                 "smokeEffect": "shootBigSmoke",
                 "shootEffect": "shootBigColor",
-                "damage": 12,
+                "damage": 36,
                 "width": 6,
                 "height": 14,
                 "speed": 4,
