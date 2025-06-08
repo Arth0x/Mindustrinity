@@ -9,7 +9,7 @@
     "armor": 4,
     "range": 120,
     "treadFrames": 10,
-    "treadPullOffset": 180,
+    "treadPullOffset": 2,
     "treadRects": [ {
             "x": 3,
             "y": 0,
