@@ -13,7 +13,7 @@
 	"drillTime": 200,
 	"liquidBoostIntensity": 1.8,
     "itemCapacity": 10,
-	"warmupSpeed": 0.04,
+	"warmupSpeed": 0.0004,
 	"consumes": {
 		"liquid": {
 			"liquid": "water",
