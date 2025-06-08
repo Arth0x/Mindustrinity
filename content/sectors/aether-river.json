@@ -3,7 +3,7 @@
     "icon": "aether-river",
     "description": "A lifely river of the life essence.",
     "sector": 104,
-    "captureWave": 60,
+    "captureWave": 50,
     "difficulty": 5,
     "research": "saltFlats"
 }
