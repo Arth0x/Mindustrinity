@@ -12,6 +12,7 @@
     "treadPullOffset": 2,
     "treadRects": [ {
             "x": 3,
+            "y": -100,
             "width": 17,
             "height": 76
         }
