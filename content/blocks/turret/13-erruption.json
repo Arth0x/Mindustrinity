@@ -8,7 +8,7 @@
     "rotateSpeed": 2,
     "liquidCapacity": 450,
     "reload": 0.5,
-    "inaccuracy": 12,
+    "inaccuracy": 1,
     "velocityRnd": 0.55,
     "shootY": 2,
     "ammoTypes": {
