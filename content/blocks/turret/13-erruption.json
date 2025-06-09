@@ -10,6 +10,7 @@
     "reload": 0.5,
     "inaccuracy": 8,
     "velocityRnd": 0.55,
+    "shootY": 10,
     "ammoTypes": {
         "slag": {
             "type": "LiquidBulletType",
