@@ -2,9 +2,9 @@
     "category": "turret",
     "type": "LiquidTurret",
     "research": "tsunami",
-    "size": 3,
+    "size": 4,
     "range": 250,
-    "health": 1100,
+    "health": 145,
     "rotateSpeed": 2,
     "liquidCapacity": 450,
     "reload": 0.5,
@@ -162,8 +162,8 @@
                 "x": 0,
                 "y": 0,
                 "progress": "warmup",
-                "moveY": -6,
-                "moveX": -6
+                "moveY": -5,
+                "moveX": -5
             },
             {
                 "type": "RegionPart",
@@ -173,8 +173,8 @@
                 "x": 0,
                 "y": 0,
                 "progress": "warmup",
-                "moveY": -6,
-                "moveX": -6
+                "moveY": -1,
+                "moveX": -1
             }
         ]
     }
