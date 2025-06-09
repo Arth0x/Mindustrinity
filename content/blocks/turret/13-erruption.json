@@ -11,6 +11,7 @@
     "inaccuracy": 8,
     "velocityRnd": 0.55,
     "shootY": 10,
+    "shootX": 10,
     "ammoTypes": {
         "slag": {
             "type": "LiquidBulletType",
@@ -163,8 +164,8 @@
                 "x": 0,
                 "y": 0,
                 "progress": "warmup",
-                "moveY": -5,
-                "moveX": 5
+                "moveY": -1.5,
+                "moveX": 2.5
             },
             {
                 "type": "RegionPart",
@@ -174,8 +175,8 @@
                 "x": 0,
                 "y": 0,
                 "progress": "warmup",
-                "moveY": -1,
-                "moveX": 1
+                "moveY": -1.75,
+                "moveX": 3.75
             }
         ]
     }
