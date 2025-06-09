@@ -10,7 +10,7 @@
     "reload": 0.5,
     "inaccuracy": 12,
     "velocityRnd": 0.55,
-    "shootY": -10,
+    "shootY": 2,
     "ammoTypes": {
         "slag": {
             "type": "LiquidBulletType",
@@ -18,12 +18,12 @@
             "damage": 12,
             "speed": 9,
             "puddleSize": 150,
-            "lifetime": 80,
+            "lifetime": 180,
             "status": "melting",
             "statusDuration": 300,
             "drag": 0.02,
             "orbSize": 3,
-            "fragBullets": 10,
+            "fragBullets": 30,
             "fragBullet": {
                 "type": "LiquidBulletType",
                 "liquid": "slag",
