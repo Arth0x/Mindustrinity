@@ -150,5 +150,32 @@
         "metaglass/120",
         "graphite/140",
         "steel/240"
-    ]
+    ],
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [ 
+            {
+                "type": "RegionPart",
+                "suffix": "-edge",   
+                "mirror": true,
+                "under": false,
+                "x": 0,
+                "y": 0,
+                "progress": "warmup",
+                "moveY": -6,
+                "moveX": -6
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-plip",   
+                "mirror": true,
+                "under": false,
+                "x": 0,
+                "y": 0,
+                "progress": "warmup",
+                "moveY": -6,
+                "moveX": -6
+            }
+        ]
+    }
 }
