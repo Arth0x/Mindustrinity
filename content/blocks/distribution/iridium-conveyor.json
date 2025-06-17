@@ -18,10 +18,10 @@
         "line": true,
         "particles": 1,
         "lifetime": 30,
-        "sizeFrom": 12,
+        "sizeFrom": 6,
         "sizeTo": 0,
-        "colorTo": "#FFFB99FF",
-        "colorFrom": "#FFF740FF"
+        "colorFrom": "#FFFB99FF",
+        "colorTo": "#FFF740FF"
     },
     "unloadEffect": {
         "type": "waveEffect",
@@ -29,7 +29,7 @@
         "particles": 1,
         "lifetime": 30,
         "sizeFrom": 0,
-        "sizeTo": 12,
+        "sizeTo": 6,
         "colorFrom": "#FFFB99FF",
         "colorTo": "#FFF740FF"
     }
