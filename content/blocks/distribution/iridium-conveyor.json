@@ -20,8 +20,8 @@
         "lifetime": 30,
         "sizeFrom": 12,
         "sizeTo": 0,
-        "colorFrom": "FFFB99FF",
-        "colorTo": "FFF740FF"
+        "colorTo": "#FFFB99FF",
+        "colorFrom": "#FFF740FF"
     },
     "unloadEffect": {
         "type": "waveEffect",
@@ -30,7 +30,7 @@
         "lifetime": 30,
         "sizeFrom": 0,
         "sizeTo": 12,
-        "colorFrom": "FFFB99FF",
-        "colorTo": "FFF740FF"
+        "colorFrom": "#FFFB99FF",
+        "colorTo": "#FFF740FF"
     }
 }
