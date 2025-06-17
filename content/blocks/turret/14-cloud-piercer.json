@@ -39,7 +39,7 @@
             "damage": 0,
             "spawnUnit": "mindustrinity-meta-piercer"
         },
-        "surge": {
+        "surge-alloy": {
             "ammoMultiplier": 4,
             "shootEffect": "shootBig",
             "smokeEffect": "shootBigSmoke",
