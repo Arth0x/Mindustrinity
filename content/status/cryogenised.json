@@ -1,11 +1,11 @@
 {
     "name": "Cryogenised",
     "description": "You are freezing to death",
-    "speedMultiplier": 0,
-    "disarm": true,
+    "speedMultiplier": 0.05,
+    "reloadMultiplier": 0.05,
     "opposites": ["tarred", "melting"],
     "affinities": ["wet", "freezing"],
     "transitionDamage": 365,
     "damage": 0.85,
-    "applyColor": "44A5F5EE"
+    "applyColor": "#44A5F5EE"
 }
