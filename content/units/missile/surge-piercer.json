@@ -1,24 +1,23 @@
 {
     "type": "missile",
+    "controller": "MissileAI",
     "template": "MissileUnitType",
     "flying": true,
     "speed": 5,
     "physics": false,
-    "lifetime": 68,
-    "rotateSpeed": 10,
+    "lifetime": 180,
+    "rotateSpeed": 0.25,
     "homingDelay": 3,
-    "trailLength": 0,
+    "trailLength": 18,
     "useUnitCap": false,
-    "drawCell": false,
-    "abilities": [
-        {
-            "type": "MoveEffectAbility",
-            "interval": 3,
-            "trailColor": "#f2e878",
-            "rotateEffect": true
-        }
-    ],
-    "outlines": false,
+    "maxRange": 6,
+    "trailColor": "#f2e878",
+    "engineSize": 3.1,
+    "engineOffset": 10,
+    "missileAccelTime": 50,
+    "lowAltitude": true,
+    "fogRadius": 5,
+    "health": 250,
     "weapons": [ {
             "reload": 1,
             "predictTarget": false ,
@@ -34,5 +33,5 @@
                 "splashDamageRadius": 32
             }
         } 
-    ] 
+    ]
 }
