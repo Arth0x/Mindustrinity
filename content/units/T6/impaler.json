@@ -1,7 +1,5 @@
 {
-    "research": {
-        "parent": "corvus"
-    },
+    "research": "corvus",
     "type": "legs",
     "speed": 0.3,
     "rotateSpeed": 0.6,

@@ -9,7 +9,7 @@
     "shake": 0.2,
     "shootSound": "pew-pew",
     "consumes": {
-        "power": 1.5
+        "power": 0.9
     },
     "requirements": 
     [
