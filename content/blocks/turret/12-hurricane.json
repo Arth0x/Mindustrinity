@@ -1,7 +1,6 @@
 {
     "type": "ItemTurret",
     "category": "turret",
-    "research": "cyclone",
     "size": 3,
     "health": 1580,
 	"reload": 480,

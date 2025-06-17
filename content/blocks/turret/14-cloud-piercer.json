@@ -2,9 +2,12 @@
     "type": "ItemTurret",
     "category": "turret",
     "base": "reinforced-block-4",
+    "shootWarmupSpeed": 0.05,
+    "minWarmup": 0.9,
+    "warmupMaintainTime": 90,
     "size": 3,
     "health": 1580,
-	"reload": 480,
+	"reload": 60,
 	"range": 350,
     "recoil" : 1.5,
     "targetGround": false,
@@ -19,35 +22,30 @@
     "cooldown": 160,
     "shots": 3,
     "fragBullets": 5,
+    "shootSound": "missileLaunch",
     "consumes": {
         "coolant": {
             "amount": 0.1,
             "optional": true 
         }
     },
-    "shoot": {
-        "type": "ShootPattern",
-        "shots": 25,
-        "shotDelay": 5
-    },
     "ammoTypes": {
-        "iron": {
-            "type":"MissileBulletType",
-            "height": 6,
-            "width": 6,
-            "damage": 45,
-            "lifetime": 160,
-            "weaveScale": 4,
-            "weaveMag": 6,
-            "speed": 2.5,
-            "trailChance": 1,
-            "homingPower": 0.2,
-            "homingRange": 130,
-            "homingGround": false,
-            "targetGround": false,
-            "splashDamageRadius" : 30,	
-            "hitEffect" : "flakExplosionBig",
-            "despawnEffect": "flakExplosionBig"
+        "metaglass": {
+            "ammoMultiplier": 2,
+            "reloadMultiplier": 0.90,
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootBigSmoke",
+            "instantDisappear": true,
+            "damage": 0,
+            "spawnUnit": "mindustrinity-meta-piercer"
+        },
+        "surge": {
+            "ammoMultiplier": 4,
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootBigSmoke",
+            "instantDisappear": true,
+            "damage": 0,
+            "spawnUnit": "mindustrinity-surge-piercer"
         }
     },
     "requirements": [
@@ -57,3 +55,7 @@
 		"surge-alloy/100"
     ]
 }
+
+
+
+
