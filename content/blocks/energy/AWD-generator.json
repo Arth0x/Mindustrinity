@@ -7,10 +7,11 @@
     "powerProduction": 5.5,
     "itemDuration": 60,
     "consumes": {
-        "items": {
-            "item": "sulfur",
-            "amount": 1
-        }
+        "items":{
+			"items": [
+				"sulfur/1"
+			]
+		}
     },
     "requirements": [
 		"steel/125",
