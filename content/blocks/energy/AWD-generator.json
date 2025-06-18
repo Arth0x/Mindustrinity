@@ -1,14 +1,17 @@
 {
     "type": "ConsumeGenerator",
     "name": "AWD-Generator",
-    "Category": "power",
+    "reseach": "rtg-generator",
+    "category": "power",
     "size": 2,
-    "powerProduction": 4.5,
+    "powerProduction": 5.5,
     "itemDuration": 60,
     "consumes": {
         "items": {
-            "item": "sulfur",
-            "amount": 1
+            "items": {
+                "item": "sulfur",
+                "amount": 1
+            }
         }
     },
     "requirements": [
