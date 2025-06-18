@@ -8,10 +8,8 @@
     "itemDuration": 60,
     "consumes": {
         "items": {
-            "items": {
-                "item": "sulfur",
-                "amount": 1
-            }
+            "item": "sulfur",
+            "amount": 1
         }
     },
     "requirements": [
