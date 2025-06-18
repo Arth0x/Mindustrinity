@@ -1,10 +1,10 @@
 {
     "type": "ConsumeGenerator",
-    "name": "AWD-Generator",
+    "name": "AWD Generator",
     "reseach": "rtg-generator",
     "category": "power",
     "size": 2,
-    "powerProduction": 5.5,
+    "powerProduction": 8.5,
     "itemDuration": 60,
     "consumes": {
         "items":{
