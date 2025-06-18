@@ -14,7 +14,7 @@
     "requirements": [
 		"steel/125",
         "thorium/175",
-        "infused-iridium²/150",
+        "infused-iridium/150",
 		"surge-alloy/60"
     ]
 }
