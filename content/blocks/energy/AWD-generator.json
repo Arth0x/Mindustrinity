@@ -1,0 +1,20 @@
+{
+    "type": "ConsumeGenerator",
+    "name": "AWD-Generator",
+    "Category": "power",
+    "size": 2,
+    "powerProduction": 4.5,
+    "itemDuration": 60,
+    "consumes": {
+        "items": {
+            "item": "sulfur",
+            "amount": 1
+        }
+    },
+    "requirements": [
+		"steel/125",
+        "thorium/175",
+        "infused-iridium²/150",
+		"surge-alloy/60"
+    ]
+}
