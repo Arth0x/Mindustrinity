@@ -6,13 +6,13 @@
     "size": 2,
     "powerProduction": 8.5,
     "itemDuration": 60,
-    "consumes": {
-        "items":{
-			"items": [
-				"sulfur/1"
-			]
-		}
-    },
+      "drawer": [
+    "DrawDefault",
+    "DrawWarmupRegion"
+    ],
+    "consumes": [
+        "ConsumeItemRadioactive"
+    ],
     "requirements": [
 		"steel/125",
         "thorium/175",
