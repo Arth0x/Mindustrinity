@@ -6,12 +6,14 @@
     "size": 2,
     "powerProduction": 8.5,
     "itemDuration": 60,
-      "drawer": [
-    "DrawDefault",
-    "DrawWarmupRegion"
+    "consumes": [ {
+            "type": "item",
+            "behavior": "radioactive"
+        }
     ],
-    "consumes": [
-        "ConsumeItemRadioactive"
+    "drawer": [
+        "DrawDefault",
+        "DrawWarmupRegion"
     ],
     "requirements": [
 		"steel/125",
