@@ -14,9 +14,9 @@
         "DrawWarmupRegion"
     ],
     "requirements": [
-		"steel/125",
-        "thorium/175",
-        "infused-iridium/150",
+		"steel/100",
+        "thorium/100",
+        "infused-iridium/75",
 		"surge-alloy/60"
     ]
 }
