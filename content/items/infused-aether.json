@@ -4,6 +4,6 @@
     "radioactivity": 0,
     "charge": 0.1,
     "cost": 2,
-    "color": "009BFF",
+    "color": "#009BFF",
     "research": "steel"
 }

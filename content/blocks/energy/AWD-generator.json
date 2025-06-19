@@ -5,7 +5,7 @@
     "category": "power",
     "size": 2,
     "powerProduction": 8.5,
-    "itemDuration": 60,
+    "itemDuration": 840,
     "consumes": {
         "itemRadioactive": {}
     },

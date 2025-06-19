@@ -1,9 +1,9 @@
 {
-    "explosiveness": 10,
-    "flammability": 10,
+    "explosiveness": 5,
+    "flammability": 5,
     "radioactivity": 0,
     "charge": 0.1,
     "cost": 2,
-    "color": "FF1E00",
-    "research": "infused-iridium"
+    "color": "#FF1E00",
+    "research": "steel"
 }
