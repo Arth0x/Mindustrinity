@@ -6,11 +6,10 @@
     "size": 2,
     "powerProduction": 8.5,
     "itemDuration": 60,
-    "consumes": [ {
-            "type": "item",
-            "behavior": "radioactive"
-        }
-    ],
+    "consumes": {
+        "itemFlammable": {},
+        "itemRadioactive": {}
+    },
     "drawer": [
         "DrawDefault",
         "DrawWarmupRegion"
