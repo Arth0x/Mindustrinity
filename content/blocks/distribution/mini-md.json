@@ -1,7 +1,7 @@
 {
     "type": "MassDriver",
-    "name": "Tiny Mass Driver",
-    "description": "A tiny mass driver that can shoot less items and has less range.",
+    "name": "Mini Driver",
+    "description": "A miny driver that can pew pew.",
     "itemCapacity": 55,
     "reload": 40,
     "range": 120,
@@ -9,7 +9,7 @@
     "shake": 0.2,
     "shootSound": "pew-pew",
     "consumes": {
-        "power": 0.9
+        "power": 0.55
     },
     "requirements": 
     [
