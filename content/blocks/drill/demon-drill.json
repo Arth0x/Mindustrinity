@@ -19,7 +19,7 @@
 	"consumes": {
 		"power": 6,
 		"liquid": {
-			"liquid": "slag",
+			"liquid": "water",
 			"amount": 0.2,
 			"booster": true,
 			"optional": true
