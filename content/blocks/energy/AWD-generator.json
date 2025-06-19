@@ -7,7 +7,6 @@
     "powerProduction": 8.5,
     "itemDuration": 60,
     "consumes": {
-        "itemFlammable": {},
         "itemRadioactive": {}
     },
     "drawer": [
