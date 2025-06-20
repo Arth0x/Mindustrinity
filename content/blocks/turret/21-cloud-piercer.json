@@ -104,9 +104,7 @@
             },
             {
                 "type": "RegionPart",
-                "suffix": "-top",
-                "mirror": true,
-                "layer": 10
+                "suffix": "-top"
             }
         ]
     },
