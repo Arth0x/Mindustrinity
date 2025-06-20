@@ -29,6 +29,10 @@
             "optional": true 
         }
     },
+    "shoot": {
+        "type": "ShootBarrel",
+        "barrels": [-3.0, 0.0, 0.0, 3.0, 0.0, 0.0]
+    },
     "ammoTypes": {
         "metaglass": {
             "ammoMultiplier": 2,
@@ -68,7 +72,7 @@
             },
             {
                 "type": "RegionPart",
-                "suffix": "-body",
+                "suffix": "-main",
                 "mirror": true
             },
             {
@@ -94,7 +98,8 @@
             {
                 "type": "RegionPart",
                 "suffix": "-top",
-                "mirror": true
+                "mirror": true,
+                "layer": 10
             }
         ]
     },
