@@ -31,6 +31,8 @@
     },
     "shoot": {
         "type": "ShootBarrel",
+        "shots": 4,
+        "shotDelay": 6,
         "barrels": [-4.0, -6.0, 0.0, 4.0, -6.0, 0.0]
     },
     "ammoTypes": {
@@ -72,8 +74,8 @@
             {
                 "type": "RegionPart",
                 "suffix": "-barrel-2",
-                "moveX": 3,
-                "moveY": 3,
+                "moveX": -3,
+                "moveY": -3,
                 "progress": {
                     "type": "recoil"
                 }
