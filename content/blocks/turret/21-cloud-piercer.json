@@ -67,7 +67,9 @@
                 "moveY": -3,
                 "progress": {
                     "type": "recoil"
-                }
+                },
+                "recoilIndex": 1,
+                "heatIndex": 1
             },
             {
                 "type": "RegionPart",
@@ -78,7 +80,9 @@
                 "moveY": -3,
                 "progress": {
                     "type": "recoil"
-                }
+                },
+                "recoilIndex": 0.5,
+                "heatIndex": 0.5
             },
             {
                 "type": "RegionPart",
