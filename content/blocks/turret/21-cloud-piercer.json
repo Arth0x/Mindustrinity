@@ -62,8 +62,7 @@
             },
             {
                 "type": "RegionPart",
-                "suffix": "-hammer",
-                "mirror": true,
+                "suffix": "-barrel-1",
                 "moveX": 3,
                 "moveY": -3,
                 "progress": {
@@ -72,8 +71,16 @@
             },
             {
                 "type": "RegionPart",
-                "suffix": "-main",
-                "mirror": true
+                "suffix": "-barrel-2",
+                "moveX": 3,
+                "moveY": 3,
+                "progress": {
+                    "type": "recoil"
+                }
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-main"
             },
             {
                 "type": "RegionPart",
