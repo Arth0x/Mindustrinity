@@ -27,6 +27,20 @@
             "mirror": true,
             "shootCone": 360,
             "shake": 1,
+            "shootEffect": {
+                "type": "MultiEffect",
+                "effects": [
+                    "massiveExplosion",
+                    "scatheExplosion",
+                    "scatheLight",
+                    {
+                        "type": "WaveEffect",
+                        "lifetime": 10.0,
+                        "strokeFrom": 4.0,
+                        "sizeTo": 130.0
+                    }
+                ]
+            },
             "bullet": {
                 "type": "ExplosionBulletType",
                 "splashDamage": 260,
