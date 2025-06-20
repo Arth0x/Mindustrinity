@@ -20,6 +20,8 @@
     "fogRadius": 5,
     "health": 250,
     "weapons": [ {
+            "ammoMultiplier": 2,
+            "reloadMultiplier": 0.90,
             "reload": 1,
             "predictTarget": false ,
             "useAttackRange": false,

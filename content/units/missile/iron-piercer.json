@@ -27,9 +27,10 @@
             "mirror": true,
             "shootCone": 360,
             "shake": 1,
+            "reloadMultiplier": 0.60,
             "bullet": {
                 "type": "ExplosionBulletType",
-                "ammoMultiplier": 12,
+                "ammoMultiplier": 1,
                 "splashDamage": 24,
                 "splashDamageRadius": 16
             }
