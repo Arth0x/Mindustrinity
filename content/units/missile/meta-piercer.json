@@ -5,7 +5,7 @@
     "flying": true,
     "speed": 5,
     "physics": false,
-    "lifetime": 180,
+    "lifetime": 150,
     "rotateSpeed": 0.25,
     "homingDelay": 3,
     "trailLength": 10,
@@ -31,7 +31,7 @@
             "shake": 1,
             "bullet": {
                 "type": "ExplosionBulletType",
-                "ammoMultiplier": 12,
+                "ammoMultiplier": 4,
                 "splashDamage": 46,
                 "splashDamageRadius": 24,
                 "fragBullets": 5,

@@ -5,7 +5,7 @@
     "flying": true,
     "speed": 5,
     "physics": false,
-    "lifetime": 160,
+    "lifetime": 140,
     "rotateSpeed": 0.25,
     "homingDelay": 3,
     "trailLength": 10,
