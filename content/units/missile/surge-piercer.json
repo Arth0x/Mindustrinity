@@ -29,7 +29,7 @@
             "shake": 1,
             "bullet": {
                 "type": "ExplosionBulletType",
-                "splashDamage": 260,
+                "splashDamage": 460,
                 "splashDamageRadius": 48,
                 "status": "shocked",
                 "statusDuration": 180
