@@ -1,6 +1,6 @@
  {
     "type": "UnitFactory",
-    "re²search": "ground-factory",
+    "research": "ground-factory",
     "size": 3,
     "consumePower": 1.2,
     "researchCostMultiplier": 0.5,

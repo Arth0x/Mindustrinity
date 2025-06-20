@@ -1,5 +1,6 @@
 {
     "type": "tank",
+    "research": "tank-foundry",
     "hitSize": 12,
     "squareShape": true,
     "speed": 1,
