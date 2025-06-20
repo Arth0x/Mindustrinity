@@ -67,8 +67,7 @@
                 "moveY": -3,
                 "progress": {
                     "type": "recoil"
-                },
-                "recoilIndex": 1
+                }
             },
             {
                 "type": "RegionPart",
@@ -79,8 +78,7 @@
                 "moveY": -3,
                 "progress": {
                     "type": "recoil"
-                },
-                "recoilIndex": 0.5
+                }
             },
             {
                 "type": "RegionPart",
