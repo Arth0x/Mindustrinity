@@ -28,7 +28,7 @@
     },
     "shoot": {
         "type": "ShootBarrel",
-        "barrels": [-4.0, -8.0, 0.0, 4.0, -8.0, 0.0]
+        "barrels": [-4.0, -12.0, 0.0, 4.0, 0.0, -8.0]
     },
     "ammoTypes": {
         "metaglass": {
@@ -60,19 +60,9 @@
             {
                 "type": "RegionPart",
                 "suffix": "-barrel-1",
+                "heatProgress": "warmup",
                 "heatColor": "#f3df0080",
                 "moveX": 3,
-                "moveY": -3,
-                "progress": {
-                    "type": "recoil"
-                },
-                "recoilIndex": 0.5
-            },
-            {
-                "type": "RegionPart",
-                "suffix": "-barrel-2",
-                "heatColor": "#f3df0080",
-                "moveX": -3,
                 "moveY": -3,
                 "progress": {
                     "type": "recoil"
@@ -81,7 +71,20 @@
             },
             {
                 "type": "RegionPart",
+                "suffix": "-barrel-2",
+                "heatProgress": "warmup",
+                "heatColor": "#f3df0080",
+                "moveX": -3,
+                "moveY": -3,
+                "progress": {
+                    "type": "recoil"
+                },
+                "recoilIndex": 0.5
+            },
+            {
+                "type": "RegionPart",
                 "suffix": "-main",
+                "heatProgress": "warmup",
                 "heatColor": "#f3df0080"
             },
             {
@@ -107,6 +110,7 @@
             {
                 "type": "RegionPart",
                 "suffix": "-top",
+                "heatProgress": "warmup",
                 "heatColor": "#f3df0080"
             }
         ]
