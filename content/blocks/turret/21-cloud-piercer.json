@@ -7,7 +7,7 @@
     "warmupMaintainTime": 90,
     "size": 3,
     "health": 1580,
-	"reload": 60,
+	"reload": 20,
 	"range": 350,
     "recoil" : 0,
     "targetGround": false,
