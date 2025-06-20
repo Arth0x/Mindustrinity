@@ -26,10 +26,9 @@
             "optional": true 
         }
     },
+    "recoils": 2,
     "shoot": {
         "type": "ShootBarrel",
-        "shots": 4,
-        "shotDelay": 6,
         "barrels": [-4.0, -14.0, 0.0, 4.0, -14.0, 0.0]
     },
     "ammoTypes": {
