@@ -31,7 +31,7 @@
     },
     "shoot": {
         "type": "ShootBarrel",
-        "barrels": [-3.0, 0.0, 0.0, 3.0, 0.0, 0.0]
+        "barrels": [-4.0, -6.0, 0.0, 4.0, -6.0, 0.0]
     },
     "ammoTypes": {
         "metaglass": {
