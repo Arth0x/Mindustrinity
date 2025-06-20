@@ -13,7 +13,7 @@
     "useUnitCap": false,
     "maxRange": 6,
     "trailColor": "#ebedf5",
-    "engineSize": 1,
+    "engineSize": 1.5,
     "engineOffset": 6,
     "missileAccelTime": 50,
     "lowAltitude": true,

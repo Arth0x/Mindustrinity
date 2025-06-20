@@ -5,14 +5,14 @@
     "flying": true,
     "speed": 5,
     "physics": false,
-    "lifetime": 180,
+    "lifetime": 160,
     "rotateSpeed": 0.25,
     "homingDelay": 3,
     "trailLength": 10,
     "trailWidth": 1,
     "useUnitCap": false,
     "maxRange": 6,
-    "trailColor": "#f2e878",
+    "trailColor": "#7f7f7f",
     "engineSize": 1.5,
     "engineOffset": 6,
     "missileAccelTime": 50,
@@ -27,25 +27,12 @@
             "mirror": true,
             "shootCone": 360,
             "shake": 1,
-            "shootEffect": {
-                "type": "MultiEffect",
-                "effects": [
-                    "massiveExplosion",
-                    "scatheExplosion",
-                    "scatheLight",
-                    {
-                        "type": "WaveEffect",
-                        "lifetime": 10.0,
-                        "strokeFrom": 4.0,
-                        "sizeTo": 130.0
-                    }
-                ]
-            },
             "bullet": {
                 "type": "ExplosionBulletType",
-                "splashDamage": 260,
-                "splashDamageRadius": 48
+                "ammoMultiplier": 12,
+                "splashDamage": 24,
+                "splashDamageRadius": 16
             }
         } 
-    ]
+    ] 
 }

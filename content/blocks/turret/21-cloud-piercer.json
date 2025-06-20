@@ -15,7 +15,7 @@
     "liquidCapacity": 350,
 	"rotateSpeed": 3,
     "shootCone": 180,
-    "ammoPerShot": 4,
+    "ammoPerShot": 2,
     "cooldown": 160,
     "shots": 3,
     "fragBullets": 5,
@@ -49,6 +49,15 @@
             "instantDisappear": true,
             "damage": 0,
             "spawnUnit": "mindustrinity-surge-piercer"
+        },
+        "iron": {
+            "ammoMultiplier": 1,
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootBigSmoke",
+            "instantDisappear": true,
+            "reloadMultiplier": 0.60,
+            "damage": 0,
+            "spawnUnit": "mindustrinity-iron-piercer"
         }
     },
     "drawer": { 
