@@ -14,7 +14,7 @@
     "hasLiquids":true,
     "liquidCapacity": 350,
 	"rotateSpeed": 3,
-    "shootCone": 45,
+    "shootCone": 180,
     "ammoPerShot": 4,
     "cooldown": 160,
     "shots": 3,
@@ -27,9 +27,10 @@
         }
     },
     "recoils": 2,
+    "heats": 2,
     "shoot": {
         "type": "ShootBarrel",
-        "barrels": [-4.0, -14.0, 0.0, 4.0, -14.0, 0.0]
+        "barrels": [-4.0, -16.0, 0.0, 4.0, -16.0, 0.0]
     },
     "ammoTypes": {
         "metaglass": {

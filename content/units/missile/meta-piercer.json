@@ -1,34 +1,24 @@
 {
     "type": "missile",
+    "controller": "MissileAI",
     "template": "MissileUnitType",
     "flying": true,
     "speed": 5,
     "physics": false,
-    "lifetime": 68,
-    "rotateSpeed": 10,
+    "lifetime": 180,
+    "rotateSpeed": 0.25,
     "homingDelay": 3,
-    "trailLength": 0,
+    "trailLength": 10,
+    "trailWidth": 1,
     "useUnitCap": false,
-    "drawCell": false,
-    "abilities": [
-        {
-            "type": "MoveEffectAbility",
-            "interval": 3,
-            "effect": {
-                "type": "ParticleEffect",
-                "cone": 0,
-                "baseRotation": 180,
-                "particles": 1,
-                "length": 3.2,
-                "strokeFrom": 1.6,
-                "strokeTo": 1,
-                "colorFrom": "#dfb891",
-                "colorTo": "#a78b6f"
-            },
-            "rotateEffect": true
-        }
-    ],
-    "outlines": false,
+    "maxRange": 6,
+    "trailColor": "#f2e878",
+    "engineSize": 1,
+    "engineOffset": 6,
+    "missileAccelTime": 50,
+    "lowAltitude": true,
+    "fogRadius": 5,
+    "health": 250,
     "weapons": [ {
             "reload": 1,
             "predictTarget": false ,
@@ -40,8 +30,21 @@
             "bullet": {
                 "type": "ExplosionBulletType",
                 "ammoMultiplier": 12,
-                "splashDamage": 68,
-                "splashDamageRadius": 32
+                "splashDamage": 46,
+                "splashDamageRadius": 24,
+                "fragBullets": 5,
+                "fragBullet": {
+                    "type": "ExplosionBulletType",
+                    "height" : 2,
+                    "width" : 2,
+                    "lifetime": 15,
+                    "drag": 0.02,
+                    "speed": 4.5,
+                    "splashDamage" : 46,
+                    "splashDamageRadius" : 24,	
+                    "hitEffect" : "flakExplosion",
+                    "despawnEffect": "flakExplosion"
+                }
             }
         } 
     ] 

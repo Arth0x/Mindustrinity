@@ -8,13 +8,13 @@
     "lifetime": 180,
     "rotateSpeed": 0.25,
     "homingDelay": 3,
-    "trailLength": 12,
-    "trailWidth": 2,
+    "trailLength": 10,
+    "trailWidth": 1,
     "useUnitCap": false,
     "maxRange": 6,
     "trailColor": "#f2e878",
-    "engineSize": 3.1,
-    "engineOffset": 10,
+    "engineSize": 1,
+    "engineOffset": 6,
     "missileAccelTime": 50,
     "lowAltitude": true,
     "fogRadius": 5,
@@ -29,9 +29,8 @@
             "shake": 1,
             "bullet": {
                 "type": "ExplosionBulletType",
-                "ammoMultiplier": 12,
-                "splashDamage": 68,
-                "splashDamageRadius": 32
+                "splashDamage": 260,
+                "splashDamageRadius": 48
             }
         } 
     ]
