@@ -1,10 +1,8 @@
 {
     "type": "ItemTurret",
     "category": "turret",
-    "base": "reinforced-block-4",
-    "shootWarmupSpeed": 0.05,
+    "research": "cyclone",
     "minWarmup": 0.9,
-    "warmupMaintainTime": 90,
     "size": 4,
     "health": 1580,
 	"reload": 20,
@@ -18,7 +16,6 @@
 	"rotateSpeed": 3,
     "shootCone": 45,
     "ammoPerShot": 4,
-    "inaccuracy": 5,
     "cooldown": 160,
     "shots": 3,
     "fragBullets": 5,
@@ -31,9 +28,7 @@
     },
     "shoot": {
         "type": "ShootBarrel",
-        "shots": 4,
-        "shotDelay": 6,
-        "barrels": [-4.0, -6.0, 0.0, 4.0, -6.0, 0.0]
+        "barrels": [-4.0, -8.0, 0.0, 4.0, -8.0, 0.0]
     },
     "ammoTypes": {
         "metaglass": {
@@ -65,24 +60,29 @@
             {
                 "type": "RegionPart",
                 "suffix": "-barrel-1",
+                "heatColor": "#f3df0080",
                 "moveX": 3,
                 "moveY": -3,
                 "progress": {
                     "type": "recoil"
-                }
+                },
+                "recoilIndex": 0.5
             },
             {
                 "type": "RegionPart",
                 "suffix": "-barrel-2",
+                "heatColor": "#f3df0080",
                 "moveX": -3,
                 "moveY": -3,
                 "progress": {
                     "type": "recoil"
-                }
+                },
+                "recoilIndex": 1
             },
             {
                 "type": "RegionPart",
-                "suffix": "-main"
+                "suffix": "-main",
+                "heatColor": "#f3df0080"
             },
             {
                 "type": "RegionPart",
@@ -106,7 +106,8 @@
             },
             {
                 "type": "RegionPart",
-                "suffix": "-top"
+                "suffix": "-top",
+                "heatColor": "#f3df0080"
             }
         ]
     },
