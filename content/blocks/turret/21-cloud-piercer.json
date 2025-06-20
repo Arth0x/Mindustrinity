@@ -50,22 +50,7 @@
     },
     "drawer": { 
         "type": "DrawTurret",
-        "parts": [ {
-                "type": "RegionPart",
-                "suffix": "-blade", 
-                "heatProgress": "warmup",  
-                "mirror": true,
-                "under": true,
-                "x": 13,
-                "y": -8,
-                "rotation": -35,
-                "moveX": 5,
-                "progress": {
-                    "type": "recoil",
-                    "op": "delay",
-                    "amount": 0.80
-                }
-            },
+        "parts": [ 
             {
                 "type": "RegionPart",
                 "suffix": "-under",
@@ -76,14 +61,14 @@
                 "suffix": "-hammer",
                 "mirror": true,
                 "moveX": 3,
-                "moveY": 3,
+                "moveY": -3,
                 "progress": {
                     "type": "recoil"
                 }
             },
             {
                 "type": "RegionPart",
-                "suffix": "-base",
+                "suffix": "-body",
                 "mirror": true
             },
             {
@@ -91,7 +76,7 @@
                 "suffix": "-barrel1",
                 "mirror": true,
                 "moveX": 1,
-                "moveY": 1,
+                "moveY": -1,
                 "progress": {
                     "type": "warmup"
                 }
@@ -101,7 +86,7 @@
                 "suffix": "-barrel2",
                 "mirror": true,
                 "moveX": 1,
-                "moveY": 1,
+                "moveY": -1,
                 "progress": {
                     "type": "warmup"
                 }
