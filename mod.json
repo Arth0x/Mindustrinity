@@ -6,7 +6,13 @@
     "description": "Add a lot of vanilla improvement :\n \n    -Add new turrets / items / liquids and more\n    -You can now biuld T6 units\n    -Mod compatible with multiplayer and campain\n\nStill in in development so might be bugged or unbalanced for now\nDon't forget to review and drop a star :P\n \n \n       \n    - Arth0x",
     "version": "0.8.76",
     "minGameVersion": "140.4",
-    "repo": "Arth0x/MindusTrinity"
+    "repo": "Arth0x/MindusTrinity",
+    "content": [
+        "aether-river"
+    ],
+    "sprites": [
+        "sector-aether-river"
+    ]
 }
 
 

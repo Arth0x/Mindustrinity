@@ -16,8 +16,8 @@
             "infused-vulcanite/1500"
         ], 
         "liquid": {
-            "liquid": "acid",
-            "amount": 5
+            "liquid": "aether-crylic",
+            "amount": 4
         }
     },
     "upgrades": [
