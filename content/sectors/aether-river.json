@@ -1,6 +1,6 @@
 {
     "localizedName": "Aether River",
-    "uiIcon": "aether-river",
+    "icon": "aether-river",
     "description": "A lifely river of the life essence.",
     "sector": 104,
     "captureWave": 50,
