@@ -1,15 +1,15 @@
 {
-    "name": "Aether Junction",
+    "name": "Steel Junction",
     "description": "A better junction",
     "category": "distribution",
-    "research": "aether-router",
+    "research": "steel-router",
     "type": "junction",
     "dumpTime": 0.1,
     "speed": 10,
     "itemCapacity": 5,
     "size": 1,
     "requirements": [
-        "iron/1",
+        "steel/1",
         "infused-aether/2"
     ]
 }

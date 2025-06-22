@@ -1,14 +1,14 @@
 {
-    "name": "Aether Bridge",
+    "name": "Steel Bridge",
     "type": "ItemBridge",
     "description": "A better, faster, and longer bridge conveyer",
     "category": "distribution",
     "hasPower": false,
     "range": 6,
     "transportTime": 0.01,
-    "research": "aether-router",
+    "research": "steel-router",
     "requirements": [
-        "iron/5",
+        "steel/5",
         "lead/2",
         "infused-aether/6"
     ]

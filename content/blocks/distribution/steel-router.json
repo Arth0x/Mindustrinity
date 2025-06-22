@@ -1,5 +1,5 @@
 {
-    "name": "Aether Router",
+    "name": "Steel Router",
     "description": "A better router",
     "category": "distribution",
     "research": "router",
@@ -8,7 +8,7 @@
     "size": 1,
     "speed": 10,
     "requirements": [
-        "iron/1",
+        "steel/1",
         "infused-aether/2"
     ]
 }
