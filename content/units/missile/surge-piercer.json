@@ -6,7 +6,7 @@
     "speed": 5,
     "physics": false,
     "lifetime": 150,
-    "rotateSpeed": 0.25,
+     "rotateSpeed": 2.5,
     "homingDelay": 3,
     "trailLength": 10,
     "trailWidth": 1,
