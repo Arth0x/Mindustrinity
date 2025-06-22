@@ -2,6 +2,7 @@
     "type": "Conveyor",
     "name": "Aether conveyor",
     "description": "Fast af boii",
+    "health": 80,
     "requirements": [
         "steel/1",
         "copper/1",

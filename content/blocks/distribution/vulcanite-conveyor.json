@@ -2,6 +2,7 @@
     "type": "ArmoredConveyor",
     "name": "Vulcanised conveyor",
     "description": "Strong",
+    "health": 740,
     "requirements": [
         "steel/1",
         "plastanium/1",
