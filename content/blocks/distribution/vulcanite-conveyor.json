@@ -1,5 +1,5 @@
 {
-    "type": "armored-conveyor",
+    "type": "ArmoredConveyor",
     "name": "Vulcanised conveyor",
     "description": "Strong",
     "requirements": [
