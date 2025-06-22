@@ -19,7 +19,7 @@
     "cooldown": 160,
     "shots": 3,
     "fragBullets": 5,
-    "shootSound": "missileLaunch",
+    "shootSound": "missileLarge",
     "consumes": {
         "coolant": {
             "amount": 0.1,
