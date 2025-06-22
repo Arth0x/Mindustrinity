@@ -1,0 +1,14 @@
+{
+    "type": "armoredconveyor",
+    "name": "Vulcanised conveyor",
+    "description": "Strong",
+    "requirements": [
+        "steel/1",
+        "plastanium/1",
+        "infused-vulcanite/1"
+    ],
+    "category": "distribution",
+    "speed": 0.15,
+    "displayedSpeed" : 0.15,
+    "research": "armored-conveyor"
+}
