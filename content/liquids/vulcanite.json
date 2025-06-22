@@ -4,5 +4,5 @@
     "temperature": 1,
     "viscosity": 0.95,
     "effect": "vulcanise",
-    "color": "FF5000"
+    "color": "#ff1e00"
 }
