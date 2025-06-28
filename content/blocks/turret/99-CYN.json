@@ -1,217 +1,102 @@
 {
-	"type": "ContinuousLiquidTurret",
-    "heath": 85000000,
-    "size": 6,
-    "range": 640,
-    "liquidConsumed": 0.6,
-    "minWarmup": 0.9999,
-    "haloProgress ": "warmup",
-    "outlineColor": "0F0F0F",
-    "cooldownTime": 180,
-    "hasPower": true,
-    "loopSound": "torch",
-    "shake": 10,
-    "shootSound": "shockBlast",
-    "recoil": 0,
-    "shootY": 0,
+    "name": "Prototype",
+    "type": "ContinuousLiquidTurret",
+    "category": "turret",
+    "size": 4,
+    "range": 250,
+    "health": 210,
+    "rotateSpeed": 0.9,
+    "aimChangeSpeed": 0.9,
+    "shootY": 0.5,
+    "shootWarmupSpeed": 0.08,
     "shootCone": 360,
-    "aimChangeSpeed": 0.8,
-    "rotateSpeed": 0.6,
-    "consumes" : {
-        "power": 74
-    },
-    "shootEffect": {
-        "type": "multiEffect",
-        "effects": [
+    "canOverdrive": false,
+    "hasPower": true,
+    "shootSound": "none",
+    "loopSound": "laserbeam",
+    "loopSoundVolume": 1.0,
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [
             {
-                "type": "ParticleEffect",
-                "particles": 12,
-                "length": 50,
-                "lifetime": 55,
-                "line": true,
-                "cone": 40,
-                "lenFrom": 8,
-                "lenTo": 2,
-                "strokeFrom": 3,
-                "strokeTo": 0.5,
-                "sizeTo": 60,
-                "colorFrom": "#FF4040",
-                "colorTo": "#FF4040"
+                "type": "RegionPart",
+                "suffix": "-blade",
+                "mirror": true,
+                "under": true,
+                "progress": "warmup",
+                "heatProgress": "warmup",
+                "heatColor": "#ff6214",
+                "moveX": 2,
+                "moveRot": -7,
+                "moves": [
+                    { "progress": "warmup", "x": 0, "y": -2, "rot": 3 }
+                ]
             },
             {
-                "type": "ParticleEffect",
-                "particles": 21,
-                "length": 50,
-                "lifetime": 35,
-                "line": true,
-                "cone": 70,
-                "lenFrom": 8,
-                "lenTo": 5,
-                "strokeFrom": 3,
-                "strokeTo": 0.5,
-                "sizeFrom": 0,
-                "sizeTo": 60,
-                "colorFrom": "#FF4040",
-                "colorTo": "#FF4040"
+                "type": "RegionPart",
+                "suffix": "-inner",
+                "mirror": true,
+                "under": false,
+                "heatprogress": "warmup",
+                "Progress": {
+                    "blend": true,
+                    "progress": "warmup",
+                    "function": "absin",
+                    "scl": 2,
+                    "mag": 1,
+                    "scale": 0.2
+                },
+                "heatColor": "#ff6214",
+                "moveX": 2,
+                "moveY": -8
             },
             {
-                "type": "ParticleEffect",
-                "particles": 24,
-                "length": 70,
-                "lifetime": 25,
-                "line": true,
-                "cone": 40,
-                "lenFrom": 10,
-                "lenTo": 10,
-                "strokeFrom": 3,
-                "strokeTo": 0.5,
-                "sizeTo": 60,
-                "colorFrom": "#FF4040",
-                "colorTo": "#FF4040"
+                "type": "RegionPart",
+                "suffix": "-mid",
+                "mirror": false,
+                "under": true,
+                "heatprogress": "warmup",
+                "Progress": {
+                    "blend": true,
+                    "progress": "warmup",
+                    "function": "absin",
+                    "scl": 2,
+                    "mag": 1,
+                    "scale": 0.2
+                },
+                "heatColor": "#ff6214",
+                "moveY": -8
             }
         ]
     },
+
     "ammoTypes": {
         "water": {
             "type": "PointLaserBulletType",
-            "color": "#FF4040",
-            "status": "solved",
-            "beamEffectSize": 3,
-            "oscScl": 4,
-            "length": 640,
-            "drawSize": 350,
-            "statusDuration": 540,
-            "hitEffect": {
-                "type": "ParticleEffect",
-                "line": true,
-                "particles": 7,
-                "cone": -360,
-                "strokeFrom": 2.5,
-                "strokeTo": 0,
-                "lenFrom": 8,
-                "lenTo": 0,
-                "colorFrom": "#FF0000",
-                "colorTo": "#FF0000"
-            } 
+            "damage": 210,
+            "buildingDamageMultiplier": 0.3,
+            "color": "#ff00ff",
+            "length": 260,
+            "drawSize": 320,
+            "status": "wet",
+            "statusDuration": 60,
+            "oscMagMin": 0.8,
+            "oscMag": 0.5,
+            "oscScl": 0.5,
+            "trailColor": "#707594",
+            "trailLength": 6,
+            "trailWidth": 2
         }
     },
-    "requirements": [
-        "silicon/850",
-        "surge-alloy/85000000",
-        "wolframite/1"
-    ],
-    "category": "turret",
-    "research": "meltdown",
-    "effect": [
-        {
-            "type": "StatusFieldAbility",
-            "effect": "mindustrinity-omen",
-            "range": 900000,
-            "reload": 200,
-            "duration": 300,
-            "activeEffect": {
-                "type": "MultiEffect",
-                "effects": [
-                ]
-            }
+
+    "consumes": {
+        "power": 3.33,
+        "liquids": {
+            "water": 0.1
         }
-    ],
-    "drawer": {
-        "type": "DrawTurret",
-        "parts": [ 
-            {
-                "type": "RegionPart",
-                "suffix": "-main",
-                "heatProgress": "warmup",
-                "heatColor": "#FFFFFFFF",
-                "x": 0,
-                "y": 0
-            },
-            {
-                "type": "RegionPart",
-                "mirror": true,
-                "delai": 100,
-                "suffix": "-edge1",
-                "heatProgress": "warmup",
-                "heatColor": "#FFFFFFFF",
-                "cooldownTime": 180,
-                "moveX": 1,
-                "moveY": 5,
-                "moveRot": -20,
-                "x": 0,
-                "y": 0,
-                "progress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0.999
-                }
-            },
-            {
-                "type": "RegionPart",
-                "mirror": true,
-                "suffix": "-edge2",
-                "heatProgress": "warmup",
-                "heatColor": "#FFFFFFFF",
-                "cooldownTime": 180,
-                "moveX": 5,
-                "moveY": 5.5,
-                "moveRot": -30,
-                "x": 0,
-                "y": 0,
-                "progress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0.99
-                }
-            },
-            {
-                "type": "RegionPart",
-                "mirror": true,
-                "suffix": "-edge3",
-                "heatProgress": "warmup",
-                "heatColor": "#FFFFFFFF",
-                "cooldownTime": 180,
-                "moveRot": -35,
-                "moveX": 10,
-                "moveY": 6,
-                "x": 0,
-                "y": 0,
-                "progress": {
-                    "type": "warmup",
-                    "op": "delay",
-                    "amount": 0.9
-                }
-            },
-            {
-                "type": "ShapePart",
-                "progress": "warmup",
-                "rotateSpeed": 0,
-                "color": "#FFFFFF",
-                "sides": 6,
-                "mirror": false,
-                "hollow": false,
-                "stroke": 0,
-                "strokeTo": 1,
-                "radius": 5.5,
-                "y": 0
-            },
-            {
-                "type": "HaloPart",
-                "x": 0,
-                "y": -9,
-                "radius": 3,
-                "tri": true,
-                "color": "#FF4040FF",
-                "haloRotation": 90,
-                "haloRadius": 8,
-                "stroke": 0,
-                "strokeTo": 1.7,
-                "shapes": 2,
-                "triLengthTo": 12,
-                "triLength": 0,
-                "mirror": false,
-                "layer": 110
-            }
-        ]
-    }
+    },
+
+    "requirements": [
+        "silicon/250"
+    ]
 }
