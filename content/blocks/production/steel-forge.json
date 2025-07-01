@@ -3,7 +3,7 @@
     "research": "solidifier",
     "type": "GenericCrafter",
     "category": "crafting",
-	"outputItem": "steel/1",
+	"outputItem": "steel/2",
     "hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 20,
@@ -16,7 +16,7 @@
             }, 
             {
                 "type": "DrawFlame",
-                "flameColor": "FFD27EFF"
+                "flameColor": "#FFD27EFF"
 	        }
         ]
     },
@@ -29,8 +29,8 @@
         "cone": -360,
         "lenFrom": 5,
         "lenTo": 0,
-        "colorFrom": "FFD27EFF",
-        "colorTo": "D4806BFF"
+        "colorFrom": "#FFD27EFF",
+        "colorTo": "#D4806BFF"
 	},
 	"consumes": {
 		"power": 0.3,
