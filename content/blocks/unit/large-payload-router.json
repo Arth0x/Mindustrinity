@@ -1,0 +1,20 @@
+{
+    "name": "Large Payload Router",
+    "type": "PayloadRouter",
+    "category": "units",
+    "size": 5,
+    "canOverdrive": false,
+    "rotate": true,
+    "update": true,
+    "outputsPayload": true,
+    "noUpdateDisabled": true,
+    "acceptsUnitPayloads": true,
+    "payloadLimit": 50,
+    "payloadCapacity": 50,
+    "requirements": [
+		"steel/10",
+        "graphite/25",
+        "copper/40",
+        "lead/20"
+    ]
+}
