@@ -1,6 +1,6 @@
 {
     "type": "PayloadConveyor",
-    "category": "Units",
+    "category": "Unit",
     "size": 5,
     "canOverdrive": false,
     "requirements": [
