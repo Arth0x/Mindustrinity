@@ -1,6 +1,7 @@
 {
+    "name": "Large Payload Conveyor",
     "type": "PayloadConveyor",
-    "category": "Unit",
+    "category": "units",
     "size": 5,
     "canOverdrive": false,
     "requirements": [
