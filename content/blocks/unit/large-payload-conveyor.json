@@ -9,6 +9,7 @@
     "outputsPayload": true,
     "noUpdateDisabled": true,
     "acceptsUnitPayloads": true,
+    "payloadLimit": 50,
     "payloadCapacity": 50,
     "requirements": [
 		"steel/10",
