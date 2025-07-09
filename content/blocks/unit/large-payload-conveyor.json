@@ -4,6 +4,11 @@
     "category": "units",
     "size": 5,
     "canOverdrive": false,
+    "rotate": true,
+    "update": true,
+    "outputsPayload": true,
+    "noUpdateDisabled": true,
+    "acceptsUnitPayloads": true,
     "requirements": [
 		"steel/10",
         "graphite/25",
