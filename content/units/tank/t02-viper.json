@@ -2,7 +2,6 @@
   "type": "UnitType",
   "name": "Viper",
   "controller": "ground",
-  "constructor": "TankUnitType",
   "health": 850,
   "armor": 6.0,
   "hitSize": 12.0,
