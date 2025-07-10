@@ -1,7 +1,7 @@
 {
     "name": "Large Payload Router",
     "type": "PayloadRouter",
-    "research": "payload-router",
+    "research": "large-payload-conveyor",
     "category": "units",
     "size": 5,
     "canOverdrive": false,
