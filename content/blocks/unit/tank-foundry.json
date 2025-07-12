@@ -1,6 +1,7 @@
  {
     "name": "Tank Foundry",
     "type": "UnitFactory",
+    "category": "units",
     "research": "ground-factory",
     "size": 3,
     "consumePower": 1.2,
