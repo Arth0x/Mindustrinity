@@ -8,5 +8,10 @@ Events.on(ClientLoadEvent, e => {
     const from = Vars.content.getByName(ContentType.unit, "mindustrinity-t01-orvet");
     const to = Vars.content.getByName(ContentType.unit, "mindustrinity-t02-viper");
 
-    Blocks.additiveReconstructor.upgrades.add(from, [to]); // 👈 ici, to est mis dans un tableau
+    if (from && to) {
+        // Ajout correct : UnitType -> UnitType (pas tableau)
+        Blocks.additiveReconstructor.upgrades.put(from, to);
+    } else {
+        print("[Erreur] Unité source ou cible introuvable.");
+    }
 });
