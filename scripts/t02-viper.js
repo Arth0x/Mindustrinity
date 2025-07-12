@@ -5,8 +5,8 @@ const t02_viper = extend(UnitType, "t02-viper", {
 t02_viper.constructor = () => extend(UnitEntity, {});
 
 Events.on(ClientLoadEvent, e => {
-    Blocks.additiveReconstructor.upgrades.add(
-        Vars.content.getByName(ContentType.unit, "mindustrinity-t01-orvet"),
-        Vars.content.getByName(ContentType.unit, "mindustrinity-t02-viper")
-    );
+    const from = Vars.content.getByName(ContentType.unit, "mindustrinity-t01-orvet");
+    const to = Vars.content.getByName(ContentType.unit, "mindustrinity-t02-viper");
+
+    Blocks.additiveReconstructor.upgrades.add(from, [to]); // 👈 ici, to est mis dans un tableau
 });
