@@ -1,5 +1,5 @@
 const t02_viper = extend(UnitType, "t02-viper", {
-    // Ajoute ici les propriétés (health, speed, etc.) si besoin
+    // Propriétés de l’unité (à compléter)
 });
 
 t02_viper.constructor = () => extend(UnitEntity, {});
@@ -9,8 +9,7 @@ Events.on(ClientLoadEvent, e => {
     const to = Vars.content.getByName(ContentType.unit, "mindustrinity-t02-viper");
 
     if (from && to) {
-        // Ajout correct : UnitType -> UnitType (pas tableau)
-        Blocks.additiveReconstructor.upgrades.put(from, to);
+        Blocks.additiveReconstructor.upgrades.add([from, to]); // 👈 Ajout correct
     } else {
         print("[Erreur] Unité source ou cible introuvable.");
     }
