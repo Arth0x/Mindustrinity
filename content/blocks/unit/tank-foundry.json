@@ -1,4 +1,5 @@
  {
+    "name": "Tank Foundry",
     "type": "UnitFactory",
     "research": "ground-factory",
     "size": 3,
