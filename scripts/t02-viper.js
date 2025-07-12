@@ -9,8 +9,8 @@ t02_viper.constructor = () => extend(UnitEntity, {});
 
 // Ajouter l'amélioration dans le reconstructeur additif après chargement complet
 Events.on(ClientLoadEvent, e => {
-    Blocks.additiveReconstructor.upgrades.add([
+    Blocks.additiveReconstructor.upgrades.add(
         Vars.content.getByName(ContentType.unit, "mindustrinity-t01-orvet"),
         Vars.content.getByName(ContentType.unit, "mindustrinity-t02-viper")
-    ]);
+    );
 });
