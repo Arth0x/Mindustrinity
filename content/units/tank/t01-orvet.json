@@ -1,5 +1,6 @@
 {
     "type": "tank",
+    "name": "Orvet",
     "research": "tank-foundry",
     "hitSize": 12,
     "squareShape": true,

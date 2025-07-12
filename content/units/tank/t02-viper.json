@@ -1,7 +1,7 @@
 {
-  "type": "UnitType",
+  "type": "tank",
   "name": "Viper",
-  "controller": "ground",
+  "research": "t01-orvet",
   "health": 850,
   "armor": 6.0,
   "hitSize": 12.0,
