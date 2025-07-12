@@ -1,6 +1,6 @@
 
 
-const t02_viper = extend(UnitType, "t01-orvet", {
+const t02_viper = extend(UnitType, "t02-viper", {
 });
 
 t02_viper.constructor = () => extend(UnitEntity, {});
